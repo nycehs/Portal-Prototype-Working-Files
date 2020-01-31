@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Corrects IE Compatibility Mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Neighborhood Reports: EH Data Portal</title>
+
+    <!--
+    CSS is all hosted by the Core-Repo. Links will need to be updated for each project once merged or deployed.
+    This is also the case for main.js further below.
+    -->
+
+    <!--Fontawesome Icons-->
+    <link rel="stylesheet" href="https://nycehs.github.io/Portal-Core-Repo/fontawesome/css/all.min.css">
+    <!--NYC Core Framework Theme-->
+    <link rel="stylesheet" href="https://nycehs.github.io/Portal-Core-Repo/css/theme.css">
+    <!--Custom additions for Portal items-->
+    <link rel="stylesheet" href="https://nycehs.github.io/Portal-Core-Repo/css/custom.css">
+
+</head>
+
+<body>
+    
+    <!-- For keyboard users -->
+    <a class="sr-only sr-only-focusable skip-menu" href="#skip-header-target">Skip Header</a>
+
+    <header id="global-header" class="titleslide fs-md" role="banner" style="background-image: url(images/background.png);">
+
+        <div class="bg-black text-white" id="nyc-top-header">
+
+            <div class="container-fluid wide">
+
+                <div class="row py-1 align-items-center justify-content-between">
+
+                    <div class="col-auto">
+                        <p class="d-none d-md-flex fs-md">
+                            <a class="text-reset" href="https://www1.nyc.gov/">
+                                <strong>nyc.gov</strong>
+                            </a>
+                            <span class="mx-1" aria-hidden="true">|</span>
+                            Department of Health
+                        </p>
+                    </div>
+                    <!-- .col -->
+
+                    <div class="col-auto">
+
+                        <ul class="extensible-list horizontal fs-md">
+                            <li>
+                                <a class="text-reset" href="http://www1.nyc.gov/">
+                                    <strong>
+                                        311
+                                    </strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-reset" href="http://www1.nyc.gov/home/search/index.page">
+                                    <strong>
+                                        Search all NYC.gov
+                                    </strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www1.nyc.gov/" title="Go to nyc.gov">
+                                    <img class="d-block" src="./images/nyc-bubble-logo.svg" width="45" alt="NYC Logo">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- .col -->
+
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- .container-fluid -->
+
+        </div>
+        <!-- #nyc-top-header -->
+
+        <div class="wrap-header">
+
+            <div class="container-fluid">
+
+                <div class="row align-items-center">
+
+                    
+                    <!-- .col -->
+
+                    <div class="col border-top">
+
+                        <div class="align-items-center justify-content-between">
+
+                            <!-- Mobile Toggle Buttons -->
+
+                            <ul class="extensible-list horizontal justify-content-between my-2">
+                                <li><a href="NeighborhoodReports.html">
+                                    <button class="no-btn-style mr-auto" type="button">
+                                            <i class="fas fa-arrow-circle-left"></i>&nbsp;back to Neighborhood Reports home
+                                    </button></a>
+                                </li>
+
+                                <li>
+                                        <button class="no-btn-style float-right" type="button" data-toggle="collapse"
+                                        data-target="#global-language" aria-controls="global-language"
+                                        aria-expanded="false">
+                                        <span class="fas fa-language fa-lg" ></span>
+                                    </button>
+                                </li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <!-- .d-flex -->
+
+                    </div>
+                    <!-- .col -->
+
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- .container-fluid -->
+
+        </div>
+        <!-- .wrap-header -->
+
+        <div class="container-fluid border-top collapse" id="global-language">
+            <div class="narrow py-2">
+                <div id="google_translate_element"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid border-top collapse" id="global-search">
+            <form class="narrow py-2" aria-label="Search" role="search">
+                <div class="input-group">
+                    <label class="sr-only" for="global-search-bar">Search</label>
+                    <input class="form-control form-control-lg" id="global-search-bar" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary btn-lg" type="button" title="Search">
+                            <span class="sr-only">Search</span>
+                            <span class="fas fa-arrow-right" role="img"></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="container-fluid collapse d-lg-block px-0 border-lg-top border-lg-bottom" id="nav-primary" style="background-color:white;">
+
+            <h2 class="sr-only">
+                Primary Navigation
+            </h2>
+    
+            <div class="wide">
+    
+                <nav class="nav nav-pills" role="navigation">
+    
+                     <!-- .nav-item -->
+    
+                    <div class="nav-item">
+    
+                        <a class="nav-link" href="Index.html" id="nav-item-01" role="button">
+                            <i class="fas fa-home"></i>&nbsp;Portal Home
+                        </a>
+
+    
+                    </div>
+                    <!-- .nav-item -->
+
+                    <div class="nav-item">
+    
+                        <a class="nav-link" href="DataStories.html" id="nav-item-02" role="button">
+                            <i class="fas fa-atlas"></i>&nbsp;Data Stories
+                        </a>
+
+    
+                    </div>
+                    <!-- .nav-item -->
+
+                    <div class="nav-item dropdown">
+    
+                            <a class="nav-link" href="DataExplorer.html" id="nav-item-03"><i class="fas fa-chart-line"></i>&nbsp;Data Explorer
+                            </a>  
+                               
+                    </div>
+                    <!-- .nav-item -->
+    
+                    <div class="nav-item">
+    
+                        <a class="nav-link active" href="NeighborhoodReports.html" id="nav-item-04" role="button">
+                            <i class="fas fa-map-marked-alt"></i>&nbsp;Neighborhood Reports
+                        </a>
+    
+                    </div>
+                    <!-- .nav-item -->
+    
+                </nav>
+    
+            </div>
+            <!-- .wide -->
+    
+        </div>
+
+    </header>
+    <!-- #global-header -->
+
+
+
+<main id="skip-header-target" role="main" style="background-color:#f8f9fa;">
+       
+<div class="container fs-sm">
+    <div class="row">
+        <div class="col">
+            <h2><i class="fas fa-map-marked-alt"></i>&nbsp;Neighborhood Reports</h2>
+            <p>Data for your neighborhood on important environmental health topics. To start, choose a topic and a neighborhood.</p>
+            <hr>
+         </div>
+    </div> 
+
+    <div class="sticky-top py-1" style="background-color:#f8f9fa;">		
+        <div class="row mb-2 py-1 border-bottom">
+                <div class="col-lg-4 col-sm-12">
+                        <div class="dropdown">
+                                <button type="button" class="btn btn-lg btn-outline-success dropdown-toggle btn-block text-left" id="reportdropdownbutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Climate and health</b></button> 	
+                                <div class="dropdown-menu" aria-labelledby="reportdropdownbutton">
+                                        <a class="dropdown-item" href="#">Asthma and the environment</a>
+                                        <a class="dropdown-item" href="#">Housing and health</a>
+                                        <a class="dropdown-item" href="#">Outdoor air and health</a>
+                                        <a class="dropdown-item" href="#">Active design and health</a>
+                                      </div>
+                                    
+                                </div>
+                </div>
+    
+                <div class="col-lg-8 col-sm-12">
+                        <div class="dropdown">
+                                <button type="button" class="btn btn-lg btn-outline-success dropdown-toggle btn-block text-left" id="neighborhooddropdownbutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">in <span style="font-weight:bold;color:#15607a">Lower Manhattan</span></button> 	
+                                <div class="dropdown-menu" aria-labelledby="neighborhooddropdownbutton">
+                                        <a class="dropdown-item" href="#">Neighborhood 1</a>
+                                        <a class="dropdown-item" href="#">Neighborhood 2</a>
+                                        <a class="dropdown-item" href="#">Neighborhood 3</a>
+                                        <a class="dropdown-item" href="#">Et cetera...</a>
+                                      </div>
+                                
+                                </div>
+                </div>
+    
+        </div>
+
+    </div>
+
+    <div class="row pt-2">
+        <div class="col-lg-4">
+                <i class="fas fa-info-circle"></i>&nbsp;<em>About the Climate and Health report</em>
+                <p>As the climate changes, we track New York City's risk for extreme heat, storms and flooding, and episodes of elevated ozone. These have important public health impacts: already, heat kills more people than all other natural disasters. </p>
+                <ul><li><a href="#environments"><span class="badge badge-pill badge-dark">Environmental factors</span></a> that can help protect people - or help us understand a neighborhood's risk </li>
+                <li><a href="#populations"><span class="badge badge-pill badge-dark">Special populations</span></a> that are more vulnerable to storms, power outages, and heat events</li>
+                <li><a href="#outcomes"><span class="badge badge-pill badge-dark">Health outcomes</span></a> like heat-related illness</li></ul>
+        
+
+        
+        </div>
+
+        <div class="col-lg-4">
+                <i class="fas fa-map-pin"></i>&nbsp;<em>Neighborhood information</em>
+            <p>The <span style="font-weight:bold;color:#15607a">Lower Manhattan</span> UHF neighborhood is ZIP codes 10005, 10271, 10006, 10007, 10279, 10278, 10038, 10280, 10282. <hr>
+            <p><i class="fas fa-tools"></i>&nbsp;View <a href="">similar</a> neighborhoods based on <a href="">poverty rate</a>.
+                <ul><li><a href="">Ridgewood/Forest Hills</a>
+                <li><a href="">Greenwich Village/SoHo</a></li>
+                <li><a href="">Willowbrook</a></li>
+                </ul>
+
+
+
+        </div>
+
+
+        <div class="col-lg-4 d-none d-lg-block">
+                <iframe title="" aria-label="USA new york city community districts choropleth map" id="datawrapper-chart-LFgJy" src="//datawrapper.dwcdn.net/LFgJy/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important;" height="300"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+        </div>
+
+    </div>
+
+    <div class="row py-2 border-top border-bottom">
+        <div class="col-lg-4">
+                <button class="btn btn-sm btn-block btn-light has-icon" type="button">
+                        <i class="fas fa-atlas"></i>&nbsp;Read more about this report
+                    </button>
+        </div>
+        <div class="col-lg-4">
+                <button class="btn btn-sm btn-block btn-light has-icon" type="button">
+                        <i class="fas fa-question-circle"></i>&nbsp;About these neighborhood boundaries
+                    </button>
+        </div>
+
+        <div class="col-lg-4">
+            <a href="">
+                <button class="btn btn-sm btn-light has-icon btn-block" type="button">
+                    <i class="fas fa-print"></i>&nbsp;Print this report
+                </button></a>
+        </div>
+        
+
+    </div>
+
+    <a name="environments"></a>
+<div class="card mt-2">
+		<div class="card-header bg-light"><h4>Environmental factors <small class="text-muted">that indicate risk or provide protection from climate-related health effects</small></h4>
+			</div>
+	
+	<div class="card-body">
+		<div class="row">
+
+			<div class="col-lg-4">
+					<div class="border-bottom border-dark"><span style="font-weight:bold;color:#15607a">Lower Manhattan</span> ranks better for: <div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div><br>
+
+					<button type="button" class="btn btn-better btn-block text-left">Ozone <div class="float-right"><span class="badge badge-light">3/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+					<button type="button" class="btn btn-better btn-block text-left">Surface temperature <div class="float-right"><span class="badge badge-light">6/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+					<button type="button" class="btn btn-better btn-block text-left" data-toggle="collapse" href="#buildingquality" role="button" aria-expanded="false" aria-controls="buildingquality">Building quality <div class="float-right"><span class="badge badge-light">7/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+					<br>
+			</div>
+			<div class="col-lg-4">
+					<div class="border-bottom border-dark">In the middle of NYC neighborhoods for:<div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div>
+					<br>
+				</div>
+			<div class="col-lg-4">
+					<div class="border-bottom border-dark">Ranks worse for:<div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div>
+					<br>
+				<button type="button" class="btn btn-worse btn-block text-left" data-toggle="collapse" href="#stormvuln" role="button" aria-expanded="false" aria-controls="stormvuln">Flood risk <div class="float-right"><span class="badge badge-light">38/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+					<button type="button" class="btn btn-worse btn-block text-left">Vegetative cover <div class="float-right"><span class="badge badge-light">29/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+					<br>
+
+				</div>
+
+		</div>
+</div>
+</div>
+
+		<!--start collapsible card-->
+		<div class="collapse mt-2" id="stormvuln">
+            <div class="row">
+
+                    <div class="col-lg-10 mx-auto">
+                        <div class="card">
+                            
+        
+        
+        
+                                    <div class="card-header bg-light">
+                                    <h5>Flood risk: <a href="">area in hurricane evacuation zone 1-6 <i class="fas fa-external-link-alt"></i></a></h5>
+                                    </div>
+        
+        
+                                    <div class="card-body">
+                                            <p>In <span style="font-weight:bold;color:#15607a">Lower Manhattan</span>, the flood risk is <span style="font-weight:bold;color:#9f31b6">worse</span> than the NYC average. </p>
+                                            <p>Storms can place people at risk for several dangerous health outcomes. Indicator description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <HR>
+                                    <div class="row">
+                                        <div class="col-lg-2 border-bottom">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                            <a class="nav-link active" id="v-pills-main-tab" data-toggle="pill" href="#v-pills-main" role="tab" aria-controls="v-pills-main" aria-selected="true"><i class="fas fa-chart-bar"></i>&nbsp;Summary</a>
+                                            <a class="nav-link" id="v-pills-trend-tab" data-toggle="pill" href="#v-pills-trend" role="tab" aria-controls="v-pills-trend" aria-selected="false"><i class="fas fa-chart-line"></i>&nbsp;Trend</a>
+                                            <a class="nav-link" id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="true"><i class="fas fa-map-marker-alt"></i>&nbsp;Map</a>
+                                            <hr>
+                                            <a class="nav-link" id="v-pills-tools-tab" data-toggle="pill" href="#v-pills-tools" role="tab" aria-controls="v-pills-tools" aria-selected="false"><i class="fas fa-wrench"></i>&nbsp;Tools</a>
+                                            <hr>
+                                          </div>
+        
+                                        </div>
+        
+                                        <div class="col-lg-10 border-bottom">
+        
+        
+                                          <div class="tab-content" id="v-pills-tabContent">
+                                                <div class="tab-pane fade show active" id="v-pills-main" role="tabpanel" aria-labelledby="v-pills-main-tab">
+                                                        <div class="row">
+                                                                <div class="col-sm-4"><span style="font-weight:bold;color:#15607a">Lower Manhattan</span>
+                                                                    <h1 class="display-4">xx%</h1></div>
+                                                                <div class="col-sm-4">Manhattan
+                                                                        <h1 class="display-4">XX%</h1>
+                                                                </div>
+                                                                <div class="col-sm-4">New York City
+                                                                        <h1 class="display-4">YY%</h1>
+                
+                                                                </div>
+                                                            </div>
+                                                        <div class="row">
+                                                        CHART
+                                                    </div>
+        
+                                                </div>
+        
+                                            <div class="tab-pane fade show" id="v-pills-map" role="tabpanel" aria-labelledby="v-pills-map-tab">
+                                                    [INSERT MAP HERE]
+        
+        
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-trend" role="tabpanel" aria-labelledby="v-pills-trend-tab">
+                                                    CHART
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-tools" role="tabpanel" aria-labelledby="v-pills-tools-tab"><b>About the data:</b>
+                                                <ul>
+                                                    <li>Data source</li>
+                                                    <li>Download data</li>
+                                                </ul>
+                                            </div>
+        
+                                          </div>
+                                        </div>
+                                    </div>
+        
+        
+                                    </div>
+                                </div>
+        
+                                    
+        
+        
+                    </div>
+
+                </div>
+
+
+    </div>
+
+    <!--start collapsible card-->
+    <div class="collapse mt-2" id="buildingquality">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="card">
+                        <div class="card-header bg-light">
+                        <h5>Building quality: <a href="">homes near structures rated good or excellent <i class="fas fa-external-link-alt"></i></a></h5>
+                        </div>
+
+                        <div class="card-body">
+                                <p>In <span style="font-weight:bold;color:#15607a">Lower Manhattan</span>, the building quality is <span style="font-weight:bold;color:#28a745">better</span> than the NYC average. </p>
+                                <p>Buildings of high quality can help protect people from dangerous weather. Indicator description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <HR>
+                        <div class="row">
+                            <div class="col-lg-2 border-bottom">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab1" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-main-tab1" data-toggle="pill" href="#v-pills-main1" role="tab" aria-controls="v-pills-main" aria-selected="true"><i class="fas fa-chart-bar"></i>&nbsp;Summary</a>
+                                <a class="nav-link" id="v-pills-trend-tab1" data-toggle="pill" href="#v-pills-trend1" role="tab" aria-controls="v-pills-trend1" aria-selected="false"><i class="fas fa-chart-line"></i>&nbsp;Trend</a>
+                                <a class="nav-link" id="v-pills-map-tab1" data-toggle="pill" href="#v-pills-map1" role="tab" aria-controls="v-pills-map1" aria-selected="true"><i class="fas fa-map-marker-alt"></i>&nbsp;Map</a>
+                                <hr>
+                                <a class="nav-link" id="v-pills-tools-tab1" data-toggle="pill" href="#v-pills-tools1" role="tab" aria-controls="v-pills-tools1" aria-selected="false"><i class="fas fa-wrench"></i>&nbsp;Tools</a>
+                                <hr>
+                              </div>
+
+                            </div>
+
+                            <div class="col-lg-10 border-bottom">
+
+
+                              <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-main1" role="tabpanel" aria-labelledby="v-pills-main-tab1">
+                                            <div class="row">
+                                                    <div class="col-sm-4"><span style="font-weight:bold;color:#15607a">Lower Manhattan</span>
+                                                        <h1 class="display-4">91%</h1></div>
+                                                    <div class="col-sm-4">Manhattan
+                                                            <h1 class="display-4">83%</h1>
+                                                    </div>
+                                                    <div class="col-sm-4">New York City
+                                                            <h1 class="display-4">77%</h1>
+    
+                                                    </div>
+                                                </div>
+                                            <div class="row">
+                                            <iframe title="" aria-label="Column Chart" id="datawrapper-chart-k20O4" src="https://datawrapper.dwcdn.net/k20O4/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+                                        </div>
+
+                                    </div>
+
+                                <div class="tab-pane fade show" id="v-pills-map1" role="tabpanel" aria-labelledby="v-pills-map-tab1">
+                                        [INSERT MAP HERE]
+
+
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-trend1" role="tabpanel" aria-labelledby="v-pills-trend-tab1">
+                                        <iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-hOXj1" src="https://datawrapper.dwcdn.net/hOXj1/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-tools1" role="tabpanel" aria-labelledby="v-pills-tools-tab1"><b>About the data:</b>
+                                <ul>
+                                    <li>Data source</li>
+                                    <li>Download data</li>
+                                </ul>
+                                </div>
+
+                              </div>
+                            </div>
+                        </div>
+
+
+                        </div>
+                    </div>
+        </div>
+    </div>
+    </div>
+    <!--end collapsible card-->
+
+    <a name="populations"></a>
+    <div class="card mt-4">
+            <div class="card-header bg-light"><h4>Special populations <small class="text-muted">that are especially vulnerable to climate-related health effects</small></h4>
+                </div>
+    
+            <div class="card-body">
+                
+                <div class="row">
+                        <div class="col-lg-4">
+                                <div class="border-bottom border-dark"><span style="font-weight:bold;color:#15607a">Lower Manhattan</span> ranks better for: <div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div><br>
+                                <button type="button" class="btn btn-better btn-block text-left">People below poverty level <div class="float-right"><span class="badge badge-light">8/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                <button type="button" class="btn btn-better btn-block text-left">Independence difficulty <div class="float-right"><span class="badge badge-light">X/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                <button type="button" class="btn btn-better btn-block text-left">Obesity <div class="float-right"><span class="badge badge-light">X/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                <br>
+    
+                        </div>
+                        <div class="col-lg-4">
+                                <div class="border-bottom border-dark">In the middle of NYC neighborhoods for:<div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div>
+                                <br>
+                                <button type="button" class="btn btn-middle btn-block text-left">Older adults with air conditioning <div class="float-right"><span class="badge badge-light">X/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                <button type="button" class="btn btn-middle btn-block text-left">People in psychological distress <div class="float-right"><span class="badge badge-light">X/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                <br>
+            
+            
+                            </div>
+                        <div class="col-lg-4">
+                                <div class="border-bottom border-dark">Ranks worse for:<div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div>
+                                <br>
+                                <button type="button" class="btn btn-worse btn-block text-left">Adults living alone <div class="float-right"><span class="badge badge-light">33/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                <br>
+                            </div>
+            
+                    </div>
+                </div>
+            </div>
+
+
+            <a name="outcomes"></a>
+            <div class="card mt-4">
+                <div class="card-header bg-light"><h4>Health outcomes <small class="text-muted">related to climate and weather</small></h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                                <div class="col-lg-4">
+                                        <div class="border-bottom border-dark"><span style="font-weight:bold;color:#15607a">Lower Manhattan</span> ranks better for: <div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div><br>
+                                        <button type="button" class="btn btn-better btn-block text-left">Heat stress hospitalizations <div class="float-right"><span class="badge badge-light">X/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                        <br>
+                                </div>
+                                <div class="col-lg-4">
+                                        <div class="border-bottom border-dark">In the middle of NYC neighborhoods for:<div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div>
+                                        <br>
+                                        <button type="button" class="btn btn-middle btn-block text-left">Heat stress ED visits <div class="float-right"><span class="badge badge-light">X/42</span>&nbsp;<i class="fas fa-caret-down"></i></div></button>
+                                        <br>
+            
+                    
+                                    </div>
+                                <div class="col-lg-4">
+                                        <div class="border-bottom border-dark">Ranks worse for:<div class="float-right"><a href="#distributionModal" data-toggle="modal"><i class="fas fa-question-circle"></i></a></div></div>
+                                        <br>
+                                    </div>
+                    
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="row mt-4 pt-2 border-top">
+                                <div class="col-lg-4 col-sm-12">
+                                        <div class="text-center"><em>What the City is doing about this</em></div>
+                                        <div class="card">
+                            
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">Content TK
+                                                    <li class="list-group-item">Content TK
+                                                    <li class="list-group-item">Content TK					
+                                                </ul>
+                                        
+                                        </div>
+                        
+                        
+                                </div>
+                                
+                                <div class="col-lg-4 col-sm-12">
+                                    <div class="text-center"><em>What you can do</em></div>
+                                        <div class="card">
+                            
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item"><a href="https://www1.nyc.gov/site/doh/health/emergency-preparedness/cold-weather-be-a-buddy.page">Be a Buddy</a> and check in on neighborhoods who need a hand
+                                                    <li class="list-group-item">Get info during <a href="https://www1.nyc.gov/site/severeweather/index.page">weather emergencies</a>
+                                                    <li class="list-group-item"><a href="https://www.nycgovparks.org/trees/street-tree-planting/request">Request a street tree</a> to help cool your neighborhood						
+                                                </ul>
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="text-center"><em>More NYC neighborhood data</em></div>
+                                        <div class="card">
+                            
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">Deptartment of Health's <a href="https://a816-health.nyc.gov/hdi/profiles/">Community Health Profiles</a> 
+                                                    <li class="list-group-item">NYC Planning's <a href="https://communityprofiles.planning.nyc.gov">Community Profiles</a>
+                                                    <li class="list-group-item"><a href="https://censusreporter.org/">Census Reporter</a>'s demographic data		
+                                                </ul>
+                                        
+                                        </div>
+                                        <br>
+                        
+                                </div>
+                        
+                                <div class="col-lg-1"></div>
+                        
+                            </div>
+                        
+
+
+
+
+
+<br><br><br>
+</div>
+<!--.container-->
+
+<!--Distribution modal-->
+<div class="modal fade" id="distributionModal" tabindex="-1" role="dialog" aria-labelledby="distributionModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="distributionModalTitle">Indicator ranking</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Each indicator is placed in one of three categories:</p>
+          <div class="row">
+          <div class="col-lg-4"><button type="button" class="btn btn-better btn-block">Better</button></div>
+          <div class="col-lg-4"><button type="button" class="btn btn-light btn-block">Middle</button></div>
+          <div class="col-lg-4"><button type="button" class="btn btn-worse btn-block">Worse</button></div>
+        </div>
+        <br>
+        <p>This shows us how the neighborhood compares to other NYC neighborhoods, if you ranked all of the NYC neighborhoods based on this indicator.</p>
+        <ul><li><span style="font-weight:bold;color:#74c476">Better</span>: in the top 1/3rd of all NYC neighorhoods.</li>
+        <li><span style="font-weight:bold;color:#2b2b2b">Middle</span> means that it's close to the NYC median - ranking somewhere in the middle third of all neighborhoods.</li>
+        <li><span style="font-weight:bold;color:#9f31b6">Worse</span>: in the bottom 1/3rd of NYC neighborhoods.</li></ul>
+        <p>These are only based on the <em>distribution</em> of data values, not the range. The absolute values of indicators in different categoeis may not be all that different.</p>
+        <p>Each indicator button includes the rank: how that neighborhood scores out of all 42 NYC neighborhoods, based on that indicator.</p>
+        <button type="button" class="btn btn-better btn-block text-left" role="button">Building quality <div class="float-right"><span class="badge badge-light">7/42</span></div></button><br>
+        <p>To see more data on an indicator and to understand how it compares, click the indicator button.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+        
+</main>
+
+    <footer class="bg-black" id="global-footer" role="contentinfo">
+
+        <h2 class="sr-only">
+            Page Footer
+        </h2>
+
+        <div class="bg-opacity-black-25 text-white" id="nyc-footer">
+
+            <div class="container py-3 d-none" id="languages">
+
+                <div class="row fs-md">
+
+                    <div class="col-6 col-md-4 col-lg mb-2 mb-lg-0">
+                        <ul class="extensible-list">
+                            <li><a class="lang-select text-reset" href="#" data-lang="ar">عربى</a></li>
+                            <li><a class="lang-select text-reset" href="#" data-lang="bn">বাঙালি</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg mb-2 mb-lg-0">
+                        <ul class="extensible-list">
+                            <li><a class="lang-select text-reset" href="#" data-lang="zh-CN">中文</a></li>
+                            <li><a class="lang-select text-reset" href="#" data-lang="fr">français</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg mb-2 mb-lg-0">
+                        <ul class="extensible-list">
+                            <li><a class="lang-select text-reset" href="#" data-lang="ht">Kreyòl Ayisyen</a></li>
+                            <li><a class="lang-select text-reset" href="#" data-lang="ko">한국어</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg mb-2 mb-lg-0">
+                        <ul class="extensible-list">
+                            <li><a class="lang-select text-reset" href="#" data-lang="pl">Polskie</a></li>
+                            <li><a class="lang-select text-reset" href="#" data-lang="ru">русский</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg">
+                        <ul class="extensible-list">
+                            <li><a class="lang-select text-reset" href="#" data-lang="es">Español</a></li>
+                            <li><a class="lang-select text-reset" href="#" data-lang="ur">اردو</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- #languages -->
+
+            <div class="container py-3" id="languages">
+
+                <ul class="fs-md" role="list">
+                    <li><a class="lang-select text-reset" href="#" data-lang="ar">عربى</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="bn">বাঙালি</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="zh-CN">中文</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="fr">français</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="ht">Kreyòl Ayisyen</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="ko">한국어</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="pl">Polskie</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="ru">русский</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="es">Español</a></li>
+                    <li><a class="lang-select text-reset" href="#" data-lang="ur">اردو</a></li>
+                </ul>
+
+            </div>
+            <!-- #languages -->
+
+            <hr class="opacity-10" aria-hidden="true">
+
+            <div class="container py-3">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-8 mb-3 mb-lg-0">
+
+                        <nav class="row fs-md" role="navigation">
+
+                            <div class="col-lg mb-3 mb-lg-0">
+
+                                <ul class="extensible-list">
+                                    <li>
+                                        <a class="text-reset" href="http://www1.nyc.gov/nyc-resources/agencies.page">
+                                            <strong>City Agencies</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-reset" href="https://a858-nycnotify.nyc.gov/notifynyc/">
+                                            <strong>Notify NYC</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-reset"
+                                            href="http://www1.nyc.gov/connect/mobile-applications.page">
+                                            <strong>NYC Mobile Apps</strong>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- .col -->
+
+                            <div class="col-lg mb-3 mb-lg-0">
+
+                                <ul class="extensible-list">
+                                    <li>
+                                        <a class="text-reset" href="http://www1.nyc.gov/home/contact-us.page">
+                                            <strong>Contact NYC Government</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-reset" href="https://a856-citystore.nyc.gov/">
+                                            <strong>CityStore</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-reset" href="http://maps.nyc.gov/doitt/nycitymap/">
+                                            <strong>Maps</strong>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- .col -->
+
+                            <div class="col-lg mb-3 mb-lg-0">
+
+                                <ul class="extensible-list">
+                                    <li>
+                                        <a class="text-reset"
+                                            href="https://a127-ess.nyc.gov/psp/prdess/?cmd=login&languageCd=ENG&">
+                                            <strong>City Employees</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-reset" href="http://www1.nyc.gov/connect/social-media.page">
+                                            <strong>Stay Connected</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-reset"
+                                            href="http://www1.nyc.gov/nyc-resources/resident-toolkit.page">
+                                            <strong>Resident Toolkit</strong>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- .col -->
+
+                        </nav>
+
+                    </div>
+                    <!-- .col -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <a class="mb-2" href="https://www1.nyc.gov" title="Go to nyc.gov" target="_blank">
+                            <img class="mb-2" src="./images/nyc-bubble-logo.svg" width="90" alt="NYC Logo">
+                        </a>
+                        <p class="fs-sm">City of New York - 2019 All Rights Reserved. NYC is a trademark and service
+                            mark of the City of New York.</p>
+
+                        <ul class="extensible-list horizontal fs-sm">
+                            <li>
+                                <a class="text-reset" href="http://www1.nyc.gov/home/privacy-policy.page">Privacy
+                                    Policy</a>
+                            </li>
+                            <li>
+                                <a class="text-reset" href="http://www1.nyc.gov/home/terms-of-use.page">Terms
+                                    of Use</a>
+                            </li>
+                            <li>
+                                <a class="text-reset" href="http://www1.nyc.gov/site/mopd/index.page"
+                                    title="Mayor's Office for People with Disabilities">
+                                    <span class="sr-only">Mayor's Office for People with Disabilities</span>
+                                    <span class="fab fa-lg fa-accessible-icon"></span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- .col -->
+
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- .container -->
+
+        </div>
+        <!-- #nyc-bottom-footer -->
+
+    </footer>
+
+
+
+
+    <!-- jQuery (full, compressed version) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Popper.js and Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Google Translate -->
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- NYC template JS (RTL, search and language toggle, back to top)  -->
+    <script src="https://nycehs.github.io/Portal-Core-Repo/js/main.js"></script>
+
+    <!--Script that makes collapsed button content hide on selection of another button-->
+    <script>
+    jQuery('button').click( function(e) {
+    jQuery('.collapse').collapse('hide');
+    });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

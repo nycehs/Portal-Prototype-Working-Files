@@ -90,44 +90,45 @@
         <div class="wrap-header">
 
             <div class="container-fluid">
-
-                <div class="row align-items-center">
-
-                    
                     <!-- .col -->
 
-                    <div class="col border-top">
+                    <div class="col-lg-auto border-top border-lg-0">
 
-                        <div class="align-items-center justify-content-between">
+                        <div class="row no-gutters justify-content-between py-2">
 
-                            <!-- Mobile Toggle Buttons -->
+                            <!-- Menu Toggle -->
+                            <div class="col-auto d-flex d-lg-none">
 
-                            <ul class="extensible-list horizontal justify-content-between my-2">
-                                <li><a href="NeighborhoodReports.html">
-                                    <button class="no-btn-style mr-auto" type="button">
-                                            <i class="fas fa-arrow-circle-left"></i>&nbsp;back to Neighborhood Reports home
-                                    </button></a>
-                                </li>
+                                <button class="no-btn-style" type="button" data-toggle="collapse"
+                                    data-target="#nav-primary" aria-controls="nav-primary" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="fas fa-bars fa-lg" role="img"></span>
+                                </button>
 
-                                <li>
-                                        <button class="no-btn-style float-right" type="button" data-toggle="collapse"
-                                        data-target="#global-language" aria-controls="global-language"
-                                        aria-expanded="false">
-                                        <span class="fas fa-language fa-lg" ></span>
-                                    </button>
-                                </li>
-                            </ul>
+                            </div>
+                            <!-- .col -->
 
-                            
+                            <div class="col-auto ml-auto">
+
+                                <ul class="extensible-list horizontal">
+                                    <li>
+                                        <button class="no-btn-style" type="button" title="Language"
+                                            data-toggle="collapse" data-target="#global-language"
+                                            aria-controls="global-language" aria-expanded="false">
+                                            <span class="sr-only">Language</span>
+                                            <span class="fas fa-language fa-lg" role="img"></span>
+                                        </button>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- .col -->
 
                         </div>
-                        <!-- .d-flex -->
+                        <!-- .row -->
 
                     </div>
                     <!-- .col -->
-
-                </div>
-                <!-- .row -->
 
             </div>
             <!-- .container-fluid -->
@@ -646,7 +647,7 @@
           <p>Each indicator is placed in one of three categories:</p>
           <div class="row">
           <div class="col-lg-4"><button type="button" class="btn btn-better btn-block">Better</button></div>
-          <div class="col-lg-4"><button type="button" class="btn btn-light btn-block">Middle</button></div>
+          <div class="col-lg-4"><button type="button" class="btn btn-middle btn-block">Middle</button></div>
           <div class="col-lg-4"><button type="button" class="btn btn-worse btn-block">Worse</button></div>
         </div>
         <br>

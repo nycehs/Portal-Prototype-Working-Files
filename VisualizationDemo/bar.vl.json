@@ -3,6 +3,7 @@
   "description": "A simple bar chart with neighborhood overlay.",
   "width": "container",
   "height": "container",
+  "autosize":"fit",
   "layer":[
     {
       "data": { "url": "barData.csv", "name": "reportData" },

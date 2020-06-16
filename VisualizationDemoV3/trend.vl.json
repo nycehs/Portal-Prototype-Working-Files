@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": "container",
+    "height": "container",
+    "autosize": "fit",
+    "data": {"url": "Active Design in Canarsie - Flatlands.json", 
+      "format": {"type":"json","property":"report.report_content[1].report_topic_data[1].trend_over_time"}},
+    "mark": {"type": "line", "point": true, "tooltip": true},
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "data_value",
+        "type": "quantitative",
+        "title": "% in Poverty"
+      },
+      "color": {
+          "value": "orange"
+      }
+    }
+  }
+  

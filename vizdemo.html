@@ -11,14 +11,11 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
-    <p>summary_obesityP</p>
+    <p>Demo Charts</p>
 <div style="width:95%; height:25vmin;" id="summary_obesityP"></div>
-    <p>summary_bikeEDAA</p>
-<div style="width:95%; height:25vmin;" id="summary_bikeEDAA"></div>
 <div style="width:95%; height:25vmin;" id="summary_bikeLanP"></div>
 <div style="width:95%; height:25vmin;" id="summary_nabSafeP"></div>
 <div style="width:95%; height:25vmin;" id="summary_parkDisP"></div>
-<div style="width:95%; height:25vmin;" id="summary_pedEDAA"></div>
 <div style="width:95%; height:25vmin;" id="summary_poveACSP"></div>
 <div style="width:95%; height:25vmin;" id="summary_preMorAA"></div>
 <div style="width:95%; height:25vmin;" id="summary_ratRepoP"></div>
@@ -60,48 +57,33 @@
       }
     }
   }
-  ;
-  const measureDataPath = "visualizations/csv/"
-  var bikeLanPData = measureDataPath+"bikeLanP"+".csv";
-  var nabSafePData = measureDataPath+"nabSafeP"+".csv";
-  var bikeEDAAData = measureDataPath+"bikeEDAA"+".csv";
-  var obesityPData = measureDataPath+"obesityP"+".csv";
-  var parkDisPData = measureDataPath+"parkDisP"+".csv";
-  var pedEDAAData = measureDataPath+"pedEDAA"+".csv";
-  var poveACSPData = measureDataPath+"poveACSP"+".csv";
-  var preMorAAData = measureDataPath+"preMorAA"+".csv";
-  var ratRepoPData = measureDataPath+"ratRepoP"+".csv";
-  var recBikePData = measureDataPath+"recBikeP"+".csv";
-  var recExerPData = measureDataPath+"recExerP"+".csv";
-  var sidwalkPData = measureDataPath+"sidwalkP"+".csv";
-  var subDistPData = measureDataPath+"subDistP"+".csv";
-  var treeCovPData = measureDataPath+"treeCovP"+".csv";
+  ; //this is the template vega-lite json (a copy is in the visualizations/json folder as summary.vl.json)
+  
+  const indicatorDataPath = "visualizations/csv/"; //change this to alter the path to the data file
 
-  vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,bikeLanPData)).then().catch(console.error);
-  vegaEmbed("#summary_nabSafeP", buildSummarySpec(NeighborhoodName,summarySpec,nabSafePData)).then().catch(console.error);
-  vegaEmbed("#summary_bikeEDAA", buildSummarySpec(NeighborhoodName,summarySpec,bikeEDAAData)).then().catch(console.error);
-  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,obesityPData)).then().catch(console.error);
-  vegaEmbed("#summary_parkDisP", buildSummarySpec(NeighborhoodName,summarySpec,parkDisPData)).then().catch(console.error);
-  vegaEmbed("#summary_pedEDAA", buildSummarySpec(NeighborhoodName,summarySpec,pedEDAAData)).then().catch(console.error);
-  vegaEmbed("#summary_poveACSP", buildSummarySpec(NeighborhoodName,summarySpec,poveACSPData)).then().catch(console.error);
-  vegaEmbed("#summary_preMorAA", buildSummarySpec(NeighborhoodName,summarySpec,preMorAAData)).then().catch(console.error);
-  vegaEmbed("#summary_ratRepoP", buildSummarySpec(NeighborhoodName,summarySpec,ratRepoPData)).then().catch(console.error);
-  vegaEmbed("#summary_recBikeP", buildSummarySpec(NeighborhoodName,summarySpec,recBikePData)).then().catch(console.error);
-  vegaEmbed("#summary_recExerP", buildSummarySpec(NeighborhoodName,summarySpec,recExerPData)).then().catch(console.error);
-  vegaEmbed("#summary_sidwalkP", buildSummarySpec(NeighborhoodName,summarySpec,sidwalkPData)).then().catch(console.error);
-  vegaEmbed("#summary_subDistP", buildSummarySpec(NeighborhoodName,summarySpec,subDistPData)).then().catch(console.error);
-  vegaEmbed("#summary_treeCovP", buildSummarySpec(NeighborhoodName,summarySpec,treeCovPData)).then().catch(console.error);
+  vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,"bikeLanP")).then().catch(console.error);
+  vegaEmbed("#summary_nabSafeP", buildSummarySpec(NeighborhoodName,summarySpec,"nabSafeP")).then().catch(console.error);
+  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP")).then().catch(console.error);
+  vegaEmbed("#summary_parkDisP", buildSummarySpec(NeighborhoodName,summarySpec,"parkDisP")).then().catch(console.error);
+  vegaEmbed("#summary_poveACSP", buildSummarySpec(NeighborhoodName,summarySpec,"poveACSP")).then().catch(console.error);
+  vegaEmbed("#summary_preMorAA", buildSummarySpec(NeighborhoodName,summarySpec,"preMorAA")).then().catch(console.error);
+  vegaEmbed("#summary_ratRepoP", buildSummarySpec(NeighborhoodName,summarySpec,"ratRepoP")).then().catch(console.error);
+  vegaEmbed("#summary_recBikeP", buildSummarySpec(NeighborhoodName,summarySpec,"recBikeP")).then().catch(console.error);
+  vegaEmbed("#summary_recExerP", buildSummarySpec(NeighborhoodName,summarySpec,"recExerP")).then().catch(console.error);
+  vegaEmbed("#summary_sidwalkP", buildSummarySpec(NeighborhoodName,summarySpec,"sidwalkP")).then().catch(console.error);
+  vegaEmbed("#summary_subDistP", buildSummarySpec(NeighborhoodName,summarySpec,"subDistP")).then().catch(console.error);
+  vegaEmbed("#summary_treeCovP", buildSummarySpec(NeighborhoodName,summarySpec,"treeCovP")).then().catch(console.error);
   
   
   // this function creates a summary spec from a template that is customized with the data and neighborhood
-  function buildSummarySpec(neighborhood,spec,data) {
+  function buildSummarySpec(neighborhood,spec,dataSlug) {
         // make a copy of the vega-lite spec
         var temp = JSON.parse(JSON.stringify(spec));
         // graft the neighborhood on to the specification for the color-coding
         temp.encoding.color.condition.test = "datum.Neighborhood=='"+neighborhood+"'";
         // graft the data file path on to the specification for the indicator
-        temp.data.url = data;
-        // return the vega spec
+        temp.data.url = indicatorDataPath+dataSlug+".csv"; //note the function needs access to the indicatorDataPath global var
+        // return the vega-lite spec
         return temp;
   };
 

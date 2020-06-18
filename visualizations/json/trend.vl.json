@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": "container",
+    "height": "container",
+    "autosize": "fit",
+    "data": {"url": "visualizations/csv/obesityP_trend.csv"},
+    "mark": {"type": "line", "point": true, "tooltip": true},
+    "encoding": {
+      "x": {
+        "field": "time_description",
+        "type": "ordinal",
+        "axis": {"title": null}
+      },
+      "y": {
+        "field": "Data Value",
+        "type": "quantitative",
+        "axis": {"title": null}
+      },
+      "color": {
+        "condition": {
+            "test": "datum.Neighborhood=='Canarsie - Flatlands'",
+            "value": "orange"
+        },
+        "value": "lightgrey"
+    }
+    }
+  }
+  

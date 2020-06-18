@@ -1,0 +1,86 @@
+[
+    {
+        "indicator_name": "People living in walking distance to a park (percent), 2017",
+        "indicator_short_name": "Park Access",
+        "indicator_data_name": "parkDisP",
+        "indicator_description": "Living near a park allows for easy active recreation, which can be much more challenging in an urban environment.",
+        "indicator_neighborhood_rank":"4"
+    },
+    {
+        "indicator_name": "People living in walking distance to a subway station (percent), 2018",
+        "indicator_short_name": "Near Subway",
+        "indicator_data_name": "subDistP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"4"
+    },
+    {
+        "indicator_name": "Streets with bicycle lanes (percent), 2017",
+        "indicator_short_name": "Bike Lanes",
+        "indicator_data_name": "bikeLanP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"4"
+    },
+    {
+        "indicator_name": "Tree canopy cover (percent of land area), 2014",
+        "indicator_short_name": "Tree Cover",
+        "indicator_data_name": "treeCovP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"4"
+    },
+    {
+        "indicator_name": "Sidewalk area (percent of land area), 2014",
+        "indicator_short_name": "Sidewalk Area",
+        "indicator_data_name": "sidwalkP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"4"
+    },
+    {
+        "indicator_name": "Adults perceiving neighborhood as safe from crime (percent), 2016",
+        "indicator_short_name": "Neighborhood Safety",
+        "indicator_data_name": "nabSafeP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"9"
+    },
+    {
+        "indicator_name": "People living in poverty (percent), 2013-17",
+        "indicator_short_name": "People in Poverty",
+        "indicator_data_name": "poveACSP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"33"
+    },
+    {
+        "indicator_name": "Adults reporting rats or mice outside their building (percent), 2010",
+        "indicator_short_name": "Rodents Reported",
+        "indicator_data_name": "ratRepoP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"41"
+    },
+    {
+        "indicator_name": "Adults reporting exercise in the past 30 days (percent), 2017",
+        "indicator_short_name": "Recent Exercise",
+        "indicator_data_name": "recExerP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"23"
+    },
+    {
+        "indicator_name": "Adults who rode a bicycle in the past 30 days (percent) 2017",
+        "indicator_short_name": "Recent Bicycling",
+        "indicator_data_name": "recBikeP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"13"
+    },
+    {
+        "indicator_name": "Adults with overweight or obesity (percent), 2017",
+        "indicator_short_name": "Obesity",
+        "indicator_data_name": "obesityP",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"4"
+    },
+    {
+        "indicator_name": "Premature mortality (age-adjusted rate per 100,000), 2016",
+        "indicator_short_name": "Premature Death",
+        "indicator_data_name": "preMorAA",
+        "indicator_description": "test",
+        "indicator_neighborhood_rank":"7"
+    }
+]

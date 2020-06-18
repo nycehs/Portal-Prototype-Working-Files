@@ -1,4 +1,4 @@
-﻿start_period,time_type,year_description,geo_join_id,Neighborhood,Percent,message
+﻿start_period,time_type,time_description,geo_join_id,Neighborhood,Data Value,Message
 2017-01-01,year,2017,404,Bayside - Little Neck,51.2,Estimate is based on small numbers so should be interpreted with caution.
 2017-01-01,year,2017,203,Bedford Stuyvesant - Crown Heights,67.2,
 2017-01-01,year,2017,209,Bensonhurst - Bay Ridge,50.3,

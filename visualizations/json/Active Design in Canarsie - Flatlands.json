@@ -1,0 +1,518 @@
+{
+  "report": {
+    "report_title": "Active Design, Physical Activity and Health",
+    "report_description": "The design and conditions of buildings, streets, public transportation and parks influence physical activity, use of active transportation and other healthy behavior. A neighborhood's features can also impact the safety of its residents.",
+    "geo_entity_name": "Canarsie - Flatlands",
+    "zip_code": " 11239,11236,11234",
+    "report_text": "Categories based on whether the most recent neighborhood value falls among the best, middle or worse performing third of all NYC neighborhoods. NYC is divided into 42 neighborhoods based on the United Hospital Fund (UHF) approach of aggregating zip code areas to approximate Community Planning Districts.",
+    "report_unreliable_text": "",
+    "report_footer": "More data and information on Asthma and the Environment can be found on the NYC Tracking Portal (www.nyc.gov/health/tracking) and on EpiQuery(www.nyc.gov/health/epiquery). The tracking program is part of the National Environmental Public Health Tracking Network (www.cdc.gov/EPHTracking).",
+    "report_data_source": [
+      "1. New York City Community Health Survey (CHS)",
+      "2. United States Census",
+      "3. New York City Bureau of Vital Statistics",
+      "4. New York City Department of Transportation ",
+      "5. New York City Department of Parks and Recreation",
+      "6. Metropolitan Transportation Authority ",
+      "7. American Community Survey",
+      "9. The Built Environment & Health Project (BEH), Columbia University",
+      "8. New York City Bureau of Vital Statistics; United States Census ",
+      "10. New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates"
+    ],
+    "report_content": [
+      {
+        "report_topic": "Neighborhood Resources",
+        "report_topic_description": "Aspects of the neighborhood environment can encourage walking, bicycling and participation in other healthy physical activities.",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "People living in walking distance to a park (percent), 2017",
+            "indicator_short_name": "Park Access",
+            "indicator_data_name": "parkDisP",
+            "indicator_description": "Living near a park allows for easy active recreation, which can be much more challenging in an urban environment.",
+            "indicator_neighborhood_rank":"4",
+            "data_value_geo_entity": "76.0",
+            "unmodified_data_value_geo_entity": 76.0,
+            "data_value_borough": "82",
+            "unmodified_data_value_borough": 82.0,
+            "data_value_nyc": 81.0,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 76.0
+              }
+            ],
+            "source_description": "New York City Department of Parks and Recreation,New York City DOHMH population estimates, modified from US Census Bureau inter-censal population estimates"
+          },
+          {
+            "indicator_name": "People living in walking distance to a subway station (percent), 2018",
+            "indicator_short_name": "Near Subway",
+            "indicator_data_name": "subDistP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"4",            "data_value_geo_entity": "5.0",
+            "unmodified_data_value_geo_entity": 5.0,
+            "data_value_borough": "54",
+            "unmodified_data_value_borough": 54.0,
+            "data_value_nyc": 48.0,
+            "data_value_rank": 3,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2018",
+                "start_period": "2018-01-01",
+                "data_value": 5.0
+              }
+            ],
+            "source_description": "Metropolitan Transportation Authority ,United States Census"
+          },
+          {
+            "indicator_name": "Streets with bicycle lanes (percent), 2017",
+            "indicator_short_name": "Bike Lanes",
+            "indicator_data_name": "bikeLanP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"4",            "data_value_geo_entity": "8.0",
+            "unmodified_data_value_geo_entity": 8.0,
+            "data_value_borough": "13",
+            "unmodified_data_value_borough": 13.0,
+            "data_value_nyc": 10.0,
+            "data_value_rank": 3,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 8.0
+              }
+            ],
+            "source_description": "New York City Department of Transportation "
+          },
+          {
+            "indicator_name": "Tree canopy cover (percent of land area), 2014",
+            "indicator_short_name": "Tree Cover",
+            "indicator_data_name": "treeCovP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"4",            "data_value_geo_entity": "16.4",
+            "unmodified_data_value_geo_entity": 16.4,
+            "data_value_borough": "15.8",
+            "unmodified_data_value_borough": 15.8,
+            "data_value_nyc": 21.1,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 16.3666
+              },
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 16.3666
+              }
+            ],
+            "source_description": "The Built Environment &amp; Health Project (BEH), Columbia University"
+          },
+          {
+            "indicator_name": "Sidewalk area (percent of land area), 2014",
+            "indicator_short_name": "Sidewalk Area",
+            "indicator_data_name": "sidwalkP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"4",            "data_value_geo_entity": "4.6",
+            "unmodified_data_value_geo_entity": 4.6,
+            "data_value_borough": "7.8",
+            "unmodified_data_value_borough": 7.8,
+            "data_value_nyc": 6.6,
+            "data_value_rank": 3,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 4.6
+              }
+            ],
+            "source_description": "The Built Environment &amp; Health Project (BEH), Columbia University"
+          }
+        ]
+      },
+      {
+        "report_topic": "Neighborhood Risk Factors",
+        "report_topic_description": "Living in high-poverty neighborhoods or in environments that feel unsafe makes it difficult to be physically active and access resources that promote health.",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "Adults perceiving neighborhood as safe from crime (percent), 2016",
+            "indicator_short_name": "Neighborhood Safety",
+            "indicator_data_name": "nabSafeP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"9",            "data_value_geo_entity": "87.7",
+            "unmodified_data_value_geo_entity": 87.7,
+            "data_value_borough": "85.5",
+            "unmodified_data_value_borough": 85.5,
+            "data_value_nyc": 85.5,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2015",
+                "start_period": "2015-01-01",
+                "data_value": 92.4
+              },
+              {
+                "year": "2016",
+                "start_period": "2016-01-01",
+                "data_value": 87.7
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          },
+          {
+            "indicator_name": "People living in poverty (percent), 2013-17",
+            "indicator_short_name": "People in Poverty",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"33",            "data_value_geo_entity": "12.2",
+            "unmodified_data_value_geo_entity": 12.2,
+            "data_value_borough": "21.9",
+            "unmodified_data_value_borough": 21.9,
+            "data_value_nyc": 19.6,
+            "data_value_rank": 1,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2009-13",
+                "start_period": "2009-01-01",
+                "data_value": 12.65
+              },
+              {
+                "year": "2010-14",
+                "start_period": "2010-01-01",
+                "data_value": 13.26
+              },
+              {
+                "year": "2011-15",
+                "start_period": "2011-01-01",
+                "data_value": 13.48
+              },
+              {
+                "year": "2012-16",
+                "start_period": "2012-01-01",
+                "data_value": 12.69
+              },
+              {
+                "year": "2013-17",
+                "start_period": "2013-01-01",
+                "data_value": 12.2
+              }
+            ],
+            "source_description": "American Community Survey"
+          },
+          {
+            "indicator_name": "Adults reporting rats or mice outside their building (percent), 2010",
+            "indicator_short_name": "Rodents Reported",
+            "indicator_data_name": "ratRepoP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"41",            "data_value_geo_entity": "15.1",
+            "unmodified_data_value_geo_entity": 15.1,
+            "data_value_borough": "26.6",
+            "unmodified_data_value_borough": 26.6,
+            "data_value_nyc": 27.3,
+            "data_value_rank": 1,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2004",
+                "start_period": "2004-01-01",
+                "data_value": 21.1
+              },
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 15.1
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          }
+        ]
+      },
+      {
+        "report_topic": "Physical Activity",
+        "report_topic_description": "Walking and bicycling are healthy activities that can also be used for active transportation.",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "Adults reporting exercise in the past 30 days (percent), 2017",
+            "indicator_short_name": "Recent Exercise",
+            "indicator_data_name": "recExerP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"23",            "data_value_geo_entity": "69.0",
+            "unmodified_data_value_geo_entity": 69.0,
+            "data_value_borough": "71.8",
+            "unmodified_data_value_borough": 71.8,
+            "data_value_nyc": 74.5,
+            "data_value_rank": 3,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2003",
+                "start_period": "2003-01-01",
+                "data_value": 66.4
+              },
+              {
+                "year": "2004",
+                "start_period": "2004-01-01",
+                "data_value": 75.5
+              },
+              {
+                "year": "2005",
+                "start_period": "2005-01-01",
+                "data_value": 72.6
+              },
+              {
+                "year": "2008",
+                "start_period": "2008-01-01",
+                "data_value": 74.2
+              },
+              {
+                "year": "2009",
+                "start_period": "2009-01-01",
+                "data_value": 74.6
+              },
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 78.6
+              },
+              {
+                "year": "2011",
+                "start_period": "2011-01-01",
+                "data_value": 83.9
+              },
+              {
+                "year": "2012",
+                "start_period": "2012-01-01",
+                "data_value": 79.2
+              },
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 60.8
+              },
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 70.2
+              },
+              {
+                "year": "2015",
+                "start_period": "2015-01-01",
+                "data_value": 76.0
+              },
+              {
+                "year": "2016",
+                "start_period": "2016-01-01",
+                "data_value": 80.0
+              },
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 69.0
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          },
+          {
+            "indicator_name": "Adults who rode a bicycle in the past 30 days (percent) 2017",
+            "indicator_short_name": "Recent Bicycling",
+            "indicator_data_name": "recBikeP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"13",            "data_value_geo_entity": "13.2",
+            "unmodified_data_value_geo_entity": 13.2,
+            "data_value_borough": "17.3",
+            "unmodified_data_value_borough": 17.3,
+            "data_value_nyc": 15.5,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2007",
+                "start_period": "2007-01-01",
+                "data_value": 11.4
+              },
+              {
+                "year": "2009",
+                "start_period": "2009-01-01",
+                "data_value": 8.9
+              },
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 10.3
+              },
+              {
+                "year": "2011",
+                "start_period": "2011-01-01",
+                "data_value": 16.6
+              },
+              {
+                "year": "2012",
+                "start_period": "2012-01-01",
+                "data_value": 14.0
+              },
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 11.1
+              },
+              {
+                "year": "2016",
+                "start_period": "2016-01-01",
+                "data_value": 11.7
+              },
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 13.2
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          }
+        ]
+      },
+      {
+        "report_topic": "Injury and Health",
+        "report_topic_description": "Neighborhood design can influence health both directly -- by way of immediate hazards in the environment, and indirectly, for example, by encouraging exercise.",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "Adults with overweight or obesity (percent), 2017",
+            "indicator_short_name": "Obesity",
+            "indicator_data_name": "obesityP",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"4",            "data_value_geo_entity": "61.3",
+            "unmodified_data_value_geo_entity": 61.3,
+            "data_value_borough": "58.2",
+            "unmodified_data_value_borough": 58.2,
+            "data_value_nyc": 57.4,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2003",
+                "start_period": "2003-01-01",
+                "data_value": 56.8
+              },
+              {
+                "year": "2004",
+                "start_period": "2004-01-01",
+                "data_value": 61.0
+              },
+              {
+                "year": "2005",
+                "start_period": "2005-01-01",
+                "data_value": 62.7
+              },
+              {
+                "year": "2006",
+                "start_period": "2006-01-01",
+                "data_value": 67.4
+              },
+              {
+                "year": "2007",
+                "start_period": "2007-01-01",
+                "data_value": 68.3
+              },
+              {
+                "year": "2008",
+                "start_period": "2008-01-01",
+                "data_value": 67.6
+              },
+              {
+                "year": "2009",
+                "start_period": "2009-01-01",
+                "data_value": 60.6
+              },
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 68.5
+              },
+              {
+                "year": "2011",
+                "start_period": "2011-01-01",
+                "data_value": 65.2
+              },
+              {
+                "year": "2012",
+                "start_period": "2012-01-01",
+                "data_value": 60.3
+              },
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 67.9
+              },
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 64.4
+              },
+              {
+                "year": "2015",
+                "start_period": "2015-01-01",
+                "data_value": 65.4
+              },
+              {
+                "year": "2016",
+                "start_period": "2016-01-01",
+                "data_value": 67.7
+              },
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 61.3
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          },
+          {
+            "indicator_name": "Premature mortality (age-adjusted rate per 100,000), 2016",
+            "indicator_short_name": "Premature Death",
+            "indicator_data_name": "preMorAA",
+            "indicator_description": "test",
+            "indicator_neighborhood_rank":"7",            "data_value_geo_entity": "194.8",
+            "unmodified_data_value_geo_entity": 194.8,
+            "data_value_borough": "181.9",
+            "unmodified_data_value_borough": 181.9,
+            "data_value_nyc": 189.4,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2016",
+                "start_period": "2016-01-01",
+                "data_value": 194.8
+              }
+            ],
+            "source_description": "New York City Bureau of Vital Statistics,New York City Bureau of Vital Statistics; United States Census "
+          }
+        ]
+      }
+    ]
+  }
+}

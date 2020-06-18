@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <p>summary_obesityP</p>
+<div style="width:95%; height:25vmin;" id="summary_obesityP"></div>
+    <p>summary_bikeEDAA</p>
+<div style="width:95%; height:25vmin;" id="summary_bikeEDAA"></div>
+<div style="width:95%; height:25vmin;" id="summary_bikeLanP"></div>
+<div style="width:95%; height:25vmin;" id="summary_nabSafeP"></div>
+<div style="width:95%; height:25vmin;" id="summary_parkDisP"></div>
+<div style="width:95%; height:25vmin;" id="summary_pedEDAA"></div>
+<div style="width:95%; height:25vmin;" id="summary_poveACSP"></div>
+<div style="width:95%; height:25vmin;" id="summary_preMorAA"></div>
+<div style="width:95%; height:25vmin;" id="summary_ratRepoP"></div>
+<div style="width:95%; height:25vmin;" id="summary_recBikeP"></div>
+<div style="width:95%; height:25vmin;" id="summary_recExerP"></div>
+<div style="width:95%; height:25vmin;" id="summary_sidwalkP"></div>
+<div style="width:95%; height:25vmin;" id="summary_subDistP"></div>
+<div style="width:95%; height:25vmin;" id="summary_treeCovP"></div>
+
+
+<script type="text/javascript">
+
+  var NeighborhoodName = "Fresh Meadows"; //change this to alter the highlighted neighborhood 
+  var summarySpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": "container",
+    "height": "container",
+    "autosize": "fit",
+    "data": {"url": "visualizations/csv/bikeLanP.csv"},
+    "mark": {"type": "bar", "tooltip": true},
+    "encoding": {
+      "x": {
+        "field": "Neighborhood",
+        "type": "nominal",
+        "sort": {"op": "mean", "field": "Data Value"},
+        "axis":null
+      },
+      "y": {
+        "field": "Data Value",
+        "type": "quantitative",
+        "axis": {"title":null}
+      },
+      "color": {
+          "condition": {
+              "test": "datum.Neighborhood=='Canarsie - Flatlands'",
+              "value": "orange"
+          },
+          "value": "gray"
+      }
+    }
+  }
+  ;
+  const measureDataPath = "visualizations/csv/"
+  var bikeLanPData = measureDataPath+"bikeLanP"+".csv";
+  var nabSafePData = measureDataPath+"nabSafeP"+".csv";
+  var bikeEDAAData = measureDataPath+"bikeEDAA"+".csv";
+  var obesityPData = measureDataPath+"obesityP"+".csv";
+  var parkDisPData = measureDataPath+"parkDisP"+".csv";
+  var pedEDAAData = measureDataPath+"pedEDAA"+".csv";
+  var poveACSPData = measureDataPath+"poveACSP"+".csv";
+  var preMorAAData = measureDataPath+"preMorAA"+".csv";
+  var ratRepoPData = measureDataPath+"ratRepoP"+".csv";
+  var recBikePData = measureDataPath+"recBikeP"+".csv";
+  var recExerPData = measureDataPath+"recExerP"+".csv";
+  var sidwalkPData = measureDataPath+"sidwalkP"+".csv";
+  var subDistPData = measureDataPath+"subDistP"+".csv";
+  var treeCovPData = measureDataPath+"treeCovP"+".csv";
+
+  vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,bikeLanPData)).then().catch(console.error);
+  vegaEmbed("#summary_nabSafeP", buildSummarySpec(NeighborhoodName,summarySpec,nabSafePData)).then().catch(console.error);
+  vegaEmbed("#summary_bikeEDAA", buildSummarySpec(NeighborhoodName,summarySpec,bikeEDAAData)).then().catch(console.error);
+  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,obesityPData)).then().catch(console.error);
+  vegaEmbed("#summary_parkDisP", buildSummarySpec(NeighborhoodName,summarySpec,parkDisPData)).then().catch(console.error);
+  vegaEmbed("#summary_pedEDAA", buildSummarySpec(NeighborhoodName,summarySpec,pedEDAAData)).then().catch(console.error);
+  vegaEmbed("#summary_poveACSP", buildSummarySpec(NeighborhoodName,summarySpec,poveACSPData)).then().catch(console.error);
+  vegaEmbed("#summary_preMorAA", buildSummarySpec(NeighborhoodName,summarySpec,preMorAAData)).then().catch(console.error);
+  vegaEmbed("#summary_ratRepoP", buildSummarySpec(NeighborhoodName,summarySpec,ratRepoPData)).then().catch(console.error);
+  vegaEmbed("#summary_recBikeP", buildSummarySpec(NeighborhoodName,summarySpec,recBikePData)).then().catch(console.error);
+  vegaEmbed("#summary_recExerP", buildSummarySpec(NeighborhoodName,summarySpec,recExerPData)).then().catch(console.error);
+  vegaEmbed("#summary_sidwalkP", buildSummarySpec(NeighborhoodName,summarySpec,sidwalkPData)).then().catch(console.error);
+  vegaEmbed("#summary_subDistP", buildSummarySpec(NeighborhoodName,summarySpec,subDistPData)).then().catch(console.error);
+  vegaEmbed("#summary_treeCovP", buildSummarySpec(NeighborhoodName,summarySpec,treeCovPData)).then().catch(console.error);
+  
+  
+  // this function creates a summary spec from a template that is customized with the data and neighborhood
+  function buildSummarySpec(neighborhood,spec,data) {
+        // make a copy of the vega-lite spec
+        var temp = JSON.parse(JSON.stringify(spec));
+        // graft the neighborhood on to the specification for the color-coding
+        temp.encoding.color.condition.test = "datum.Neighborhood=='"+neighborhood+"'";
+        // graft the data file path on to the specification for the indicator
+        temp.data.url = data;
+        // return the vega spec
+        return temp;
+  };
+
+  // vegaEmbed documentation available at https://github.com/vega/vega-embed
+
+</script>
+
+
+
+</body>
+</html>

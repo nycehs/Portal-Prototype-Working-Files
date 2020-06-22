@@ -13,17 +13,29 @@
 <body>
     <p>Demo Charts</p>
 <div style="width:95%; height:25vmin;" id="summary_obesityP"></div>
+<div style="width:95%; height:35vmin;" id="trend_obesityP"></div>
 <div style="width:95%; height:25vmin;" id="summary_bikeLanP"></div>
+<div style="width:95%; height:35vmin;" id="trend_bikeLanP"></div>
 <div style="width:95%; height:25vmin;" id="summary_nabSafeP"></div>
+<div style="width:95%; height:35vmin;" id="trend_nabSafeP"></div>
 <div style="width:95%; height:25vmin;" id="summary_parkDisP"></div>
+<div style="width:95%; height:35vmin;" id="trend_parkDisP"></div>
 <div style="width:95%; height:25vmin;" id="summary_poveACSP"></div>
+<div style="width:95%; height:35vmin;" id="trend_poveACSP"></div>
 <div style="width:95%; height:25vmin;" id="summary_preMorAA"></div>
+<div style="width:95%; height:35vmin;" id="trend_preMorAA"></div>
 <div style="width:95%; height:25vmin;" id="summary_ratRepoP"></div>
+<div style="width:95%; height:35vmin;" id="trend_ratRepoP"></div>
 <div style="width:95%; height:25vmin;" id="summary_recBikeP"></div>
+<div style="width:95%; height:35vmin;" id="trend_recBikeP"></div>
 <div style="width:95%; height:25vmin;" id="summary_recExerP"></div>
+<div style="width:95%; height:35vmin;" id="trend_recExerP"></div>
 <div style="width:95%; height:25vmin;" id="summary_sidwalkP"></div>
+<div style="width:95%; height:35vmin;" id="trend_sidwalkP"></div>
 <div style="width:95%; height:25vmin;" id="summary_subDistP"></div>
+<div style="width:95%; height:35vmin;" id="trend_subDistP"></div>
 <div style="width:95%; height:25vmin;" id="summary_treeCovP"></div>
+<div style="width:95%; height:35vmin;" id="trend_treeCovP"></div>
 
 
 <script type="text/javascript">
@@ -58,6 +70,61 @@
     }
   }
   ; //this is the template vega-lite json (a copy is in the visualizations/json folder as summary.vl.json)
+  var trendSpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": "container",
+    "height": "container",
+    "autosize": "fit",
+    "data": {"url": "visualizations/csv/poveACSP_trend.csv"},
+    "layer":[{
+        "mark": {"type": "line", "point": false, "tooltip": true},
+        "encoding": {
+          "x": {
+            "field": "Time",
+            "type": "ordinal",
+            "axis": {"title": null,"labelAngle":45}
+          },
+          "y": {
+            "field": "Data Value",
+            "type": "quantitative",
+            "axis": {"title": null}
+          },
+          "detail": {
+              "field": "Neighborhood",
+              "type":"nominal"
+          },
+          "color": {
+            "value": "lightgrey"
+        }
+        }
+    },{
+        "mark": {"type": "line", "point": true, "tooltip": true},
+        "encoding": {
+          "x": {
+            "field": "Time",
+            "type": "ordinal",
+            "axis": {"title": null,"labelAngle":45}
+          },
+          "y": {
+            "field": "Data Value",
+            "type": "quantitative",
+            "axis": {"title": null}
+          },
+          "detail": {
+              "field": "Neighborhood",
+              "type":"nominal"
+          },
+          "color": {
+            "condition": {
+                "test": "datum.Neighborhood=='Canarsie - Flatlands'",
+                "value": "orange"
+            },
+            "value": null
+        }
+        }
+        }]
+  }
+  ; //this is the template vega-lite json (a copy is in the visualizations/json folder as trend.vl.json)
   
   const indicatorDataPath = "visualizations/csv/"; //change this to alter the path to the data file
 
@@ -73,7 +140,21 @@
   vegaEmbed("#summary_sidwalkP", buildSummarySpec(NeighborhoodName,summarySpec,"sidwalkP")).then().catch(console.error);
   vegaEmbed("#summary_subDistP", buildSummarySpec(NeighborhoodName,summarySpec,"subDistP")).then().catch(console.error);
   vegaEmbed("#summary_treeCovP", buildSummarySpec(NeighborhoodName,summarySpec,"treeCovP")).then().catch(console.error);
+  vegaEmbed("#trend_bikeLanP", buildTrendSpec(NeighborhoodName,trendSpec,"bikeLanP")).then().catch(console.error);
+  vegaEmbed("#trend_nabSafeP", buildTrendSpec(NeighborhoodName,trendSpec,"nabSafeP")).then().catch(console.error);
+  vegaEmbed("#trend_obesityP", buildTrendSpec(NeighborhoodName,trendSpec,"obesityP")).then().catch(console.error);
+  vegaEmbed("#trend_parkDisP", buildTrendSpec(NeighborhoodName,trendSpec,"parkDisP")).then().catch(console.error);
+  vegaEmbed("#trend_poveACSP", buildTrendSpec(NeighborhoodName,trendSpec,"poveACSP")).then().catch(console.error);
+  vegaEmbed("#trend_preMorAA", buildTrendSpec(NeighborhoodName,trendSpec,"preMorAA")).then().catch(console.error);
+  vegaEmbed("#trend_ratRepoP", buildTrendSpec(NeighborhoodName,trendSpec,"ratRepoP")).then().catch(console.error);
+  vegaEmbed("#trend_recBikeP", buildTrendSpec(NeighborhoodName,trendSpec,"recBikeP")).then().catch(console.error);
+  vegaEmbed("#trend_recExerP", buildTrendSpec(NeighborhoodName,trendSpec,"recExerP")).then().catch(console.error);
+  vegaEmbed("#trend_sidwalkP", buildTrendSpec(NeighborhoodName,trendSpec,"sidwalkP")).then().catch(console.error);
+  vegaEmbed("#trend_subDistP", buildTrendSpec(NeighborhoodName,trendSpec,"subDistP")).then().catch(console.error);
+  vegaEmbed("#trend_treeCovP", buildTrendSpec(NeighborhoodName,trendSpec,"treeCovP")).then().catch(console.error);
   
+
+  //vegaEmbed("#trend_poveACSP", buildTrendSpec(NeighborhoodName,trendSpec,"poveACSP")).then().catch(console.error);
   
   // this function creates a summary spec from a template that is customized with the data and neighborhood
   function buildSummarySpec(neighborhood,spec,dataSlug) {
@@ -83,6 +164,18 @@
         temp.encoding.color.condition.test = "datum.Neighborhood=='"+neighborhood+"'";
         // graft the data file path on to the specification for the indicator
         temp.data.url = indicatorDataPath+dataSlug+".csv"; //note the function needs access to the indicatorDataPath global var
+        // return the vega-lite spec
+        return temp;
+  };
+
+    // this function creates a trend spec from a template that is customized with the data and neighborhood
+    function buildTrendSpec(neighborhood,spec,dataSlug) {
+        // make a copy of the vega-lite spec
+        var temp = JSON.parse(JSON.stringify(spec));
+        // graft the neighborhood on to the specification for the color-coding
+        temp.layer[1].encoding.color.condition.test = "datum.Neighborhood=='"+neighborhood+"'";
+        // graft the data file path on to the specification for the indicator
+        temp.data.url = indicatorDataPath+dataSlug+"_trend.csv"; //note the function needs access to the indicatorDataPath global var
         // return the vega-lite spec
         return temp;
   };

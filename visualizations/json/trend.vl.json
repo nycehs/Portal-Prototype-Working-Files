@@ -3,26 +3,53 @@
     "width": "container",
     "height": "container",
     "autosize": "fit",
-    "data": {"url": "visualizations/csv/obesityP_trend.csv"},
-    "mark": {"type": "line", "point": true, "tooltip": true},
-    "encoding": {
-      "x": {
-        "field": "time_description",
-        "type": "ordinal",
-        "axis": {"title": null}
-      },
-      "y": {
-        "field": "Data Value",
-        "type": "quantitative",
-        "axis": {"title": null}
-      },
-      "color": {
-        "condition": {
-            "test": "datum.Neighborhood=='Canarsie - Flatlands'",
-            "value": "orange"
-        },
-        "value": "lightgrey"
-    }
-    }
+    "data": {"url": "visualizations/csv/poveACSP_trend.csv"},
+    "layer":[{
+        "mark": {"type": "line", "point": false, "tooltip": true},
+        "encoding": {
+          "x": {
+            "field": "Time",
+            "type": "ordinal",
+            "axis": {"title": null,"labelAngle":45}
+          },
+          "y": {
+            "field": "Data Value",
+            "type": "quantitative",
+            "axis": {"title": null}
+          },
+          "detail": {
+              "field": "Neighborhood",
+              "type":"nominal"
+          },
+          "color": {
+            "value": "lightgrey"
+        }
+        }
+    },{
+        "mark": {"type": "line", "point": true, "tooltip": true},
+        "encoding": {
+          "x": {
+            "field": "Time",
+            "type": "ordinal",
+            "axis": {"title": null,"labelAngle":45}
+          },
+          "y": {
+            "field": "Data Value",
+            "type": "quantitative",
+            "axis": {"title": null}
+          },
+          "detail": {
+              "field": "Neighborhood",
+              "type":"nominal"
+          },
+          "color": {
+            "condition": {
+                "test": "datum.Neighborhood=='Canarsie - Flatlands'",
+                "value": "orange"
+            },
+            "value": null
+        }
+        }
+        }]
   }
   

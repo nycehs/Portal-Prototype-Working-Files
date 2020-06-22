@@ -126,32 +126,33 @@
   }
   ; //this is the template vega-lite json (a copy is in the visualizations/json folder as trend.vl.json)
   
+  const opt = {"renderer": "svg"};
   const indicatorDataPath = "visualizations/csv/"; //change this to alter the path to the data file
 
-  vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,"bikeLanP")).then().catch(console.error);
-  vegaEmbed("#summary_nabSafeP", buildSummarySpec(NeighborhoodName,summarySpec,"nabSafeP")).then().catch(console.error);
-  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP")).then().catch(console.error);
-  vegaEmbed("#summary_parkDisP", buildSummarySpec(NeighborhoodName,summarySpec,"parkDisP")).then().catch(console.error);
-  vegaEmbed("#summary_poveACSP", buildSummarySpec(NeighborhoodName,summarySpec,"poveACSP")).then().catch(console.error);
-  vegaEmbed("#summary_preMorAA", buildSummarySpec(NeighborhoodName,summarySpec,"preMorAA")).then().catch(console.error);
-  vegaEmbed("#summary_ratRepoP", buildSummarySpec(NeighborhoodName,summarySpec,"ratRepoP")).then().catch(console.error);
-  vegaEmbed("#summary_recBikeP", buildSummarySpec(NeighborhoodName,summarySpec,"recBikeP")).then().catch(console.error);
-  vegaEmbed("#summary_recExerP", buildSummarySpec(NeighborhoodName,summarySpec,"recExerP")).then().catch(console.error);
-  vegaEmbed("#summary_sidwalkP", buildSummarySpec(NeighborhoodName,summarySpec,"sidwalkP")).then().catch(console.error);
-  vegaEmbed("#summary_subDistP", buildSummarySpec(NeighborhoodName,summarySpec,"subDistP")).then().catch(console.error);
-  vegaEmbed("#summary_treeCovP", buildSummarySpec(NeighborhoodName,summarySpec,"treeCovP")).then().catch(console.error);
-  vegaEmbed("#trend_bikeLanP", buildTrendSpec(NeighborhoodName,trendSpec,"bikeLanP")).then().catch(console.error);
-  vegaEmbed("#trend_nabSafeP", buildTrendSpec(NeighborhoodName,trendSpec,"nabSafeP")).then().catch(console.error);
-  vegaEmbed("#trend_obesityP", buildTrendSpec(NeighborhoodName,trendSpec,"obesityP")).then().catch(console.error);
-  vegaEmbed("#trend_parkDisP", buildTrendSpec(NeighborhoodName,trendSpec,"parkDisP")).then().catch(console.error);
-  vegaEmbed("#trend_poveACSP", buildTrendSpec(NeighborhoodName,trendSpec,"poveACSP")).then().catch(console.error);
-  vegaEmbed("#trend_preMorAA", buildTrendSpec(NeighborhoodName,trendSpec,"preMorAA")).then().catch(console.error);
-  vegaEmbed("#trend_ratRepoP", buildTrendSpec(NeighborhoodName,trendSpec,"ratRepoP")).then().catch(console.error);
-  vegaEmbed("#trend_recBikeP", buildTrendSpec(NeighborhoodName,trendSpec,"recBikeP")).then().catch(console.error);
-  vegaEmbed("#trend_recExerP", buildTrendSpec(NeighborhoodName,trendSpec,"recExerP")).then().catch(console.error);
-  vegaEmbed("#trend_sidwalkP", buildTrendSpec(NeighborhoodName,trendSpec,"sidwalkP")).then().catch(console.error);
-  vegaEmbed("#trend_subDistP", buildTrendSpec(NeighborhoodName,trendSpec,"subDistP")).then().catch(console.error);
-  vegaEmbed("#trend_treeCovP", buildTrendSpec(NeighborhoodName,trendSpec,"treeCovP")).then().catch(console.error);
+  vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,"bikeLanP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_nabSafeP", buildSummarySpec(NeighborhoodName,summarySpec,"nabSafeP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_parkDisP", buildSummarySpec(NeighborhoodName,summarySpec,"parkDisP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_poveACSP", buildSummarySpec(NeighborhoodName,summarySpec,"poveACSP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_preMorAA", buildSummarySpec(NeighborhoodName,summarySpec,"preMorAA"),opt).then().catch(console.error);
+  vegaEmbed("#summary_ratRepoP", buildSummarySpec(NeighborhoodName,summarySpec,"ratRepoP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_recBikeP", buildSummarySpec(NeighborhoodName,summarySpec,"recBikeP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_recExerP", buildSummarySpec(NeighborhoodName,summarySpec,"recExerP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_sidwalkP", buildSummarySpec(NeighborhoodName,summarySpec,"sidwalkP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_subDistP", buildSummarySpec(NeighborhoodName,summarySpec,"subDistP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_treeCovP", buildSummarySpec(NeighborhoodName,summarySpec,"treeCovP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_bikeLanP", buildTrendSpec(NeighborhoodName,trendSpec,"bikeLanP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_nabSafeP", buildTrendSpec(NeighborhoodName,trendSpec,"nabSafeP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_obesityP", buildTrendSpec(NeighborhoodName,trendSpec,"obesityP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_parkDisP", buildTrendSpec(NeighborhoodName,trendSpec,"parkDisP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_poveACSP", buildTrendSpec(NeighborhoodName,trendSpec,"poveACSP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_preMorAA", buildTrendSpec(NeighborhoodName,trendSpec,"preMorAA"),opt).then().catch(console.error);
+  vegaEmbed("#trend_ratRepoP", buildTrendSpec(NeighborhoodName,trendSpec,"ratRepoP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_recBikeP", buildTrendSpec(NeighborhoodName,trendSpec,"recBikeP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_recExerP", buildTrendSpec(NeighborhoodName,trendSpec,"recExerP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_sidwalkP", buildTrendSpec(NeighborhoodName,trendSpec,"sidwalkP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_subDistP", buildTrendSpec(NeighborhoodName,trendSpec,"subDistP"),opt).then().catch(console.error);
+  vegaEmbed("#trend_treeCovP", buildTrendSpec(NeighborhoodName,trendSpec,"treeCovP"),opt).then().catch(console.error);
   
 
   //vegaEmbed("#trend_poveACSP", buildTrendSpec(NeighborhoodName,trendSpec,"poveACSP")).then().catch(console.error);

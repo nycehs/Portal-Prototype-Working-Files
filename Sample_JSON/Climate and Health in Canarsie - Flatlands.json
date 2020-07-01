@@ -1,0 +1,595 @@
+{
+  "report": {
+    "report_title": "Climate and Health",
+    "report_description": "Extreme heat, coastal storms, flooding and episodes of elevated ozone are climate-related hazards that may increase with climate change and have important public health impacts in New York City. Extreme weather can cause power outages, which also threaten public health. This report provides neighborhood indicators of climate-related hazards, vulnerability and health impacts.",
+    "geo_entity_name": "Canarsie - Flatlands",
+    "zip_code": " 11236,11234,11239",
+    "report_text": "Categories based on whether the most recent neighborhood value falls among the best, middle or worse performing third of all NYC neighborhoods. NYC is divided into 42 neighborhoods based on the United Hospital Fund (UHF) approach of aggregating zip code areas to approximate Community Planning Districts.",
+    "report_unreliable_text": "**Estimate is suppressed due to insufficient data.",
+    "report_footer": "More data and information on Asthma and the Environment can be found on the NYC Tracking Portal (www.nyc.gov/health/tracking) and on EpiQuery(www.nyc.gov/health/epiquery). The tracking program is part of the National Environmental Public Health Tracking Network (www.cdc.gov/EPHTracking).",
+    "report_data_source": [
+      "1. New York City Community Health Survey (CHS)",
+      " 2. New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data",
+      " 3. United States Census",
+      " 4. New York City Housing and Vacancy Survey (HVS)",
+      " 5. New York City Community Air Survey",
+      " 6. American Community Survey",
+      " 7. New York City Office of Emergency Management",
+      " 8. University of Vermont remote sensing LiDAR data, assessed using methodology described in: MacFaden, S.W., O’Neil-Dunne, J.P.M., Royer, A.R., Lu, J.W.T., & Rundle, A.G. (2012). High-resolution tree canopy mapping for New York City using LiDAR and object-based image analysis. Journal of Applied Remote Sensing, 6(1).",
+      " 9. U. S. Geological Survey"
+    ],
+    "report_content": [
+      {
+        "report_topic": "Climate Hazards",
+        "report_topic_description": "",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "Area located within hurricane evacuation zones 1-6 (percent),  2013",
+            "indicator_short_name": "Hurricane risk",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "90.8",
+            "unmodified_data_value_geo_entity": 90.8,
+            "data_value_borough": "55.3",
+            "unmodified_data_value_borough": 55.3,
+            "data_value_nyc": 46.9,
+            "data_value_rank": 3,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 90.8
+              }
+            ],
+            "source_description": "New York City Office of Emergency Management"
+          },
+          {
+            "indicator_name": "Ozone (O3)(Mean ppb) Summer 2018",
+            "indicator_short_name": "Ozone",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "33.0",
+            "unmodified_data_value_geo_entity": 33.0,
+            "data_value_borough": "30.9",
+            "unmodified_data_value_borough": 30.9,
+            "data_value_nyc": 30.6,
+            "data_value_rank": 3,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2-Year Summer Average 2009-2010",
+                "start_period": "2009-06-01",
+                "data_value": 29.0
+              }
+            ],
+            "source_description": "New York City Community Air Survey"
+          },
+          {
+            "indicator_name": "Spatial average of surface temperature (Degrees Fahrenheit), 11:22 AM, July 17, 2018",
+            "indicator_short_name": "Summer heat",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "95.9",
+            "unmodified_data_value_geo_entity": 95.9,
+            "data_value_borough": "98.6",
+            "unmodified_data_value_borough": 98.6,
+            "data_value_nyc": 98.6,
+            "data_value_rank": 1,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2018",
+                "start_period": "2018-01-01",
+                "data_value": 95.87901563
+              }
+            ],
+            "source_description": "U. S. Geological Survey"
+          }
+        ]
+      },
+      {
+        "report_topic": "Vulnerability - Built Environment",
+        "report_topic_description": "",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "Adults 65+ Reporting Air Conditioning in the Home (Percent) 2013",
+            "indicator_short_name": "Air conditioning",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "Suppressed",
+            "unmodified_data_value_geo_entity": 96.5,
+            "data_value_borough": "86.7",
+            "unmodified_data_value_borough": 86.7,
+            "data_value_nyc": 87.7,
+            "data_value_rank": 1,
+            "unreliability_flag": 2,
+            "trend_over_time": [
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 96.5
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          },
+          {
+            "indicator_name": "Area with vegetative cover including trees and grass (percent), 2017",
+            "indicator_short_name": "Green cover",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "41.0",
+            "unmodified_data_value_geo_entity": 41.0,
+            "data_value_borough": "28",
+            "unmodified_data_value_borough": 28.0,
+            "data_value_nyc": 38.0,
+            "data_value_rank": 1,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 40.3
+              },
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 41.0
+              }
+            ],
+            "source_description": "University of Vermont remote sensing LiDAR data, assessed using methodology described in: MacFaden, S.W., O’Neil-Dunne, J.P.M., Royer, A.R., Lu, J.W.T., &amp; Rundle, A.G. (2012). High-resolution tree canopy mapping for New York City using LiDAR and object-based image analysis. Journal of Applied Remote Sensing, 6(1)."
+          },
+          {
+            "indicator_name": "Homes near structures rated good or excellent (percent),  2017",
+            "indicator_short_name": "Building safety",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "77.7",
+            "unmodified_data_value_geo_entity": 77.7,
+            "data_value_borough": "80.4",
+            "unmodified_data_value_borough": 80.4,
+            "data_value_nyc": 80.7,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2002",
+                "start_period": "2002-01-01",
+                "data_value": 78.1
+              },
+              {
+                "year": "2005",
+                "start_period": "2005-01-01",
+                "data_value": 81.0
+              },
+              {
+                "year": "2008",
+                "start_period": "2008-01-01",
+                "data_value": 87.1
+              },
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 77.7
+              }
+            ],
+            "source_description": "New York City Housing and Vacancy Survey (HVS)"
+          }
+        ]
+      },
+      {
+        "report_topic": "Vulnerability - Population Characteristics",
+        "report_topic_description": "",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "People living below federal poverty level (percent),  2008-2012",
+            "indicator_short_name": "People in poverty",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "12.9",
+            "unmodified_data_value_geo_entity": 12.9,
+            "data_value_borough": "22.7",
+            "unmodified_data_value_borough": 22.7,
+            "data_value_nyc": 19.9,
+            "data_value_rank": 1,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2008-2012",
+                "start_period": "2008-01-01",
+                "data_value": 12.9
+              }
+            ],
+            "source_description": "American Community Survey"
+          },
+          {
+            "indicator_name": "Adults aged 65 years and older who live alone (percent), 2013-2017",
+            "indicator_short_name": "Seniors living alone",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "22.7",
+            "unmodified_data_value_geo_entity": 22.7,
+            "data_value_borough": "29.6",
+            "unmodified_data_value_borough": 29.6,
+            "data_value_nyc": 31.2,
+            "data_value_rank": 1,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2008-2012",
+                "start_period": "2008-01-01",
+                "data_value": 24.39
+              },
+              {
+                "year": "2009-2013",
+                "start_period": "2009-01-01",
+                "data_value": 24.39
+              },
+              {
+                "year": "2010-2014",
+                "start_period": "2010-01-01",
+                "data_value": 23.58
+              },
+              {
+                "year": "2011-2015",
+                "start_period": "2011-01-01",
+                "data_value": 23.77
+              },
+              {
+                "year": "2012-2016",
+                "start_period": "2012-01-01",
+                "data_value": 23.83
+              },
+              {
+                "year": "2013-2017",
+                "start_period": "2013-01-01",
+                "data_value": 22.72
+              }
+            ],
+            "source_description": "American Community Survey"
+          },
+          {
+            "indicator_name": "Adults aged 18 and older with independent living difficulty (percent), 2013-17",
+            "indicator_short_name": "Independent living difficulty",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "6.0",
+            "unmodified_data_value_geo_entity": 6.0,
+            "data_value_borough": "5.8",
+            "unmodified_data_value_borough": 5.8,
+            "data_value_nyc": 5.5,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2008-12",
+                "start_period": "2008-01-01",
+                "data_value": 5.54
+              },
+              {
+                "year": "2008-2012",
+                "start_period": "2008-01-01",
+                "data_value": 5.5
+              },
+              {
+                "year": "2009-13",
+                "start_period": "2009-01-01",
+                "data_value": 5.66
+              },
+              {
+                "year": "2010-14",
+                "start_period": "2010-01-01",
+                "data_value": 5.55
+              },
+              {
+                "year": "2011-15",
+                "start_period": "2011-01-01",
+                "data_value": 5.97
+              },
+              {
+                "year": "2012-16",
+                "start_period": "2012-01-01",
+                "data_value": 6.17
+              },
+              {
+                "year": "2013-17",
+                "start_period": "2013-01-01",
+                "data_value": 6.0
+              }
+            ],
+            "source_description": "American Community Survey"
+          },
+          {
+            "indicator_name": "Adults aged 18 years and older who are obese (percent), 2017",
+            "indicator_short_name": "Adult obesity",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "23.5",
+            "unmodified_data_value_geo_entity": 23.5,
+            "data_value_borough": "26.4",
+            "unmodified_data_value_borough": 26.4,
+            "data_value_nyc": 25.1,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2003",
+                "start_period": "2003-01-01",
+                "data_value": 23.5
+              },
+              {
+                "year": "2004",
+                "start_period": "2004-01-01",
+                "data_value": 23.5
+              },
+              {
+                "year": "2005",
+                "start_period": "2005-01-01",
+                "data_value": 19.7
+              },
+              {
+                "year": "2006",
+                "start_period": "2006-01-01",
+                "data_value": 30.3
+              },
+              {
+                "year": "2007",
+                "start_period": "2007-01-01",
+                "data_value": 27.6
+              },
+              {
+                "year": "2008",
+                "start_period": "2008-01-01",
+                "data_value": 24.7
+              },
+              {
+                "year": "2009",
+                "start_period": "2009-01-01",
+                "data_value": 31.8
+              },
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 26.6
+              },
+              {
+                "year": "2011",
+                "start_period": "2011-01-01",
+                "data_value": 26.1
+              },
+              {
+                "year": "2012",
+                "start_period": "2012-01-01",
+                "data_value": 31.7
+              },
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 42.0
+              },
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 30.5
+              },
+              {
+                "year": "2015",
+                "start_period": "2015-01-01",
+                "data_value": 28.9
+              },
+              {
+                "year": "2016",
+                "start_period": "2016-01-01",
+                "data_value": 31.5
+              },
+              {
+                "year": "2017",
+                "start_period": "2017-01-01",
+                "data_value": 23.5
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          },
+          {
+            "indicator_name": "Adults aged 18 years and older reporting serious psychological distress (percent),  2012",
+            "indicator_short_name": "Mental health",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "4.8**",
+            "unmodified_data_value_geo_entity": 4.8,
+            "data_value_borough": "6",
+            "unmodified_data_value_borough": 6.0,
+            "data_value_nyc": 5.5,
+            "data_value_rank": 2,
+            "unreliability_flag": 1,
+            "trend_over_time": [
+              {
+                "year": "2012",
+                "start_period": "2012-01-01",
+                "data_value": 4.8
+              }
+            ],
+            "source_description": "New York City Community Health Survey (CHS)"
+          }
+        ]
+      },
+      {
+        "report_topic": "Health Outcomes",
+        "report_topic_description": "",
+        "geo_entity_name": "Canarsie - Flatlands",
+        "borough_name": "Brooklyn",
+        "city": "NYC",
+        "compared_with": "Compared with other NYC neighborhoods*",
+        "report_topic_data": [
+          {
+            "indicator_name": "Heat stress emergency department visits (rate per 100,000 residents), 2014",
+            "indicator_short_name": "Heat stress ED visits",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "7.1",
+            "unmodified_data_value_geo_entity": 7.1,
+            "data_value_borough": "4",
+            "unmodified_data_value_borough": 4.0,
+            "data_value_nyc": 3.7,
+            "data_value_rank": 3,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2005",
+                "start_period": "2005-01-01",
+                "data_value": 7.7
+              },
+              {
+                "year": "2006",
+                "start_period": "2006-01-01",
+                "data_value": 11.4
+              },
+              {
+                "year": "2007",
+                "start_period": "2007-01-01",
+                "data_value": 5.2
+              },
+              {
+                "year": "2008",
+                "start_period": "2008-01-01",
+                "data_value": 8.2
+              },
+              {
+                "year": "2009",
+                "start_period": "2009-01-01",
+                "data_value": 4.6
+              },
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 10.1
+              },
+              {
+                "year": "2011",
+                "start_period": "2011-01-01",
+                "data_value": 10.2
+              },
+              {
+                "year": "2012",
+                "start_period": "2012-01-01",
+                "data_value": 15.7
+              },
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 13.1
+              },
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 7.1
+              }
+            ],
+            "source_description": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data,United States Census"
+          },
+          {
+            "indicator_name": "Asthma emergency department visits among children ages 5 to 17 years (per 10,000) 2016",
+            "indicator_short_name": "Child asthma ED visits",
+            "indicator_data_name": "poveACSP",
+            "indicator_description": "The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.",
+            "indicator_neighborhood_rank": "4",
+            "data_value_geo_entity": "171.8",
+            "unmodified_data_value_geo_entity": 171.8,
+            "data_value_borough": "186.8",
+            "unmodified_data_value_borough": 186.8,
+            "data_value_nyc": 215.3,
+            "data_value_rank": 2,
+            "unreliability_flag": 0,
+            "trend_over_time": [
+              {
+                "year": "2005",
+                "start_period": "2005-01-01",
+                "data_value": 116.1
+              },
+              {
+                "year": "2006",
+                "start_period": "2006-01-01",
+                "data_value": 126.7
+              },
+              {
+                "year": "2007",
+                "start_period": "2007-01-01",
+                "data_value": 121.2
+              },
+              {
+                "year": "2008",
+                "start_period": "2008-01-01",
+                "data_value": 125.4
+              },
+              {
+                "year": "2009",
+                "start_period": "2009-01-01",
+                "data_value": 147.4
+              },
+              {
+                "year": "2010",
+                "start_period": "2010-01-01",
+                "data_value": 148.4
+              },
+              {
+                "year": "2011",
+                "start_period": "2011-01-01",
+                "data_value": 153.7
+              },
+              {
+                "year": "2012",
+                "start_period": "2012-01-01",
+                "data_value": 175.1
+              },
+              {
+                "year": "2013",
+                "start_period": "2013-01-01",
+                "data_value": 165.7
+              },
+              {
+                "year": "2014",
+                "start_period": "2014-01-01",
+                "data_value": 157.8
+              },
+              {
+                "year": "2015",
+                "start_period": "2015-01-01",
+                "data_value": 166.9
+              },
+              {
+                "year": "2016",
+                "start_period": "2016-01-01",
+                "data_value": 171.8
+              }
+            ],
+            "source_description": "New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -126,7 +126,7 @@
   }
   ; //this is the template vega-lite json (a copy is in the visualizations/json folder as trend.vl.json)
   
-  const opt = {"renderer": "svg"};
+  const opt = {"renderer": "svg","theme": "latimes"};  //these are vega-embed options for rendering, etc.
   const indicatorDataPath = "visualizations/csv/"; //change this to alter the path to the data file
 
   vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,"bikeLanP"),opt).then().catch(console.error);

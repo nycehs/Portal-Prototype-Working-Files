@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "autosize": "fit",
+  "data": {
+    "url": "visualizations/json/UHF42.topo.json",
+    "format": {"type": "topojson", "feature": "collection"}
+  },
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {"url": "visualizations/csv/bikeLanP.csv"},
+        "key": "geo_join_id",
+        "fields": ["Data Value","Neighborhood","message"]
+      }
+    }
+  ],
+  "layer":[
+    {
+  "mark": {"type": "geoshape", "tooltip": true},
+  "encoding": {
+    "color": {"field": "Data Value", "type": "quantitative",
+      "scale": {"scheme": "purples"},
+      "legend": {"orient": "top-left", "title": null}
+      },
+    "stroke": {"value": "white" },
+    "strokeWidth":{"value":1},
+    "tooltip":[
+      {"field":"Neighborhood","type":"nominal"},
+      {"field":"Data Value","type":"quantitative"}
+    ]
+  }},
+  {  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color":{"value":null},
+    "stroke": {
+      "condition": {
+        "test": "datum.properties.GEONAME=='Bedford Stuyvesant - Crown Heights'",
+        "value": "orange"
+      }
+    },
+    "strokeWidth": {"value": 3}
+  }}]
+}

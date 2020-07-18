@@ -12,7 +12,8 @@
 </head>
 <body>
     <p>Demo Charts</p>
-<div style="width:95%; height:25vmin;" id="summary_obesityP"></div>
+<div style="width:45%; height:25vmin;" id="summary_obesityP"></div>
+<div style="width:75%; height:25vmin;" id="map_obesityP"></div>
 <div style="width:95%; height:35vmin;" id="trend_obesityP"></div>
 <div style="width:95%; height:25vmin;" id="summary_bikeLanP"></div>
 <div style="width:95%; height:35vmin;" id="trend_bikeLanP"></div>
@@ -41,6 +42,53 @@
 <script type="text/javascript">
 
   var NeighborhoodName = "Canarsie - Flatlands"; //change this to alter the highlighted neighborhood 
+  var mapSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": "container",
+  "autosize": "fit",
+  "data": {
+    "url": "visualizations/json/UHF42.topo.json",
+    "format": {"type": "topojson", "feature": "collection"}
+  },
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {"url": "visualizations/csv/bikeLanP.csv"},
+        "key": "geo_join_id",
+        "fields": ["Data Value","Neighborhood","message"]
+      }
+    }
+  ],
+  "layer":[
+    {
+  "mark": {"type": "geoshape", "tooltip": true},
+  "encoding": {
+    "color": {"field": "Data Value", "type": "quantitative",
+      "scale": {"scheme": "purples"},
+      "legend": {"orient": "top-left", "title": null}
+      },
+    "stroke": {"value": "white" },
+    "strokeWidth":{"value":1},
+    "tooltip":[
+      {"field":"Neighborhood","type":"nominal"},
+      {"field":"Data Value","type":"quantitative"}
+    ]
+  }},
+  {  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color":{"value":null},
+    "stroke": {
+      "condition": {
+        "test": "datum.properties.GEONAME=='Bedford Stuyvesant - Crown Heights'",
+        "value": "orange"
+      }
+    },
+    "strokeWidth": {"value": 3}
+  }}]
+  }
+  ; //this is the template vega-lite json (a copy is in the visualizations/json folder as map.vl.json)
   var summarySpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "width": "container",
@@ -129,9 +177,11 @@
   const opt = {"renderer": "svg","theme": "latimes"};  //these are vega-embed options for rendering, etc.
   const indicatorDataPath = "visualizations/csv/"; //change this to alter the path to the data file
 
+  
+  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP"),opt).then().catch(console.error);
+  vegaEmbed("#map_obesityP", buildMapSpec(NeighborhoodName,mapSpec,"obesityP"),opt).then().catch(console.error);
   vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,"bikeLanP"),opt).then().catch(console.error);
   vegaEmbed("#summary_nabSafeP", buildSummarySpec(NeighborhoodName,summarySpec,"nabSafeP"),opt).then().catch(console.error);
-  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP"),opt).then().catch(console.error);
   vegaEmbed("#summary_parkDisP", buildSummarySpec(NeighborhoodName,summarySpec,"parkDisP"),opt).then().catch(console.error);
   vegaEmbed("#summary_poveACSP", buildSummarySpec(NeighborhoodName,summarySpec,"poveACSP"),opt).then().catch(console.error);
   vegaEmbed("#summary_preMorAA", buildSummarySpec(NeighborhoodName,summarySpec,"preMorAA"),opt).then().catch(console.error);
@@ -157,6 +207,18 @@
 
   //vegaEmbed("#trend_poveACSP", buildTrendSpec(NeighborhoodName,trendSpec,"poveACSP")).then().catch(console.error);
   
+   // this function creates a summary spec from a template that is customized with the data and neighborhood
+   function buildMapSpec(neighborhood,spec,dataSlug) {
+        // make a copy of the vega-lite spec
+        var temp = JSON.parse(JSON.stringify(spec));
+        // graft the neighborhood on to the specification for the color-coding
+        temp.layer[1].encoding.stroke.condition.test = "datum.Neighborhood=='"+neighborhood+"'";
+        // graft the data file path on to the specification for the indicator
+        temp.transform[0].from.data.url = indicatorDataPath+dataSlug+".csv"; //note the function needs access to the indicatorDataPath global var
+        // return the vega-lite spec
+        return temp;
+  };
+
   // this function creates a summary spec from a template that is customized with the data and neighborhood
   function buildSummarySpec(neighborhood,spec,dataSlug) {
         // make a copy of the vega-lite spec

@@ -1,4 +1,4 @@
-﻿data_field_name,End Date,Time Type,Time,Geo Join ID,geo_type_name,Neighborhood,Data Value,Message
+﻿data_field_name,End Date,Time Type,Time,Geo Join ID,geo_type_name,Neighborhood,Data_Value,Message
 bikeEDAA,12/31/2005,year,2005,410,UHF42,Rockaways,26.5,
 bikeEDAA,12/31/2005,year,2005,404,UHF42,Bayside - Little Neck,28,
 bikeEDAA,12/31/2005,year,2005,406,UHF42,Fresh Meadows,34.8,

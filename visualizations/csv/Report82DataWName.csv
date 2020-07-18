@@ -1,4 +1,4 @@
-﻿report_id,data_field_name,indicator_desc,End Date,Time Type,Time,Geo Join ID,geo_type_name,Neighborhood,Data Value,Message
+﻿report_id,data_field_name,indicator_desc,End Date,Time Type,Time,Geo Join ID,geo_type_name,Neighborhood,Data_Value,Message
 82,bikeEDAA,"Bicycle injury emergency department visits (age-adjusted rate per 100,000 residents),",12/31/2005,year,2005,410,UHF42,Rockaways,26.5,
 82,bikeEDAA,"Bicycle injury emergency department visits (age-adjusted rate per 100,000 residents),",12/31/2005,year,2005,404,UHF42,Bayside - Little Neck,28,
 82,bikeEDAA,"Bicycle injury emergency department visits (age-adjusted rate per 100,000 residents),",12/31/2005,year,2005,406,UHF42,Fresh Meadows,34.8,

@@ -178,8 +178,26 @@
   const indicatorDataPath = "visualizations/csv/"; //change this to alter the path to the data file
 
   
-  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP"),opt).then().catch(console.error);
-  vegaEmbed("#map_obesityP", buildMapSpec(NeighborhoodName,mapSpec,"obesityP"),opt).then().catch(console.error);
+  
+  //vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP"),opt).then().catch(console.error);
+  vegaEmbed("#summary_obesityP", buildSummarySpec(NeighborhoodName,summarySpec,"obesityP"),opt).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    result.view.addEventListener('click', function(event, item) {
+  //console.log('CLICK', event, item.tooltip.Neighborhood); 
+  console.log(item.tooltip.Neighborhood); 
+});
+  }).catch(console.error);
+  
+  //vegaEmbed("#map_obesityP", buildMapSpec(NeighborhoodName,mapSpec,"obesityP"),opt).then().catch(console.error);
+  vegaEmbed("#map_obesityP", buildMapSpec(NeighborhoodName,mapSpec,"obesityP"),opt).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    result.view.addEventListener('click', function(event, item) {
+  //console.log('CLICK', event, item.tooltip.Neighborhood); 
+  console.log(item.tooltip.Neighborhood); 
+});
+  }).catch(console.error);
+  
+  
   vegaEmbed("#summary_bikeLanP", buildSummarySpec(NeighborhoodName,summarySpec,"bikeLanP"),opt).then().catch(console.error);
   vegaEmbed("#summary_nabSafeP", buildSummarySpec(NeighborhoodName,summarySpec,"nabSafeP"),opt).then().catch(console.error);
   vegaEmbed("#summary_parkDisP", buildSummarySpec(NeighborhoodName,summarySpec,"parkDisP"),opt).then().catch(console.error);

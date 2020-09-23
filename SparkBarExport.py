@@ -7,52 +7,56 @@ import pandas as pd
 import altair as alt
 from altair_saver import save
 
-df = pd.read_csv("visualizations/csv/Report82Data.csv")
+## df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
+## df = pd.read_csv("visualizations/csv/Outdoor Air and Health_data.csv")
+## df = pd.read_csv("visualizations/csv/Active Design Physical Activity and Health_data.csv")
+## df = pd.read_csv("visualizations/csv/Asthma and the Environment_data.csv")
+df = pd.read_csv("visualizations/csv/Climate and Health_data.csv")
 #print(df)
 # convert End Date to date data type
-df.EndDate=pd.to_datetime(df.EndDate)
+df.end_date=pd.to_datetime(df.end_date)
 #df.Neighborhood=df['Neighborhood'].astype(string)
 #df.infer_objects().dtypes
 #print(df.dtypes)
 
 # Step two: reduce the report file to only the rows we need
 # - only neighborhood level records (geo_type_name of UHF42)
-df = df[df.geo_type_name == 'UHF42']
+df = df[df.geo_type == 'UHF42']
 #df = df[df.data_field_name == 'poveACSP']
 #print(df)
 
 # - only the most recent data End Date for each data field
 #
-df = df.sort_values('EndDate')
-df = df.drop_duplicates(subset=['data_field_name','GeoJoinID'],keep='last')
+df = df.sort_values('end_date')
+df = df.drop_duplicates(subset=['data_field_name','geo_join_id'],keep='last')
 #df = df.sort_values('data_field_name')
-df = df.sort_values('GeoJoinID')
+df = df.sort_values('geo_join_id')
 
 #print(df)
 
 # Step three: for each data_field_name in the data frame, create a graph and write to SVG file
 # - create a list of distinct data_field_name / Neighborhood s, 
-df = pd.DataFrame(df, columns = ['data_field_name','Neighborhood','Data_Value'])
+df = pd.DataFrame(df, columns = ['data_field_name','neighborhood','data_value'])
 # - then loop through the list
 for ind in df.index: 
      # do something
-     print(df['data_field_name'][ind], df['Neighborhood'][ind]) 
+     print(df['data_field_name'][ind], df['neighborhood'][ind]) 
      # - filter by data field name to create dataset
      dset = df[df.data_field_name == df['data_field_name'][ind]]
-     dset = dset.sort_values('Data_Value')
+     dset = dset.sort_values('data_value')
      print(dset)
 # - use Altair, the python connector to Vega-Lite
 # - https://altair-viz.github.io/getting_started/overview.html
      alt.Chart(dset).mark_bar().encode(
-         x=alt.X('Neighborhood', sort='y', axis=None),
-         y=alt.Y('Data_Value', axis=None),
+         x=alt.X('neighborhood', sort='y', axis=None),
+         y=alt.Y('data_value', axis=None),
          # The highlight will be set on the result of a conditional statement
          color=alt.condition(
-             alt.datum.Neighborhood == df['Neighborhood'][ind],  # If the year is 1810 this test returns True,
+             alt.datum.neighborhood == df['neighborhood'][ind],  # If the year is 1810 this test returns True,
              alt.value('orange'),     # which sets the bar orange.
              alt.value('steelblue')   # And if it's not true it sets the bar steelblue.
         )
-     ).configure(background='transparent').configure_axis(grid=False).properties(height=100,width=300).save('visualizations/images/' + df['data_field_name'][ind] +' '+ df['Neighborhood'][ind] + '.svg')
+     ).configure(background='transparent').configure_axis(grid=False).properties(height=100,width=300).save('visualizations/images/' + df['data_field_name'][ind] +' '+ df['neighborhood'][ind] + '.svg')
 # - name each SVG with the data_field_name and the Neighborhood
 # - store in the images folder for now
 #print(df)

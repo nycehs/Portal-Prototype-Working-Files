@@ -31,6 +31,8 @@ df = df.sort_values('end_date')
 df = df.drop_duplicates(subset=['data_field_name','geo_join_id'],keep='last')
 #df = df.sort_values('data_field_name')
 df = df.sort_values('geo_join_id')
+df['geo_join_id'] = df['geo_join_id'].astype(str) 
+# - converted the integer to string so that I can concatenate to an image title later
 
 #print(df)
 

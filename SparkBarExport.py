@@ -36,7 +36,7 @@ df = df.sort_values('geo_join_id')
 
 # Step three: for each data_field_name in the data frame, create a graph and write to SVG file
 # - create a list of distinct data_field_name / Neighborhood s, 
-df = pd.DataFrame(df, columns = ['data_field_name','neighborhood','data_value'])
+df = pd.DataFrame(df, columns = ['data_field_name','neighborhood','data_value','geo_join_id'])
 # - then loop through the list
 for ind in df.index: 
      # do something
@@ -52,11 +52,11 @@ for ind in df.index:
          y=alt.Y('data_value', axis=None),
          # The highlight will be set on the result of a conditional statement
          color=alt.condition(
-             alt.datum.neighborhood == df['neighborhood'][ind],  # If the year is 1810 this test returns True,
+             alt.datum.neighborhood == df['neighborhood'][ind],  # If the neighborhoods match this test returns True,
              alt.value('orange'),     # which sets the bar orange.
              alt.value('steelblue')   # And if it's not true it sets the bar steelblue.
         )
-     ).configure(background='transparent').configure_axis(grid=False).properties(height=100,width=300).save('visualizations/images/' + df['data_field_name'][ind] +' '+ df['neighborhood'][ind] + '.svg')
+     ).configure(background='transparent').configure_axis(grid=False).properties(height=100,width=300).save('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg')
 # - name each SVG with the data_field_name and the Neighborhood
 # - store in the images folder for now
 #print(df)

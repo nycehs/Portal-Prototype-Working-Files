@@ -7,11 +7,11 @@ import pandas as pd
 import altair as alt
 from altair_saver import save
 
-## df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
+df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
 ## df = pd.read_csv("visualizations/csv/Outdoor Air and Health_data.csv")
 ## df = pd.read_csv("visualizations/csv/Active Design Physical Activity and Health_data.csv")
 ## df = pd.read_csv("visualizations/csv/Asthma and the Environment_data.csv")
-df = pd.read_csv("visualizations/csv/Climate and Health_data.csv")
+## df = pd.read_csv("visualizations/csv/Climate and Health_data.csv")
 #print(df)
 # convert End Date to date data type
 df.end_date=pd.to_datetime(df.end_date)

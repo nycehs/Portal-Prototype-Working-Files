@@ -6,12 +6,13 @@
 import pandas as pd 
 import altair as alt
 from altair_saver import save
+import lxml as lxml
 
-df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
+## df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
 ## df = pd.read_csv("visualizations/csv/Outdoor Air and Health_data.csv")
 ## df = pd.read_csv("visualizations/csv/Active Design Physical Activity and Health_data.csv")
 ## df = pd.read_csv("visualizations/csv/Asthma and the Environment_data.csv")
-## df = pd.read_csv("visualizations/csv/Climate and Health_data.csv")
+df = pd.read_csv("visualizations/csv/Climate and Health_data.csv")
 #print(df)
 # convert End Date to date data type
 df.end_date=pd.to_datetime(df.end_date)
@@ -55,10 +56,18 @@ for ind in df.index:
          # The highlight will be set on the result of a conditional statement
          color=alt.condition(
              alt.datum.neighborhood == df['neighborhood'][ind],  # If the neighborhoods match this test returns True,
-             alt.value('orange'),     # which sets the bar orange.
-             alt.value('steelblue')   # And if it's not true it sets the bar steelblue.
+             alt.value('#00923E'),     # which sets the bar orange.
+             alt.value('#D2D4CE')   # And if it's not true it sets the bar steelblue.
         )
      ).configure(background='transparent').configure_axis(grid=False).properties(height=100,width=300).save('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg')
+     # - viewBox="0 0 310 110" must be removed for ModLab team
+     Change = open('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg', "rt")
+     data = Change.read()
+     data = data.replace('viewBox="0 0 310 110"', '')
+     Change.close()
+     Change = open('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg', "wt")
+     Change.write(data)
+     Change.close()
 # - name each SVG with the data_field_name and the Neighborhood
 # - store in the images folder for now
 #print(df)

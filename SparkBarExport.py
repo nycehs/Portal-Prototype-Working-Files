@@ -6,7 +6,6 @@
 import pandas as pd 
 import altair as alt
 from altair_saver import save
-import lxml as lxml
 
 ## df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
 ## df = pd.read_csv("visualizations/csv/Outdoor Air and Health_data.csv")
@@ -61,6 +60,7 @@ for ind in df.index:
         )
      ).configure(background='transparent').configure_axis(grid=False).properties(height=100,width=300).save('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg')
      # - viewBox="0 0 310 110" must be removed for ModLab team
+     # - https://stackoverflow.com/questions/59058521/creating-a-script-in-python-to-alter-the-text-in-an-svg-file
      Change = open('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg', "rt")
      data = Change.read()
      data = data.replace('viewBox="0 0 310 110"', '')

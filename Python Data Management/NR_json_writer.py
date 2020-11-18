@@ -12,5 +12,5 @@ for report in result:         ## Loop through all the items in 'result' ... each
     new_file=open(title,mode="w",encoding="utf-8")  ## open/create file named by title variable
     new_file.write(textj)     ## write the json to the file
     new_file.close()          ## close and create the file
-    print(report.jsonTitle +' is done')       ## status report
+    print(report.jsonTitle +' is done')       ## status report as each file completes
     

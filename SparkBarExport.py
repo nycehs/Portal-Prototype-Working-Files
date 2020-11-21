@@ -7,11 +7,11 @@ import pandas as pd
 import altair as alt
 from altair_saver import save
 
-df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
+## df = pd.read_csv("visualizations/csv/Housing and Health _data.csv")
 ## df = pd.read_csv("visualizations/csv/Outdoor Air and Health_data.csv")
 ## df = pd.read_csv("visualizations/csv/Active Design Physical Activity and Health_data.csv")
 ## df = pd.read_csv("visualizations/csv/Asthma and the Environment_data.csv")
-## df = pd.read_csv("visualizations/csv/Climate and Health_data.csv")
+df = pd.read_csv("visualizations/csv/Climate and Health_data.csv")
 # print(df)
 # convert End Date to date data type
 df.end_date = pd.to_datetime(df.end_date)
@@ -69,7 +69,7 @@ for ind in df.index:
                   df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg', "rt")
     data = Change.read()
     data = data.replace('viewBox="0 0 310 110"', '')
-    data = data.replace('<svg class','<svg preserveAspectRatio=“none” class')
+    data = data.replace('<svg class="marks"','<svg class="marks" preserveAspectRatio="none"')
     Change.close()
     Change = open('visualizations/images/' +
                   df['data_field_name'][ind] + '_' + df['geo_join_id'][ind] + '.svg', "wt")

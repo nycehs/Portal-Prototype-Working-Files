@@ -58,12 +58,15 @@ for ind in df.index:
              alt.value('#00923E'),     # which sets the bar orange.
              alt.value('#D2D4CE')   # And if it's not true it sets the bar steelblue.
         )
-     ).configure(background='transparent').configure_axis(grid=False).properties(height=100,width=300).save('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg')
+     ).configure(background='transparent').configure_axis(grid=False)
+          .configure_view(strokeWidth=0)
+          .properties(height=100,width=300)
+          .save('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg')
      # - viewBox="0 0 310 110" must be removed for ModLab team
      # - https://stackoverflow.com/questions/59058521/creating-a-script-in-python-to-alter-the-text-in-an-svg-file
      Change = open('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg', "rt")
      data = Change.read()
-     data = data.replace('viewBox="0 0 310 110"', '')
+     data = data.replace('viewBox="0 0 310 110"', 'preserveAspectRatio=“none”')
      Change.close()
      Change = open('visualizations/images/' + df['data_field_name'][ind] +'_'+ df['geo_join_id'][ind] + '.svg', "wt")
      Change.write(data)

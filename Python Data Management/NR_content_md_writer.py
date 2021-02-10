@@ -51,12 +51,12 @@ for element in neighborhoodList:
         f = open(nPath + "/_index.md", 'w', encoding='utf-8')
         # perform file operations
         f.write("---\n")
-        f.write("## title: "+neighborhoodTitle+"\n")
-        f.write("## type: location\n")
-        f.write("## seo_title: "+"\""+neighborhoodTitle+"\"\n")
-        f.write("## seo_description: "+"\"Environmental Health data profiles for the " +
+        f.write("title: "+neighborhoodTitle+"\n")
+        f.write("type: location\n")
+        f.write("seo_title: "+"\""+neighborhoodTitle+"\"\n")
+        f.write("seo_description: "+"\"Environmental Health data profiles for the " +
                 neighborhoodTitle+" neighborhood of NYC.\"\n")
-        f.write("## seo_image: "+""+"\n")
+        f.write("seo_image: \""+""+"\"\n")
         f.write("---\n")
     finally:
         f.close()
@@ -89,16 +89,16 @@ for element in neighborhoodList:
             f = open(nPath + "/" + reportPage + ".md", 'w', encoding='utf-8')
             # perform file operations
             f.write("---\n")
-            f.write("## title: \""+reportName+"\"\n")
-            f.write("## neighborhood: \""+neighborhoodTitle+"\"\n")
-            f.write("## summary: \""+reportDescription+"\"\n")
-            f.write("## data_json: \""+reportTitle+"\"\n")
-            f.write("## content_yml: \""+contentYml+"\"\n")
-            f.write("## type: location\n")
-            f.write("## seo_title: "+"\""+reportTitle+"\"\n")
-            f.write("## seo_description: "+"\""+reportName+" data profile for the " +
+            f.write("title: \""+reportName+"\"\n")
+            f.write("neighborhood: \""+neighborhoodTitle+"\"\n")
+            f.write("summary: \""+reportDescription+"\"\n")
+            f.write("data_json: \""+reportTitle+"\"\n")
+            f.write("content_yml: \""+contentYml+"\"\n")
+            f.write("type: location\n")
+            f.write("seo_title: "+"\""+reportTitle+"\"\n")
+            f.write("seo_description: "+"\""+reportName+" data profile for the " +
                     neighborhoodTitle+" neighborhood of NYC.\"\n")
-            f.write("## seo_image: \""+seoImagePath+"\"\n")
+            f.write("seo_image: \""+seoImagePath+"\"\n")
             f.write("---\n")
         finally:
             f.close()

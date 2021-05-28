@@ -1,6 +1,6 @@
 ---
 title: NYC Agency Pesticide Use
-date: 2021-05-28 17:34:10.636408
+date: 2021-05-28 18:02:58.870213
 draft: false
 tags: 
 categories: []

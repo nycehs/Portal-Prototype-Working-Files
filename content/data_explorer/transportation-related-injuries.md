@@ -1,6 +1,6 @@
 ---
 title: Transportation-related Injuries
-date: 2021-05-28 17:34:10.564358
+date: 2021-05-28 18:02:58.745496
 draft: false
 tags: 
 categories: []
@@ -8,24 +8,46 @@ keywords:
 indicators: [{"subtopic_id": 101, "internal_id": 2092, "name": "Bicycle Injury Emergency Department Visits", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2092,719b87,101,Summarize"}, {"subtopic_id": 101, "internal_id": 2086, "name": "Bicycle Injury Hospitalizations", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2086,719b87,101,Summarize"}, {"subtopic_id": 101, "internal_id": 2094, "name": "Pedestrian Injury Emergency Department Visits", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2094,719b87,101,Summarize"}, {"subtopic_id": 101, "internal_id": 2093, "name": "Pedestrian Injury Hospitalizations", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2093,719b87,101,Summarize"}]
 ---
 # Transportation-related Injuries
-<h3>About traffic injuries in New York City</h3>
-<p><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">Traffic</span></span><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">&nbsp;injuries are no accident</span></span><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">. Like other public health concerns</span></span><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">,</span></span><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">&nbsp;they are&nbsp;</span></span><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">preventable through data driven solutions.</span></span><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">&nbsp;In NYC, traffic injuries, which include injuries among pedestrians, bicyclists, motorcyclists, and motor vehicle occupants, are a leading cause of injury-related hospitalizations and emergency department visits</span></span><span class="TextRun  BCX0 SCXW44719960" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun  BCX0 SCXW44719960">.</span></span></p>
-<p>In February 2014, NYC launched <a href="http://www.nyc.gov/html/visionzero/pages/home/home.html" target="_blank">&ldquo;Vision Zero&rdquo;</a>, an action plan to reduce injuries and deaths on city streets. Vision Zero is a multi-agency effort, incorporating road engineering, traffic enforcement, community outreach and education, and policy work to make NYC streets safer.</p>
-<h3>Traffic Safety and the Environment</h3>
-<p><span class="TextRun SCXW242962743 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW242962743 BCX0">Many factors contribute to traffic injuries, including human, vehicle and environmental factors. The built environment influences traffic injury outcomes by shaping the actions of road users, which can prevent crashes from happening, as well as mitigating the effects of crashes, when they do happen. Built environment features, such as road design and traffic calming strategies&nbsp;</span></span><span class="TextRun SCXW242962743 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW242962743 BCX0">include:</span></span><span class="TextRun SCXW242962743 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW242962743 BCX0">&nbsp;pedestrian islands, signal timing, separated bicycle paths, speed humps and bumps, signage, and more. Environmental interventions can be tailored for a community&rsquo;s specific needs to improve traffic safety and&nbsp;</span></span><span class="TextRun SCXW242962743 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW242962743 BCX0">reduce injuries</span></span><span class="TextRun SCXW242962743 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW242962743 BCX0">.</span></span></p>
-<h3>About the Data and Indicators</h3>
-<div class="OutlineElement Ltr  BCX0 SCXW35634676">
-<p class="Paragraph SCXW35634676 BCX0"><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">Rates of&nbsp;</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">traffic&nbsp;</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">injuries provided here are based on all liv</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">e transportation-related</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW35634676 BCX0">&nbsp;</span></span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">i</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">njury discharges from a NYC hospital and include emergency department visits and hospitalizations among residents and non-residents of NYC. Neighborhood data are based on zip code of residence for NYC residents only who were discharged from a hospital located in NYC. Crash locations are not available in these data.</span><span class="EOP SCXW35634676 BCX0" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
-</div>
-<div class="OutlineElement Ltr  BCX0 SCXW35634676">
-<p class="Paragraph SCXW35634676 BCX0"><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">Visits to emergency departments and hospital stays reflect injuries that require immediate medical treatment. Minor injuries not treated at a hospital are not captured through emergency department and hospitalization data. Data were obtained from the New York State Department of Health Statewide Planning and Research Cooperative System (SPARCS).&nbsp;</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">T</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">ransportation-related</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW35634676 BCX0">&nbsp;</span></span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">injuries&nbsp;</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">are</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">&nbsp;defined</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">&nbsp;by the International Classification of Diseases, Clinical Modification (ICD-</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">10</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">-CM)</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">&nbsp;and were recently revised</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">.</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">&nbsp;</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">&nbsp;The revisions largely pertain to injury-related diagnostic codes including those that capture transportation-related injuries, allowing for better diagnosis. The Centers for Disease Control and national epidemiologists provided guidance to DOHMH for enumerating new injury codes.</span><span class="TextRun SCXW35634676 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto">&nbsp;Because the two ICD systems differ in how they classify injuries, current data and previously posted data are not comparable.&nbsp; Data prior to 2016 are not shown because they use the older coding ICD-CM schema.&nbsp;</span><span class="EOP SCXW35634676 BCX0" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
-</div>
-<h3>Prevention</h3>
-<ul>
-<li>Drivers should pay attention while driving and yield to pedestrians crossing the street. Obey the speed limit. Never drink and drive, text and drive, or talk on a cellphone while driving.</li>
-<li>Pedestrians should cross at intersections with the light, listen for traffic, look both ways, and put away phones or other distracting mobile devices.</li>
-<li>Cyclists should wear a helmet and ride predictably, with the direction of traffic.</li>
-<li>Community-based organizations, schools, policy-makers and others can advocate for continued safety engineering improvements to NYC's roadways, promote traffic safety in their education and outreach activities, and support increased enforcement for traffic safety.</li>
-</ul>
-<h3>Key Messages</h3>
-<p>Traffic injuries are preventable. Everyone can play a role in making our streets safer.</p>
+### About traffic injuries in New York City
+
+
+Traffic injuries are no accident. Like other public health concerns, they are preventable through data driven solutions. In NYC, traffic injuries, which include injuries among pedestrians, bicyclists, motorcyclists, and motor vehicle occupants, are a leading cause of injury-related hospitalizations and emergency department visits.
+
+
+In February 2014, NYC launched [“Vision Zero”](http://www.nyc.gov/html/visionzero/pages/home/home.html), an action plan to reduce injuries and deaths on city streets. Vision Zero is a multi-agency effort, incorporating road engineering, traffic enforcement, community outreach and education, and policy work to make NYC streets safer.
+
+
+### Traffic Safety and the Environment
+
+
+Many factors contribute to traffic injuries, including human, vehicle and environmental factors. The built environment influences traffic injury outcomes by shaping the actions of road users, which can prevent crashes from happening, as well as mitigating the effects of crashes, when they do happen. Built environment features, such as road design and traffic calming strategies include: pedestrian islands, signal timing, separated bicycle paths, speed humps and bumps, signage, and more. Environmental interventions can be tailored for a community’s specific needs to improve traffic safety and reduce injuries.
+
+
+### About the Data and Indicators
+
+
+
+Rates of traffic injuries provided here are based on all live transportation-related injury discharges from a NYC hospital and include emergency department visits and hospitalizations among residents and non-residents of NYC. Neighborhood data are based on zip code of residence for NYC residents only who were discharged from a hospital located in NYC. Crash locations are not available in these data. 
+
+
+
+
+Visits to emergency departments and hospital stays reflect injuries that require immediate medical treatment. Minor injuries not treated at a hospital are not captured through emergency department and hospitalization data. Data were obtained from the New York State Department of Health Statewide Planning and Research Cooperative System (SPARCS). Transportation-related injuries are defined by the International Classification of Diseases, Clinical Modification (ICD-10-CM) and were recently revised.  The revisions largely pertain to injury-related diagnostic codes including those that capture transportation-related injuries, allowing for better diagnosis. The Centers for Disease Control and national epidemiologists provided guidance to DOHMH for enumerating new injury codes. Because the two ICD systems differ in how they classify injuries, current data and previously posted data are not comparable.  Data prior to 2016 are not shown because they use the older coding ICD-CM schema.  
+
+
+
+### Prevention
+
+
+* Drivers should pay attention while driving and yield to pedestrians crossing the street. Obey the speed limit. Never drink and drive, text and drive, or talk on a cellphone while driving.
+* Pedestrians should cross at intersections with the light, listen for traffic, look both ways, and put away phones or other distracting mobile devices.
+* Cyclists should wear a helmet and ride predictably, with the direction of traffic.
+* Community-based organizations, schools, policy-makers and others can advocate for continued safety engineering improvements to NYC's roadways, promote traffic safety in their education and outreach activities, and support increased enforcement for traffic safety.
+
+
+### Key Messages
+
+
+Traffic injuries are preventable. Everyone can play a role in making our streets safer.
+
+

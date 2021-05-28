@@ -1,33 +1,13 @@
 # Task list:
-# - Create indicator slugs from each UHF, and create a
-# folder for each one under content\indicator_reports
-# - Create files for each folder:
-##   - _index.md
-# ---
-## title: Canarsie - Flatlands
-## type: location
-## seo_title: "Canarsie - Flatlands"
-## seo_description: "indicator reports for the Canarsie - Flatlands indicator of New York City."
-## seo_image: "/images/canarsie_flatlands.jpg"
-# ---
-# - report_name.md x5 reports:
-# ---
-## title: "Active Design and Health"
-## indicator: "Canarsie - Flatlands"
-## summary: "The design and conditions of buildings, streets, public transportation and parks influence physical activity, use of active transportation and other healthy behavior."
-## data_json: "Active Design Physical Activity and Health in Canarsie - Flatlands"
-## content_yml: "active_design"
-## type: location
-## seo_title: "Active Design and Health"
-## seo_description: "Topics and indicators for active and healthy lifestyles in the Canarsie - Flatlands indicator in NYC."
-## seo_image: "images/nyc_health_report_active_design_health.jpg"
-# ---
+# 
+# 
+# # ---
 
 
 import os
 import json
 from datetime import datetime
-# from markdownify import markdownify 
+from markdownify import markdownify 
 
 # create subtopic list by parsing indicator list json
 # create indicator list by parsing indicator list json
@@ -48,7 +28,7 @@ for element in subtopicList:
     subtopicID = element.get('subtopic_id')
     subtopicInfo = element.get('more_info_data')
     subtopicInfo = str(subtopicInfo)
-    # subtopicInfo = markdownify(subtopicInfo)
+    subtopicInfo = markdownify(subtopicInfo)
     subtopicSlug = subtopicTitle.replace(',','')
     subtopicSlug = subtopicSlug.replace(' ','-')
     subtopicSlug = subtopicSlug.lower()

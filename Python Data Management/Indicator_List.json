@@ -1,0 +1,2095 @@
+[
+    {
+        "subtopic_id": 1,
+        "internal_id": 92,
+        "name": "Air Quality Advisory Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=92,719b87,1,Summarize"
+    },
+    {
+        "subtopic_id": 1,
+        "internal_id": 57,
+        "name": "Fine Particulate Matter (PM 2.5)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=57,719b87,1,Summarize"
+    },
+    {
+        "subtopic_id": 1,
+        "internal_id": 55,
+        "name": "Ozone",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=55,719b87,1,Summarize"
+    },
+    {
+        "subtopic_id": 3,
+        "internal_id": 2338,
+        "name": "Adults Reporting Secondhand Smoke at Home from Outside Sources",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2338,719b87,3,Summarize"
+    },
+    {
+        "subtopic_id": 3,
+        "internal_id": 2020,
+        "name": "Adults Reporting Secondhand Smoke at Work",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2020,719b87,3,Summarize"
+    },
+    {
+        "subtopic_id": 3,
+        "internal_id": 2017,
+        "name": "Adults without a Smoke-Free Home Policy",
+        "description": "A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2017,719b87,3,Summarize"
+    },
+    {
+        "subtopic_id": 3,
+        "internal_id": 2019,
+        "name": "Cigarette Smoking among Adults",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2019,719b87,3,Summarize"
+    },
+    {
+        "subtopic_id": 3,
+        "internal_id": 2021,
+        "name": "Cigarette Smoking among Youths",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2021,719b87,3,Summarize"
+    },
+    {
+        "subtopic_id": 4,
+        "internal_id": 2176,
+        "name": "Children under 5 years old in Poverty",
+        "description": "Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2176,719b87,4,Summarize"
+    },
+    {
+        "subtopic_id": 4,
+        "internal_id": 16,
+        "name": "Pre-1950 Homes",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=16,719b87,4,Summarize"
+    },
+    {
+        "subtopic_id": 4,
+        "internal_id": 41,
+        "name": "Pre-1960 Homes with Peeling Paint",
+        "description": "Older housing and peeling paint can put residents at risk of lead poisoning, due to lead paint - which was banned from household paints in the USA in 1978.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=41,719b87,4,Summarize"
+    },
+    {
+        "subtopic_id": 7,
+        "internal_id": 2105,
+        "name": "Adults Reporting Mice in the Home",
+        "description": "Mice or rats in the home are a source of household allergens connected to the developement of asthma and exacerbation of asthma symptoms. They may also indicate other health-threatening maintenance deficiencies.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2105,719b87,7,Summarize"
+    },
+    {
+        "subtopic_id": 7,
+        "internal_id": 24,
+        "name": "Adults Reporting Rats or Mice outside Their Building",
+        "description": "Mice and rats outside a building can indicate the presence of mice and rats in people's homes - which can trigger asthma and indicate other health-threatening maintenance deficiencies.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=24,719b87,7,Summarize"
+    },
+    {
+        "subtopic_id": 7,
+        "internal_id": 48,
+        "name": "Homes with Mice or Rats in the Building",
+        "description": "The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and contribute to the development and exacerbation of asthma and its symptoms.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=48,719b87,7,Summarize"
+    },
+    {
+        "subtopic_id": 7,
+        "internal_id": 2025,
+        "name": "Nitrogen Dioxide (NO2)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2025,719b87,7,Summarize"
+    },
+    {
+        "subtopic_id": 8,
+        "internal_id": 22,
+        "name": "Adults Reporting Cockroaches in the Home",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=22,719b87,8,Summarize"
+    },
+    {
+        "subtopic_id": 8,
+        "internal_id": 2393,
+        "name": "Children living in homes with cockroaches (ages 0-13 years)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2393,719b87,8,Summarize"
+    },
+    {
+        "subtopic_id": 8,
+        "internal_id": 107,
+        "name": "Homes with Cockroaches",
+        "description": "The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=107,719b87,8,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2235,
+        "name": "Adults Reporting Personal Use of Pesticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2235,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 100,
+        "name": "Commercial Use of \"Best Practice\" Products",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=100,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 96,
+        "name": "Commercial Use of Fungicides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=96,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 94,
+        "name": "Commercial Use of Herbicides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=94,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 93,
+        "name": "Commercial Use of Insecticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=93,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 97,
+        "name": "Commercial Use of Insecticides (Organophosphate)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=97,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 98,
+        "name": "Commercial Use of Insecticides (Pyrethroid\/Pyrethrin)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=98,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 102,
+        "name": "Commercial Use of Rodenticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=102,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 99,
+        "name": "Insecticides (Carbamate)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=99,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2025,
+        "name": "Nitrogen Dioxide (NO2)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2025,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2366,
+        "name": "NYC Agency Use of \"Best Practice\" Products",
+        "description": "<p><span>NYC enacted a local law in 2005 that requires city agencies to reduce use of toxic products to control pests, and to adopt &ldquo;Best Practices&rdquo; instead. Best practice products use active ingredients with very low toxicity or involve formulation or application methods that minimize potential exposure and environmental spread.<\/span><\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2366,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2364,
+        "name": "NYC Agency Use of Fungicides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2364,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2367,
+        "name": "NYC Agency Use of Glyphosate",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2367,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2368,
+        "name": "NYC Agency Use of Herbicides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2368,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2369,
+        "name": "NYC Agency Use of Insecticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2369,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2374,
+        "name": "NYC Agency Use of Mosquito Control",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2374,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 2370,
+        "name": "NYC Agency Use of Rodenticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2370,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 9,
+        "internal_id": 91,
+        "name": "Regular Exterminator Service",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=91,719b87,9,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 18,
+        "name": "Adults with Asthma in the Past 12 Months",
+        "description": "<p>Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms. <strong style=\"color: red;\"> Beginning in 2017, indicator includes data imputed for missing responses.<\/strong><\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=18,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2380,
+        "name": "Asthma Emergency Department Visits (Adults)",
+        "description": "Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2380,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2384,
+        "name": "Asthma Emergency Department Visits (Adults) by NTA",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2384,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2048,
+        "name": "Asthma Emergency Department Visits (Children 0 to 4 Yrs Old)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2048,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2379,
+        "name": "Asthma Emergency Department Visits (Children 5 to 17 Yrs Old)",
+        "description": "Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2379,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2383,
+        "name": "Asthma Emergency Department Visits (Children 5 to 17 Yrs Old) by NTA",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2383,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2382,
+        "name": "Asthma Hospitalizations (Adults)",
+        "description": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2382,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2387,
+        "name": "Asthma Hospitalizations (Adults) by NTA",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2387,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 84,
+        "name": "Asthma Hospitalizations (Children 0 to 4 Yrs Old)",
+        "description": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=84,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2381,
+        "name": "Asthma Hospitalizations (Children 5 to 17 Yrs Old)",
+        "description": "Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2381,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2386,
+        "name": "Asthma Hospitalizations (Children 5 to 17 Yrs Old) by NTA",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2386,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2392,
+        "name": "Children ever diagnosed with asthma (ages 0-13 years)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2392,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2317,
+        "name": "Jail Incarceration",
+        "description": "<p>Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighbourhoods.&nbsp;<\/p>\n<p>(<a class=\"exitlink\" href=\"http:\/\/www.thelancet.com\/journals\/lancet\/article\/PIIS0140-6736(17)30569-X\/abstract\">\"Structural Racism and Health Inequities in the USA: Evidence and Interventions&rdquo;<\/a><span>, by Zinzi D Bailey, ScD; Professor Nancy Krieger, PhD; Madina Ag&eacute;nor, ScD; Jasmine Graves, MPH; Natalia Linos, ScD; and Dr. Mary T. Bassett, MD)<\/span>&nbsp;<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2317,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 11,
+        "internal_id": 2339,
+        "name": "Youth Asthma in the Past 12 Months",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2339,719b87,11,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 5,
+        "name": "Infant Death",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=5,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 4,
+        "name": "Low Birthweight at Full Term",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=4,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 6,
+        "name": "Neonatal Death",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=6,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 7,
+        "name": "Perinatal Death",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=7,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 8,
+        "name": "Postneonatal Death",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=8,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 1,
+        "name": "Preterm Birth",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=1,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 10,
+        "name": "Sex Ratio ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=10,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 9,
+        "name": "Total (Lifetime) Fertility",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=9,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 3,
+        "name": "Very Low Birthweight",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=3,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 12,
+        "internal_id": 2,
+        "name": "Very Preterm Birth",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2,719b87,12,Summarize"
+    },
+    {
+        "subtopic_id": 13,
+        "internal_id": 90,
+        "name": "Heart Attack Hospitalizations",
+        "description": "Heart attacks can stem from genetic, lifestyle, and environmental factors including ambient air pollution and second-hand smoke.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=90,719b87,13,Summarize"
+    },
+    {
+        "subtopic_id": 14,
+        "internal_id": 2189,
+        "name": "Children tested for lead by age 3 years",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2189,719b87,14,Summarize"
+    },
+    {
+        "subtopic_id": 14,
+        "internal_id": 2184,
+        "name": "Children under 6 years with elevated blood lead levels (BLL)",
+        "description": "There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2184,719b87,14,Summarize"
+    },
+    {
+        "subtopic_id": 14,
+        "internal_id": 2216,
+        "name": "Children under 6 years with elevated blood lead levels by NTA",
+        "description": "<p>Children under 6 years of age with blood lead levels (BLL) at or above 5 mcg\/dL, by neighborhood tabulation area (NTA).&nbsp;<a href=\"https:\/\/www1.nyc.gov\/site\/planning\/data-maps\/open-data\/dwn-nynta.page\">Read more<\/a> about neighborhood tabulation areas.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2216,719b87,14,Summarize"
+    },
+    {
+        "subtopic_id": 15,
+        "internal_id": 2398,
+        "name": "Carbon Monoxide Deaths",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2398,719b87,15,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 26,
+        "name": "Anencephaly",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=26,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 30,
+        "name": "Cleft Lip with or without Cleft Palate ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=30,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 31,
+        "name": "Cleft Palate without Cleft Lip ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=31,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 36,
+        "name": "Down Syndrome \/ Trisomy 21 (Maternal Age < 35 Yrs)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=36,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 37,
+        "name": "Down Syndrome \/ Trisomy 21 (Maternal Age 35 Yrs and Over)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=37,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 33,
+        "name": "Gastroschisis ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=33,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 28,
+        "name": "Hypoplastic Left Heart Syndrome ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=28,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 32,
+        "name": "Hypospadias ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=32,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 35,
+        "name": "Lower Limb Deficiencies",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=35,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 27,
+        "name": "Spina Bifida (without Anencephaly)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=27,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 101,
+        "name": "Tetralogy of Fallot",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=101,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 29,
+        "name": "Transposition of the Great Arteries (Vessels) ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=29,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 16,
+        "internal_id": 34,
+        "name": "Upper Limb Deficiencies",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=34,719b87,16,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2235,
+        "name": "Adults Reporting Personal Use of Pesticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2235,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2145,
+        "name": "Adults with Independent Living Difficulty",
+        "description": "<p>People with disabilities or access or functional needs may need additional support during extreme weather to avoid injury, illness or even death. For example, planning needs to be made for safe travel out of evacuation zones during a hurricane, or to ensure back-up electricity is available to to support medical equipment during power outages caused by heat waves.<\/p>\n<p>&nbsp;<\/p>\n<p>Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies. For more information, please visit:<\/p>\n<p><a href=\"https:\/\/www1.nyc.gov\/site\/em\/ready\/disabilities-access-functional-needs.page\">NYC Emergency Management: Disabilities, Access &amp; Functional Needs<\/a><\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2145,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2115,
+        "name": "Air Toxics Concentrations- Average Benzene Concentrations",
+        "description": "Benzene is an air pollutant resulting from motor vehicle and industrial emissions and tobacco smoke. Benzene is a known carcinogen that can also harm bone marrow and red blood cell function.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2115,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2116,
+        "name": "Air Toxics Concentrations- Average Formaldehyde Concentrations",
+        "description": "Formaldehyde is an air pollutant resulting from car exhaust and the manufacture of industrial products. Formaldehyde is a known carcinogen that can also cause irritation to eyes and lungs and increase risk of asthma and trigger asthma symptoms.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2116,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2140,
+        "name": "Area Located within Hurricane Evacuation Zones 1-6",
+        "description": "NYC Hurricane Evacuation Zones 1-6 are areas at increased risk of flooding. They may be ordered to evacuate in the event of a hurricane or coastal flooding.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2140,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2044,
+        "name": "Arsenic in Drinking Water",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2044,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2111,
+        "name": "Boiler Emissions- Total NOx Emissions",
+        "description": "Boilers are a common source of NOx emissions, which can harm health.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2111,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2110,
+        "name": "Boiler Emissions- Total PM2.5 Emissions",
+        "description": "Boilers are a common source of PM2.5, which can harm health.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2110,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2109,
+        "name": "Boiler Emissions- Total SO2 Emissions",
+        "description": "Boilers are a common source of SO2, which can worsen lung disease.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2109,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 38,
+        "name": "Carbon Monoxide Incidents ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=38,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2365,
+        "name": "Court Ordered Evictions",
+        "description": "<p><span>People who are<\/span><span>&nbsp;<\/span><a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/28107704\" rel=\"noopener\" target=\"_blank\"><span>threatened with eviction<\/span><\/a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with<\/span><span>&nbsp;<\/span><a href=\"http:\/\/www.mapc.org\/wp-content\/uploads\/2017\/11\/HIA_Just_Cause_final.pdf\" rel=\"noopener\" target=\"_blank\"><span>negative health<\/span><\/a><span>&nbsp;among<\/span><span>&nbsp;<\/span><a href=\"https:\/\/scholar.harvard.edu\/files\/mdesmond\/files\/desmondkimbro.evictions.fallout.sf2015_2.pdf\" rel=\"noopener\" target=\"_blank\"><span>adults<\/span><\/a><span>&nbsp;and<\/span><span>&nbsp;<\/span><a href=\"http:\/\/childrenshealthwatch.org\/wp-content\/uploads\/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf\" rel=\"noopener\" target=\"_blank\"><span>children<\/span><\/a><span>.<\/span><\/p>\n<p>(From \"<a href=\"https:\/\/www.bu.edu\/sph\/2018\/10\/05\/the-hidden-health-crisis-of-eviction\/\" target=\"_blank\">The Hidden Health Crisis of Eviction<\/a>\" by <span>Allison Bovell-Ammo and Megan Sandel<\/span>)<\/p>\n<p>&nbsp;<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2365,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 15,
+        "name": "Crowding (> 1 person\/room)",
+        "description": " Occupied housing units with more than one person per room are considered crowded.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=15,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2043,
+        "name": "Disinfection By-Product in Drinking Water (HAA5)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2043,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 81,
+        "name": "Homes in 1 or 2 Family Buildings",
+        "description": "",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=81,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2142,
+        "name": "Neighborhood Poverty (ACS)",
+        "description": "Neighborhood poverty measures residents' access to economic stability, education, adequate health care, safe housing and freedom from stress. Neighborhoods with higher poverty tend to have less access to these factors and experience worse health outcomes.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2142,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2041,
+        "name": "Nitrate in Drinking Water",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2041,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2025,
+        "name": "Nitrogen Dioxide (NO2)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2025,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2146,
+        "name": "Older Adults Living Alone",
+        "description": "Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2146,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 103,
+        "name": "Poverty",
+        "description": "Neighborhood poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=103,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2147,
+        "name": "Public School Children (5-14 Yrs Old) with Asthma",
+        "description": "Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2147,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2149,
+        "name": "Public School Children (5-14 Yrs Old) with Persistent Asthma",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2149,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2325,
+        "name": "Race and Ethnicity",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2325,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2144,
+        "name": "Serious psychological distress",
+        "description": "",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2144,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2026,
+        "name": "Sulfur Dioxide (SO2)",
+        "description": "Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2026,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2112,
+        "name": "Traffic Density- Annual Vehicle Miles Traveled",
+        "description": "Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2112,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2113,
+        "name": "Traffic Density- Annual Vehicle Miles Traveled for Cars",
+        "description": "Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2113,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2114,
+        "name": "Traffic Density- Annual Vehicle Miles Traveled for Trucks",
+        "description": "Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2114,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2157,
+        "name": "Tree Canopy Cover",
+        "description": "<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2157,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 17,
+        "internal_id": 2143,
+        "name": "Vegetative Cover",
+        "description": "<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=\"https:\/\/www.epa.gov\/heat-islands\/using-trees-and-vegetation-reduce-heat-islands\">Vegetative cover tends to reduce temperatures in the immediate area<\/a>.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2143,719b87,17,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2101,
+        "name": "Adults Reporting Mold in the Home",
+        "description": "Mold can worsen respiratory conditions like asthma, and indicate maintenance deficiencies in a building.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2101,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 25,
+        "name": "Adults Reporting Secondhand Smoke at Home",
+        "description": "Secondhand smoke, especially indoors, is bad for health - especially for the health of children.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=25,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2396,
+        "name": "Children living in homes using supplemental heat (ages 0-13 years)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2396,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2395,
+        "name": "Children living in homes with cracks or holes (ages 0-13 years)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2395,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2394,
+        "name": "Children living in homes with mice (ages 0-13  years)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2394,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2365,
+        "name": "Court Ordered Evictions",
+        "description": "<p><span>People who are<\/span><span>&nbsp;<\/span><a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/28107704\" rel=\"noopener\" target=\"_blank\"><span>threatened with eviction<\/span><\/a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with<\/span><span>&nbsp;<\/span><a href=\"http:\/\/www.mapc.org\/wp-content\/uploads\/2017\/11\/HIA_Just_Cause_final.pdf\" rel=\"noopener\" target=\"_blank\"><span>negative health<\/span><\/a><span>&nbsp;among<\/span><span>&nbsp;<\/span><a href=\"https:\/\/scholar.harvard.edu\/files\/mdesmond\/files\/desmondkimbro.evictions.fallout.sf2015_2.pdf\" rel=\"noopener\" target=\"_blank\"><span>adults<\/span><\/a><span>&nbsp;and<\/span><span>&nbsp;<\/span><a href=\"http:\/\/childrenshealthwatch.org\/wp-content\/uploads\/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf\" rel=\"noopener\" target=\"_blank\"><span>children<\/span><\/a><span>.<\/span><\/p>\n<p>(From \"<a href=\"https:\/\/www.bu.edu\/sph\/2018\/10\/05\/the-hidden-health-crisis-of-eviction\/\" target=\"_blank\">The Hidden Health Crisis of Eviction<\/a>\" by <span>Allison Bovell-Ammo and Megan Sandel<\/span>)<\/p>\n<p>&nbsp;<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2365,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 15,
+        "name": "Crowding (> 1 person\/room)",
+        "description": " Occupied housing units with more than one person per room are considered crowded.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=15,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 46,
+        "name": "Homes near Structures Rated Good or Excellent",
+        "description": "Building quality is a strong predictor of the number of housing maintenance deficiencies in a residence that may contribute to increased risk of acute or chronic health problems.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=46,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 47,
+        "name": "Homes Using Supplemental Heat",
+        "description": "The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=47,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 45,
+        "name": "Homes with 3 or More Maintenance Deficiencies",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=45,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 40,
+        "name": "Homes with Cracks or Holes",
+        "description": "Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=40,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2188,
+        "name": "Homes with Grab Bars in Bathroom (among older adult households)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2188,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 42,
+        "name": "Homes with Leaks",
+        "description": "Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=42,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 48,
+        "name": "Homes with Mice or Rats in the Building",
+        "description": "The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and contribute to the development and exacerbation of asthma and its symptoms.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=48,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2377,
+        "name": "Households reporting someone who uses electric medical equipment",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2377,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 17,
+        "name": "Owner-Occupied Homes",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=17,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 41,
+        "name": "Pre-1960 Homes with Peeling Paint",
+        "description": "Older housing and peeling paint can put residents at risk of lead poisoning, due to lead paint - which was banned from household paints in the USA in 1978.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=41,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2399,
+        "name": "Renter-occupied homes with any health-related maintenance problems",
+        "description": "Housing without health-threatening maintenance deficiencies is an important environmental component of health.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2399,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 36,
+        "internal_id": 2179,
+        "name": "Renter-occupied homes with no maintenance deficiencies (TCNY2020)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2179,719b87,36,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 74,
+        "name": "Acute Myeloid Leukemia",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=74,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2096,
+        "name": "Bladder Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2096,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 66,
+        "name": "Brain and Other Nervous System Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=66,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 60,
+        "name": "Breast Cancer in Females",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=60,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 770,
+        "name": "Chronic Lymphocytic Leukemia",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=770,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2077,
+        "name": "Esophageal Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2077,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2087,
+        "name": "Kidney and Renal Pelvis Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2087,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2088,
+        "name": "Larynx Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2088,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 73,
+        "name": "Leukemia",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=73,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2089,
+        "name": "Liver and Intrahepatic Bile Duct Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2089,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 63,
+        "name": "Lung and Bronchus Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=63,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2090,
+        "name": "Melanoma of the Skin",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2090,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2095,
+        "name": "Mesothelioma",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2095,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 71,
+        "name": "Non-Hodgkin's Lymphomas",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=71,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 2091,
+        "name": "Oral Cavity and Pharynx Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2091,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 64,
+        "name": "Pancreatic Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=64,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 39,
+        "internal_id": 690,
+        "name": "Thyroid Cancer",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=690,719b87,39,Summarize"
+    },
+    {
+        "subtopic_id": 40,
+        "internal_id": 13,
+        "name": "Neighborhood Poverty",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=13,719b87,40,Summarize"
+    },
+    {
+        "subtopic_id": 40,
+        "internal_id": 2106,
+        "name": "Neighborhood Race\/Ethnicity - Non Hispanic Black",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2106,719b87,40,Summarize"
+    },
+    {
+        "subtopic_id": 40,
+        "internal_id": 2107,
+        "name": "Neighborhood Race\/Ethnicity - Non Hispanic White",
+        "description": "",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2107,719b87,40,Summarize"
+    },
+    {
+        "subtopic_id": 51,
+        "internal_id": 2405,
+        "name": "Carbon Monoxide Emergency Department Visits",
+        "description": "<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2405,719b87,51,Summarize"
+    },
+    {
+        "subtopic_id": 51,
+        "internal_id": 2406,
+        "name": "Carbon Monoxide Hospitalizations",
+        "description": "<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2406,719b87,51,Summarize"
+    },
+    {
+        "subtopic_id": 51,
+        "internal_id": 38,
+        "name": "Carbon Monoxide Incidents ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=38,719b87,51,Summarize"
+    },
+    {
+        "subtopic_id": 51,
+        "internal_id": 2168,
+        "name": "Carbon Monoxide Incidents without a Detector (3 Year Avg.)",
+        "description": "Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put residents at risk for carbon monoxide poisoning and death.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2168,719b87,51,Summarize"
+    },
+    {
+        "subtopic_id": 52,
+        "internal_id": 2044,
+        "name": "Arsenic in Drinking Water",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2044,719b87,52,Summarize"
+    },
+    {
+        "subtopic_id": 52,
+        "internal_id": 2043,
+        "name": "Disinfection By-Product in Drinking Water (HAA5)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2043,719b87,52,Summarize"
+    },
+    {
+        "subtopic_id": 52,
+        "internal_id": 2207,
+        "name": "Disinfection By-Product in Drinking Water (TTHM)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2207,719b87,52,Summarize"
+    },
+    {
+        "subtopic_id": 52,
+        "internal_id": 2041,
+        "name": "Nitrate in Drinking Water",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2041,719b87,52,Summarize"
+    },
+    {
+        "subtopic_id": 78,
+        "internal_id": 2025,
+        "name": "Nitrogen Dioxide (NO2)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2025,719b87,78,Summarize"
+    },
+    {
+        "subtopic_id": 78,
+        "internal_id": 775,
+        "name": "Park Distance",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=775,719b87,78,Summarize"
+    },
+    {
+        "subtopic_id": 83,
+        "internal_id": 776,
+        "name": "Greenhouse Gas Emissions",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=776,719b87,83,Summarize"
+    },
+    {
+        "subtopic_id": 85,
+        "internal_id": 2001,
+        "name": "Drinking Water Demand",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2001,719b87,85,Summarize"
+    },
+    {
+        "subtopic_id": 85,
+        "internal_id": 2009,
+        "name": "Drinking Water Quality",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2009,719b87,85,Summarize"
+    },
+    {
+        "subtopic_id": 86,
+        "internal_id": 2005,
+        "name": "Cleaner Energy",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2005,719b87,86,Summarize"
+    },
+    {
+        "subtopic_id": 86,
+        "internal_id": 2007,
+        "name": "Energy Efficiency",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2007,719b87,86,Summarize"
+    },
+    {
+        "subtopic_id": 86,
+        "internal_id": 2006,
+        "name": "Energy Reliability",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2006,719b87,86,Summarize"
+    },
+    {
+        "subtopic_id": 87,
+        "internal_id": 2003,
+        "name": "Housing Affordability",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2003,719b87,87,Summarize"
+    },
+    {
+        "subtopic_id": 87,
+        "internal_id": 2002,
+        "name": "Housing Supply ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2002,719b87,87,Summarize"
+    },
+    {
+        "subtopic_id": 87,
+        "internal_id": 2004,
+        "name": "Housing Sustainability",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2004,719b87,87,Summarize"
+    },
+    {
+        "subtopic_id": 89,
+        "internal_id": 2008,
+        "name": "New York Harbor Water Quality",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2008,719b87,89,Summarize"
+    },
+    {
+        "subtopic_id": 90,
+        "internal_id": 2390,
+        "name": "Bicycle Network Coverage",
+        "description": "The percent of streets with bike lanes can affect cyclist and pedestrian safety, physical activity, and sustainable transportation use. ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2390,719b87,90,Summarize"
+    },
+    {
+        "subtopic_id": 90,
+        "internal_id": 2011,
+        "name": "Modal Shift - All Travel",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2011,719b87,90,Summarize"
+    },
+    {
+        "subtopic_id": 90,
+        "internal_id": 2012,
+        "name": "Modal Shift - Travel to the Central Business District",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2012,719b87,90,Summarize"
+    },
+    {
+        "subtopic_id": 90,
+        "internal_id": 774,
+        "name": "State of Good Repair",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=774,719b87,90,Summarize"
+    },
+    {
+        "subtopic_id": 90,
+        "internal_id": 2014,
+        "name": "Transit Capacity ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2014,719b87,90,Summarize"
+    },
+    {
+        "subtopic_id": 91,
+        "internal_id": 2024,
+        "name": "Black Carbon",
+        "description": "Black carbon is a major component of fine particulate matter (PM) in the air. Particulate matter is easily inhaled into the lungs and can contribute to both short-term acute health effects, as well as long-term chronic illness.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2024,719b87,91,Summarize"
+    },
+    {
+        "subtopic_id": 91,
+        "internal_id": 2023,
+        "name": "Fine Particulate Matter (PM2.5)",
+        "description": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2023,719b87,91,Summarize"
+    },
+    {
+        "subtopic_id": 91,
+        "internal_id": 2028,
+        "name": "Nitric Oxide (NO)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2028,719b87,91,Summarize"
+    },
+    {
+        "subtopic_id": 91,
+        "internal_id": 2025,
+        "name": "Nitrogen Dioxide (NO2)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2025,719b87,91,Summarize"
+    },
+    {
+        "subtopic_id": 91,
+        "internal_id": 2027,
+        "name": "Ozone (O3)",
+        "description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2027,719b87,91,Summarize"
+    },
+    {
+        "subtopic_id": 91,
+        "internal_id": 2026,
+        "name": "Sulfur Dioxide (SO2)",
+        "description": "Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2026,719b87,91,Summarize"
+    },
+    {
+        "subtopic_id": 92,
+        "internal_id": 2030,
+        "name": "Adults Reporting Bed Bugs in their Home",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2030,719b87,92,Summarize"
+    },
+    {
+        "subtopic_id": 93,
+        "internal_id": 2037,
+        "name": "Acute Lymphocytic Leukemia in Children",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2037,719b87,93,Summarize"
+    },
+    {
+        "subtopic_id": 93,
+        "internal_id": 2035,
+        "name": "Acute Myeloid Leukemia in Children",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2035,719b87,93,Summarize"
+    },
+    {
+        "subtopic_id": 93,
+        "internal_id": 2033,
+        "name": "Brain and CNS Cancer in Children",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2033,719b87,93,Summarize"
+    },
+    {
+        "subtopic_id": 93,
+        "internal_id": 2031,
+        "name": "Leukemia in Children",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2031,719b87,93,Summarize"
+    },
+    {
+        "subtopic_id": 93,
+        "internal_id": 2039,
+        "name": "Total Cancer in Children",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2039,719b87,93,Summarize"
+    },
+    {
+        "subtopic_id": 95,
+        "internal_id": 2049,
+        "name": "Access to Alcohol",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2049,719b87,95,Summarize"
+    },
+    {
+        "subtopic_id": 95,
+        "internal_id": 2057,
+        "name": "Youth Access to Alcohol",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2057,719b87,95,Summarize"
+    },
+    {
+        "subtopic_id": 96,
+        "internal_id": 2060,
+        "name": "Adults Reporting Exercise in the Past 30 Days",
+        "description": "Regular exercise is a key way to stay healthy.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2060,719b87,96,Summarize"
+    },
+    {
+        "subtopic_id": 96,
+        "internal_id": 2058,
+        "name": "Adults Who Walk or Bike for Transportation",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2058,719b87,96,Summarize"
+    },
+    {
+        "subtopic_id": 96,
+        "internal_id": 2173,
+        "name": "Bike for Transportation in the Past 7 Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2173,719b87,96,Summarize"
+    },
+    {
+        "subtopic_id": 96,
+        "internal_id": 2059,
+        "name": "Monthly Bicycle Use",
+        "description": "Monthly bicycle use is an indicator of physical activity and regular cycling.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2059,719b87,96,Summarize"
+    },
+    {
+        "subtopic_id": 96,
+        "internal_id": 2172,
+        "name": "Walk for Transportation in the Past 7 Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2172,719b87,96,Summarize"
+    },
+    {
+        "subtopic_id": 97,
+        "internal_id": 2050,
+        "name": "Adults Reporting Heavy Drinking",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2050,719b87,97,Summarize"
+    },
+    {
+        "subtopic_id": 97,
+        "internal_id": 2051,
+        "name": "Adults Who Binge Drink",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2051,719b87,97,Summarize"
+    },
+    {
+        "subtopic_id": 97,
+        "internal_id": 2056,
+        "name": "Underage Drinking",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2056,719b87,97,Summarize"
+    },
+    {
+        "subtopic_id": 97,
+        "internal_id": 2055,
+        "name": "Youth Who Binge Drink",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2055,719b87,97,Summarize"
+    },
+    {
+        "subtopic_id": 98,
+        "internal_id": 2065,
+        "name": "Restaurants with A Grades",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2065,719b87,98,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2410,
+        "name": "5-Year Heat Stress Hospitalizations",
+        "description": "<p>5-Year Heat Stress Hospitalizations<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2410,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2376,
+        "name": "Cold Stress Deaths",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2376,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2175,
+        "name": "Cold Stress Emergency Department Visits",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2175,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2174,
+        "name": "Cold Stress Hospitalizations",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2174,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2084,
+        "name": "Heat Events",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2084,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2074,
+        "name": "Heat Stress Deaths",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2074,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2075,
+        "name": "Heat Stress Emergency Department Visits",
+        "description": "ED visits due to heat stress represent part of the public health burden of extreme heat.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2075,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2076,
+        "name": "Heat Stress Hospitalizations",
+        "description": "Hospitalizations due to heat stress represent part of the public health burden of extreme heat.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2076,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 100,
+        "internal_id": 2411,
+        "name": "Heat Vulnerability Index by NTA",
+        "description": "<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.<\/span><\/p>\n<p>&nbsp;<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2411,719b87,100,Summarize"
+    },
+    {
+        "subtopic_id": 101,
+        "internal_id": 2092,
+        "name": "Bicycle Injury Emergency Department Visits",
+        "description": "Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transporation or other purposes.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2092,719b87,101,Summarize"
+    },
+    {
+        "subtopic_id": 101,
+        "internal_id": 2086,
+        "name": "Bicycle Injury Hospitalizations",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2086,719b87,101,Summarize"
+    },
+    {
+        "subtopic_id": 101,
+        "internal_id": 2094,
+        "name": "Pedestrian Injury Emergency Department Visits",
+        "description": "Pedestrian injury ED visits can indicate the safety of walking for transporation. ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2094,719b87,101,Summarize"
+    },
+    {
+        "subtopic_id": 101,
+        "internal_id": 2093,
+        "name": "Pedestrian Injury Hospitalizations",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2093,719b87,101,Summarize"
+    },
+    {
+        "subtopic_id": 102,
+        "internal_id": 2097,
+        "name": "Adult Consumption of 1 or More Sugary Drinks Per Day",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2097,719b87,102,Summarize"
+    },
+    {
+        "subtopic_id": 102,
+        "internal_id": 2098,
+        "name": "Youth Consumption of 1 or More Sugary Drinks Per Day",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2098,719b87,102,Summarize"
+    },
+    {
+        "subtopic_id": 103,
+        "internal_id": 2122,
+        "name": "O3-Attributable Asthma Emergency Department Visits",
+        "description": "Ozone-attributable asthma ED visits represent part of the health burden of ozone air pollution.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2122,719b87,103,Summarize"
+    },
+    {
+        "subtopic_id": 103,
+        "internal_id": 2124,
+        "name": "O3-Attributable Asthma Hospitalizations ",
+        "description": "Ozone-attributable asthma hospitalizations represent part of the health burden of ozone air pollution.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2124,719b87,103,Summarize"
+    },
+    {
+        "subtopic_id": 103,
+        "internal_id": 2121,
+        "name": "O3-Attributable Cardiac and Respiratory Deaths ",
+        "description": "Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.  ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2121,719b87,103,Summarize"
+    },
+    {
+        "subtopic_id": 103,
+        "internal_id": 2117,
+        "name": "PM2.5-Attributable Asthma Emergency Department Visits ",
+        "description": "PM2.5-attributable asthma ED visits represent part of the health burden imposed by fine particle air pollution.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2117,719b87,103,Summarize"
+    },
+    {
+        "subtopic_id": 103,
+        "internal_id": 2120,
+        "name": "PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older) ",
+        "description": "PM2.5-attributable cardiovascular hospitalizations represent part of the health burden imposed by fine particle air pollution.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2120,719b87,103,Summarize"
+    },
+    {
+        "subtopic_id": 103,
+        "internal_id": 2108,
+        "name": "PM2.5-Attributable Deaths ",
+        "description": "Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.  ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2108,719b87,103,Summarize"
+    },
+    {
+        "subtopic_id": 103,
+        "internal_id": 2119,
+        "name": "PM2.5-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older)",
+        "description": "Estimating hospitalizations that can be linked to PM2.5 is a way to understand how air pollution impacts public health.  ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2119,719b87,103,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2390,
+        "name": "Bicycle Network Coverage",
+        "description": "The percent of streets with bike lanes can affect cyclist and pedestrian safety, physical activity, and sustainable transportation use. ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2390,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2181,
+        "name": "Sidewalk Area",
+        "description": "<p>Sidewalks are a critical component of New York City residents&rsquo; commute. Ample sidewalks in neighborhoods are important for commuting, businesses, and physical activity. Greater sidewalk area facilitates safer pedestrian traffic that, in turn, attracts businesses and fosters community. &ldquo;Sidewalk area&rdquo; measures the percent of a neighborhood that is covered by sidewalk area.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2181,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2158,
+        "name": "Subway Station Density",
+        "description": "<p>Many New Yorkers rely on the subway as their primary mode of transportation. Neighborhoods with greater subway access tend to have more foot traffic, making surrounding real estate highly desirable for residents and business. Subway use encourages active transportation (walking, biking), which improves the health of residents.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2158,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2157,
+        "name": "Tree Canopy Cover",
+        "description": "<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2157,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2143,
+        "name": "Vegetative Cover",
+        "description": "<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=\"https:\/\/www.epa.gov\/heat-islands\/using-trees-and-vegetation-reduce-heat-islands\">Vegetative cover tends to reduce temperatures in the immediate area<\/a>.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2143,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2133,
+        "name": "Walkability Index (Infrastructure)",
+        "description": "<p>Walkability indices summarize built environment features believed to promote walking, focusing on neighborhood infrastructure. Some potentially important characteristics are usually not included, such as neighborhood safety or attractiveness, like number of street trees.<\/p>\n<p>For this index, higher scores indicate greater walkability. NYC neighborhoods range in walkability index (infrastructure) score from -4.0 to 9.4, with zero representing an approximate average for the City as a whole.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2133,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2388,
+        "name": "Walking Distance to a Park",
+        "description": "<p>Walking distance to a park is defined as 1\/4-mile or less to entrances of smaller sites, such as sitting areas and playgrounds, and 1\/2-mile or less to entrances of larger parks. Parks and open space that are not under the NYC Parks Department jurisdiction are also included.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2388,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 104,
+        "internal_id": 2391,
+        "name": "Walking Distance to a Subway Station",
+        "description": "<p>Percentage of population within a quarter-mile of a subway station entrance.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2391,719b87,104,Summarize"
+    },
+    {
+        "subtopic_id": 105,
+        "internal_id": 2134,
+        "name": "Disruptive Noise Exposure",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2134,719b87,105,Summarize"
+    },
+    {
+        "subtopic_id": 106,
+        "internal_id": 38,
+        "name": "Carbon Monoxide Incidents ",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=38,719b87,106,Summarize"
+    },
+    {
+        "subtopic_id": 107,
+        "internal_id": 2155,
+        "name": "Adults 65+ Reporting Air Conditioning in the Home",
+        "description": "Adults over the age of 65 are more vulnerable to hot weather and heat stress. Air conditioning (AC) can substantially reduce the risk of heat stroke and other heat-related illness.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2155,719b87,107,Summarize"
+    },
+    {
+        "subtopic_id": 107,
+        "internal_id": 2104,
+        "name": "Adults Reporting Air Conditioning in the Home",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2104,719b87,107,Summarize"
+    },
+    {
+        "subtopic_id": 107,
+        "internal_id": 2141,
+        "name": "Daytime Summer Surface Temperature",
+        "description": "Surface temperatures in NYC may vary as a function of vegetative land cover, which promotes cooling, or cover by paved roads, sidewalks, and buildings, which retain heat.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2141,719b87,107,Summarize"
+    },
+    {
+        "subtopic_id": 107,
+        "internal_id": 2084,
+        "name": "Heat Events",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2084,719b87,107,Summarize"
+    },
+    {
+        "subtopic_id": 107,
+        "internal_id": 2191,
+        "name": "Heat Vulnerability Index",
+        "description": "<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.&nbsp;<\/span><\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2191,719b87,107,Summarize"
+    },
+    {
+        "subtopic_id": 107,
+        "internal_id": 2185,
+        "name": "Households reporting air conditioning",
+        "description": "Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2185,719b87,107,Summarize"
+    },
+    {
+        "subtopic_id": 107,
+        "internal_id": 2377,
+        "name": "Households reporting someone who uses electric medical equipment",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2377,719b87,107,Summarize"
+    },
+    {
+        "subtopic_id": 108,
+        "internal_id": 2135,
+        "name": "Fall-related emergency department visits among older adults",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2135,719b87,108,Summarize"
+    },
+    {
+        "subtopic_id": 108,
+        "internal_id": 2136,
+        "name": "Fall-related hospitalizations among older adults",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2136,719b87,108,Summarize"
+    },
+    {
+        "subtopic_id": 108,
+        "internal_id": 2408,
+        "name": "Home fall-related emergency department visits among older adults",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2408,719b87,108,Summarize"
+    },
+    {
+        "subtopic_id": 108,
+        "internal_id": 2409,
+        "name": "Home fall-related hospitalizations among older adults",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2409,719b87,108,Summarize"
+    },
+    {
+        "subtopic_id": 108,
+        "internal_id": 2403,
+        "name": "Homes with reported falls among adults 65 and older",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2403,719b87,108,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2151,
+        "name": "Adults with a Personal Doctor",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2151,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2132,
+        "name": "Adults with Health Insurance ",
+        "description": "Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2132,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2176,
+        "name": "Children under 5 years old in Poverty",
+        "description": "Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2176,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 14,
+        "name": "Foreign-Born",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=14,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2334,
+        "name": "High School Graduation",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2334,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2335,
+        "name": "Limited English",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2335,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2073,
+        "name": "Perception of Neighborhood Safety",
+        "description": "Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2073,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 103,
+        "name": "Poverty",
+        "description": "Neighborhood poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=103,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2336,
+        "name": "Rent Burdened Households",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2336,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2323,
+        "name": "School Absenteeism",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2323,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2232,
+        "name": "Self-Reported Health",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2232,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2337,
+        "name": "Unemployment",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2337,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 109,
+        "internal_id": 2389,
+        "name": "Unhealthy Food Access",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2389,719b87,109,Summarize"
+    },
+    {
+        "subtopic_id": 112,
+        "internal_id": 2169,
+        "name": "Adults with Diabetes",
+        "description": "",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2169,719b87,112,Summarize"
+    },
+    {
+        "subtopic_id": 112,
+        "internal_id": 2170,
+        "name": "Adults with High Blood Pressure",
+        "description": "",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2170,719b87,112,Summarize"
+    },
+    {
+        "subtopic_id": 112,
+        "internal_id": 2171,
+        "name": "Adults with High Cholesterol",
+        "description": "",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2171,719b87,112,Summarize"
+    },
+    {
+        "subtopic_id": 113,
+        "internal_id": 2025,
+        "name": "Nitrogen Dioxide (NO2)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2025,719b87,113,Summarize"
+    },
+    {
+        "subtopic_id": 113,
+        "internal_id": 2063,
+        "name": "Obese Adults",
+        "description": "People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2063,719b87,113,Summarize"
+    },
+    {
+        "subtopic_id": 113,
+        "internal_id": 2064,
+        "name": "Obese Youth",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2064,719b87,113,Summarize"
+    },
+    {
+        "subtopic_id": 113,
+        "internal_id": 2061,
+        "name": "Overweight or Obese Adults",
+        "description": "People who are overweight or obese are at increased risk for heart disease and diabetes.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2061,719b87,113,Summarize"
+    },
+    {
+        "subtopic_id": 113,
+        "internal_id": 2062,
+        "name": "Overweight or Obese Youth",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2062,719b87,113,Summarize"
+    },
+    {
+        "subtopic_id": 114,
+        "internal_id": 2236,
+        "name": "Adults Reporting Driving in the Last 30 Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2236,719b87,114,Summarize"
+    },
+    {
+        "subtopic_id": 114,
+        "internal_id": 2237,
+        "name": "Adults Reporting Messaging While Driving in the Last 30 Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2237,719b87,114,Summarize"
+    },
+    {
+        "subtopic_id": 114,
+        "internal_id": 2238,
+        "name": "Adults Reporting Speeding in the Last 30 Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2238,719b87,114,Summarize"
+    },
+    {
+        "subtopic_id": 114,
+        "internal_id": 2113,
+        "name": "Traffic Density- Annual Vehicle Miles Traveled for Cars",
+        "description": "Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2113,719b87,114,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2209,
+        "name": "Elevated Blood Lead Levels among Persons Aged 16 or Older",
+        "description": "<p>In New York City, the most common cause of <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/lead-poisoning-prevention.page\" target=\"_blank\">lead poisoning<\/a> in non-pregnant adults is from occupational exposure in the construction industry. Workers are exposed by breathing in or ingesting lead dust or fumes during renovations, repairs and demolitions that disturb old, lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through the use of <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/lead-poisoning-hazardous-consumer-products.page\" target=\"_blank\">lead-contaminated products<\/a>, such as certain imported health remedies or medicines, spices, foods, pottery and cosmetics.<\/p>\n<p>&nbsp;<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2209,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2211,
+        "name": "Hospitalizations Billed to Workers’ Compensation",
+        "description": "<p><a href=\"http:\/\/www.wcb.ny.gov\/content\/main\/Workers\/Workers.jsp\" target=\"_blank\">Workers&rsquo; compensation<\/a> is a type of insurance that provides medical care for workers who are injured or become ill as a direct result of their job. Hospitalizations billed to <a href=\"https:\/\/www.cdc.gov\/mmwr\/preview\/mmwrhtml\/mm5929a1.htm\" target=\"_blank\">workers' compensation<\/a> represent only a portion of work-related injuries that require hospital care. It is important to realize that workers&rsquo; compensation policies vary from state-to-state with respect to the types of workers covered and the types of injuries and illnesses eligible for compensation.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2211,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2208,
+        "name": "Hospitalizations for Asbestosis",
+        "description": "<p><a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/asbestos.page\" target=\"_blank\">Asbestos <\/a>is a naturally-occurring mineral which was commonly used as an insulation material until the 1970s. Inhaling high concentrations of asbestos fibers over a long time can produce lung inflammation and scarring resulting in the chronic lung disease called asbestosis, a type of pneumoconiosis. New York City construction, insulation, and shipyard workers who installed, disturbed, or removed asbestos without respiratory protection are at risk. Additionally, smokers who are exposed to asbestos have a greater risk of developing asbestos-related diseases than non-smokers. &nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Typically it takes more than ten years from the time of exposure before symptoms develop. The use of proper protective masks is key to preventing the disease, since there is no treatment for this condition.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2208,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2210,
+        "name": "Hospitalizations for Pneumoconiosis",
+        "description": "<p><a href=\"http:\/\/www.lung.org\/lung-health-and-diseases\/lung-disease-lookup\/pneumoconiosis\/\" target=\"_blank\">Pneumoconiosis<\/a> is a general term given to any lung disease caused by breathing in certain particles or fibers over a prolonged period. Pneumoconiosis usually results from a workplace exposure&nbsp; The most common causes of pneumoconiosis include asbestos fibers (<a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/asbestos.page\" target=\"_blank\">asbestosis<\/a>), silica dust (<a href=\"http:\/\/www.lung.org\/lung-health-and-diseases\/lung-disease-lookup\/silicosis\/?referrer=https:\/\/www.google.com\/\" target=\"_blank\">silicosis<\/a>), and coal dust (<a href=\"https:\/\/www.cdc.gov\/niosh\/topics\/cwhsp\/coalminingrelatedrespiratorydiseases.html\" target=\"_blank\">coal workers&rsquo; pneumoconiosis<\/a> or &ldquo;Black Lung Disease&rdquo;). There is no cure, but it can be prevented with appropriate respiratory protection.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2210,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2073,
+        "name": "Perception of Neighborhood Safety",
+        "description": "Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2073,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2214,
+        "name": "Work-Related Deaths across All Industries",
+        "description": "<p>Fatal work-related injuries include deaths resulting from unintentional injuries such as falls, acute poisonings, and motor vehicle crashes that occur during travel for work, and intentional injuries (i.e., homicides and suicides) that occur at work.&nbsp;Fatal injuries that occur during a person&rsquo;s commute to or from work are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>Data on work-related deaths are compiled by the&nbsp;Bureau of Labor Statistics (BLS) <a href=\"https:\/\/www.bls.gov\/iif\/oshfat1.htm\" target=\"_blank\">Census of Fatal Occupational Injuries<\/a> (CFOI). CFOI produces statistics on fatal work-related injuries&nbsp;by cross-referencing multiple sources, such as death certificates, workers' compensation reports, and Occupational Safety and Health Administration (OSHA) investigation reports.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2214,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2239,
+        "name": "Work-Related Deaths in the Construction Industry by Borough",
+        "description": "<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2239,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 115,
+        "internal_id": 2215,
+        "name": "Work-Related Deaths in the Construction Industry Citywide",
+        "description": "<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.&nbsp;Falls from scaffolds,&nbsp;ladders&nbsp;and roofs&nbsp;are the most common cause of&nbsp;<a href=\"http:\/\/www1.nyc.gov\/assets\/doh\/downloads\/pdf\/survey\/construction-fatalities.pdf\" target=\"_blank\">fatal injuries among&nbsp;construction workers<\/a>.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2215,719b87,115,Summarize"
+    },
+    {
+        "subtopic_id": 116,
+        "internal_id": 2218,
+        "name": "Babesiosis",
+        "description": "<p><a title=\"Babesiosis\" href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/babesiosis.page\" target=\"_blank\">Babesiosis<\/a>&nbsp;is a rare, sometimes severe or fatal tick-borne disease caused by Babesia microti, a protozoan parasite that infects red blood cells. Babesiosis is transmitted by the bite of an infected blacklegged tick, Ixodes scapularis, the same tick that transmits Lyme disease and anaplasmosis.&nbsp; Most patients acquire this disease while traveling to endemic areas outside NYC. However, there has been an increase in the number of cases with no history of travel to endemic areas, primarily in Staten Island, as well as isolated cases in the Bronx and Queens. Babesiosis can also be transmitted through transfused blood products.<\/p>\n<p>&nbsp;<\/p>\n<p><span style=\"font-size: small;\">For more information&nbsp;&nbsp;&nbsp;<\/span><\/p>\n<p><span><a title=\"NYC DOHMH Babesiosis \" href=\"https:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/babesiosis.page\" target=\"_blank\">NYC DOHMH Babesiosis Page<\/a><\/span><\/p>\n<p><a title=\"NYC DOHMH Zoonotic and Vectorborne Diseases\" href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/zoonotic-and-vectorborne-diseases.page\" target=\"_blank\">NYC DOHMH Zoonotic and Vector-borne Diseases<\/a>&nbsp;<\/p>\n<p><a title=\"CDC Babesiosis\" href=\"https:\/\/www.cdc.gov\/parasites\/babesiosis\/index.html\" target=\"_blank\">CDC Babesiosis&nbsp;<\/a><\/p>\n<p><a href=\"https:\/\/wwwn.cdc.gov\/nndss\/conditions\/babesiosis\/case-definition\/2011\/\"><span>National Surveillance Babesiosis Case Definition<\/span>&nbsp;<\/a><\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2218,719b87,116,Summarize"
+    },
+    {
+        "subtopic_id": 116,
+        "internal_id": 2340,
+        "name": "West Nile virus",
+        "description": "<p>West Nile virus (WNV) is an arbovirus which is transmitted through the bite of infected mosquitoes; in NYC, the mosquitoes that transmit WNV are primarily Culex pipiens as well as Culex restuans and Culex salinarius. While most people who are infected will not go on to develop symptoms, about 20% can experience mild or moderate illness and more rarely, neuroinvasive disease which can present as encephalitis or meningitis.&nbsp; Most of the West Nile disease cases detected by the New York City Department of Health and Mental Hygiene represent neuroinvasive disease as these patients are more likely to seek care.&nbsp; &nbsp;More specific West Nile viral disease data is available on the Health Department <a href=\"http:\/\/www1.nyc.gov\/site\/doh\/health\/health-topics\/west-nile-virus-reports.page\">website<\/a>.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2340,719b87,116,Summarize"
+    },
+    {
+        "subtopic_id": 117,
+        "internal_id": 2232,
+        "name": "Self-Reported Health",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2232,719b87,117,Summarize"
+    },
+    {
+        "subtopic_id": 119,
+        "internal_id": 2236,
+        "name": "Adults Reporting Driving in the Last 30 Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2236,719b87,119,Summarize"
+    },
+    {
+        "subtopic_id": 119,
+        "internal_id": 2238,
+        "name": "Adults Reporting Speeding in the Last 30 Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2238,719b87,119,Summarize"
+    },
+    {
+        "subtopic_id": 121,
+        "internal_id": 2151,
+        "name": "Adults with a Personal Doctor",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2151,719b87,121,Summarize"
+    },
+    {
+        "subtopic_id": 121,
+        "internal_id": 2132,
+        "name": "Adults with Health Insurance ",
+        "description": "Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2132,719b87,121,Summarize"
+    },
+    {
+        "subtopic_id": 121,
+        "internal_id": 2401,
+        "name": "Households that postponed health care in the last 12 months",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2401,719b87,121,Summarize"
+    },
+    {
+        "subtopic_id": 121,
+        "internal_id": 2322,
+        "name": "Premature Mortality",
+        "description": "The rate of people who die before age 65 can indicate the overall health of a population.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2322,719b87,121,Summarize"
+    },
+    {
+        "subtopic_id": 121,
+        "internal_id": 2232,
+        "name": "Self-Reported Health",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2232,719b87,121,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 92,
+        "name": "Air Quality Advisory Days",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=92,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 2024,
+        "name": "Black Carbon",
+        "description": "Black carbon is a major component of fine particulate matter (PM) in the air. Particulate matter is easily inhaled into the lungs and can contribute to both short-term acute health effects, as well as long-term chronic illness.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2024,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 57,
+        "name": "Fine Particulate Matter (PM 2.5)",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=57,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 2023,
+        "name": "Fine Particulate Matter (PM2.5)",
+        "description": "Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2023,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 2028,
+        "name": "Nitric Oxide (NO)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2028,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 2025,
+        "name": "Nitrogen Dioxide (NO2)",
+        "description": "Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2025,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 55,
+        "name": "Ozone",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=55,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 122,
+        "internal_id": 2027,
+        "name": "Ozone (O3)",
+        "description": "Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2027,719b87,122,Summarize"
+    },
+    {
+        "subtopic_id": 123,
+        "internal_id": 2341,
+        "name": "Chronic Obstructive Pulmonary Disease  Hospitalization",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2341,719b87,123,Summarize"
+    },
+    {
+        "subtopic_id": 123,
+        "internal_id": 2343,
+        "name": "Chronic Obstructive Pulmonary Disease Emergency Department Visits",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2343,719b87,123,Summarize"
+    },
+    {
+        "subtopic_id": 124,
+        "internal_id": 2345,
+        "name": "All Agency Use of \"Best Practice\" Products",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2345,719b87,124,Summarize"
+    },
+    {
+        "subtopic_id": 124,
+        "internal_id": 2348,
+        "name": "All Agency Use of Fungicides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2348,719b87,124,Summarize"
+    },
+    {
+        "subtopic_id": 124,
+        "internal_id": 2351,
+        "name": "All Agency Use of Herbicides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2351,719b87,124,Summarize"
+    },
+    {
+        "subtopic_id": 124,
+        "internal_id": 2354,
+        "name": "All Agency Use of Insecticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2354,719b87,124,Summarize"
+    },
+    {
+        "subtopic_id": 124,
+        "internal_id": 2357,
+        "name": "All Agency Use of Rodenticides",
+        "description": null,
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2357,719b87,124,Summarize"
+    },
+    {
+        "subtopic_id": 125,
+        "internal_id": 2400,
+        "name": "Non-fatal Assault Emergency Department Visits",
+        "description": "<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2400,719b87,125,Summarize"
+    },
+    {
+        "subtopic_id": 125,
+        "internal_id": 2375,
+        "name": "Non-fatal Assault Hospitalizations",
+        "description": "<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in hospitalizations are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.<\/p>",
+        "URL": "https:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2375,719b87,125,Summarize"
+    }
+]

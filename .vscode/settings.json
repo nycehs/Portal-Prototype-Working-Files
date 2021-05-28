@@ -1,5 +1,5 @@
 {
     "liveServer.settings.port": 5501,
-    "python.pythonPath": "/usr/local/bin/python3",
+    "python.pythonPath": "C:\\Python37\\python.exe",
     "git.ignoreLimitWarning": true
 }

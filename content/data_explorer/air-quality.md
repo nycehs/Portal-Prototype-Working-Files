@@ -1,10 +1,13 @@
 ---
 title: Air Quality
+date: 2021-05-28 17:34:10.575366
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 122, "internal_id": 92, "name": "Air Quality Advisory Days", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=92,719b87,122,Summarize"}, {"subtopic_id": 122, "internal_id": 2024, "name": "Black Carbon", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2024,719b87,122,Summarize"}, {"subtopic_id": 122, "internal_id": 57, "name": "Fine Particulate Matter (PM 2.5)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=57,719b87,122,Summarize"}, {"subtopic_id": 122, "internal_id": 2023, "name": "Fine Particulate Matter (PM2.5)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2023,719b87,122,Summarize"}, {"subtopic_id": 122, "internal_id": 2028, "name": "Nitric Oxide (NO)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2028,719b87,122,Summarize"}, {"subtopic_id": 122, "internal_id": 2025, "name": "Nitrogen Dioxide (NO2)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2025,719b87,122,Summarize"}, {"subtopic_id": 122, "internal_id": 55, "name": "Ozone", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=55,719b87,122,Summarize"}, {"subtopic_id": 122, "internal_id": 2027, "name": "Ozone (O3)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2027,719b87,122,Summarize"}]
 ---
+# Air Quality
 <h3>About Air Pollution</h3>
 <p>Air quality is a&nbsp;<strong>measure of the condition of the air around us</strong>. The less air pollution there is, the better the air quality.</p>
 <p>Like many cities, New York City's air contains particles, liquid droplets, gases, and other contaminants that could impact health. Two pollutants,&nbsp;<strong><a title="Particulate matter" href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#Particulate_Matter&quot;%20target=&quot;_blank&quot;">particulate matter</a>&nbsp;and&nbsp;</strong><a title="Glossary" href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx"><strong>ground-level ozone</strong></a>, are of particular health concern.</p>

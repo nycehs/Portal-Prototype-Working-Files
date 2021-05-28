@@ -1,10 +1,13 @@
 ---
 title: Parks and Public Space
+date: 2021-05-28 17:34:10.581370
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 78, "internal_id": 2025, "name": "Nitrogen Dioxide (NO2)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2025,719b87,78,Summarize"}, {"subtopic_id": 78, "internal_id": 775, "name": "Park Distance", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=775,719b87,78,Summarize"}]
 ---
+# Parks and Public Space
 <h3 id="descriptiontitle">Parks and Public Space</h3>
 <p><a href="http://www1.nyc.gov/html/onenyc/index.html" target="_blank">OneNYC</a> is a comprehensive sustainability plan for New York City's future.</p>
 <p>Goal: Ensure that all New Yorkers live within a ten minute walk of a park.</p>

@@ -1,10 +1,13 @@
 ---
 title: Falls Among Older Adults
+date: 2021-05-28 17:34:10.539339
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 108, "internal_id": 2135, "name": "Fall-related emergency department visits among older adults", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2135,719b87,108,Summarize"}, {"subtopic_id": 108, "internal_id": 2136, "name": "Fall-related hospitalizations among older adults", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2136,719b87,108,Summarize"}, {"subtopic_id": 108, "internal_id": 2408, "name": "Home fall-related emergency department visits among older adults", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2408,719b87,108,Summarize"}, {"subtopic_id": 108, "internal_id": 2409, "name": "Home fall-related hospitalizations among older adults", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2409,719b87,108,Summarize"}, {"subtopic_id": 108, "internal_id": 2403, "name": "Homes with reported falls among adults 65 and older", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2403,719b87,108,Summarize"}]
 ---
+# Falls Among Older Adults
 <h3>About falls among older adults in New York City</h3>
 <p>Each year, one in three older adults (65 years and older) falls. Among New York City's older adults, there are approximately 30,500 emergency department (ED) visits, 16,600 hospitalizations, and 300 deaths each year. Falls are not a normal part of aging, and research shows that many falls can be prevented.</p>
 <h3>Falls and the environment</h3>

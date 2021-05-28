@@ -1,10 +1,13 @@
 ---
 title: Cigarette Smoke
+date: 2021-05-28 17:34:10.590378
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 3, "internal_id": 2338, "name": "Adults Reporting Secondhand Smoke at Home from Outside Sources", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2338,719b87,3,Summarize"}, {"subtopic_id": 3, "internal_id": 2020, "name": "Adults Reporting Secondhand Smoke at Work", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2020,719b87,3,Summarize"}, {"subtopic_id": 3, "internal_id": 2017, "name": "Adults without a Smoke-Free Home Policy", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2017,719b87,3,Summarize"}, {"subtopic_id": 3, "internal_id": 2019, "name": "Cigarette Smoking among Adults", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2019,719b87,3,Summarize"}, {"subtopic_id": 3, "internal_id": 2021, "name": "Cigarette Smoking among Youths", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2021,719b87,3,Summarize"}]
 ---
+# Cigarette Smoke
 <h3 id="descriptiontitle">About Cigarette Smoke</h3>
 <p>Cigarette smoke contains over 250 toxic chemicals, more than 50 of which cause cancer. Secondhand smoke is a dangerous combination of the smoke from the burning of a cigarette, pipe, or cigar, and the smoke exhaled by a smoker. There is no safe level of secondhand smoke exposure. Even brief exposure can be harmful.</p>
 <p>This site provides data on: teen and adult smoking, adults' exposure to cigarette smoke at home or at work and adults with a policy banning smoking in their home. The data are from NYC Health Department's<a href="http://www1.nyc.gov/site/doh/data/data-sets/community-health-survey.page" target="_blank"> Community Health Surveys</a>, and Youth Risk Behavior Surveillance Surveys.&nbsp;</p>

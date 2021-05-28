@@ -1,10 +1,13 @@
 ---
 title: Climate Change
+date: 2021-05-28 17:34:10.643412
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 83, "internal_id": 776, "name": "Greenhouse Gas Emissions", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=776,719b87,83,Summarize"}]
 ---
+# Climate Change
 <h3>About Climate Change</h3>
 <p>There is broad consensus within the scientific community that human activity is changing the Earth's climate through<strong> increasing concentrations of greenhouse gases (GHGs)</strong> &mdash; primarily carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and chlorofluorocarbons (CFCs) &mdash; in the atmosphere.</p>
 <p>Scientists have predicted that unless GHG emissions are substantially stemmed by the end of the century, climate change will become irreversible.</p>

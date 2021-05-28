@@ -1,10 +1,13 @@
 ---
 title: Carbon Monoxide Incidents
+date: 2021-05-28 17:34:10.647415
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 51, "internal_id": 2405, "name": "Carbon Monoxide Emergency Department Visits", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2405,719b87,51,Summarize"}, {"subtopic_id": 51, "internal_id": 2406, "name": "Carbon Monoxide Hospitalizations", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2406,719b87,51,Summarize"}, {"subtopic_id": 51, "internal_id": 38, "name": "Carbon Monoxide Incidents ", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=38,719b87,51,Summarize"}, {"subtopic_id": 51, "internal_id": 2168, "name": "Carbon Monoxide Incidents without a Detector (3 Year Avg.)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2168,719b87,51,Summarize"}]
 ---
+# Carbon Monoxide Incidents
 <h3 id="descriptiontitle">About Carbon Monoxide</h3>
 <p>Carbon monoxide (CO) is a poisonous gas that forms when fuel or other materials are burned.&nbsp; It is invisible and has no odor.&nbsp; Even short-term exposure to high levels of carbon monoxide can be fatal.</p>
 <p>This site contains data on unintentional carbon monoxide incidents and emergency responses by the <a href="http://www.nyc.gov/html/fdny/html/home2.shtml" target="_blank">New York City Fire Department (FDNY)</a>, reports to the <a href="http://www1.nyc.gov/site/doh/health/health-topics/poison-control.page" target="_blank">NYC Poison Control Center (PCC)</a> of actual or potential carbon monoxide exposure and hospitalizations of NYC residents who have been poisoned by carbon monoxide.</p>

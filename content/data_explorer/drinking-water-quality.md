@@ -1,10 +1,13 @@
 ---
 title: Drinking Water Quality
+date: 2021-05-28 17:34:10.596381
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 52, "internal_id": 2044, "name": "Arsenic in Drinking Water", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2044,719b87,52,Summarize"}, {"subtopic_id": 52, "internal_id": 2043, "name": "Disinfection By-Product in Drinking Water (HAA5)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2043,719b87,52,Summarize"}, {"subtopic_id": 52, "internal_id": 2207, "name": "Disinfection By-Product in Drinking Water (TTHM)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2207,719b87,52,Summarize"}, {"subtopic_id": 52, "internal_id": 2041, "name": "Nitrate in Drinking Water", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2041,719b87,52,Summarize"}]
 ---
+# Drinking Water Quality
 <h3>About Drinking Water Quality</h3>
 <p>All NYC residences receive drinking water from a public water system. Most water is gravity fed from a network of reservoirs and lakes in protected watersheds, up to 125 miles from the city (<a href="http://www.nyc.gov/html/dep/html/drinking_water/wsmaps_wide.shtml" target="_blank">view map</a>).</p>
 <p>The NYC water system consists of two surface water systems (Croton and Catskill/Delaware) and a Southwestern Queens ground water system. Since 1999, the Croton system has served as a supplemental water system, and the Catskill/Delaware reservoir system has supplied almost all NYC drinking water.</p>

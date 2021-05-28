@@ -1,10 +1,13 @@
 ---
 title: Bed Bugs
+date: 2021-05-28 17:34:10.552349
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 92, "internal_id": 2030, "name": "Adults Reporting Bed Bugs in their Home", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2030,719b87,92,Summarize"}]
 ---
+# Bed Bugs
 <h3 id="descriptiontitle">About Bed Bugs</h3>
 <p>Bed bugs are small insects that feed mainly on human blood. They are often confused with other insects, and many people are not even aware of their presence until they have been bitten. However, not everyone has a reaction to bed bug bites. You may not discover that you have bed bugs until you see other signs of the pests such as, bed bugs themselves, their eggs or droppings, or the blood stains they leave behind in mattresses, box springs, chairs or other materials.</p>
 <p>Bed bugs spread mainly by hitchhiking onto furniture, luggage and clothing, and by travelling along spaces that connect apartments, and rooms in commercial and institutional settings. Effective control requires cooperation with your neighbors, landlord and pest management provider. It is hard but not impossible to get rid of bed bugs. Do not try to get rid of them on your own. Get help from a well-trained and licensed pest management professional. Anyone can get bed bugs. Seek help immediately if you find them.</p>

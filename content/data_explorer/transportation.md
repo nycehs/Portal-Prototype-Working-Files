@@ -1,10 +1,13 @@
 ---
 title: Transportation
+date: 2021-05-28 17:34:10.543344
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 90, "internal_id": 2390, "name": "Bicycle Network Coverage", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2390,719b87,90,Summarize"}, {"subtopic_id": 90, "internal_id": 2011, "name": "Modal Shift - All Travel", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2011,719b87,90,Summarize"}, {"subtopic_id": 90, "internal_id": 2012, "name": "Modal Shift - Travel to the Central Business District", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2012,719b87,90,Summarize"}, {"subtopic_id": 90, "internal_id": 774, "name": "State of Good Repair", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=774,719b87,90,Summarize"}, {"subtopic_id": 90, "internal_id": 2014, "name": "Transit Capacity ", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2014,719b87,90,Summarize"}]
 ---
+# Transportation
 <h3>Transportation</h3>
 <p><a href="http://www1.nyc.gov/html/onenyc/index.html" target="_blank">OneNYC</a> is a comprehensive sustainability plan for New York City's future.</p>
 <p>Goal: Expand sustainable transportation choices and ensure the reliability and quality of our transportation network.</p>

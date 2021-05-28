@@ -1,10 +1,13 @@
 ---
 title: Waterways
+date: 2021-05-28 17:34:10.573364
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 89, "internal_id": 2008, "name": "New York Harbor Water Quality", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2008,719b87,89,Summarize"}]
 ---
+# Waterways
 <h3>Waterways</h3>
 <p><a href="http://www1.nyc.gov/html/onenyc/index.html" target="_blank">OneNYC</a> is a comprehensive sustainability plan for New York City's future.</p>
 <p>Goal: Improve the quality of our waterways to increase opportunities for recreation and to restore coastal ecosystems.</p>

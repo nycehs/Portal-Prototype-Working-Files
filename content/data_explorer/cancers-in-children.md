@@ -1,10 +1,13 @@
 ---
 title: Cancers in Children
+date: 2021-05-28 17:34:10.588374
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 93, "internal_id": 2037, "name": "Acute Lymphocytic Leukemia in Children", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2037,719b87,93,Summarize"}, {"subtopic_id": 93, "internal_id": 2035, "name": "Acute Myeloid Leukemia in Children", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2035,719b87,93,Summarize"}, {"subtopic_id": 93, "internal_id": 2033, "name": "Brain and CNS Cancer in Children", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2033,719b87,93,Summarize"}, {"subtopic_id": 93, "internal_id": 2031, "name": "Leukemia in Children", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2031,719b87,93,Summarize"}, {"subtopic_id": 93, "internal_id": 2039, "name": "Total Cancer in Children", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2039,719b87,93,Summarize"}]
 ---
+# Cancers in Children
 <h3>About Childhood Cancers</h3>
 <p>Cancer begins when cells in a part of the body start to grow out of control. There are many kinds of cancer, but they all start because of out-of-control growth of abnormal cells. Leukemia (cancer of the blood-forming cells) is the most common form of childhood cancer. There are different kinds of childhood leukemia. The most common kinds are <a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#Leukemia" target="_blank">acute lymphocytic leukemia (ALL)</a> and <a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#Leukemia" target="_blank">acute myeloid leukemia (AML)</a>. Brain and other nervous system cancers are the second most common types of childhood cancers. Of all childhood cancer, leukemias and brain and other nervous system cancers account for about 50% of cases among children less than 15 years old.</p>
 <p>This site contains data on total cancers, total leukemias, ALL and AML separately, and brain and other nervous system cancers in children. The data comes from the <a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#NYS_Cancer_Registry" target="_blank">NYS Cancer Registry</a>.</p>

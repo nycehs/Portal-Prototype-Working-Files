@@ -1,10 +1,13 @@
 ---
 title: Energy
+date: 2021-05-28 17:34:10.548345
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 86, "internal_id": 2005, "name": "Cleaner Energy", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2005,719b87,86,Summarize"}, {"subtopic_id": 86, "internal_id": 2007, "name": "Energy Efficiency", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2007,719b87,86,Summarize"}, {"subtopic_id": 86, "internal_id": 2006, "name": "Energy Reliability", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2006,719b87,86,Summarize"}]
 ---
+# Energy
 <h3>Energy</h3>
 <p><a href="http://www1.nyc.gov/html/onenyc/index.html" target="_blank">OneNYC</a>&nbsp;is a comprehensive sustainability plan for New York City's future.</p>
 <p>Goal: Reduce energy consumption and make our energy systems cleaner and more reliable. To measure progress, we are tracking how our buildings are becoming more energy efficient as well as the extent to which our energy is becoming cleaner and more reliable.</p>

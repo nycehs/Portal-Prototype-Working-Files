@@ -1,10 +1,13 @@
 ---
 title: Water Supply
+date: 2021-05-28 17:34:10.615395
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 85, "internal_id": 2001, "name": "Drinking Water Demand", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2001,719b87,85,Summarize"}, {"subtopic_id": 85, "internal_id": 2009, "name": "Drinking Water Quality", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2009,719b87,85,Summarize"}]
 ---
+# Water Supply
 <h3 id="descriptiontitle">Water Supply</h3>
 <p><a href="http://www1.nyc.gov/html/onenyc/index.html" target="_blank">OneNYC</a> is a comprehensive sustainability plan for New York City's future.</p>
 <p>Goal: Ensure the high quality and reliability of our water supply system.</p>

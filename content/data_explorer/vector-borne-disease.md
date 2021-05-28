@@ -1,10 +1,13 @@
 ---
 title: Vector-borne Disease
+date: 2021-05-28 17:34:10.607388
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 116, "internal_id": 2218, "name": "Babesiosis", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2218,719b87,116,Summarize"}, {"subtopic_id": 116, "internal_id": 2340, "name": "West Nile virus", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2340,719b87,116,Summarize"}]
 ---
+# Vector-borne Disease
 <p><strong>About Vectorborne Diseases </strong></p>
 <p>Vectorborne diseases<strong>&nbsp;</strong>are diseases that are transmitted from an arthropod (usually a tick or mosquito, etc.) to humans or other animals. Some vectorborne disease agents are maintained primarily through transmission between arthropods and humans (e.g., dengue virus and malaria), while others are maintained between arthropods and animal reservoirs (e.g., Lyme disease and West Nile virus) and humans may become infected incidentally.</p>
 <p>&nbsp;<strong>Vectorborne Disease and the Environment</strong></p>

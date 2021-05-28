@@ -1,10 +1,13 @@
 ---
 title: Noise
+date: 2021-05-28 17:34:10.566359
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 105, "internal_id": 2134, "name": "Disruptive Noise Exposure", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2134,719b87,105,Summarize"}]
 ---
+# Noise
 <h3 id="descriptiontitle">About Noise</h3>
 <p>Ambient noise is sound from an environmental source, such as traffic, construction, industrial or recreation activities, animals, or people&rsquo;s voices, that is unwanted to the person who hears it.</p>
 <h3>Noise and the Environment</h3>

@@ -1,10 +1,13 @@
 ---
 title: Solid Waste
+date: 2021-05-28 17:34:10.624400
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: []
 ---
+# Solid Waste
 <h3>Solid Waste</h3>
 <p><a title="PlaNYC Home Page" href="http://www.nyc.gov/html/planyc2030/html/home/home.shtml">PlaNYC</a> is a comprehensive sustainability plan for New York City's future.</p>
 <p>Goal: Divert 75% of solid waste from landfills.</p>

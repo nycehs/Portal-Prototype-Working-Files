@@ -1,10 +1,13 @@
 ---
 title: Physical Activity
+date: 2021-05-28 17:34:10.562355
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 96, "internal_id": 2060, "name": "Adults Reporting Exercise in the Past 30 Days", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2060,719b87,96,Summarize"}, {"subtopic_id": 96, "internal_id": 2058, "name": "Adults Who Walk or Bike for Transportation", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2058,719b87,96,Summarize"}, {"subtopic_id": 96, "internal_id": 2173, "name": "Bike for Transportation in the Past 7 Days", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2173,719b87,96,Summarize"}, {"subtopic_id": 96, "internal_id": 2059, "name": "Monthly Bicycle Use", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2059,719b87,96,Summarize"}, {"subtopic_id": 96, "internal_id": 2172, "name": "Walk for Transportation in the Past 7 Days", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2172,719b87,96,Summarize"}]
 ---
+# Physical Activity
 <h3 id="descriptiontitle">About Physical Activity</h3>
 <p>Physical activity is an important part of a healthy lifestyle. Regular physical activity is associated with many health benefits, including improved fitness, prevention of weight gain, and lower risk of heart disease, stroke, high blood pressure, diabetes and some cancers. In addition, regular physical activity and healthy eating can promote well-being and relieve stress. For children, regular physical activity is also associated with improved academic performance.</p>
 <h3>Physical Activity and the Environment</h3>

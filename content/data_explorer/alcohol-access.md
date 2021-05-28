@@ -1,10 +1,13 @@
 ---
 title: Alcohol Access
+date: 2021-05-28 17:34:10.592377
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 95, "internal_id": 2049, "name": "Access to Alcohol", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2049,719b87,95,Summarize"}, {"subtopic_id": 95, "internal_id": 2057, "name": "Youth Access to Alcohol", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2057,719b87,95,Summarize"}]
 ---
+# Alcohol Access
 <h3>About Alcohol</h3>
 <p>Heavy regular drinking and binge drinking contribute to a wide range of chronic health problems, including heart disease, diabetes, cancer, stroke, cirrhosis, depression and dementia. Alcohol use is also associated with suicide, homicide, domestic violence, sexually transmitted diseases and injuries. It is one of the leading behavior-related causes of death in New York City (NYC).</p>
 <p>This site provides data on heavy alcohol consumption and alcohol outlets in NYC.</p>

@@ -37,17 +37,26 @@ with open('Python Data Management/subtopic_list.json') as f:
 with open('Python Data Management/indicator_List.json') as f:
     indicatorList = json.load(f)
 # print(indicatorList)
-# for each indicator, take indicator 'slug' with no spaces, then
-# ...use slug to create a indicator folder, then populate folder with necessary files
+# remove indicator description for now - we may decide to bring back later?
+for element in indicatorList:
+    if 'description' in element:
+        del element['description']
+# for each subtopic, take subtopic 'slug' with no spaces as file name
 for element in subtopicList:
     # print(element.get('page_name'))
     subtopicTitle = element.get('name')
     subtopicID = element.get('subtopic_id')
     subtopicInfo = element.get('more_info_data')
     subtopicInfo = str(subtopicInfo)
+    # subtopicInfo = markdownify(subtopicInfo)
     subtopicSlug = subtopicTitle.replace(',','')
     subtopicSlug = subtopicSlug.replace(' ','-')
     subtopicSlug = subtopicSlug.lower()
+    # here we filter the indicators list to create an array of indicators for the current subtopic
+    # Filter python objects with list comprehensions
+    filteredIndicators = [x for x in indicatorList if x['subtopic_id'] == subtopicID]
+    # Transform python object back into json
+    filteredIndicators = json.dumps(filteredIndicators)
     # path to content folder for each indicator
     nPath = 'content/data_explorer/'
 
@@ -59,13 +68,15 @@ for element in subtopicList:
         # perform file operations
         f.write("---\n")
         f.write("title: "+subtopicTitle+"\n")
-       # f.write("date: " + datetime.now()+"\n")
+        f.write("date: " + str(datetime.now())+"\n")
         f.write("draft: false\n")
         f.write("tags: \n")
-        f.write("categories: \n")
+        f.write("categories: []\n")
         f.write("keywords: \n")
+        f.write("indicators: "+str(filteredIndicators)+"\n")
         f.write("---\n")
-        f.write("" + subtopicInfo +"\n")  #use markdownify here to convert html to markdown
+        f.write("# "+subtopicTitle+"\n")
+        f.write("" + subtopicInfo +"\n")  #use markdownify here or earlier to convert html to markdown
     finally:
         f.close()
    

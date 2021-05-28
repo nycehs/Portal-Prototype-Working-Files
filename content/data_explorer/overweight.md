@@ -1,10 +1,13 @@
 ---
 title: Overweight
+date: 2021-05-28 17:34:10.586373
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 113, "internal_id": 2025, "name": "Nitrogen Dioxide (NO2)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2025,719b87,113,Summarize"}, {"subtopic_id": 113, "internal_id": 2063, "name": "Obese Adults", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2063,719b87,113,Summarize"}, {"subtopic_id": 113, "internal_id": 2064, "name": "Obese Youth", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2064,719b87,113,Summarize"}, {"subtopic_id": 113, "internal_id": 2061, "name": "Overweight or Obese Adults", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2061,719b87,113,Summarize"}, {"subtopic_id": 113, "internal_id": 2062, "name": "Overweight or Obese Youth", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2062,719b87,113,Summarize"}]
 ---
+# Overweight
 <h3>About Weight and Health</h3>
 <p>People who are overweight or obese are at increased risk for heart disease and diabetes. Physical activity and healthy eating can promote well-being and relieve stress.</p>
 <h3>Weight and the Environment</h3>

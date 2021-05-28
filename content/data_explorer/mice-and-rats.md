@@ -1,10 +1,13 @@
 ---
 title: Mice and Rats
+date: 2021-05-28 17:34:10.585372
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 7, "internal_id": 2105, "name": "Adults Reporting Mice in the Home", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2105,719b87,7,Summarize"}, {"subtopic_id": 7, "internal_id": 24, "name": "Adults Reporting Rats or Mice outside Their Building", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=24,719b87,7,Summarize"}, {"subtopic_id": 7, "internal_id": 48, "name": "Homes with Mice or Rats in the Building", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=48,719b87,7,Summarize"}, {"subtopic_id": 7, "internal_id": 2025, "name": "Nitrogen Dioxide (NO2)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2025,719b87,7,Summarize"}]
 ---
+# Mice and Rats
 <h3 id="descriptiontitle">About Mice and Rats</h3>
 <p>Rats and mice are common, but preventable. In NYC, rats tend to be seen on streets and sidewalks, and in backyards and basements, while mice are almost always found inside homes.</p>
 <p>Rats and mice thrive where there are sources of food and shelter and where property owners fail to prevent and adequately respond to their presence.</p>

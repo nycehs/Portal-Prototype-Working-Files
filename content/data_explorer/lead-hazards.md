@@ -1,10 +1,13 @@
 ---
 title: Lead Hazards
+date: 2021-05-28 17:34:10.621399
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 4, "internal_id": 2176, "name": "Children under 5 years old in Poverty", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2176,719b87,4,Summarize"}, {"subtopic_id": 4, "internal_id": 16, "name": "Pre-1950 Homes", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=16,719b87,4,Summarize"}, {"subtopic_id": 4, "internal_id": 41, "name": "Pre-1960 Homes with Peeling Paint", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=41,719b87,4,Summarize"}]
 ---
+# Lead Hazards
 <h3>About Lead Hazards</h3>
 <p>The main source of childhood lead poisoning in NYC, as in most of the United States, is lead-based paint in older, deteriorated housing. Nationwide, lead poisoning is associated with housing constructed before 1950, when lead-based paint was widely used and contained more lead than in later decades. In 1960, NYC banned the use of lead-based paint in homes and a national ban went into effect in 1978. Older layers of lead paint may still be present in older buildings and can become a lead hazard when the paint chips, peels or is abraded, or when renovations or repairs are conducted without taking appropriate actions to control dust. Families residing in older, poorly maintained housing are at higher risk for lead poisoning.</p>
 <p>Dust from lead-based paint can contaminate floors and windowsills, and children's hands, and toys. Young children who crawl on the floor and put their hands and toys in their mouths are at greatest risk for lead poisoning through swallowing lead dust.</p>

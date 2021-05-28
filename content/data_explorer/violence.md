@@ -1,10 +1,13 @@
 ---
 title: Violence
+date: 2021-05-28 17:34:10.554351
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 125, "internal_id": 2400, "name": "Non-fatal Assault Emergency Department Visits", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2400,719b87,125,Summarize"}, {"subtopic_id": 125, "internal_id": 2375, "name": "Non-fatal Assault Hospitalizations", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2375,719b87,125,Summarize"}]
 ---
+# Violence
 <h3>About Violence in New York City</h3>
 <p>Violence is the use of physical, verbal, and/or emotional force to injure, harm, abuse, damage, or destroy. Interpersonal violence includes child abuse and neglect, youth violence, intimate partner violence, sexual violence, and elder abuse. Violence can involve injury to self, including self-harm, suicide attempts, and death by suicide. Violence can also take the form of power against a group or community.</p>
 <p>Violence is a public health issue because it is a cause of morbidity and mortality, leading to physical and emotional harm, an increase in negative health outcomes, premature death, psychological trauma and persistent fear to individuals and communities.</p>

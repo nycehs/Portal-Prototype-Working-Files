@@ -1,10 +1,13 @@
 ---
 title: Childhood Lead Exposure
+date: 2021-05-28 17:34:10.626402
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 14, "internal_id": 2189, "name": "Children tested for lead by age 3 years", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2189,719b87,14,Summarize"}, {"subtopic_id": 14, "internal_id": 2184, "name": "Children under 6 years with elevated blood lead levels (BLL)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2184,719b87,14,Summarize"}, {"subtopic_id": 14, "internal_id": 2216, "name": "Children under 6 years with elevated blood lead levels by NTA", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2216,719b87,14,Summarize"}]
 ---
+# Childhood Lead Exposure
 <h3>About Childhood Lead Exposure</h3>
 <p>Childhood lead poisoning is a serious but preventable public health problem. Lead is a toxic metal that can cause learning and behavior problems, and delay physical growth and mental development. Testing for lead poisoning is a key component of childhood lead poisoning prevention, since most children with elevated blood lead levels exhibit no symptoms.</p>
 <p>This site provides data on blood lead testing and on elevated blood lead levels among NYC children. The data are collected by the NYC Health Department's <a href="http://www1.nyc.gov/site/doh/health/health-topics/lead-poisoning-prevention.page" target="_blank">Healthy Homes Program</a>.</p>

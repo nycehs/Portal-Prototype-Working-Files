@@ -1,10 +1,13 @@
 ---
 title: Heart Attacks
+date: 2021-05-28 17:34:10.640412
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 13, "internal_id": 90, "name": "Heart Attack Hospitalizations", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=90,719b87,13,Summarize"}]
 ---
+# Heart Attacks
 <h3 id="descriptiontitle">About Heart Attacks</h3>
 <p>A heart attack is referred to medically as an acute myocardial infarction. It is caused when the blood flow that brings oxygen to the heart is severely reduced or cut off altogether. Without adequate blood flow, heart cells can quickly become injured or die. Most heart attacks are an acute event that follows years of atherosclerosis - a build up of plaque in the arteries around the heart. Factors in the environment may contribute to both atherosclerosis and to the acute event itself.</p>
 <p>This site provides data on hospitalizations for heart attack.</p>

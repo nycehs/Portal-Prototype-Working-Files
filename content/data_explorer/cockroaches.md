@@ -1,10 +1,13 @@
 ---
 title: Cockroaches
+date: 2021-05-28 17:34:10.628403
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 8, "internal_id": 22, "name": "Adults Reporting Cockroaches in the Home", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=22,719b87,8,Summarize"}, {"subtopic_id": 8, "internal_id": 2393, "name": "Children living in homes with cockroaches (ages 0-13 years)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2393,719b87,8,Summarize"}, {"subtopic_id": 8, "internal_id": 107, "name": "Homes with Cockroaches", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=107,719b87,8,Summarize"}]
 ---
+# Cockroaches
 <h3>About Cockroaches</h3>
 <p>Cockroaches, or just "roaches", are a common urban pest. Though there are more than a thousand species of roaches, just a few are found in NYC homes.&nbsp; The most common are American Cockroaches, typically found in moist basements and lower floors, and German Cockroaches, found anywhere inside homes.</p>
 <p>Cockroaches like warm, dark places such as toasters, clocks, microwave ovens, walls, and cabinets.&nbsp; They need regular access to food and water to live and breed.</p>

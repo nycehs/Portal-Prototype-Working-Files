@@ -1,10 +1,13 @@
 ---
 title: Neighborhood Air Quality
+date: 2021-05-28 17:34:10.598382
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: [{"subtopic_id": 91, "internal_id": 2024, "name": "Black Carbon", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2024,719b87,91,Summarize"}, {"subtopic_id": 91, "internal_id": 2023, "name": "Fine Particulate Matter (PM2.5)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2023,719b87,91,Summarize"}, {"subtopic_id": 91, "internal_id": 2028, "name": "Nitric Oxide (NO)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2028,719b87,91,Summarize"}, {"subtopic_id": 91, "internal_id": 2025, "name": "Nitrogen Dioxide (NO2)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2025,719b87,91,Summarize"}, {"subtopic_id": 91, "internal_id": 2027, "name": "Ozone (O3)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2027,719b87,91,Summarize"}, {"subtopic_id": 91, "internal_id": 2026, "name": "Sulfur Dioxide (SO2)", "URL": "https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2026,719b87,91,Summarize"}]
 ---
+# Neighborhood Air Quality
 <h3>About Neighborhood Air Quality</h3>
 <p><strong>Air quality can vary</strong> <strong>from neighborhood to neighborhood</strong>. That is why the <strong>New York City Community Air Survey (NYCCAS)&nbsp;</strong>keeps track of street-level air pollution from about 100 locations throughout New York City every season. NYCCAS is part of <a title="OneNYC" href="http://www1.nyc.gov/html/onenyc/index.html">OneNYC</a>, New York City's long-term plan for sustainability.</p>
 <p>The pollutants we measure are: <a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx?#Fine_particulate_matter" target="_blank">fine particulate matter</a> (PM2.5),<span class="apple-converted-space"> <a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#Ground_level_ozone%20" target="_blank">ground-level ozone (O3, summer)</a>,&nbsp;<a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#Nitrogen_oxides" target="_blank">nitrogen oxides (NOx)</a>, black carbon from diesel exhaust,&nbsp;<a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#Sulfur_dioxide" target="_blank">sulfur dioxide (SO2, winter)</a><span class="apple-converted-space"> and<span class="apple-converted-space">&nbsp;</span><a href="http://a816-dohbesp.nyc.gov/IndicatorPublic/Glossary.aspx#Nickel" target="_blank">nickel (Ni, winter)</a>.</span></span></p>

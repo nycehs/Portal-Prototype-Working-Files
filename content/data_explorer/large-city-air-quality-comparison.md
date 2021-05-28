@@ -1,10 +1,13 @@
 ---
 title: Large City Air Quality Comparison
+date: 2021-05-28 17:34:10.579369
 draft: false
 tags: 
-categories: 
+categories: []
 keywords: 
+indicators: []
 ---
+# Large City Air Quality Comparison
 <h3>Air Quality</h3>
 <p><a href="http://www1.nyc.gov/html/onenyc/index.html" target="_blank">OneNYC</a> is a comprehensive sustainability plan for New York City's future.</p>
 <p>Goal: Achieve the cleanest air quality of any big United States (US) city.</p>

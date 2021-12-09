@@ -5,7 +5,7 @@
 # https://www.datacamp.com/community/tutorials/pandas-to-csv
 import pandas as pd
 import altair as alt
-# from altair_saver import save
+from altair_saver import save
 
 data_files = [
 	"Housing and Health _data.csv", 

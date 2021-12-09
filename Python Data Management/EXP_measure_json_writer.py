@@ -1,26 +1,126 @@
-## first pull the data out of the database into pandas dataframes
-## use group by and lambda functions to create first layer
-## Append place nodes to each measure
-## Append time nodes to each measure
-## Loop through and write JSON file for each indicator
+###########################################################################################
+###########################################################################################
+##
+## Building indicators.json using nested DataFrames
+##
+###########################################################################################
+###########################################################################################
 
+import pyodbc
+import keyring
+import pandas as pd
 
-import pyodbc  ## bring in the ODBC drivers that allow me to connect to the DB
-import pandas as pd  ## bring in the pandas library to work with data
-import os
-import json
-from datetime import datetime
+EHDP_odbc = pyodbc.connect('DSN=EHDP_stage;UID=bespadmin;PWD=' + keyring.get_password("EHDP", "bespadmin"))
 
+metadata = (
+    pd.read_sql("SELECT * FROM metadata_for_indicators_json", EHDP_odbc)
+    .sort_values(by = ["IndicatorID", "MeasureID", "end_period"])
+)
 
-##conn = pyodbc.connect('DSN=EPHT_prod;Trusted_Connection=yes;')  ##'conn' holds the connection
-conn = pyodbc.connect('DSN=EPHT_staging;Trusted_Connection=yes;')  ##'conn' holds the connection
+# nesting geotypes and times
 
-## read the measures list view into a pandas dataframe
-measures = pd.read_sql_query('SELECT * FROM BESP_INDICATORANALYSIS.dbo.IndicatorMeasureMetadata',conn)
+measure_geotypes = (
+    metadata
+    .loc[:, 
+        [
+            "IndicatorID",
+            "IndicatorName",
+            "IndicatorShortname",
+            "IndicatorDescription",
+            "MeasureID",
+            "MeasurementType",
+            "how_calculated",
+            "Sources",
+            "DisplayType",
+            "GeoType"
+        ]
+    ]
+    .drop_duplicates()
+    .groupby(
+        [
+            "IndicatorID",
+            "IndicatorName",
+            "IndicatorShortname",
+            "IndicatorDescription",
+            "MeasureID",
+            "MeasurementType",
+            "how_calculated",
+            "Sources",
+            "DisplayType"
+        ],
+        dropna = False
+    )
+    .apply(lambda x: x[["GeoType"]].to_dict('records'))
+    .reset_index()
+    .rename(columns = {0: "AvailableGeographyTypes"})
+)
 
-## read the measure places list view into a pandas dataframe
-mPlace = pd.read_sql_query('SELECT * FROM BESP_INDICATORANALYSIS.dbo.measurePlaces',conn)
+measure_times = (
+    metadata
+    .loc[:, 
+        [
+            "IndicatorID",
+            "IndicatorName",
+            "IndicatorShortname",
+            "IndicatorDescription",
+            "MeasureID",
+            "MeasurementType",
+            "how_calculated",
+            "Sources",
+            "DisplayType",
+            "TimeDescription",
+            "start_period",
+            "end_period"
+        ]
+    ]
+    .drop_duplicates()
+    .groupby(
+        [
+            "IndicatorID",
+            "IndicatorName",
+            "IndicatorShortname",
+            "IndicatorDescription",
+            "MeasureID",
+            "MeasurementType",
+            "how_calculated",
+            "Sources",
+            "DisplayType"
+        ],
+        dropna = False
+    )
+    .apply(lambda x: x[["TimeDescription", "start_period", "end_period"]].to_dict('records'))
+    .reset_index()
+    .rename(columns = {0: "AvailableTimes"})
+)
 
-## read the measure times list view into a pandas dataframe
-mTime = pd.read_sql_query('SELECT * FROM BESP_INDICATORANALYSIS.dbo.measureTimes',conn)
+# combining geotype and times, then nesting those under other measure-level info vars
 
+indicators = (
+    pd.merge(
+        measure_geotypes,
+        measure_times,
+        how = "left"
+    )
+    .groupby(
+        [
+            "IndicatorID",
+            "IndicatorName",
+            "IndicatorShortname",
+            "IndicatorDescription"
+        ],
+        dropna = False
+    )
+    .apply(lambda x: x[[
+        "MeasureID", 
+        "MeasurementType", 
+        "how_calculated",
+        "Sources",
+        "DisplayType",
+        "AvailableGeographyTypes",
+        "AvailableTimes"
+    ]].to_dict('records'))
+    .reset_index()
+    .rename(columns = {0: "Measures"})
+)
+
+indicators.to_json("code/indicators_py.json", orient = 'records', indent = 2)

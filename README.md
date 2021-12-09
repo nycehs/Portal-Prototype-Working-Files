@@ -1,6 +1,24 @@
 # NYC Environmental Health Neighborhood Reports 
-## Building Neighborhood Report wireframes in Core Framework/Bootstrap
+This repository includes wireframes and working files for the Environment & Health Data Portal's Neighborhood Reports.
 
+## Python Data Management
+This folder contains python scripts used to generate data files for the Neighborhood Reports. 
+
+### Data explorer
+- EXP_content_md_writer.py: converts existing subtopic content pages to markdown for the "Data Explorer"'s subtopics
+- EXP_indicator_json_writer.py: writes a list of indicators and links as json
+- EXP_measure_json_writer.py: writes data explorer metadata json file
+- EXP_subtopic_json_writer.py: 
+
+### Neighborhood Reports
+- NR_SparkBarExport.py: exports preview tiny bar charts for the Neighborhood Reports pages
+- NR_content_md_writer: writes markdown for each neighborhood+report combination
+- NR_data_csv_writer.py: writes the CSV files used for Neighborhood Reports data (one for each report)
+- NR_json_writer.py: writes a json spec for each neighborhood+report combination
+
+---
+
+## Neighborhood Report wireframes
 This repository presents prototypes and ongoing work to improve the neighborhood reports for NYC DOHMH Environmental Health. 
 > - [Prototype can be accessed via Github Pages.](https://nycehs.github.io/NeighborhoodReports/NRPrototype.html)
 > - [Current version of the reports can be accessed at the Environment and Health Data Portal](http://www.nyc.gov/health/environmentdata)

@@ -7,15 +7,14 @@ This folder contains python scripts used to generate data files for the Neighbor
 ### Data explorer
 - EXP_content_md_writer.py: converts existing subtopic content pages to markdown for the "Data Explorer"'s subtopics
 - EXP_indicator_json_writer.py: writes a list of indicators and links as json
-- EXP_measure_json_writer.py: writes Neighborhood Reports json with measurement type and units
+- EXP_measure_json_writer.py: writes data explorer metadata json file
 - EXP_subtopic_json_writer.py: 
-- indicators_json.py: writes our central Indicator/measure metadata json file.
 
 ### Neighborhood Reports
 - NR_SparkBarExport.py: exports preview tiny bar charts for the Neighborhood Reports pages
 - NR_content_md_writer: writes markdown for each neighborhood+report combination
 - NR_data_csv_writer.py: writes the CSV files used for Neighborhood Reports data (one for each report)
-- NR_json_writer.py: writes a json spec for each neighborhood+report combination (there is an update with measurementtype and units)
+- NR_json_writer.py: writes a json spec for each neighborhood+report combination
 
 ---
 

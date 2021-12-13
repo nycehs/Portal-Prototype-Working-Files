@@ -1,4 +1,4 @@
-# NYC Environmental Health Neighborhood Reports 
+# Portal Prototype Working Files
 This repository includes wireframes and working files for the Environment & Health Data Portal's Neighborhood Reports.
 
 ## Python Data Management

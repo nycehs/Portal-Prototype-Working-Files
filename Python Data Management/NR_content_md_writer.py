@@ -99,6 +99,9 @@ for element in neighborhoodList:
             f.write("seo_description: "+"\""+reportName+" data profile for the " +
                     neighborhoodTitle+" neighborhood of NYC.\"\n")
             f.write("seo_image: \""+seoImagePath+"\"\n")
+            f.write("menu:\n")
+            f.write("    main:\n")
+            f.write("        identifier: '04'\n")
             f.write("---\n")
         finally:
             f.close()

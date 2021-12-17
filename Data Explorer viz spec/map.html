@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.11/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.8.7/polyfill.js"></script>
+    <script src="https://vega.github.io/vega/assets/promise.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/symbol.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/fetch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5/build-es5/vega.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4/build-es5/vega-lite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6/build-es5/vega-embed.js"></script>
+        <!--D3-->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+
+            <!--CSS-->
+    <style>
+      body {
+        max-width: 700px;
+        margin: auto;
+      }
+    
+      #container {
+        max-width: 700px;
+      }
+    
+      .chartdest {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 50px;
+      }
+    
+      code {
+        color: white;
+        background-color: rgb(73, 73, 73);
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+    </style>
+</head>
+<body>
+
+
+
+  <div id="container">
+
+    <h1>Map and bar: vconcat/layer/color</h1>
+
+    <p>Does what it says on the tin, mate. Vertically concatenates a map and bar and encodes them alike. This is a pretty intensive manual spec but can be a starting point for converting to Vega and adding a mutual hover effect.</p>
+
+    <div id="vis1" class="chartdest"></div>
+    
+
+    
+    
+    <hr><a href="index.html">Back to main</a>
+  </div>
+
+
+
+<script type="text/javascript">
+
+var spec = 'map.vl.json'
+
+vegaEmbed("#vis1", spec);
+
+
+
+</script>
+</body>
+</html>

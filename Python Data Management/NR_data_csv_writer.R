@@ -108,7 +108,7 @@ report_data_list <-
     group_split() %>% 
     walk(
         ~ write_csv(
-            select(.x, -data_field_name), 
+            select(.x, -data_field_name),
             paste0("visualizations/csv/", unique(.x$title), "_data.csv")
             
         )
@@ -123,11 +123,16 @@ measure_data_list <-
     report_data %>% 
     select(
         data_field_name,
+        end_date,
         geo_join_id, 
         neighborhood,
         data_value, 
         message
     ) %>% 
+    group_by(data_field_name, neighborhood) %>% 
+    arrange(desc(end_date)) %>% 
+    slice(1) %>% 
+    select(-end_date) %>% 
     group_by(data_field_name) %>% 
     group_split() %>% 
     walk(

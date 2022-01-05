@@ -171,7 +171,7 @@
             defaultMeasure = selectedIndicator[0].Measures[0].MeasureID;
           };
         }
-        console.log('default measure is ' + defaultMeasure);
+        console.log('default measure is: ' + defaultMeasure);
         selectedMeasure = selectedIndicator[0].Measures.filter(measure => measure.MeasureID == defaultMeasure)
         // Create drop-down lists (this could be refactored/simplified)
         printMeasures();
@@ -181,6 +181,7 @@
 
         // load data
         loadData();
+        loadJSON();
       }
 
 
@@ -188,15 +189,52 @@
       function loadData() {
         // Loads data as an arquero table
         aq.loadCSV(dataFile).then(function (data) {
-
+        
+            console.log("---- CSV long data ----")
+            data.print(); // print to console to check
+            
             // making wide
-            // column names will be MeasureID. If we include a "MeasureName" variable in the CSV, we could name them like the current portal.
             
             dataTable = 
                 data
                 .groupby("Geo-type", "Geography-ID", "Year")
-                .pivot("MeasureID", "Value");
+                .pivot("MeasureName", "Value");
+            
+            console.log("---- CSV wide data ----")
+            dataTable.print(); // print to console to check
+            
+            // filter by selected measure
+            //console.log('default measure is: ' + defaultMeasure)
 
+            /*
+            filteredArqueroTable = dataTable.filter(d => d.MeasureID == 1199 ); // currently filters hardcoded !!!
+            document.getElementById('showTable').innerHTML = filteredArqueroTable.toHTML(); // print dataTable to HTML
+            */
+
+            //document.getElementById('showTable').innerHTML = dataTable.toHTML(); // print dataTable to HTML
+            //document.querySelector('#showTable table').id = "tableID" // this gives the table an ID (table code gen'd by Arquero)
+            //printSummaryTable();
+        });
+      }
+
+
+      // this is an example of ingesting json data instead of CSV. This works fine, we can drop in the json loading instead of CSV in code above, references to dataFile.
+      // var jsonData;
+      function loadJSON() {
+
+        aq.loadJSON('2380.json').then(function (data) {
+
+            console.log("---- JSON long data ----")
+            data.print(); // print to console to check
+            
+            // making wide
+            
+            dataTable = 
+                data
+                .groupby("Geo-type", "Geography-ID", "Year")
+                .pivot("MeasureName", "Value");
+            
+            console.log("---- JSON wide data ----")
             dataTable.print(); // print to console to check
 
             // filter by selected measure
@@ -210,17 +248,7 @@
             document.getElementById('showTable').innerHTML = dataTable.toHTML(); // print dataTable to HTML
             document.querySelector('#showTable table').id = "tableID" // this gives the table an ID (table code gen'd by Arquero)
             printSummaryTable();
-        });
-      }
 
-
-      // this is an example of ingesting json data instead of CSV. This works fine, we can drop in the json loading instead of CSV in code above, references to dataFile.
-      var jsonData;
-      function loadJSON() {
-        aq.loadJSON('2380.json').then(function (data) {
-        jsonData = data
-        jsonData.print()
-      
       })
     }
     // End short segment above
@@ -265,7 +293,7 @@
       function printYears() {
         var ddl = document.getElementById('timeList');
         ddl.innerHTML = ''; // clear list from last time!
-        console.log('selected measure is ')
+        console.log('selected measure is: ')
         console.table(selectedMeasure)
         
 

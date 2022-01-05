@@ -213,6 +213,19 @@
         });
       }
 
+
+      // this is an example of ingesting json data instead of CSV. This works fine, we can drop in the json loading instead of CSV in code above, references to dataFile.
+      var jsonData;
+      function loadJSON() {
+        aq.loadJSON('2380.json').then(function (data) {
+        jsonData = data
+        jsonData.print()
+      
+      })
+    }
+    // End short segment above
+
+    // This is the specification for the table.
       function printSummaryTable() {
         $('#tableID').DataTable({
           "scrollY":        "500px",
@@ -232,6 +245,7 @@
     
       }
 
+      // Creates the measures dropdown list
       function printMeasures() {
         var ddl = document.getElementById('measureList');
         ddl.innerHTML = ''; // clear list from last time!
@@ -247,6 +261,7 @@
         document.getElementById('measureContainer').style.display = "block"
       }
 
+      // creates the years dropdown list
       function printYears() {
         var ddl = document.getElementById('timeList');
         ddl.innerHTML = ''; // clear list from last time!
@@ -265,6 +280,7 @@
       }
 
 
+      // creates the geographies dropdown list
       function printGeographies() {
         var ddl = document.getElementById('geoList');
         ddl.innerHTML = ''; // clear list from last time!

@@ -28,7 +28,7 @@
     
       .chartdest {
         width: 100%;
-        height: 450px;
+        min-height: 450px;
         margin-bottom: 50px;
       }
     
@@ -89,17 +89,35 @@
 
 var spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "background": "#FFFFFF",
+    "axisX": {
+      "domain": true,
+      "labels": true,
+      "grid": false,
+      "labelFontSize": 8,
+      "tickColor": "#000000",
+      "tickSize": 2,
+      "titleFontSize": 12
+    },
+    "axisY": {"domain": false, "labels": false, "grid": true, "ticks": false},
+    "view": {"stroke": "transparent"},
+    "tick": {"thickness": 0.65, "bandSize": 40}
+  },
   "width": "container",
-  "height": "container",
-  "autosize": {"type": "fit", "contains": "padding"},
-  "layer": [
+  "vconcat": [
     {
+        "layer": [
+    {
+      "width": "container",
+      "height": "500",
       "data": {
         "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/UHF42.topo.json",
         "format": {"type": "topojson", "feature": "collection"}
       },
       "mark": {"type": "geoshape", "stroke": "#ffffff", "fill": "lightgray"}
     },
+    
     {
       "data": {
         "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/UHF42.topo.json",
@@ -137,7 +155,7 @@ var spec = {
             "data": {
               "name": "mapData"
             },
-            "key": "Geography-ID",
+            "key": "GeoID",
             "fields": ["MeasureID", "Year", "Value"]
           },
           "default": "no data"
@@ -145,15 +163,54 @@ var spec = {
       ]
     }
   ]
-};
+    },
+{  
+  "width": "container",
+  "height": "150",
+  "data": {
+    "name": "mapData"
+  },
+  "mark": {"type": "bar", "tooltip": true},
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "title": null
+        },
+        "tooltip": [
+          {"field": "GeoID", "title": "GeoID"},
+          {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Value"
+          },
+          {"field":"MeasureID","title":"Measure"}
+        ],
+        "x": {
+          "field": "GeoID",
+          "sort": {"field": "Value"},
+          "axis": null
+        },
+        "color": {
+          "bin": false,
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {"scheme": {"name": "purples", "extent": [0.25, 1]}}
+        }
+      }}
+  ]
+}
+
 
 var measure = 1197;
 var toMap = [];
+var filterByMeasure = [];
 
 d3.csv('2380.csv').then(function (data) {
   dataFile = data;
   console.table(dataFile)
-  toMap = dataFile.filter(x => x.MeasureID == measure) 
+  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) 
+  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42")
   embed("#vis1", spec, 'mapData', toMap)
 });
 
@@ -161,7 +218,8 @@ d3.csv('2380.csv').then(function (data) {
 document.getElementById('measureList').addEventListener('change', function() {
   measure = document.getElementById('measureList').value;
   // console.log(measure)
-  toMap = dataFile.filter(x => x.MeasureID == measure) 
+  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) 
+  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42")
   // console.table(toMap)
   embed("#vis1", spec, 'mapData', toMap)
 });

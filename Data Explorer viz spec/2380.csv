@@ -1,4 +1,4 @@
-MeasureID,Year,Geo-type,Geography-ID,Value,Note,MeasureName
+MeasureID,Year,Geotype,GeoID,Value,Note,MeasureName
 1197,2016,Citywide,1,66229,"Asthma ED Visits (adults), Number",Number
 1197,2016,Borough,1,21089,"Asthma ED Visits (adults), Number",Number
 1197,2016,Borough,2,20608,"Asthma ED Visits (adults), Number",Number

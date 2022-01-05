@@ -166,7 +166,7 @@ var spec = {
     },
 {  
   "width": "container",
-  "height": "150",
+  "height": "100",
   "data": {
     "name": "mapData"
   },
@@ -188,7 +188,7 @@ var spec = {
         ],
         "x": {
           "field": "GeoID",
-          "sort": {"field": "Value"},
+          "sort": true,
           "axis": null
         },
         "color": {
@@ -207,11 +207,12 @@ var toMap = [];
 var filterByMeasure = [];
 
 d3.csv('2380.csv').then(function (data) {
-  dataFile = data;
-  console.table(dataFile)
-  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) 
-  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42")
-  embed("#vis1", spec, 'mapData', toMap)
+  dataFile = data; // data file is the full data file
+  dataFile.sort(function(a, b) { return a.Value - b.Value }); // sort by value, necessary even with sort: true in spec.
+  // console.table(dataFile)
+  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) // here we'll reduce it to the default or chosen measure
+  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42") /// and then filter for UHF only
+  embed("#vis1", spec, 'mapData', toMap) 
 });
 
 // watch drop-down and change map

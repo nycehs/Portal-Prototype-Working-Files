@@ -197,7 +197,7 @@
             
             dataTable = 
                 data
-                .groupby("Geo-type", "Geography-ID", "Year")
+                .groupby("Geotype", "GeoID", "Year")
                 .pivot("MeasureName", "Value");
             
             console.log("---- CSV wide data ----")
@@ -231,7 +231,7 @@
             
             dataTable = 
                 data
-                .groupby("Geo-type", "Geography-ID", "Year")
+                .groupby("Geotype", "GeoID", "Year")
                 .pivot("MeasureName", "Value");
             
             console.log("---- JSON wide data ----")

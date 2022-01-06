@@ -7,10 +7,9 @@
 ###########################################################################################
 
 import pyodbc
-import keyring
 import pandas as pd
 
-EHDP_odbc = pyodbc.connect('DSN=EHDP_stage;UID=bespadmin;PWD=' + keyring.get_password("EHDP", "bespadmin"))
+EHDP_odbc = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=SQLIT04A;DATABASE=BESP_Indicator;Trusted_Connection=yes;')
 
 metadata = (
     pd.read_sql("SELECT * FROM metadata_for_indicators_json", EHDP_odbc)

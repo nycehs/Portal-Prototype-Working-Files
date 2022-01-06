@@ -46,20 +46,21 @@
 
   <div id="container">
 
-    <h1>VL Map Spec</h1>
+    <h1>VL Map/Bar Spec</h1>
 
     <p>Basic VL map spec:
       <ul>
         <li>Uses UHF42 topo.json from NYC_Geography</li>
-        <li>Uses dummy asthma file</li>
+        <li>Uses dummy asthma file (as JSON!)</li>
         <li>Delivers data as named object into Spec</li>
         <li>Measure selection -> named object -> Map</li>
         <li>Hover highlight (with UTD VL version)</li>
       </ul>
       Will need the following:
       <ul>
-        <li>Mutual highlighting</li>
-        <li>Inject measure name into tooltip</li>
+        <li>Join GeoLookup to Data File at Arquero object before inserting into spec: previously, we'd use the properties.GEONAME from the topo.json file for the neighborhood names, but I think using the topo.json as the secondary data source means we can't - I can't access it from the spec. So we'll need it in the data object. </li>
+        <li>Inject measure name into tooltip: we usually would do this from Indicators.json, but we can crudely/roughly do this from Notes for now.</li>
+        <li>Down the line, of course, a map option would either rule out counts, or map bubbles/centroids.</li>
       </ul>
     </p>
 
@@ -71,14 +72,12 @@
       <option value="1198">1198</option>
       <option value="1199">1199</option>
     </select>
+    <hr>
 
 
 
     <div id="vis1" class="chartdest"></div>
 
-    <hr class="margin-top: 25px; margin-bottom: 25px">
-
-    <div id="vis2" class="chartdest"></div>
     
 
     
@@ -93,7 +92,7 @@
 var spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "config": {
-    "background": "#FFFFFF",
+    "background": "#FFFFFF00",
     "axisX": {
       "domain": true,
       "labels": true,
@@ -104,148 +103,12 @@ var spec = {
       "titleFontSize": 12
     },
     "axisY": {"domain": false, "labels": false, "grid": true, "ticks": false},
-    "view": {"stroke": "transparent"},
-    "tick": {"thickness": 0.65, "bandSize": 40}
+    "view": {"stroke": "transparent"}
   },
+  "title": "",
   "width": "container",
-  "vconcat": [
-    {
-        "layer": [
-    {
-      "width": "container",
-      "height": "500",
-      "data": {
-        "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/UHF42.topo.json",
-        "format": {"type": "topojson", "feature": "collection"}
-      },
-      "mark": {"type": "geoshape", "stroke": "#ffffff", "fill": "lightgray"}
-    },
-    
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/UHF42.topo.json",
-        "format": {"type": "topojson", "feature": "collection"}
-      },
-      "params": [
-        {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
-      ],
-      "mark": {"type": "geoshape", "stroke": "#ededed"},
-      "encoding": {
-        "color": {
-          "bin": false,
-          "field": "Value",
-          "type": "quantitative",
-          "legend": null,
-          "scale": {"scheme": {"name": "purples", "extent": [0.25, 1]}}
-        },
-        "strokeWidth": {
-          "condition": [{"param": "highlight", "empty": false, "value": 2}],
-          "value": 0.5
-        },
-        "tooltip": [
-          {
-            "field": "properties.GEONAME",
-            "type": "nominal",
-            "title": "Neighborhood"
-          },
-          {"field": "Value", "type": "quantitative", "title": "Value"}
-        ]
-      },
-      "transform": [
-        {
-          "lookup": "properties.GEOCODE",
-          "from": {
-            "data": {
-              "name": "mapData"
-            },
-            "key": "GeoID",
-            "fields": ["MeasureID", "Year", "Value"]
-          },
-          "default": "no data"
-        }
-      ]
-    }
-  ]
-    },
-{  
-  "width": "container",
-  "height": "100",
   "data": {
     "name": "mapData"
-  },
-  "mark": {"type": "bar", "tooltip": true},
-      "encoding": {
-        "y": {
-          "field": "Value",
-          "type": "quantitative",
-          "title": null
-        },
-        "tooltip": [
-          {"field": "GeoID", "title": "GeoID"},
-          {
-            "field": "Value",
-            "type": "quantitative",
-            "title": "Value"
-          },
-          {"field":"MeasureID","title":"Measure"}
-        ],
-        "x": {
-          "field": "GeoID",
-          "sort": true,
-          "axis": null
-        },
-        "color": {
-          "bin": false,
-          "field": "Value",
-          "type": "quantitative",
-          "scale": {"scheme": {"name": "purples", "extent": [0.25, 1]}}
-        }
-      }}
-  ]
-}
-
-
-var measure = 1197;
-var toMap = [];
-var filterByMeasure = [];
-
-d3.csv('2380.csv').then(function (data) {
-  dataFile = data; // data file is the full data file
-  dataFile.sort(function(a, b) { return a.Value - b.Value }); // sort by value, necessary even with sort: true in spec.
-  // console.table(dataFile)
-  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) // here we'll reduce it to the default or chosen measure
-  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42") /// and then filter for UHF only
-  embed("#vis1", spec, 'mapData', toMap) 
-});
-
-// watch drop-down and change map
-document.getElementById('measureList').addEventListener('change', function() {
-  measure = document.getElementById('measureList').value;
-  // console.log(measure)
-  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) 
-  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42")
-  // console.table(toMap)
-  embed("#vis1", spec, 'mapData', toMap)
-});
-
-// this is the embed function that delivers the data as an object (dataFile). This lets us filter/manipuate dataFile in the browser before delivering it. 
-// dest is the destination id; spec is the json spec variable; name is the name given in the VL json spec; and array is the JS variable holding the array. 
-function embed(dest, spec, name, array) {
-  vegaEmbed(dest, spec).then(res =>
-        res.view
-            .insert(name, array)
-            .runAsync()
-        );
-}
-
-// vegaEmbed("#vis1", spec);
-
-var spec2 = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "This is my good schema!",
-  "width": 700,
-  "data": {
-    "url": "https://gist.githubusercontent.com/mmontesanonyc/28953366ac41a0ecf24470a3cefb6cea/raw/4b2869cc9fe93a4ae4e33b2acc0aad5570c498a0/2380-reduced.csv"
   },
   "params": [
     {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
@@ -253,7 +116,7 @@ var spec2 = {
   "projection": {"type": "mercator"},
   "vconcat": [
     {
-      "height": 450,
+      "height": 500,
       "width": "container",
       "mark": {"type": "geoshape", "stroke": "#000000"},
       "encoding": {
@@ -262,8 +125,20 @@ var spec2 = {
           "bin": false,
           "field": "Value",
           "type": "quantitative",
-          "scale": {"scheme": {"name": "purples", "extent": [0.25, 1]}}
+          "scale": {"scheme": {"name": "purples", "extent": [0.25, 1]}},
+          "legend": {
+            "orient": "left",
+            "title": "",
+                    }
         },
+        "tooltip": [
+        {
+          "field": "properties.GEONAME",
+          "type": "nominal",
+          "title": "Neighborhood"
+        },
+        {"field": "Value", "type": "quantitative", "title": "Value"}
+      ],
         "strokeWidth": {
           "condition": [{"param": "highlight", "empty": false, "value": 2}],
           "value": 0.5
@@ -271,7 +146,7 @@ var spec2 = {
       },
       "transform": [
         {
-          "lookup": "Geography-ID",
+          "lookup": "GeoID",
           "from": {
             "data": {
               "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/UHF42.topo.json",
@@ -290,11 +165,11 @@ var spec2 = {
       "encoding": {
         "y": {"field": "Value", "type": "quantitative", "title": null},
         "tooltip": [
-          {"field": "Geography-ID", "title": "GeoID"},
+          {"field": "GeoID", "title": "GeoID"},
           {"field": "Value", "type": "quantitative", "title": "Value"},
           {"field": "MeasureID", "title": "Measure"}
         ],
-        "x": {"field": "Geography-ID", "sort": true, "axis": null},
+        "x": {"field": "GeoID", "sort": true, "axis": null},
         "color": {
           "bin": false,
           "field": "Value",
@@ -310,7 +185,63 @@ var spec2 = {
   ]
 }
 
-vegaEmbed("#vis2", spec2)
+
+var measure = 1197;
+var measureName = "Asthma ED Visits (adults), Number"
+var toMap = [];
+var filterByMeasure = [];
+
+d3.json('2380.json').then(function (data) {
+  dataFile = data; // data file is the full data file
+  dataFile.sort(function(a, b) { return a.Value - b.Value }); // sort by value, necessary even with sort: true in spec.
+  // console.table(dataFile)
+  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) // here we'll reduce it to the default or chosen measure
+  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42") /// and then filter for UHF only
+
+  // change measure name in tooltip:
+  spec.vconcat[0].encoding.tooltip[1].title = measureName
+  spec.vconcat[1].encoding.tooltip[1].title = measureName
+
+
+  embed("#vis1", spec, 'mapData', toMap) 
+});
+
+// watch drop-down and change map
+document.getElementById('measureList').addEventListener('change', function() {
+  measure = document.getElementById('measureList').value;
+  // console.log(measure)
+  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) 
+  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42")
+  
+  // change measurename in tooltip on update
+  if (measure == 1197) {
+    measureName = "Asthma ED Visits (adults), Number"
+  } else if (measure == 1198) {
+    measureName = "Asthma ED Visits (adults), Estimated Annual Rate"
+  } else if (measure == 1199) {
+    measureName = "Asthma ED Visits (adults), Age-Adjusted Rate"
+  }
+
+  spec.vconcat[0].encoding.tooltip[1].title = measureName
+  spec.vconcat[1].encoding.tooltip[1].title = measureName
+
+  // redraw the map after menu selection
+  embed("#vis1", spec, 'mapData', toMap)
+});
+
+// this is the embed function that delivers the data as an object (dataFile). This lets us filter/manipuate dataFile in the browser before delivering it. 
+// dest is the destination id; spec is the json spec variable; name is the name given in the VL json spec; and array is the JS variable holding the array. 
+
+function embed(dest, spec, name, array) {
+  vegaEmbed(dest, spec).then(res =>
+        res.view
+            .insert(name, array)
+            .runAsync()
+        );
+}
+
+vegaEmbed("#vis1", spec);
+
 
 
 

@@ -94,7 +94,7 @@ measure_times = (
 
 # combining geotype and times, then nesting those under other measure-level info vars
 
-indicators = (
+measures = (
     pd.merge(
         measure_geotypes,
         measure_times,
@@ -124,4 +124,4 @@ indicators = (
 
 # saving file
 
-indicators.to_json("Data Explorer Files/indicators.json", orient = 'records', indent = 2)
+measures.to_json("Data Explorer Files/indicators.json", orient = 'records', indent = 2)

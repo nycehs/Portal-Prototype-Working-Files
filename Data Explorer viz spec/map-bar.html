@@ -51,15 +51,16 @@
     <p>Basic VL map spec:
       <ul>
         <li>Uses UHF42 topo.json from NYC_Geography</li>
-        <li>Uses dummy asthma file (as JSON!)</li>
+        <li>Uses dummy asthma file (as JSON)</li>
         <li>Delivers data as named object into Spec</li>
         <li>Measure selection -> named object -> Map</li>
         <li>Hover highlight (with UTD VL version)</li>
+        <li>Sort using data.format.parse.Value, and encoding.x.sort</li>
+        <li>Inject measure name into tooltip and title (currently roughly done from Notes; final form will do from Indicators.json)</li>
       </ul>
       Will need the following:
       <ul>
         <li>Join GeoLookup to Data File at Arquero object before inserting into spec: previously, we'd use the properties.GEONAME from the topo.json file for the neighborhood names, but I think using the topo.json as the secondary data source means we can't - I can't access it from the spec. So we'll need it in the data object. </li>
-        <li>Inject measure name into tooltip: we usually would do this from Indicators.json, but we can crudely/roughly do this from Notes for now.</li>
         <li>Down the line, of course, a map option would either rule out counts, or map bubbles/centroids.</li>
       </ul>
     </p>
@@ -108,7 +109,12 @@ var spec = {
   "title": "",
   "width": "container",
   "data": {
-    "name": "mapData"
+    "name": "mapData",
+    "format": {
+      "parse": {
+        "Value": "number"
+      }
+    }
   },
   "params": [
     {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
@@ -166,10 +172,9 @@ var spec = {
         "y": {"field": "Value", "type": "quantitative", "title": null},
         "tooltip": [
           {"field": "GeoID", "title": "GeoID"},
-          {"field": "Value", "type": "quantitative", "title": "Value"},
-          {"field": "MeasureID", "title": "Measure"}
+          {"field": "Value", "type": "quantitative", "title": "Value"}
         ],
-        "x": {"field": "GeoID", "sort": true, "axis": null},
+        "x": {"field": "GeoID", "sort": "y", "axis": null},
         "color": {
           "bin": false,
           "field": "Value",
@@ -193,12 +198,13 @@ var filterByMeasure = [];
 
 d3.json('2380.json').then(function (data) {
   dataFile = data; // data file is the full data file
-  dataFile.sort(function(a, b) { return a.Value - b.Value }); // sort by value, necessary even with sort: true in spec.
+  // dataFile.sort(function(a, b) { return a.Value - b.Value }); // sort by value, not necessary with new spec
   // console.table(dataFile)
   filterByMeasure = dataFile.filter(x => x.MeasureID == measure) // here we'll reduce it to the default or chosen measure
   toMap = filterByMeasure.filter(y => y.Geotype == "UHF42") /// and then filter for UHF only
 
   // change measure name in tooltip:
+  spec.title = measureName
   spec.vconcat[0].encoding.tooltip[1].title = measureName
   spec.vconcat[1].encoding.tooltip[1].title = measureName
 
@@ -221,7 +227,7 @@ document.getElementById('measureList').addEventListener('change', function() {
   } else if (measure == 1199) {
     measureName = "Asthma ED Visits (adults), Age-Adjusted Rate"
   }
-
+  spec.title = measureName
   spec.vconcat[0].encoding.tooltip[1].title = measureName
   spec.vconcat[1].encoding.tooltip[1].title = measureName
 

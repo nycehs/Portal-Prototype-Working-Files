@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/arquero@latest"></script>
+
+</head>
+
+<body>
+
+    <script>
+
+
+        function loadJSON() {
+            
+            aq.loadJSON('2380.json')
+                .then(data => {
+                
+                    console.log("---- JSON long data ----")
+                    data.print();
+                    
+                    // making wide
+                    
+                    dataTable =
+                        data
+                        .groupby("Geotype", "GeoID", "Year")
+                        .pivot("MeasureName", "Value")
+                    
+                    console.log("---- JSON wide data ----")
+                    dataTable.print();
+
+                    return dataTable;
+                    
+                })
+                .then(result => {
+                
+                    aq.loadCSV("../Data Explorer Files/GeoLookup.csv")
+                        .then(data => {
+                        
+                            //joined_json = result.join_left(data)
+                            joined_json = result.join_left(data)
+
+                            console.log("---- JSON + GeoLookup ----")
+                            joined_json.print()
+                        
+                        })
+                
+                })
+        }
+        
+        console.log("calling 'loadJSON':")
+        loadJSON()
+        
+    </script>
+
+</body>

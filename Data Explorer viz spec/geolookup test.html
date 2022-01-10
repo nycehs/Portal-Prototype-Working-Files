@@ -11,46 +11,55 @@
 
     <script>
 
+        var dataTable = [];
+        var geoTable = [];
+        var joinedData = [];
 
-        function loadJSON() {
-            
+        // load the data file
+        function loadData() {
             aq.loadJSON('2380.json')
-                .then(data => {
+            .then(data => {
+            
+                // console.log("---- JSON long data ----")
+                // data.print();
                 
-                    console.log("---- JSON long data ----")
-                    data.print();
-                    
-                    // making wide
-                    
-                    dataTable =
-                        data
-                        .groupby("Geotype", "GeoID", "Year")
-                        .pivot("MeasureName", "Value")
-                    
-                    console.log("---- JSON wide data ----")
-                    dataTable.print();
+                // making wide
+                
+                dataTable =
+                    data
+                    .groupby("Geotype", "GeoID", "Year")
+                    .pivot("MeasureName", "Value")
+                
+                console.log("---- JSON wide data ----")
+                dataTable.print();
 
-                    return dataTable;
-                    
-                })
-                .then(result => {
-                
-                    aq.loadCSV("../Data Explorer Files/GeoLookup.csv")
-                        .then(data => {
-                        
-                            //joined_json = result.join_left(data)
-                            joined_json = result.join_left(data)
-
-                            console.log("---- JSON + GeoLookup ----")
-                            joined_json.print()
-                        
-                        })
-                
-                })
+                return dataTable;
+ 
+            });
+            loadGeo() // run the next function
         }
-        
-        console.log("calling 'loadJSON':")
-        loadJSON()
+
+        // load the Geo file
+        function loadGeo() {
+            aq.loadCSV("../Data Explorer Files/GeoLookup.csv")
+            .then(data => {
+                geoTable = data;
+                console.log("---- Geo Names ----")
+                geoTable.print();
+                joinData(); // run the next function
+            });            
+        }
+
+        // join the data
+        function joinData() {
+            joinedData = dataTable.join_left(geoTable)
+            console.log("---- JSON + GeoLookup ----")
+            joinedData.print();
+        }
+
+        // run the first function
+        loadData();
+
         
     </script>
 

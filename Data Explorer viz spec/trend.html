@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.11/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.8.7/polyfill.js"></script>
+    <script src="https://vega.github.io/vega/assets/promise.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/symbol.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/fetch.min.js"></script>
+
+    <!-- these three added for utd versions--> 
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <!--D3-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+            <!--CSS-->
+    <style>
+      body {
+        max-width: 700px;
+        margin: auto;
+      }
+    
+      #container {
+        max-width: 700px;
+      }
+    
+      .chartdest {
+        width: 100%;
+        min-height: 450px;
+        margin-bottom: 50px;
+      }
+    
+      code {
+        color: white;
+        background-color: rgb(73, 73, 73);
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+    </style>
+</head>
+<body>
+
+
+
+  <div id="container">
+
+    <h1>VL Trend Spec</h1>
+
+    <p>This chart has all-series tooltip functionality; it has a legend, which we don't like, but we might be able to enhance it with direct line-labels.     </p>
+
+
+    <hr>
+
+    <div id="vis1" class="chartdest"></div>
+
+    <p>This chart needs no legend since it has single-series tooltips. It also has nice hover interaction.     </p>
+    <div id="vis2" class="chartdest"></div>
+    
+
+    
+    
+
+  </div>
+
+
+
+<script type="text/javascript">
+
+var spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {
+    "background": "#FFFFFF",
+    "title": {"anchor": "start", "fontSize": 18, "font": "Calibri"},
+    "axisX": {
+      "domain": true,
+      "domainColor": "#000000",
+      "domainWidth": 1,
+      "grid": false,
+      "labelFontSize": 12,
+      "labelAngle": 0,
+      "tickColor": "#000000",
+      "tickSize": 5,
+      "titleFontSize": 12,
+      "titlePadding": 10
+    },
+    
+    "axisY": {
+      "domain": false,
+      "domainWidth": 1,
+      "grid": true,
+      "gridColor": "#DEDDDD",
+      "gridWidth": 1,
+      "labelFontSize": 12,
+      "labelPadding": 8,
+      "ticks": false,
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "titleFont": "Lato",
+      "titleAngle": 0,
+      "titleY": -10,
+      "titleX": 18
+    },
+  
+  
+    "view": {"stroke": "transparent"},
+  
+    "range": {
+      "category": [
+        "#1696d2",
+        "#000000",
+        "#fdbf11",
+        "#ec008b",
+        "#d2d2d2",
+        "#55b748"
+      ]
+    },
+  
+    "line": {"color": "#1696d2", "stroke": "#1696d2", "strokeWidth": 3},
+  
+  
+    "point": {"filled": true},
+    "text": {
+      "color": "#1696d2",
+      "fontSize": 11,
+      "align": "center",
+      "fontWeight": 400,
+      "size": 11
+    }
+  },
+    "data": {
+      "url": "https://gist.githubusercontent.com/mmontesanonyc/6b0aa75affc6a60978f73e11d2f58bb3/raw/e944d335042e3da0c8e99a4df0fbebc8aac4cc15/asthmatrend.csv"
+    },
+    "width": "container",
+    "height": 300,
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": ""
+      }
+    },
+    "layer": [
+      {
+        "encoding": {
+          "color": {
+            "field": "GeoName",
+            "type": "nominal",
+            "legend": {
+              "orient": "right",
+              "title": null
+            }
+          },
+          "y": {
+            "field": "Value",
+            "type": "quantitative",
+            "title": ""
+          }
+        },
+        "layer": [
+          {
+            "mark": {
+              "type": "line",
+              "point": {"filled": false, "fill": "white"}
+            }
+  
+          },
+          {
+            "transform": [
+              {
+                "filter": {
+                  "param": "hover",
+                  "empty": false
+                }
+              }
+            ],
+            "mark": "point"
+          }
+        ]
+      },
+      {
+        "transform": [
+          {
+            "pivot": "GeoName",
+            "value": "Value",
+            "groupby": [
+              "Year"
+            ]
+          }
+        ],
+        "mark": "rule",
+        "encoding": {
+          "opacity": {
+            "condition": {
+              "value": 0.3,
+              "param": "hover",
+              "empty": false
+            },
+            "value": 0
+          },
+          "tooltip": [
+            {
+              "field": "Citywide",
+              "type": "quantitative"
+            },
+            {
+              "field": "The Bronx",
+              "type": "quantitative"
+            },
+            {
+              "field": "Brooklyn",
+              "type": "quantitative"
+            },
+            {
+              "field": "Manhattan",
+              "type": "quantitative"
+            },
+            {
+              "field": "Queens",
+              "type": "quantitative"
+            }
+          ]
+        },
+        "params": [
+          {
+            "name": "hover",
+            "select": {
+              "type": "point",
+              "fields": [
+                "Year"
+              ],
+              "nearest": true,
+              "on": "mouseover",
+              "clear": "mouseout"
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+
+ vegaEmbed("#vis1", spec);
+
+ var spec2 = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Stock prices of 5 Tech Companies over Time.",
+      "config": {
+    "background": "#FFFFFF",
+    "title": {"anchor": "start", "fontSize": 18, "font": "Calibri"},
+    "axisX": {
+      "domain": true,
+      "domainColor": "#000000",
+      "domainWidth": 1,
+      "grid": false,
+      "labelFontSize": 12,
+      "labelAngle": 0,
+      "tickColor": "#000000",
+      "tickSize": 5,
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "title": null
+    },
+    
+    "axisY": {
+      "domain": false,
+      "domainWidth": 1,
+      "grid": true,
+      "gridColor": "#DEDDDD",
+      "gridWidth": 1,
+      "labelFontSize": 12,
+      "labelPadding": 8,
+      "ticks": false,
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "titleFont": "Lato",
+      "titleAngle": 0,
+      "titleY": -10,
+      "titleX": 18,
+      "title": null
+    },
+  
+  
+    "view": {"stroke": "transparent"},
+  
+    "range": {
+      "category": [
+        "#1696d2",
+        "#000000",
+        "#fdbf11",
+        "#ec008b",
+        "#d2d2d2",
+        "#55b748"
+      ]
+    },
+  
+  
+    "text": {
+      "color": "#1696d2",
+      "fontSize": 11,
+      "align": "center",
+      "fontWeight": 400,
+      "size": 11
+    }
+  },
+    "data": {"url": "https://gist.githubusercontent.com/mmontesanonyc/6b0aa75affc6a60978f73e11d2f58bb3/raw/e944d335042e3da0c8e99a4df0fbebc8aac4cc15/asthmatrend.csv"},
+    "width": "container",
+    "height": 400,
+    "params": [
+      {
+        "name": "hover",
+        "select": {"type": "point", "on": "mouseover"}
+      }
+    ],
+    
+    "mark": {
+      "type": "line",
+      "point": {"filled": false, "fill": "white"}
+    },
+    "encoding": {
+      "x": {"timeUnit": "year", "field": "Year"},
+      "y": {"aggregate":"mean", "field": "Value", "type": "quantitative"},
+          "color": {
+       "condition": {
+          "param": "hover",
+          "field": "GeoName",
+          "type": "nominal",
+          "legend": null
+        },
+        "value": "grey"
+      },
+      "opacity": {
+        "condition": {
+          "param": "hover",
+          "value": 1
+        },
+        "value": 0.2
+      },
+      "strokeWidth": {
+        "condition": {
+          "param": "hover",
+          "value": 3
+        },
+        "value": 2
+      },
+      "tooltip": [
+        {"field": "GeoName", "title": "Location"},
+        {"field": "Value", "type": "quantitative", "title": "Rate"}        ]
+    }
+  };
+
+  vegaEmbed("#vis2", spec2);
+
+
+
+</script>
+</body>
+</html>

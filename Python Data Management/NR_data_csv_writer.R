@@ -121,6 +121,7 @@ report_data_list <-
 
 measure_data_list <-
     report_data %>% 
+    filter(!time_type %>% str_detect("(?i)Seasonal")) %>%
     select(
         data_field_name,
         end_date,
@@ -129,6 +130,7 @@ measure_data_list <-
         data_value, 
         message
     ) %>% 
+    distinct() %>% 
     group_by(data_field_name, neighborhood) %>% 
     arrange(desc(end_date)) %>% 
     slice(1) %>% 
@@ -149,6 +151,7 @@ measure_data_list <-
 
 measure_data_trend_list <- 
     report_data %>% 
+    filter(!time_type %>% str_detect("(?i)Seasonal")) %>% 
     select(
         data_field_name,
         start_date, 
@@ -158,6 +161,7 @@ measure_data_trend_list <-
         data_value, 
         message
     ) %>% 
+    distinct() %>% 
     group_by(data_field_name) %>% 
     group_split() %>% 
     walk(

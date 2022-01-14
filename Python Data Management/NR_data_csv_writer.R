@@ -97,7 +97,7 @@ report_data <-
 # identifying indicators that have an annual average measure
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
-has_annual <- 
+ind_has_annual <- 
     report_data %>% 
     filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
     semi_join(
@@ -117,14 +117,15 @@ has_annual <-
 report_data <- 
     left_join(
         report_data,
-        has_annual,
+        ind_has_annual,
         by = "data_field_name"
     ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
         has_annual == FALSE | 
             (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average"))
-    )
+    ) %>% 
+    select(-has_annual)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -143,7 +144,7 @@ report_data_list <-
     group_split() %>% 
     walk(
         ~ write_csv(
-            select(.x, -data_field_name),
+            .x,
             paste0("visualizations/csv/", unique(.x$title), "_data.csv")
             
         )
@@ -207,7 +208,7 @@ measure_data_trend_list <-
 
 
 #=========================================================================================#
-# Cleaning up----
+# Cleaning up ----
 #=========================================================================================#
 
 dbDisconnect(EHDP_odbc)

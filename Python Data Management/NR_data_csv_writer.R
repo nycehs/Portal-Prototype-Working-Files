@@ -89,11 +89,46 @@ report_data <-
         report_list %>% select(report_id, title),
         .,
         by = "report_id"
+    ) %>% 
+    mutate(across(where(is.character), ~ str_trim(.x)))
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# identifying indicators that have an annual average measure
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+has_annual <- 
+    report_data %>% 
+    filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
+    semi_join(
+        report_data,
+        .,
+        by = c("data_field_name", "neighborhood")
+    ) %>% 
+    mutate(has_annual = TRUE) %>% 
+    select(data_field_name, has_annual) %>% 
+    distinct()
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+# keeping annual average measure if it exists
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+report_data <- 
+    left_join(
+        report_data,
+        has_annual,
+        by = "data_field_name"
+    ) %>% 
+    mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
+    filter(
+        has_annual == FALSE | 
+            (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average"))
     )
 
 
 #-----------------------------------------------------------------------------------------#
-# Saving
+# Saving ----
 #-----------------------------------------------------------------------------------------#
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -121,7 +156,6 @@ report_data_list <-
 
 measure_data_list <-
     report_data %>% 
-    filter(!time_type %>% str_detect("(?i)Seasonal")) %>%
     select(
         data_field_name,
         end_date,
@@ -151,7 +185,6 @@ measure_data_list <-
 
 measure_data_trend_list <- 
     report_data %>% 
-    filter(!time_type %>% str_detect("(?i)Seasonal")) %>% 
     select(
         data_field_name,
         start_date, 

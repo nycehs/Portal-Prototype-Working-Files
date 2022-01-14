@@ -90,7 +90,7 @@ report_data <-
         .,
         by = "report_id"
     ) %>% 
-    mutate(across(where(is.character), ~ str_trim(.x)))
+    mutate(time_type = str_trim(time_type))
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #

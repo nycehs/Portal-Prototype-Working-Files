@@ -29,7 +29,7 @@ geo_join_id,neighborhood,data_value,message
 501,Port Richmond,3.6,Estimate is based on small numbers so should be interpreted with caution.
 405,Ridgewood - Forest Hills,0.7,Estimate is based on small numbers so should be interpreted with caution.
 410,Rockaways,2,Estimate is based on small numbers so should be interpreted with caution.
-504,South Beach - Tottenville,NA,cannot be estimated reliably.
+504,South Beach - Tottenville,NA, cannot be estimated reliably.
 409,Southeast Queens,1.6,Estimate is based on small numbers so should be interpreted with caution.
 407,Southwest Queens,0.5,Estimate is based on small numbers so should be interpreted with caution.
 502,Stapleton - St. George,2.4,Estimate is based on small numbers so should be interpreted with caution.

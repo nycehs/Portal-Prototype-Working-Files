@@ -152,6 +152,7 @@ report_level_3 <-
     # ) %>% 
     collect() %>% 
     mutate(
+        indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
         summary_bar_svg = 
             str_c(
                 indicator_data_name,
@@ -280,8 +281,8 @@ for (i in 1:nrow(report_level_1_small)) {
     write_lines(
         report_json, 
         str_c(
-            "output/",
-            report_spec$report_title,
+            "Python Data Management/output/",
+            str_replace_all(report_spec$report_title, "[:punct:]", ""),
             " in ",
             report_spec$geo_entity_name,
             ".json"

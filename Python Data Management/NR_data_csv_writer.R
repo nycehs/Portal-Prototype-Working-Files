@@ -92,7 +92,10 @@ report_data <-
         .,
         by = "report_id"
     ) %>% 
-    mutate(time_type = str_trim(time_type))
+    mutate(
+        time_type = str_trim(time_type),
+        data_field_name = str_replace(data_field_name, "PM2\\.", "PM2-")
+    )
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #

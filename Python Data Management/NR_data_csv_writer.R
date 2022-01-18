@@ -73,6 +73,7 @@ EHDP_odbc <-
 report_list <- 
     EHDP_odbc %>% 
     tbl("ReportPublicList") %>% 
+    filter(report_id != 80) %>% 
     collect()
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -84,6 +85,7 @@ report_list <-
 report_data <- 
     EHDP_odbc %>% 
     tbl("ReportData") %>% 
+    filter(geo_type == "UHF42", report_id != 80) %>% 
     collect() %>% 
     left_join(
         report_list %>% select(report_id, title),

@@ -1,1154 +1,1298 @@
 [
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "Citywide",
-      "GeoID": 1,
-      "Value": 66229,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 1,
-      "Value": 21089,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 2,
-      "Value": 20608,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 3,
-      "Value": 12872,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 4,
-      "Value": 9598,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 5,
-      "Value": 2062,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 404,
-      "Value": 119,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 203,
-      "Value": 5327,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 209,
-      "Value": 402,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 206,
-      "Value": 668,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 208,
-      "Value": 1535,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 302,
-      "Value": 3761,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 306,
-      "Value": 687,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 210,
-      "Value": 1214,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 105,
-      "Value": 3901,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 202,
-      "Value": 1435,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 207,
-      "Value": 2885,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 303,
-      "Value": 2806,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 204,
-      "Value": 2840,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 403,
-      "Value": 511,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 103,
-      "Value": 3560,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 406,
-      "Value": 318,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 307,
-      "Value": 456,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 201,
-      "Value": 602,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 308,
-      "Value": 128,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 106,
-      "Value": 4507,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 107,
-      "Value": 3244,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 408,
-      "Value": 2151,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 101,
-      "Value": 559,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 401,
-      "Value": 1120,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 310,
-      "Value": 263,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 102,
-      "Value": 2231,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 104,
-      "Value": 3250,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 501,
-      "Value": 604,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 405,
-      "Value": 777,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 410,
-      "Value": 1032,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 504,
-      "Value": 415,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 409,
-      "Value": 937,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 407,
-      "Value": 1147,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 502,
-      "Value": 835,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 205,
-      "Value": 497,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 309,
-      "Value": 1348,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 305,
-      "Value": 340,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 304,
-      "Value": 1159,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 301,
-      "Value": 1973,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 402,
-      "Value": 1558,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 211,
-      "Value": 3302,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1197,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 503,
-      "Value": 210,
-      "Note": "Asthma ED Visits (adults), Number"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "Citywide",
-      "GeoID": 1,
-      "Value": 98.1,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 1,
-      "Value": 193.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 2,
-      "Value": 101.7,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 3,
-      "Value": 91.7,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 4,
-      "Value": 51.6,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 5,
-      "Value": 55.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 404,
-      "Value": 16.1,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 203,
-      "Value": 208.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 209,
-      "Value": 23.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 206,
-      "Value": 27.2,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 208,
-      "Value": 95.2,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 302,
-      "Value": 266.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 306,
-      "Value": 47.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 210,
-      "Value": 53.2,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 105,
-      "Value": 247.4,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 202,
-      "Value": 67.3,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 207,
-      "Value": 122.2,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 303,
-      "Value": 314.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 204,
-      "Value": 208.4,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 403,
-      "Value": 23.3,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 103,
-      "Value": 184.4,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 406,
-      "Value": 39.9,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 307,
-      "Value": 37.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 201,
-      "Value": 54.3,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 308,
-      "Value": 17.6,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 106,
-      "Value": 280.4,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 107,
-      "Value": 309.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 408,
-      "Value": 86.4,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 101,
-      "Value": 75,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 401,
-      "Value": 61.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 310,
-      "Value": 48.7,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 102,
-      "Value": 139.1,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 104,
-      "Value": 136.4,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 501,
-      "Value": 121.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 405,
-      "Value": 38.3,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 410,
-      "Value": 115.6,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 504,
-      "Value": 27,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 409,
-      "Value": 54.9,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 407,
-      "Value": 50.6,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 502,
-      "Value": 85.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 205,
-      "Value": 48.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 309,
-      "Value": 77.5,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 305,
-      "Value": 18.2,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 304,
-      "Value": 61.7,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 301,
-      "Value": 89.9,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 402,
-      "Value": 41,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 211,
-      "Value": 199.9,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1198,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 503,
-      "Value": 29.7,
-      "Note": "Asthma ED Visits (adults), Estimated Annual Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "Citywide",
-      "GeoID": 1,
-      "Value": 99.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 1,
-      "Value": 192.4,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 2,
-      "Value": 103.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 3,
-      "Value": 95.5,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 4,
-      "Value": 52.3,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "Borough",
-      "GeoID": 5,
-      "Value": 59.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 404,
-      "Value": 16.7,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 203,
-      "Value": 209.2,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 209,
-      "Value": 23.7,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 206,
-      "Value": 27.5,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 208,
-      "Value": 98.6,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 302,
-      "Value": 269.4,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 306,
-      "Value": 51,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 210,
-      "Value": 56.9,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 105,
-      "Value": 244.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 202,
-      "Value": 77.2,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 207,
-      "Value": 123.7,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 303,
-      "Value": 317.4,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 204,
-      "Value": 205.5,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 403,
-      "Value": 24.6,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 103,
-      "Value": 182.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 406,
-      "Value": 40.6,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 307,
-      "Value": 43,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 201,
-      "Value": 65.8,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 308,
-      "Value": 17.9,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 106,
-      "Value": 275.3,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 107,
-      "Value": 309.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 408,
-      "Value": 88,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 101,
-      "Value": 78.3,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 401,
-      "Value": 68.9,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 310,
-      "Value": 60.6,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 102,
-      "Value": 145.7,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 104,
-      "Value": 136.8,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 501,
-      "Value": 121,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 405,
-      "Value": 40.5,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 410,
-      "Value": 119.9,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 504,
-      "Value": 29,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 409,
-      "Value": 57.7,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 407,
-      "Value": 50.4,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 502,
-      "Value": 90.5,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 205,
-      "Value": 49.8,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 309,
-      "Value": 81.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 305,
-      "Value": 20.3,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 304,
-      "Value": 64.2,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 301,
-      "Value": 90.4,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 402,
-      "Value": 41.2,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 211,
-      "Value": 206.8,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    },
-    {
-      "MeasureID": 1199,
-      "Year": 2016,
-      "Geotype": "UHF42",
-      "GeoID": 503,
-      "Value": 32.1,
-      "Note": "Asthma ED Visits (adults), Age-Adjusted Rate"
-    }
-  ]
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "Citywide",
+    "GeoID": 1,
+    "Value": 66229,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 1,
+    "Value": 21089,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 2,
+    "Value": 20608,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 3,
+    "Value": 12872,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 4,
+    "Value": 9598,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 5,
+    "Value": 2062,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 404,
+    "Value": 119,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 203,
+    "Value": 5327,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 209,
+    "Value": 402,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 206,
+    "Value": 668,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 208,
+    "Value": 1535,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 302,
+    "Value": 3761,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 306,
+    "Value": 687,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 210,
+    "Value": 1214,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 105,
+    "Value": 3901,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 202,
+    "Value": 1435,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 207,
+    "Value": 2885,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 303,
+    "Value": 2806,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 204,
+    "Value": 2840,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 403,
+    "Value": 511,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 103,
+    "Value": 3560,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 406,
+    "Value": 318,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 307,
+    "Value": 456,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 201,
+    "Value": 602,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 308,
+    "Value": 128,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 106,
+    "Value": 4507,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 107,
+    "Value": 3244,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 408,
+    "Value": 2151,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 101,
+    "Value": 559,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 401,
+    "Value": 1120,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 310,
+    "Value": 263,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 102,
+    "Value": 2231,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 104,
+    "Value": 3250,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 501,
+    "Value": 604,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 405,
+    "Value": 777,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 410,
+    "Value": 1032,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 504,
+    "Value": 415,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 409,
+    "Value": 937,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 407,
+    "Value": 1147,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 502,
+    "Value": 835,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 205,
+    "Value": 497,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 309,
+    "Value": 1348,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 305,
+    "Value": 340,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 304,
+    "Value": 1159,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 301,
+    "Value": 1973,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 402,
+    "Value": 1558,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 211,
+    "Value": 3302,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1197,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 503,
+    "Value": 210,
+    "Note": "Asthma ED Visits (adults), Number",
+    "MeasureName": "Number"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "Citywide",
+    "GeoID": 1,
+    "Value": 98.1,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 1,
+    "Value": 193.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 2,
+    "Value": 101.7,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 3,
+    "Value": 91.7,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 4,
+    "Value": 51.6,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 5,
+    "Value": 55.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 404,
+    "Value": 16.1,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 203,
+    "Value": 208.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 209,
+    "Value": 23.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 206,
+    "Value": 27.2,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 208,
+    "Value": 95.2,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 302,
+    "Value": 266.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 306,
+    "Value": 47.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 210,
+    "Value": 53.2,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 105,
+    "Value": 247.4,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 202,
+    "Value": 67.3,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 207,
+    "Value": 122.2,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 303,
+    "Value": 314.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 204,
+    "Value": 208.4,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 403,
+    "Value": 23.3,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 103,
+    "Value": 184.4,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 406,
+    "Value": 39.9,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 307,
+    "Value": 37.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 201,
+    "Value": 54.3,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 308,
+    "Value": 17.6,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 106,
+    "Value": 280.4,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 107,
+    "Value": 309.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 408,
+    "Value": 86.4,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 101,
+    "Value": 75,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 401,
+    "Value": 61.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 310,
+    "Value": 48.7,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 102,
+    "Value": 139.1,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 104,
+    "Value": 136.4,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 501,
+    "Value": 121.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 405,
+    "Value": 38.3,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 410,
+    "Value": 115.6,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 504,
+    "Value": 27,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 409,
+    "Value": 54.9,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 407,
+    "Value": 50.6,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 502,
+    "Value": 85.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 205,
+    "Value": 48.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 309,
+    "Value": 77.5,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 305,
+    "Value": 18.2,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 304,
+    "Value": 61.7,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 301,
+    "Value": 89.9,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 402,
+    "Value": 41,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 211,
+    "Value": 199.9,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1198,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 503,
+    "Value": 29.7,
+    "Note": "Asthma ED Visits (adults), Estimated Annual Rate",
+    "MeasureName": "Estimated Annual Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "Citywide",
+    "GeoID": 1,
+    "Value": 99.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 1,
+    "Value": 192.4,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 2,
+    "Value": 103.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 3,
+    "Value": 95.5,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 4,
+    "Value": 52.3,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "Borough",
+    "GeoID": 5,
+    "Value": 59.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 404,
+    "Value": 16.7,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 203,
+    "Value": 209.2,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 209,
+    "Value": 23.7,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 206,
+    "Value": 27.5,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 208,
+    "Value": 98.6,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 302,
+    "Value": 269.4,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 306,
+    "Value": 51,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 210,
+    "Value": 56.9,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 105,
+    "Value": 244.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 202,
+    "Value": 77.2,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 207,
+    "Value": 123.7,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 303,
+    "Value": 317.4,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 204,
+    "Value": 205.5,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 403,
+    "Value": 24.6,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 103,
+    "Value": 182.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 406,
+    "Value": 40.6,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 307,
+    "Value": 43,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 201,
+    "Value": 65.8,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 308,
+    "Value": 17.9,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 106,
+    "Value": 275.3,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 107,
+    "Value": 309.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 408,
+    "Value": 88,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 101,
+    "Value": 78.3,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 401,
+    "Value": 68.9,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 310,
+    "Value": 60.6,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 102,
+    "Value": 145.7,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 104,
+    "Value": 136.8,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 501,
+    "Value": 121,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 405,
+    "Value": 40.5,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 410,
+    "Value": 119.9,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 504,
+    "Value": 29,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 409,
+    "Value": 57.7,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 407,
+    "Value": 50.4,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 502,
+    "Value": 90.5,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 205,
+    "Value": 49.8,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 309,
+    "Value": 81.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 305,
+    "Value": 20.3,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 304,
+    "Value": 64.2,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 301,
+    "Value": 90.4,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 402,
+    "Value": 41.2,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 211,
+    "Value": 206.8,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  },
+  {
+    "MeasureID": 1199,
+    "Year": 2016,
+    "Geotype": "UHF42",
+    "GeoID": 503,
+    "Value": 32.1,
+    "Note": "Asthma ED Visits (adults), Age-Adjusted Rate",
+    "MeasureName": "Age-Adjusted Rate"
+  }
+]

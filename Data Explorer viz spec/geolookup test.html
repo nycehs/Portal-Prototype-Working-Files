@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/arquero@latest"></script>
+
+</head>
+
+<body>
+
+    <script>
+
+        var dataTable = [];
+        var geoTable_1 = [];
+        var geoTable_2 = [];
+        var joinedData = [];
+        var csv_data = [];
+
+        // load the data file
+        function loadData() {
+
+            aq.loadJSON('2380.json')
+                .then(data => {
+
+                    fullTable = data.objects();
+                    fullTable_2 = aq.from(fullTable)
+
+                    // pivoting to wider
+
+                    dataTable =
+                        data
+                            .groupby("Geotype", "GeoID", "Year")
+                            .pivot("MeasureName", "Value")
+
+                    console.log("---- JSON wide data (post-load) ----")
+                    dataTable.print();
+
+                    // this needs to be called inside "then" to have access to dataTable
+
+                    loadGeo() // run the next function
+
+                });
+
+        }
+
+
+        // load the Geo file
+        function loadGeo() {
+
+            aq.loadCSV("../Data Explorer Files/GeoLookup.csv")
+                .then(data => {
+
+                    geoTable_1 = data.derive({iter_1: 1});
+
+                    console.log("---- Geo Names 1 (post-load) ----")
+                    geoTable_1.print();
+
+                    //joinData("*** joinData() called from geoTable_1 ***"); // run the next function 
+
+                });
+
+            aq.loadCSV("../Data Explorer Files/GeoLookup.csv")
+                .then(data => {
+
+                    geoTable_2 = data.derive({iter_2: 2});
+
+                    console.log("---- Geo Names 2 (post-load) ----")
+                    geoTable_2.print();
+
+                    //joinData("*** joinData() called from geoTable_2 ***"); // run the next function 
+
+                });
+
+            aq.loadCSV("../Data Explorer Files/GeoLookup.csv")
+                .then(data => {
+
+                    geoTable_3 = data.derive({iter_3: 3});
+
+                    console.log("---- Geo Names 3 (post-load) ----")
+                    geoTable_3.print();
+
+                    joinData("*** joinData() called from geoTable_3 ***"); // run the next function 
+
+                });
+
+        }
+
+        // join the data
+        function joinData(message) {
+
+            console.log(message)
+
+            console.log("#### JSON wide data (inside joinData) ####")
+            aq.from(dataTable).print()
+
+
+            console.log("#### Geo Names 1 (inside joinData) ####")
+            aq.from(geoTable_1).print()
+
+            console.log("#### Geo Names 2 (inside joinData) ####")
+            aq.from(geoTable_2).print()
+
+            console.log("#### Geo Names 3 (inside joinData) ####")
+            aq.from(geoTable_3).print()
+
+
+            console.log("#### JSON + GeoLookup 1 (inside joinData) ####")
+            joinedData = dataTable.join_left(geoTable_1, [["GeoID", "Geotype"], ["GeoID", "Geotype"]])
+            joinedData.print();
+
+            console.log("#### JSON + GeoLookup 2 (inside joinData) ####")
+            joinedData_2 = joinedData.join_left(geoTable_2, [["GeoID", "Geotype"], ["GeoID", "Geotype"]])
+            joinedData_2.print();
+
+            console.log("#### JSON + GeoLookup 3 (inside joinData) ####")
+            joinedData_3 = joinedData_2.join_left(geoTable_3, [["GeoID", "Geotype"], ["GeoID", "Geotype"]])
+            joinedData_3.print();
+
+        }
+
+        // run the first function, which runs the rest in a chain
+        loadData();
+        
+
+    </script>
+
+</body>

@@ -76,10 +76,6 @@ report_level_1 <-
         zip_code,
         unreliable_text
     ) %>% 
-    # filter(
-    #     report_id %in% c(73, 77),
-    #     (geo_entity_name %like% "%kingsbridge%" | geo_entity_name %like% "%bushwick%")
-    # ) %>% 
     collect() %>% 
     mutate(
         data_download_loc = 
@@ -111,16 +107,14 @@ report_level_2 <-
         city,
         compared_with
     ) %>% 
-    # filter(
-    #     report_id %in% c(73, 77),
-    #     geo_entity_id %in% c(101, 211)
-    # ) %>% 
     collect()
 
 
 #-----------------------------------------------------------------------------------------#
 # Report data
 #-----------------------------------------------------------------------------------------#
+
+adult_indicators <- c(657, 659, 661, 1175, 1180, 1182)
 
 report_level_3 <- 
     EHDP_odbc %>% 
@@ -129,6 +123,7 @@ report_level_3 <-
         report_id,
         report_topic_id,
         geo_entity_id,
+        indicator_id,
         indicator_data_name,
         indicator_short_name,
         indicator_URL,
@@ -146,12 +141,14 @@ report_level_3 <-
         measurement_type,
         units
     ) %>% 
-    # filter(
-    #     report_id %in% c(73, 77),
-    #     geo_entity_id %in% c(101, 211)
-    # ) %>% 
     collect() %>% 
     mutate(
+        indicator_short_name = 
+            case_when(
+                indicator_id %in% adult_indicators ~ 
+                    str_replace(indicator_short_name, "\\(children\\)", "(adults)"),
+                TRUE ~ indicator_short_name
+            ),
         indicator_data_name = str_replace(indicator_data_name, "PM2\\.", "PM2-"),
         summary_bar_svg = 
             str_c(
@@ -160,7 +157,8 @@ report_level_3 <-
                 geo_entity_id,
                 ".svg"
             )
-    )
+    ) %>% 
+    select(-indicator_id)
 
 
 # closing connection

@@ -69,7 +69,8 @@ measure_times = (
             "DisplayType",
             "TimeDescription",
             "start_period",
-            "end_period"
+            "end_period",
+            "TimeType"
         ]
     ]
     .drop_duplicates()
@@ -87,7 +88,7 @@ measure_times = (
         ],
         dropna = False
     )
-    .apply(lambda x: x[["TimeDescription", "start_period", "end_period"]].to_dict('records'))
+    .apply(lambda x: x[["TimeDescription", "start_period", "end_period", "TimeType"]].to_dict('records'))
     .reset_index()
     .rename(columns = {0: "AvailableTimes"})
 )

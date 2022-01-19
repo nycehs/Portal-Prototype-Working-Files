@@ -1,7 +1,7 @@
 ###########################################################################################
 ###########################################################################################
 ##
-## Indicators list for Data Explorer
+## UHF list for Neighborhood Reports
 ##
 ###########################################################################################
 ###########################################################################################
@@ -61,12 +61,12 @@ EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=BES
 # Pulling & writing data
 #=========================================================================================#
 
-indicators = (
-    pd.read_sql("SELECT * FROM Explorer_indicator_list", EHDP_odbc)
-    .sort_values(by = ["subtopic_id", "internal_id"])
+UHF_List = (
+    pd.read_sql("SELECT * FROM Report_UHF_List", EHDP_odbc)
+    .sort_values(by = ["UHF_id"])
 )
 
-indicators.to_json("Python Data Management/Indicator_List.json", orient = 'records', indent = 2)
+UHF_List.to_json("Python Data Management/UHF_List.json", orient = 'records', indent = 2)
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

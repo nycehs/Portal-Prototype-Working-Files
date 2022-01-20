@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.11/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.8.7/polyfill.js"></script>
+    <script src="https://vega.github.io/vega/assets/promise.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/symbol.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/fetch.min.js"></script>
+
+    <!-- these three added for utd versions--> 
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <!--D3-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+            <!--CSS-->
+    <style>
+      body {
+        max-width: 700px;
+        margin: auto;
+      }
+    
+      #container {
+        max-width: 700px;
+      }
+    
+      .chartdest {
+        width: 100%;
+        min-height: 450px;
+        margin-bottom: 50px;
+      }
+    
+      code {
+        color: white;
+        background-color: rgb(73, 73, 73);
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+    </style>
+</head>
+<body>
+
+
+
+  <div id="container">
+
+    <h1>VL Map/Bar Spec</h1>
+
+    <p>Basic VL map spec:
+      <ul>
+        <li>Uses UHF42 topo.json from NYC_Geography</li>
+        <li>Uses dummy asthma file (as JSON)</li>
+        <li>Delivers data as named object into Spec</li>
+        <li>Measure selection -> named object -> Map</li>
+        <li>Hover highlight (with UTD VL version)</li>
+        <li>Sort using data.format.parse.Value, and encoding.x.sort</li>
+        <li>Inject measure name into tooltip and title (currently roughly done from Notes; final form will do from Indicators.json)</li>
+      </ul>
+      Will need the following:
+      <ul>
+        <li>Join GeoLookup to Data File at Arquero object before inserting into spec: previously, we'd use the properties.GEONAME from the topo.json file for the neighborhood names, but I think using the topo.json as the secondary data source means we can't - I can't access it from the spec. So we'll need it in the data object. </li>
+        <li>Down the line, of course, a map option would either rule out counts, or map bubbles/centroids.</li>
+      </ul>
+    </p>
+
+    <hr>
+
+    <label for="measureList">Select Measure:</label>
+    <select name="measureList" id="measureList">
+      <option value="1197">1197</option>
+      <option value="1198">1198</option>
+      <option value="1199">1199</option>
+    </select>
+    <hr>
+
+
+
+    <div id="vis1" class="chartdest"></div>
+
+    
+
+    
+    
+
+  </div>
+
+
+
+<script type="text/javascript">
+
+var spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "background": "#FFFFFF00",
+    "axisX": {
+      "domain": true,
+      "labels": true,
+      "grid": false,
+      "labelFontSize": 8,
+      "tickColor": "#000000",
+      "tickSize": 2,
+      "titleFontSize": 12
+    },
+    "axisY": {"domain": false, "labels": false, "grid": true, "ticks": false},
+    "view": {"stroke": "transparent"}
+  },
+  "title": "",
+  "width": "container",
+  "data": {
+    "name": "mapData",
+    "format": {
+      "parse": {
+        "Value": "number"
+      }
+    }
+  },
+  "params": [
+    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
+  ],
+  "projection": {"type": "mercator"},
+  "vconcat": [
+    {
+      "height": 500,
+      "width": "container",
+      "mark": {"type": "geoshape", "stroke": "#000000"},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "bin": false,
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {"scheme": {"name": "purples", "extent": [0.25, 1]}},
+          "legend": {
+            "orient": "left",
+            "title": "",
+                    }
+        },
+        "tooltip": [
+        {
+          "field": "properties.GEONAME",
+          "type": "nominal",
+          "title": "Neighborhood"
+        },
+        {"field": "Value", "type": "quantitative", "title": "Value"}
+      ],
+        "strokeWidth": {
+          "condition": [{"param": "highlight", "empty": false, "value": 2}],
+          "value": 0.5
+        }
+      },
+      "transform": [
+        {
+          "lookup": "GeoID",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/nycehs/NYC_geography/master/UHF42.topo.json",
+              "format": {"type": "topojson", "feature": "collection"}
+            },
+            "key": "properties.GEOCODE"
+          },
+          "as": "geo"
+        }
+      ]
+    },
+    {
+      "height": 150,
+      "width": "container",
+      "mark": {"type": "bar", "tooltip": true, "stroke": "#000000"},
+      "encoding": {
+        "y": {"field": "Value", "type": "quantitative", "title": null},
+        "tooltip": [
+          {"field": "GeoID", "title": "GeoID"},
+          {"field": "Value", "type": "quantitative", "title": "Value"}
+        ],
+        "x": {"field": "GeoID", "sort": "y", "axis": null},
+        "color": {
+          "bin": false,
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {"scheme": {"name": "purples", "extent": [0.25, 1]}}
+        },
+        "strokeWidth": {
+          "condition": [{"param": "highlight", "empty": false, "value": 2}],
+          "value": 0.5
+        }
+      }
+    }
+  ]
+}
+
+
+var measure = 1197;
+var measureName = "Asthma ED Visits (adults), Number"
+var toMap = [];
+var filterByMeasure = [];
+
+d3.json('2380.json').then(function (data) {
+  dataFile = data; // data file is the full data file
+  // dataFile.sort(function(a, b) { return a.Value - b.Value }); // sort by value, not necessary with new spec
+  // console.table(dataFile)
+  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) // here we'll reduce it to the default or chosen measure
+  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42") /// and then filter for UHF only
+
+  // change measure name in tooltip:
+  spec.title = measureName
+  spec.vconcat[0].encoding.tooltip[1].title = measureName
+  spec.vconcat[1].encoding.tooltip[1].title = measureName
+
+
+  embed("#vis1", spec, 'mapData', toMap) 
+});
+
+// watch drop-down and change map
+document.getElementById('measureList').addEventListener('change', function() {
+  measure = document.getElementById('measureList').value;
+  // console.log(measure)
+  filterByMeasure = dataFile.filter(x => x.MeasureID == measure) 
+  toMap = filterByMeasure.filter(y => y.Geotype == "UHF42")
+  
+  // change measurename in tooltip on update
+  if (measure == 1197) {
+    measureName = "Asthma ED Visits (adults), Number"
+  } else if (measure == 1198) {
+    measureName = "Asthma ED Visits (adults), Estimated Annual Rate"
+  } else if (measure == 1199) {
+    measureName = "Asthma ED Visits (adults), Age-Adjusted Rate"
+  }
+  spec.title = measureName
+  spec.vconcat[0].encoding.tooltip[1].title = measureName
+  spec.vconcat[1].encoding.tooltip[1].title = measureName
+
+  // redraw the map after menu selection
+  embed("#vis1", spec, 'mapData', toMap)
+});
+
+// this is the embed function that delivers the data as an object (dataFile). This lets us filter/manipuate dataFile in the browser before delivering it. 
+// dest is the destination id; spec is the json spec variable; name is the name given in the VL json spec; and array is the JS variable holding the array. 
+
+function embed(dest, spec, name, array) {
+  vegaEmbed(dest, spec).then(res =>
+        res.view
+            .insert(name, array)
+            .runAsync()
+        );
+}
+
+vegaEmbed("#vis1", spec);
+
+
+
+
+
+
+</script>
+</body>
+</html>

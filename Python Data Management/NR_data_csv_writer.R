@@ -82,7 +82,7 @@ report_list <-
 
 # also joining report names to report data
 
-report_data <- 
+report_data_0 <- 
     EHDP_odbc %>% 
     tbl("ReportData") %>% 
     filter(geo_type == "UHF42", report_id != 80) %>% 
@@ -103,10 +103,10 @@ report_data <-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
 ind_has_annual <- 
-    report_data %>% 
+    report_data_0 %>% 
     filter(time_type %>% str_detect("(?i)Annual Average")) %>% 
     semi_join(
-        report_data,
+        report_data_0,
         .,
         by = c("data_field_name", "neighborhood")
     ) %>% 
@@ -121,14 +121,16 @@ ind_has_annual <-
 
 report_data <- 
     left_join(
-        report_data,
+        report_data_0,
         ind_has_annual,
         by = "data_field_name"
     ) %>% 
     mutate(has_annual = if_else(has_annual == TRUE, TRUE, FALSE, FALSE)) %>% 
     filter(
         has_annual == FALSE | 
-            (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average"))
+            (has_annual == TRUE & str_detect(time_type, "(?i)Annual Average")),
+        indicator_id != 386 | 
+            (indicator_id == 386 & str_detect(time_type, "(?i)Seasonal"))
     ) %>% 
     select(-has_annual)
 

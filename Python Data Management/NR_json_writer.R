@@ -20,6 +20,7 @@ library(dbplyr)
 library(odbc)
 library(lubridate)
 library(fs)
+library(rlang)
 library(jsonlite)
 
 #-----------------------------------------------------------------------------------------#
@@ -156,7 +157,13 @@ report_level_3 <-
                 "_",
                 geo_entity_id,
                 ".svg"
-            )
+            ),
+        
+        across(
+            c(indicator_name, indicator_description, measurement_type, units),
+            ~ as_utf8_character(enc2native(.x))
+        )
+        
     ) %>% 
     select(-indicator_id)
 

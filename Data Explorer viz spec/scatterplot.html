@@ -54,12 +54,16 @@
 
     <hr>
 
+    <p>This one has a nicer hover functionality - but the chart breaks when I try to combine both the legend-selection and the hover.</p>
+    <div id="vis2" class="chartdest"></div>
+
+    <hr>
+
     <p>This one has a nice interactive-legend function: click a borough to select data.</p>
 
     <div id="vis1" class="chartdest"></div>
 
-    <p>This one, on the other hand, has a nicer hover functionality - but the chart breaks when I try to combine both the legend-selection and the hover.</p>
-    <div id="vis2" class="chartdest"></div>
+
     
 
     
@@ -74,7 +78,7 @@
 var spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Asthma 5-17 ED visit rate and poverty scatterplot",
-  "width": 400,
+  "width": "container",
   "height": 400,
   "config": {
     "background": "#FFFFFF",
@@ -171,7 +175,7 @@ var spec = {
  var spec2 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Asthma 5-17 ED visit rate and poverty scatterplot",
-  "width": 400,
+  "width": "container",
   "height": 400,
   "config": {
     "background": "#FFFFFF",
@@ -186,8 +190,7 @@ var spec = {
       "tickColor": "#000000",
       "tickSize": 5,
       "titleFontSize": 12,
-      "titlePadding": 10,
-      "title": null
+      "titlePadding": 10
     },
     
     "axisY": {
@@ -204,8 +207,7 @@ var spec = {
       "titleFont": "Lato",
       "titleAngle": 0,
       "titleY": -10,
-      "titleX": 18,
-      "title": null
+      "titleX": 80
     },
     "legend": {
       "labelFontSize": 14,

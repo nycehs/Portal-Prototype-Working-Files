@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.11/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.8.7/polyfill.js"></script>
+    <script src="https://vega.github.io/vega/assets/promise.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/symbol.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/fetch.min.js"></script>
+
+    <!-- these three added for utd versions--> 
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <!--D3-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+            <!--CSS-->
+    <style>
+      body {
+        max-width: 700px;
+        margin: auto;
+      }
+    
+      #container {
+        max-width: 700px;
+      }
+    
+      .chartdest {
+        width: 100%;
+        min-height: 450px;
+        margin-bottom: 50px;
+      }
+    
+      code {
+        color: white;
+        background-color: rgb(73, 73, 73);
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+    </style>
+</head>
+<body>
+
+
+
+  <div id="container">
+
+    <h1>VL Scatterplot Spec</h1>
+
+    <p>For starters, we're running off of a single file; in the final instance, we'll pipe in an object that, using Arquero, has joined two datasets and formatted it how we need to. </p>
+    <p>Some config has been added to both, which removes the axis labels. For scatterplots in particular, we'll need close attention to axis labels!</p>
+
+
+    <hr>
+
+    <p>This one has a nice interactive-legend function: click a borough to select data.</p>
+
+    <div id="vis1" class="chartdest"></div>
+
+    <p>This one, on the other hand, has a nicer hover functionality - but the chart breaks when I try to combine both the legend-selection and the hover.</p>
+    <div id="vis2" class="chartdest"></div>
+    
+
+    
+    
+
+  </div>
+
+
+
+<script type="text/javascript">
+
+var spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Asthma 5-17 ED visit rate and poverty scatterplot",
+  "width": 400,
+  "height": 400,
+  "config": {
+    "background": "#FFFFFF",
+    "title": {"anchor": "start", "fontSize": 18, "font": "Calibri"},
+    "axisX": {
+      "domain": true,
+      "domainColor": "#000000",
+      "domainWidth": 1,
+      "grid": false,
+      "labelFontSize": 12,
+      "labelAngle": 0,
+      "tickColor": "#000000",
+      "tickSize": 5,
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "title": null
+    },
+    
+    "axisY": {
+      "domain": false,
+      "domainWidth": 1,
+      "grid": true,
+      "gridColor": "#DEDDDD",
+      "gridWidth": 1,
+      "labelFontSize": 12,
+      "labelPadding": 8,
+      "ticks": false,
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "titleFont": "Lato",
+      "titleAngle": 0,
+      "titleY": -10,
+      "titleX": 18,
+      "title": null
+    },
+  
+  
+    "view": {"stroke": "transparent"},
+  
+    "range": {
+      "category": [
+        "#1696d2",
+        "#000000",
+        "#fdbf11",
+        "#ec008b",
+        "#d2d2d2",
+        "#55b748"
+      ]
+    },
+  
+  
+    "text": {
+      "color": "#1696d2",
+      "fontSize": 11,
+      "align": "center",
+      "fontWeight": 400,
+      "size": 11
+    }
+  },
+    
+
+  
+
+  "data": {"url": "https://gist.githubusercontent.com/mmontesanonyc/436de650b919784691ed42dd321c38f2/raw/074bd84e78473b8a2099e66a0d6bf8caba32b594/scatter-sample-data.csv"},
+
+  "mark": {"type": "circle", "filled": true, "size": 500, "stroke": "#727272", "strokeWidth": 2},
+
+ "params": [{
+    "name": "Borough",
+    "select": {"type": "point", "fields": ["Borough"]},
+    "bind": "legend"
+  }
+  ],
+
+  "encoding": {
+    "y": {"field": "Estimated Annual Rate (per 10,000 residents)", "type": "quantitative"},
+    "x": {"field": "Poverty (percent)", "type": "quantitative"},
+     "tooltip": [{"field": "Geography", "type": "nominal"},
+      {"field": "Estimated Annual Rate (per 10,000 residents)", "type": "quantitative"},
+      {"field": "Poverty (percent)", "type": "quantitative"}
+     ],
+    "color": {
+        "condition": {
+          "param": "Borough", "field": "Borough", "type": "nominal"},
+          "value": "#fafafa"
+      }
+  }
+}
+
+
+
+ vegaEmbed("#vis1", spec);
+
+ var spec2 = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Asthma 5-17 ED visit rate and poverty scatterplot",
+  "width": 400,
+  "height": 400,
+  "config": {
+    "background": "#FFFFFF",
+    "title": {"anchor": "start", "fontSize": 18, "font": "Calibri"},
+    "axisX": {
+      "domain": true,
+      "domainColor": "#000000",
+      "domainWidth": 1,
+      "grid": false,
+      "labelFontSize": 14,
+      "labelAngle": 0,
+      "tickColor": "#000000",
+      "tickSize": 5,
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "title": null
+    },
+    
+    "axisY": {
+      "domain": false,
+      "domainWidth": 1,
+      "grid": true,
+      "gridColor": "#DEDDDD",
+      "gridWidth": 1,
+      "labelFontSize": 14,
+      "labelPadding": 8,
+      "ticks": false,
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "titleFont": "Lato",
+      "titleAngle": 0,
+      "titleY": -10,
+      "titleX": 18,
+      "title": null
+    },
+    "legend": {
+      "labelFontSize": 14,
+      "symbolSize": 140
+    },
+  
+  
+    "view": {"stroke": "transparent"},
+  
+    "range": {
+      "category": [
+        "#1696d2",
+        "#fdbf11",
+        "#55b748",
+        "#ec008b",
+        "#d2d2d2"
+      ]
+    },
+  
+  
+    "text": {
+      "color": "#1696d2",
+      "fontSize": 11,
+      "align": "center",
+      "fontWeight": 400,
+      "size": 11
+    }
+  },
+    
+  
+
+  "data": {"url": "https://gist.githubusercontent.com/mmontesanonyc/436de650b919784691ed42dd321c38f2/raw/074bd84e78473b8a2099e66a0d6bf8caba32b594/scatter-sample-data.csv"},
+
+  "mark": {"type": "circle", "filled": true, "size": 500, "stroke": "#727272", "strokeWidth": 2},
+
+ "params": [
+  {
+    "name": "hover",
+    "select": {"type": "point", "on": "mouseover"}
+  }
+  ],
+
+  "encoding": {
+    "y": {"field": "Estimated Annual Rate (per 10,000 residents)", "type": "quantitative"},
+    "x": {"field": "Poverty (percent)", "type": "quantitative"},
+     "tooltip": [{"field": "Geography", "type": "nominal"},
+      {"field": "Estimated Annual Rate (per 10,000 residents)", "type": "quantitative"},
+      {"field": "Poverty (percent)", "type": "quantitative"}
+     ],
+    "color": {
+        "field": "Borough", "type": "nominal"
+      },
+    "opacity": {
+        "condition": {
+          "param": "hover",
+          "value": 1
+        },
+        "value": 0.5
+      }
+  }
+}
+
+
+  vegaEmbed("#vis2", spec2);
+
+
+
+</script>
+</body>
+</html>

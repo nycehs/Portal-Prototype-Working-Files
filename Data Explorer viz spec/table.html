@@ -115,7 +115,11 @@
         <li>Render value as bar, and other DataTables options</li>
         <li>Create Geo Lookup file and join to neighborhood names</li>
       </ul></p>
+
+      <button onclick="downloadData()">Download data</button>
     <div id="showTable" class="display uniqueTable" style="width: 100%">
+      <br><br><br>
+
 
 
 
@@ -323,6 +327,25 @@
         };
         document.getElementById('geoContainer').style.display = "block"
       }
+
+
+      // download data button
+      function downloadData() {
+          //display the created CSV data on the web browser 
+
+          // re-name our data as CSV
+          var csv = joinedData.toCSV()
+          document.write(csv);
+
+          // create a hidden element as CSV
+          var hiddenElement = document.createElement('a');
+          hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+          hiddenElement.target = '_blank';
+          
+          //simulate click and download it
+          hiddenElement.download = 'data.csv';
+          hiddenElement.click();
+        }
 
 
     </script>

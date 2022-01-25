@@ -69,6 +69,7 @@ EXP_data_export <-
         GeoID,
         desc(Time)
     ) %>%
+    select(-GeoTypeID) %>% 
     collect() 
 
 # closing connection

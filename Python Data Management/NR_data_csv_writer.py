@@ -15,17 +15,18 @@ import csv
 conn = pyodbc.connect('DSN=EPHT_database;Trusted_Connection=yes;')  ##'conn' holds the connection
 
 ## read the public reports list view into a pandas dataframe
-sql_list = pd.read_sql_query('SELECT * FROM ReportPublicList',conn)
+sql_list = pd.read_sql_query('SELECT * FROM ReportPublicList', conn)
 sql_list.report_id = sql_list.report_id.astype(str) ## Convert to string to use later
 
 for row in sql_list.itertuples():         ## Loop through all the items in 'sql_list' ... each row is a report
-    fileName= 'output/'+ row.title + '_data.csv'   ## assign the value of the title field to 'title' variable
-    ## next read sql into a data frame for the rows of data in the csv
-    df = pd.read_sql_query('SELECT * FROM ReportData WHERE report_id = '+ row.report_id, conn)
-    ## export the data frame to a csv
-    df.to_csv (fileName, index = False, header=True)
     
-    print(fileName +' is done')       ## status report
+    fileName = 'output/' + row.title + '_data.csv'   ## assign the value of the title field to 'title' variable
+    ## next read sql into a data frame for the rows of data in the csv
+    df = pd.read_sql_query('SELECT * FROM ReportData WHERE report_id = ' + row.report_id, conn)
+    ## export the data frame to a csv
+    df.to_csv(fileName, index = False, header = True)
+    
+    print(fileName + ' is done')       ## status report
 
 
     

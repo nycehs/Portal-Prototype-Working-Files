@@ -553,118 +553,6 @@
     "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=101,719b87,16,Summarize"
   },
   {
-    "subtopic_id":17,
-    "internal_id":13,
-    "name":"Neighborhood Poverty",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=13,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":81,
-    "name":"Homes in 1 or 2 Family Buildings",
-    "description":"",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=81,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2043,
-    "name":"Disinfection By-Product in Drinking Water (HAA5)",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2043,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2109,
-    "name":"Boiler Emissions- Total SO2 Emissions",
-    "description":"Boilers are a common source of SO2, which can worsen lung disease.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2109,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2110,
-    "name":"Boiler Emissions- Total PM2.5 Emissions",
-    "description":"Boilers are a common source of PM2.5, which can harm health.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2110,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2111,
-    "name":"Boiler Emissions- Total NOx Emissions",
-    "description":"Boilers are a common source of NOx emissions, which can harm health.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2111,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2112,
-    "name":"Traffic Density- Annual Vehicle Miles Traveled",
-    "description":"Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2112,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2114,
-    "name":"Traffic Density- Annual Vehicle Miles Traveled for Trucks",
-    "description":"Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries.\u00a0",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2114,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2115,
-    "name":"Air Toxics Concentrations- Average Benzene Concentrations",
-    "description":"Benzene is an air pollutant resulting from motor vehicle and industrial emissions and tobacco smoke. Benzene is a known carcinogen that can also harm bone marrow and red blood cell function.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2115,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2116,
-    "name":"Air Toxics Concentrations- Average Formaldehyde Concentrations",
-    "description":"Formaldehyde is an air pollutant resulting from car exhaust and the manufacture of industrial products. Formaldehyde is a known carcinogen that can also cause irritation to eyes and lungs and increase risk of asthma and trigger asthma symptoms.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2116,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2140,
-    "name":"Area Located within Hurricane Evacuation Zones 1-6",
-    "description":"NYC Hurricane Evacuation Zones 1-6 are areas at increased risk of flooding. They may be ordered to evacuate in the event of a hurricane or coastal flooding.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2140,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2142,
-    "name":"Neighborhood Poverty (ACS)",
-    "description":"Neighborhood poverty measures residents' access to economic stability, education, adequate health care, safe housing and freedom from stress. Neighborhoods with higher poverty tend to have less access to these factors and experience worse health outcomes.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2142,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2144,
-    "name":"Serious psychological distress",
-    "description":"",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2144,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2146,
-    "name":"Older Adults Living Alone",
-    "description":"Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2146,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2157,
-    "name":"Tree Canopy Cover",
-    "description":"<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.<\/p>",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2157,719b87,17,Summarize"
-  },
-  {
-    "subtopic_id":17,
-    "internal_id":2325,
-    "name":"Race and Ethnicity",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2325,719b87,17,Summarize"
-  },
-  {
     "subtopic_id":36,
     "internal_id":15,
     "name":"Crowding (> 1 person\/room)",
@@ -936,27 +824,6 @@
     "name":"Bladder Cancer",
     "description":null,
     "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2096,719b87,39,Summarize"
-  },
-  {
-    "subtopic_id":40,
-    "internal_id":13,
-    "name":"Neighborhood Poverty",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=13,719b87,40,Summarize"
-  },
-  {
-    "subtopic_id":40,
-    "internal_id":2106,
-    "name":"Neighborhood Race\/Ethnicity - Non Hispanic Black",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2106,719b87,40,Summarize"
-  },
-  {
-    "subtopic_id":40,
-    "internal_id":2107,
-    "name":"Neighborhood Race\/Ethnicity - Non Hispanic White",
-    "description":"",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2107,719b87,40,Summarize"
   },
   {
     "subtopic_id":51,
@@ -1374,7 +1241,7 @@
   {
     "subtopic_id":103,
     "internal_id":2121,
-    "name":"O3-Attributable Cardiac and Respiratory Deaths ",
+    "name":"O3-Attributable Cardiac and Respiratory Deaths",
     "description":"Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.  ",
     "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2121,719b87,103,Summarize"
   },
@@ -1388,7 +1255,7 @@
   {
     "subtopic_id":103,
     "internal_id":2124,
-    "name":"O3-Attributable Asthma Hospitalizations ",
+    "name":"O3-Attributable Asthma Hospitalizations",
     "description":"Ozone-attributable asthma hospitalizations represent part of the health burden of ozone air pollution.",
     "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2124,719b87,103,Summarize"
   },
@@ -1694,27 +1561,6 @@
     "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2389,719b87,109,Summarize"
   },
   {
-    "subtopic_id":112,
-    "internal_id":2169,
-    "name":"Adults with Diabetes",
-    "description":"",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2169,719b87,112,Summarize"
-  },
-  {
-    "subtopic_id":112,
-    "internal_id":2170,
-    "name":"Adults with High Blood Pressure",
-    "description":"",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2170,719b87,112,Summarize"
-  },
-  {
-    "subtopic_id":112,
-    "internal_id":2171,
-    "name":"Adults with High Cholesterol",
-    "description":"",
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2171,719b87,112,Summarize"
-  },
-  {
     "subtopic_id":113,
     "internal_id":2061,
     "name":"Overweight or Obese Adults",
@@ -1986,41 +1832,6 @@
     "name":"Chronic Obstructive Pulmonary Disease Emergency Department Visits",
     "description":null,
     "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2343,719b87,123,Summarize"
-  },
-  {
-    "subtopic_id":124,
-    "internal_id":2345,
-    "name":"All Agency Use of \"Best Practice\" Products",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2345,719b87,124,Summarize"
-  },
-  {
-    "subtopic_id":124,
-    "internal_id":2348,
-    "name":"All Agency Use of Fungicides",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2348,719b87,124,Summarize"
-  },
-  {
-    "subtopic_id":124,
-    "internal_id":2351,
-    "name":"All Agency Use of Herbicides",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2351,719b87,124,Summarize"
-  },
-  {
-    "subtopic_id":124,
-    "internal_id":2354,
-    "name":"All Agency Use of Insecticides",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2354,719b87,124,Summarize"
-  },
-  {
-    "subtopic_id":124,
-    "internal_id":2357,
-    "name":"All Agency Use of Rodenticides",
-    "description":null,
-    "URL":"http:\/\/a816-dohbesp.nyc.gov\/IndicatorPublic\/VisualizationData.aspx?id=2357,719b87,124,Summarize"
   },
   {
     "subtopic_id":125,

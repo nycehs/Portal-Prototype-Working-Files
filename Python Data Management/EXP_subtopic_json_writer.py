@@ -62,7 +62,7 @@ EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=BES
 #=========================================================================================#
 
 subtopics = (
-    pd.read_sql("SELECT * FROM Explorer_subtopic_list", EHDP_odbc)
+    pd.read_sql("SELECT * FROM EXP_subtopic_list", EHDP_odbc)
     .sort_values(by = ["subtopic_id"])
 )
 

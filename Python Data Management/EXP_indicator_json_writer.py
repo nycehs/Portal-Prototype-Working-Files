@@ -62,11 +62,11 @@ EHDP_odbc = pyodbc.connect("DRIVER={" + driver + "};SERVER=SQLIT04A;DATABASE=BES
 #=========================================================================================#
 
 indicators = (
-    pd.read_sql("SELECT * FROM Explorer_indicator_list", EHDP_odbc)
+    pd.read_sql("SELECT * FROM EXP_indicator_list", EHDP_odbc)
     .sort_values(by = ["subtopic_id", "internal_id"])
 )
 
-indicators.to_json("Python Data Management/Indicator_List.json", orient = 'records', indent = 2)
+indicators.to_json("Python Data Management/Indicator_List.json", orient = "records", indent = 2)
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

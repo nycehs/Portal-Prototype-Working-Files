@@ -115,7 +115,11 @@
         <li>Render value as bar, and other DataTables options</li>
         <li>Create Geo Lookup file and join to neighborhood names</li>
       </ul></p>
+
+
     <div id="showTable" class="display uniqueTable" style="width: 100%">
+
+
 
 
 
@@ -262,6 +266,10 @@
           "scrollY":        "500px",
           "scrollCollapse": true,
           "paging":         false,
+          dom: 'Bfrtip',
+          buttons: [
+              'csv', 'print'
+          ]
           // orderFixed: [2, 'dsc'],
           //rowGroup: {
           //  dataSrc: 2 // groups rows based on value of column index position 2 
@@ -323,8 +331,6 @@
         };
         document.getElementById('geoContainer').style.display = "block"
       }
-
-
     </script>
 
 

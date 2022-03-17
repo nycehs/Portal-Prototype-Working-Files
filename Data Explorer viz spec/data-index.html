@@ -54,24 +54,33 @@
       background-color: #666666;
       text-align: left;
     }
+
+    tr {
+    font-size: 12px;
+  }
   </style>
 
   <div id="container">
     <h1>Data Index</h1>
-    <p>Scaffolding out a 'data index' page. Here's what that will entail:
+    <p>Scaffolding out a 'data index' page. Here's what this does:
       <ul>
-        <li>Ingesting Indicators.json</li>
-        <li>Looping through and creating a table that includes Indicator Name, Measurement types, Geographies, and times</li>
-        <li>TO DO: Styling that table as a DataTables table, with search and sort</li>
+        <li>Ingests Indicators.json</li>
+        <li>Loops through that json to create a table of Indicators, Measurement types, Geographies, and times</li>
       </ul>
+    </p>
 
+    <p>A few notes:
+      <ul>
+        <li>For time, it grabs the final value from AvailableTimes, to give us "most recent year." But, this is presented as a string, so the sort is a little bit off.</li>
+        <li>Just the list of geographies is also awkward. Wonder if there's a better way to do this. We could do "finest geography" but will that be helpful? </li>
+        <li>This lets us scan measurement types and see things that can be improved upon (labels), like instances where age is in "measurement type."</li>
+      </ul>
     </p>
 
     <hr>
 
-    <p>Below, we ingest basically everything from that list. But it might be better to Geographies as 'finest geography' and Times as 'most recent time'. Also, is "Measurements" useful?</p>
 
-    <table id="indicators">
+    <table id="indicators" class="display">
       <thead>
         <tr>
           <th>Indicator</th>
@@ -82,12 +91,7 @@
       </thead>
 
       <tbody id="tablebody">
-        <tr>
-          <td>Indicator one</td>
-          <td>Number, rate</td>
-          <td>Community District</td>
-          <td>2019</td>
-        </tr>
+
       </tbody>
 
     </table>
@@ -114,6 +118,7 @@
         let cell_2 = document.createElement('td')
         let cell_3 = document.createElement('td')
         let cell_4 = document.createElement('td')
+        let cell_5 = document.createElement('td')
 
         // loop through each indicator's measure:
           for (let n = 0; n < indicators[i].Measures.length; n++) {
@@ -123,14 +128,18 @@
 
             // loop through Available Geographies
             var geographies = [];
+            var finestGeography = [];
             for (let y = 0; y < indicators[i].Measures[n].AvailableGeographyTypes.length; y++) {
               geographies.push(indicators[i].Measures[n].AvailableGeographyTypes[y].GeoType)
+              // here, can embed a loop through geographies to find the finest.
             }
 
             //loop through times
             var times = [];
+            var lastTime;
             for (let z = 0; z < indicators[i].Measures[n].AvailableTimes.length; z++) {
               times.push(indicators[i].Measures[n].AvailableTimes[z].TimeDescription)
+              cell_5.innerHTML = times;
             }
 
           }
@@ -140,17 +149,34 @@
         cell_2.innerHTML = measurements;
         row_i.appendChild(cell_2);
 
-        cell_3.innerHTML = geographies;
+        cell_3.innerHTML = geographies; // can change this to finestGeography to only display one. 
         row_i.appendChild(cell_3)
 
-        cell_4.innerHTML = times;
+        // show final value of all times, only. keeping both last and all columns for now to doublecheck. 
+        lastTime = times.pop();
+        cell_4.innerHTML = lastTime;
         row_i.appendChild(cell_4);
+
+        // row_i.appendChild(cell_5); - commented out. Add this back in to show.
 
         // Finally, place the row into the table body.
         document.getElementById('tablebody').appendChild(row_i) 
     } 
 
+    // call DataTables.
+    initializeDataTables()
+
   }); 
+
+  function initializeDataTables() {
+    let table = new DataTable('#indicators', {
+      // options
+      scrollY: 450,
+      paging: false
+  });
+  }
+
+
 
 
 

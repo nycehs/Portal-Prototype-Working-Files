@@ -164,7 +164,7 @@
       // show final value of all times, only. keeping both last and all columns for now to doublecheck. 
       lastTime = times.pop(); // retrieve the last value
       lastTime = new Date(lastTime) // convert to date
-      var year = 1900 + lastTime.getYear(); // get the year from it
+      var year = lastTime.getFullYear(); // get the year from it
 
       cell_4.innerHTML = year;
       row_i.appendChild(cell_4);

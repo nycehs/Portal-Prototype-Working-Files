@@ -63,6 +63,22 @@
     tr {
       font-size: 12px;
     }
+
+    .geobullets {
+      padding-left: 0px!important
+    }
+
+    .geobullets li {
+      background-color: darkblue;
+      color: white;
+      padding: 5px 5px;
+      border-radius: 3px;
+      font-size: 10px;
+      display: inline;
+      margin: 2px 2px;
+
+    }
+
   </style>
   
   <div id="container">
@@ -74,15 +90,10 @@
       </ul>
     </p>
     
-    <p>A few notes:
-      <ul>
-        <li>For time, it grabs the final value from AvailableTimes, to give us "most recent year." But, this is presented as a string, so the sort is a little bit off.</li>
-        <li>Just the list of geographies is also awkward. Wonder if there's a better way to do this. We could do "finest geography" but will that be helpful? </li>
-        <li>This lets us scan measurement types and see things that can be improved upon (labels), like instances where age is in "measurement type."</li>
-      </ul>
-    </p>
-    
     <hr>
+
+    <p>Geographies are styled by looping through unique_geographies and sending them each to a list item that has specific styles. Can be further refined with unique styles and a link/filter.</p>
+
     
     
     <table id="indicators" class="display">
@@ -91,8 +102,8 @@
           <th>Indicator</th>
           <th>Measurements</th>
           <th>Geographies</th>
-          <th>Max year</th>
-          <th>All years</th>
+          <th>Most recent data</th>
+
         </tr>
       </thead>
       
@@ -105,6 +116,14 @@
     <script>
       var indicators;
       var indicatorIndex = []
+
+      // geography buttons
+      var citywide = `<li>Citywide</li>`
+      var borough = `<li>Borough</li>`
+      var UHF42 = `<li>UHF42</li>`
+      var UHF34 = `<li>UHF34</li>`
+      var CD = `<li>CD</li>`
+      var NTA = `<li>NTA</li>`
       
       
       // First, load Indicators.json
@@ -118,7 +137,7 @@
       function loopThroughIndicators() {
         //  loop through indicators
         
-        for (let i = 0; i < indicators.length; i++) {
+        for (let i = 0; i < indicators.length; i++) {  // change the 1 to indicators.length to get back to normal
           
           let row_i = document.createElement('tr'); // create row
           let cell_1 = document.createElement('td') // create cell
@@ -135,7 +154,7 @@
           let cell_2 = document.createElement('td')
           let cell_3 = document.createElement('td')
           let cell_4 = document.createElement('td')
-          let cell_5 = document.createElement('td')
+          // let cell_5 = document.createElement('td')
           
           // loop through each indicator's measure:
           for (let n = 0; n < indicators[i].Measures.length; n++) {
@@ -169,7 +188,16 @@
           
           // geographies
           let unique_geographies = [...new Set(geographies)];
-          cell_3.innerHTML = unique_geographies; // can change this to finestGeography to only display one. 
+            let geobullets = document.createElement('ul')
+            geobullets.classList.add('geobullets')  
+            cell_3.appendChild(geobullets)
+
+            for (l = 0; l < unique_geographies.length; l++) {
+              let li = document.createElement('li')
+              li.innerHTML = unique_geographies[l]
+              geobullets.appendChild(li)
+            }
+
           row_i.appendChild(cell_3)
           
           // max year
@@ -178,10 +206,10 @@
           row_i.appendChild(cell_4)
 
           // all years
-          all_years = times.map(time => time.getFullYear());
-          let unique_years = [...new Set(all_years)];
-          cell_5.innerHTML = unique_years.sort();
-          row_i.appendChild(cell_5)
+          // all_years = times.map(time => time.getFullYear());
+          // let unique_years = [...new Set(all_years)];
+          // cell_5.innerHTML = unique_years.sort();
+          // row_i.appendChild(cell_5)
 
           // Finally, place the row into the table body.
           document.getElementById('tablebody').appendChild(row_i) 
@@ -203,7 +231,8 @@
           fixedColumns: false
         });
       }
-      
+
+
       
       
       

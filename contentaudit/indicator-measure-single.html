@@ -97,7 +97,7 @@
 
     <div id="indContainer" style="display:none; margin-top: 50px;">
       <h3><span id="topic"></span>: Indicators</h2>
-      <p id=""><a href="#indContainer" onclick="topicSelection()">Show all indicators</a></p>
+      <p id="showAll" style="display:none"><a href="#indContainer" onclick="topicSelection()">Show all again</a></p>
       <table id="indicators" class="display table">
         <thead>
           <tr>
@@ -189,6 +189,7 @@ topicDDL.addEventListener('change', function handleChange(event) {
 });
 
 function topicSelection() {
+  document.getElementById('showAll').style.display = "none"
   selectedTopic = topics.filter(topic => topic.subtopic_id == selectedTopicID)
   document.getElementById('topic').innerHTML = selectedTopic[0].Topic
 
@@ -292,6 +293,7 @@ d3.csv('measures.csv').then(function (data){
 
 // runs on measure click in table
 function showMeasures(x) {
+  document.getElementById('showAll').style.display = "block"
 
   // Show the measures for the selected indicator and make the table
   document.getElementById('measureContainer').style.display = "block"

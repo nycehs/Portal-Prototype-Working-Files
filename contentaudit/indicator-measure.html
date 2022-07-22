@@ -46,8 +46,8 @@
         padding-right: 10px;
       }
     
-      #column {
-        max-width: 700px;
+      .column {
+        max-width: 850px;
         margin: auto;
       }
     
@@ -66,28 +66,33 @@
 
       hr {
       margin-top: 50px;
-      margin-bottom: 50px;}
+      margin-bottom: 50px;
+    }
+
+    .row {
+    margin-bottom: 25px;
+    }
+
+    .table {
+    font-size: 12px;
+  }
     </style>
 </head>
 <body>
 
-  <div id="column">
-    <h1>Indicator/Measure Review</h1>
-    <p>This short page lets us review topics, indicators, and measure copy.</p>
-    <p>For indicators, we'll filter for subtopic_id. For measures, we'll match to internal_id, which is the indicator.</p>
-    <hr>
+  <div class="column">
+    <h1>Reviewing indicator and measure copy</h1>
+    <p>This short page lets us review topics, indicators, and measure copy. Choose a topic, select an indicator, and review the indicator and measure copy below.</p>
 
-    <h2>Topics</h2>
     <label for="topicList">Select Topic:</label>
     <select name="topicList" id="topicList">
       <option value="">Choose a topic</option>
-    </select>
-    <hr>    
-    
+    </select>    
     </div>
 
-    <div id="indContainer" style="display:none;">
-      <h2>Indicators</h2>
+    <div id="indContainer" style="display:none; margin-top: 50px;">
+      <h3><span id="topic"></span>: Indicators</h2>
+      <p id=""><a href="#indContainer" onclick="topicSelection()">Show all indicators</a></p>
       <table id="indicators" class="display table">
         <thead>
           <tr>
@@ -112,36 +117,32 @@
 
     </div>
 
-    <div id="measureContainer" style="display:none;">
-      <hr>
-      <h2 id="measures">Measures for this indicator</h2>
-
-    <table id="measures" class="display table">
-      <thead>
-        <tr>
-          <th>Measure</th>
-          <th>Display type</th>
-          <th>How calculated</th>
-        </tr>
-      </thead>
-      <tbody id="measureTableBody">
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-      </table>
+    <div id="measureContainer" style="display:none; margin-top: 50px;" class="column">
+      <h3 id="indicatorTitle">Measures for this indicator</h2>
+      <span id="indicatorDescription">null</span>
+  
+        <div class="row">
+          <div class="col">
+            <table id="measures" class="display table">
+              <thead>
+                <tr>
+                  <th>Measure</th>
+                  <th>Display type</th>
+                  <th>How Calculated</th>
+                </tr>
+              </thead>
+              <tbody id="measureTableBody">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+              </table>
+            
+          </div>
+        </div>    
     </div>
-
-
-    
-
-
-    
-    
-
   </div>
 
 
@@ -155,6 +156,7 @@ var topicDDL = document.getElementById('topicList')
 var selectedTopic
 var selectedTopicID
 var topicIndicators
+var selectedIndicator
 var measures = []
 var indMeasures = [];
 
@@ -175,9 +177,14 @@ d3.csv('topics.csv').then(function (data) {
 // Event listener on the Topic DDL form to retrieve value
 topicDDL.addEventListener('change', function handleChange(event) {
   selectedTopicID = event.target.value
-  console.log('Selected topic: ' + selectedTopicID)
+
+  topicSelection()
+
+});
+
+function topicSelection() {
   selectedTopic = topics.filter(topic => topic.subtopic_id == selectedTopicID)
-  console.table(selectedTopic)
+  document.getElementById('topic').innerHTML = selectedTopic[0].Topic
 
   // get this topic's indicators
   getIndicators();
@@ -187,9 +194,7 @@ topicDDL.addEventListener('change', function handleChange(event) {
   document.getElementById('measureTableBody').innerHTML = ''
   document.getElementById('measureContainer').style.display = "none"
 
-
-
-});
+}
 
 // get Indicators function gets topic DDL value
 function getIndicators() {
@@ -202,47 +207,48 @@ function getIndicators() {
     topicIndicators = indicators.filter(indicator => indicator.subtopic_id == selectedTopicID)
     console.table(topicIndicators)
 
-    var indTable = document.getElementById('indicatorTableBody')
-
-    for(let i=0; i < topicIndicators.length; i++) {
-      // create row
-      let row_i = document.createElement('tr'); // create row
-
-      let cell_1 = document.createElement('td') // create cell
-      cell_1.innerHTML = topicIndicators[i].internal_id // fill cell with indicator name.
-      row_i.appendChild(cell_1); // add this cell to this row
-      
-      // create other cells. 
-      let cell_2 = document.createElement('td') // indicator name
-        cell_2.innerHTML = topicIndicators[i].Indicator
-        row_i.appendChild(cell_2);
-      let cell_3 = document.createElement('td') // label
-        cell_3.innerHTML = topicIndicators[i].label
-        row_i.appendChild(cell_3);
-      let cell_4 = document.createElement('td') // short name
-        cell_4.innerHTML = topicIndicators[i].short_name
-        row_i.appendChild(cell_4);
-      let cell_5 = document.createElement('td') // description
-        cell_5.innerHTML = topicIndicators[i].description
-        row_i.appendChild(cell_5);
-      let cell_6 = document.createElement('td')
-        cell_6.innerHTML = "<a href='#measures' onclick='showMeasures("+topicIndicators[i].internal_id+")'>Click to show</a>"
-        row_i.appendChild(cell_6)
-
-      // add row to Table
-      indTable.appendChild(row_i) 
-    }
-
   // call DataTables.
-  makeIndTable()
+  makeIndTable(topicIndicators)
 
   })
 }
 
+// we're going to pass the table we want to make into this. Currently we have topicIndicators but we will also make slectedIndicator
 
-function makeIndTable() {
+function makeIndTable(x) {
   var table
-  table.destroy() // kills old table so it can toggle OK
+
+  var indTable = document.getElementById('indicatorTableBody')
+  for(let i=0; i < x.length; i++) {
+    // create row
+    let row_i = document.createElement('tr'); // create row
+
+    let cell_1 = document.createElement('td') // create cell
+    cell_1.innerHTML = x[i].internal_id // fill cell with indicator name.
+    row_i.appendChild(cell_1); // add this cell to this row
+    
+    // create other cells. 
+    let cell_2 = document.createElement('td') // indicator name
+      cell_2.innerHTML = x[i].Indicator
+      row_i.appendChild(cell_2);
+    let cell_3 = document.createElement('td') // label
+      cell_3.innerHTML = x[i].label
+      row_i.appendChild(cell_3);
+    let cell_4 = document.createElement('td') // short name
+      cell_4.innerHTML = x[i].short_name
+      row_i.appendChild(cell_4);
+    let cell_5 = document.createElement('td') // description
+      cell_5.innerHTML = x[i].description
+      row_i.appendChild(cell_5);
+    let cell_6 = document.createElement('td')
+      cell_6.innerHTML = "<a href='#measures' onclick='showMeasures("+x[i].internal_id+")'>Click to show</a>"
+      row_i.appendChild(cell_6)
+
+    // add row to Table
+    indTable.appendChild(row_i) 
+  }
+
+  table.destroy()
   table = new DataTable('#indicators', {
       // options
       paging: false,
@@ -263,9 +269,11 @@ getMeasures();
 
 // runs on measure click in table
 function showMeasures(x) {
+
+  // Show the measures for the selected indicator and make the table
   document.getElementById('measureContainer').style.display = "block"
   indMeasures = measures.filter(measure => measure.internal_id == x)
-  console.table(indMeasures)
+  // console.table(indMeasures)
 
   var measureTable = document.getElementById('measureTableBody')
 
@@ -284,10 +292,28 @@ function showMeasures(x) {
       row_i.appendChild(cell_3); // add this cell to this row
     // add row to Table
     measureTable.appendChild(row_i)   
+
+
+
   }
+
+
+
+  // Filter the indicator table to only show the selected
+  selectedIndicator = indicators.filter(indicator => indicator.internal_id == x)
+  document.getElementById('indicatorTableBody').innerHTML = ''
+  printIndicatorInfo()
+
+  makeIndTable(selectedIndicator)
+
+
 }
 
-
+function printIndicatorInfo() {
+  // Send indicator name and description to measures table
+  document.getElementById('indicatorTitle').innerHTML = selectedIndicator[0].Indicator
+  document.getElementById('indicatorDescription').innerHTML = selectedIndicator[0].description
+}
 
 </script>
 </body>

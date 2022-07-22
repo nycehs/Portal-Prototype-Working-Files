@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.11/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.8.7/polyfill.js"></script>
+    <script src="https://vega.github.io/vega/assets/promise.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/symbol.min.js"></script>
+    <script src="https://vega.github.io/vega/assets/fetch.min.js"></script>
+
+    <!-- these three added for utd versions--> 
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <!--D3-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!--Arquero-->
+    <script src="https://cdn.jsdelivr.net/npm/arquero@latest"></script>
+
+    <!--DataTables CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.1.0/css/buttons.dataTables.min.css">
+
+    <!--jQuery and DataTables JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.1.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.1.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.1.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.1.4/js/dataTables.rowGroup.min.js"></script>
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+            <!--CSS-->
+    <style>
+      body {
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
+      #column {
+        max-width: 700px;
+        margin: auto;
+      }
+    
+      .chartdest {
+        width: 100%;
+        min-height: 450px;
+        margin-bottom: 50px;
+      }
+    
+      code {
+        color: white;
+        background-color: rgb(73, 73, 73);
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+
+      hr {
+      margin-top: 50px;
+      margin-bottom: 50px;}
+    </style>
+</head>
+<body>
+
+  <div id="column">
+    <h1>Indicator/Measure Review</h1>
+    <p>This short page lets us review topics, indicators, and measure copy.</p>
+    <p>For indicators, we'll filter for subtopic_id. For measures, we'll match to internal_id, which is the indicator.</p>
+    <hr>
+
+    <h2>Topics</h2>
+    <label for="topicList">Select Topic:</label>
+    <select name="topicList" id="topicList">
+      <option value="">Choose a topic</option>
+    </select>
+    <hr>    
+    
+    </div>
+
+    <div id="indContainer" style="display:none;">
+      <h2>Indicators</h2>
+      <table id="indicators" class="display table">
+        <thead>
+          <tr>
+            <th>Internal ID</th>
+            <th>Indicator name</th>
+            <th>Label</th>
+            <th>Short name</th>
+            <th>Description</th>
+            <th>Click to show</th>
+          </tr>
+        </thead>
+        <tbody id="indicatorTableBody">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+        </table>
+
+    </div>
+
+    <div id="measureContainer" style="display:none;">
+      <hr>
+      <h2 id="measures">Measures for this indicator</h2>
+
+    <table id="measures" class="display table">
+      <thead>
+        <tr>
+          <th>Measure</th>
+          <th>Display type</th>
+          <th>How calculated</th>
+        </tr>
+      </thead>
+      <tbody id="measureTableBody">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+
+
+    
+
+
+    
+    
+
+  </div>
+
+
+
+<script type="text/javascript">
+
+var topics = [];
+var indicators = [];
+var measures = [];
+var topicDDL = document.getElementById('topicList')
+var selectedTopic
+var selectedTopicID
+var topicIndicators
+var measures = []
+var indMeasures = [];
+
+// import topics. This runs on load.
+d3.csv('topics.csv').then(function (data) {
+  topics = data;
+
+  //populate topics DDL
+  for(var i=0; i < topics.length; i++) {
+    var opt = topics[i].Topic;
+    var el = document.createElement("option");
+    el.textContent = opt;
+    el.value = topics[i].subtopic_id;
+    topicDDL.appendChild(el);
+  }
+})
+
+// Event listener on the Topic DDL form to retrieve value
+topicDDL.addEventListener('change', function handleChange(event) {
+  selectedTopicID = event.target.value
+  console.log('Selected topic: ' + selectedTopicID)
+  selectedTopic = topics.filter(topic => topic.subtopic_id == selectedTopicID)
+  console.table(selectedTopic)
+
+  // get this topic's indicators
+  getIndicators();
+
+  // clear the table
+  document.getElementById('indicatorTableBody').innerHTML = ''
+
+});
+
+// get Indicators function gets topic DDL value
+function getIndicators() {
+  document.getElementById('indContainer').style.display = "block"
+  d3.csv('indicators.csv').then(function (data) {
+    indicators = data;
+    // console.table(indicators)
+
+    // filter indicators by subtopic_id
+    topicIndicators = indicators.filter(indicator => indicator.subtopic_id == selectedTopicID)
+    console.table(topicIndicators)
+
+    var indTable = document.getElementById('indicatorTableBody')
+
+    for(let i=0; i < topicIndicators.length; i++) {
+      // create row
+      let row_i = document.createElement('tr'); // create row
+
+      let cell_1 = document.createElement('td') // create cell
+      cell_1.innerHTML = topicIndicators[i].internal_id // fill cell with indicator name.
+      row_i.appendChild(cell_1); // add this cell to this row
+      
+      // create other cells. 
+      let cell_2 = document.createElement('td') // indicator name
+        cell_2.innerHTML = topicIndicators[i].Indicator
+        row_i.appendChild(cell_2);
+      let cell_3 = document.createElement('td') // label
+        cell_3.innerHTML = topicIndicators[i].label
+        row_i.appendChild(cell_3);
+      let cell_4 = document.createElement('td') // short name
+        cell_4.innerHTML = topicIndicators[i].short_name
+        row_i.appendChild(cell_4);
+      let cell_5 = document.createElement('td') // description
+        cell_5.innerHTML = topicIndicators[i].description
+        row_i.appendChild(cell_5);
+      let cell_6 = document.createElement('td')
+        cell_6.innerHTML = "<a href='#measures' onclick='showMeasures("+topicIndicators[i].internal_id+")'>Click to show</a>"
+        row_i.appendChild(cell_6)
+
+      // add row to Table
+      indTable.appendChild(row_i) 
+    }
+
+  // call DataTables.
+  makeIndTable()
+
+  })
+}
+
+
+function makeIndTable() {
+  var table
+  table.destroy() // kills old table so it can toggle OK
+  table = new DataTable('#indicators', {
+      // options
+      paging: false,
+      responsive: true,
+      fixedColumns: true
+  });
+}
+
+// retrieve measures and get 'em ready'
+function getMeasures(){
+  document.getElementById('measureTableBody').innerHTML = ''
+  d3.csv('measures.csv').then(function (data){
+    measures = data
+  })
+}
+getMeasures();
+
+
+// runs on measure click in table
+function showMeasures(x) {
+  document.getElementById('measureContainer').style.display = "block"
+  indMeasures = measures.filter(measure => measure.internal_id == x)
+  console.table(indMeasures)
+
+  var measureTable = document.getElementById('measureTableBody')
+
+  for(let i=0; i < indMeasures.length; i++) {
+    // create row
+    let row_i = document.createElement('tr'); // create row
+
+    let cell_1 = document.createElement('td') // create cell
+      cell_1.innerHTML = indMeasures[i].Measure // fill cell 
+      row_i.appendChild(cell_1); // add this cell to this row
+    let cell_2 = document.createElement('td') // display type
+      cell_2.innerHTML = indMeasures[i].DisplayType_desc // fill cell 
+      row_i.appendChild(cell_2); // add this cell to this row
+    let cell_3 = document.createElement('td') // how calc
+      cell_3.innerHTML = indMeasures[i].how_calculated // fill cell 
+      row_i.appendChild(cell_3); // add this cell to this row
+    // add row to Table
+    measureTable.appendChild(row_i)   
+  }
+}
+
+
+
+</script>
+</body>
+</html>

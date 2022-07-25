@@ -492,6 +492,7 @@ function showRevisedCopy(x) {
   console.table(revIndMeasures)
 
   var revMeasureTable = document.getElementById('measureTableBodyRev')
+  revMeasureTable.innerHTML = ''
 
   for(let i=0; i < revIndMeasures.length; i++) {
     // create row

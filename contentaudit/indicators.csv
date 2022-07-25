@@ -1,378 +1,362 @@
-﻿subtopic_id,Subtopic,internal_id,Indicator,short_name,label,description,message
-104,Active Design,2390,Bicycle Network Coverage,Bike lanes,Bicycle Network Coverage,"The percent of streets with bike lanes can affect cyclist and pedestrian safety, physical activity, and sustainable transportation use. ",Bicycle Network Coverage
-104,Active Design,2181,Sidewalk Area,Sidewalk area,Sidewalk Area,"<p>Sidewalks are a critical component of New York City residents&rsquo; commute. Ample sidewalks in neighborhoods are important for commuting, businesses, and physical activity. Greater sidewalk area facilitates safer pedestrian traffic that, in turn, attracts businesses and fosters community. &ldquo;Sidewalk area&rdquo; measures the percent of a neighborhood that is covered by sidewalk area.</p>",Sidewalk Area
-104,Active Design,2158,Subway Station Density,,Subway Station Density,"<p>Many New Yorkers rely on the subway as their primary mode of transportation. Neighborhoods with greater subway access tend to have more foot traffic, making surrounding real estate highly desirable for residents and business. Subway use encourages active transportation (walking, biking), which improves the health of residents.</p>",Density of subway stations per km2.
-,,,,,,,
-,,,,,,,The New York City Subway information was originally obtained from the New York
-,,,,,,,City Transit Authority in 1998. The data was realigned to the NYCMap basemap in 2002.
-,,,,,,,"In November of 2006, a major shape update included PDF Subway System maps being"
-,,,,,,,downloaded from the MTA/NYC Transit web-site. Community Cartography updated the
-,,,,,,,"existing GIS files using on-screen digitizing and the downloaded subway maps. In August of 2007, station locations were spatially adjusted to align to the NYCMap streets at a map scale of 1:2,400. For more information, please visit the MTA Transit web-site at: www.mta.nyc.ny.us/nyct/maps/subwaymap.pdf."
-104,Active Design,2157,Tree Canopy Cover,Tree shade,Tree Canopy Cover,"<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.</p>",
-,,,,,,,"The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. Tree canopy cover measures the percent of a neighborhood that is covered (or shaded) by trees."
-,,,,,,,
-,,,,,,,"Tree canopy cover represents a 'top down' mapping perspective in which tree canopy over-hanging city features (such as sidewalks) is measured. The percent is calculated by dividing the area of tree canopy in km2 within the UHF neighborhood by the total land area (excluding inland water bodies). Higher percentages indicate greater tree canopy cover, with zero representing no tree canopy cover."
-,,,,,,,
-,,,,,,,"For more information, visit  http://beh.columbia.edu/."
-104,Active Design,2389,Unhealthy Food Access,,Unhealthy Food Access,,Food Access
-104,Active Design,2143,Vegetative Cover,Grass and tree cover,Vegetative Cover,"<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=""https://www.epa.gov/heat-islands/using-trees-and-vegetation-reduce-heat-islands"">Vegetative cover tends to reduce temperatures in the immediate area</a>.</p>","Percent of area with vegetative cover, including grass and trees"
-104,Active Design,2133,Walkability Index (Infrastructure),Walkability,Walkability Index (Infrastructure),"<p>Walkability indices summarize built environment features believed to promote walking, focusing on neighborhood infrastructure. Some potentially important characteristics are usually not included, such as neighborhood safety or attractiveness, like number of street trees.</p>",Summary indicator of built environment features believed to promote walking
-,,,,,,"<p>For this index, higher scores indicate greater walkability. NYC neighborhoods range in walkability index (infrastructure) score from -4.0 to 9.4, with zero representing an approximate average for the City as a whole.</p>",
-104,Active Design,2388,Walking Distance to a Park,Park access,Walking Distance to a Park,"<p>Walking distance to a park is defined as 1/4-mile or less to entrances of smaller sites, such as sitting areas and playgrounds, and 1/2-mile or less to entrances of larger parks. Parks and open space that are not under the NYC Parks Department jurisdiction are also included.</p>",Walking Distance to a Park
-104,Active Design,2391,Walking Distance to a Subway Station,Subway access,Walking Distance to a Subway Station,<p>Percentage of population within a quarter-mile of a subway station entrance.</p>,Walking distance to a subway station
-122,Air Quality,92,Air Quality Advisory Days,,Air Quality Advisory Days,,Air Quality Advisory Days due to Ozone or PM 2.5 Levels above Regulatory Standard
-122,Air Quality,2024,Black Carbon,Black carbon,Black Carbon,"Black carbon is a major component of fine particulate matter (PM) in the air. Particulate matter is easily inhaled into the lungs and can contribute to both short-term acute health effects, as well as long-term chronic illness.",
-122,Air Quality,57,Fine Particulate Matter (PM 2.5),,Fine Particulate Matter (PM <sub>2.5</sub>),,
-122,Air Quality,2023,Fine Particulate Matter (PM2.5),PM2.5 (Fine particles),Fine Particulate Matter (PM<sub>2.5</sub>),"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
-122,Air Quality,2028,Nitric Oxide (NO),Nitric oxide,Nitric Oxide (NO),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
-122,Air Quality,2025,Nitrogen Dioxide (NO2),Nitrogen dioxide,Nitrogen Dioxide (NO2),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
-122,Air Quality,55,Ozone,,Ozone,,Maximum 8-Hour Average Ozone Concentration over the National Ambient Air Quality Standard
-122,Air Quality,2027,Ozone (O3),Ozone,Ozone (O3),Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.,
-122,Air Quality,2026,Sulfur Dioxide (SO2),Sulfur dioxide,Sulfur Dioxide (SO2),"Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases.",
-95,Alcohol Access,2049,Access to Alcohol,,Access to Alcohol,,
-95,Alcohol Access,2057,Youth Access to Alcohol,,Youth Access to Alcohol,,
-97,Alcohol Use,2050,Adults Reporting Heavy Drinking,,Adults Reporting Heavy Drinking,,
-97,Alcohol Use,2051,Adults Who Binge Drink,,Adults Who Binge Drink,,
-97,Alcohol Use,2056,Underage Drinking,,Underage Drinking,,
-97,Alcohol Use,2055,Youth Who Binge Drink,,Youth Who Binge Drink,,
-11,Asthma,2414,Adults with Asthma,Adults with Asthma,Adults with Asthma,<p>Adults with Asthma</p>,
-11,Asthma,18,Adults with Asthma in the Past 12 Months,Asthma (adults),Adults with asthma in the past 12 months,"<p>Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms. <strong style=""color: red;""> Beginning in 2017, indicator includes data imputed for missing responses.</strong></p>",
-11,Asthma,2380,Asthma Emergency Department Visits (Adults),Asthma ED visits (adults),Adults,"Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.",Asthma Emergency Department Visits (Adults)
-11,Asthma,2384,Asthma Emergency Department Visits (Adults) by NTA,,Adults - small area neighborhood (NTA),,Asthma Emergency Department Visits (Adults) by NTA
-11,Asthma,2048,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old),,Children ages 0 to 4,,
-11,Asthma,2378,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA,,Children ages 0 to 4 - small area neighborhood (NTA),,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA
-11,Asthma,2379,Asthma Emergency Department Visits (Children 5 to 17 Yrs Old),Asthma ED visits (children),Children ages 5 to 17,"Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others.",Asthma Emergency Department Visits (Children 5 to 17 Yrs Old)
-11,Asthma,2383,Asthma Emergency Department Visits (Children 5 to 17 Yrs Old) by NTA,,Children ages 5 to 17 - small area neighborhood (NTA),,Asthma Emergency Department Visits (Children 5 to 17 Yrs Old) by NTA
-11,Asthma,2382,Asthma Hospitalizations (Adults),Asthma hospitalizations (adults),Adults,"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",Asthma Hospitalizations (Adults)
-11,Asthma,2387,Asthma Hospitalizations (Adults) by NTA,,Adults - small area neighborhood (NTA),,Asthma Hospitalizations (Adults) by NTA
-11,Asthma,84,Asthma Hospitalizations (Children 0 to 4 Yrs Old),Asthma hospitalizations (0 to 4),Children ages 0 to 4,"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",
-11,Asthma,2381,Asthma Hospitalizations (Children 5 to 17 Yrs Old),Asthma hospitalizations (children),Children ages 5 to 17,"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers.",Asthma Hospitalizations (Children 5 to 17 Yrs Old)
-11,Asthma,2386,Asthma Hospitalizations (Children 5 to 17 Yrs Old) by NTA,,Children ages 5 to 17 - small area neighborhood (NTA),,Asthma Hospitalizations (Children 5 to 17 Yrs Old) by NTA
-11,Asthma,2392,Children ever diagnosed with asthma (ages 0-13 years),,Children ever diagnosed with asthma (ages 0-13 years),,Ever Diagnosed with Asthma
-11,Asthma,2317,Jail Incarceration,,Jail Incarceration,"<p>Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighbourhoods.&nbsp;</p>",Jail Incarceration
-,,,,,,"<p>(<a class=""exitlink"" href=""http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)30569-X/abstract"">""Structural Racism and Health Inequities in the USA: Evidence and Interventions&rdquo;</a><span>, by Zinzi D Bailey, ScD; Professor Nancy Krieger, PhD; Madina Ag&eacute;nor, ScD; Jasmine Graves, MPH; Natalia Linos, ScD; and Dr. Mary T. Bassett, MD)</span>&nbsp;</p>",
-11,Asthma,2147,Public School Children (5-14 Yrs Old) with Asthma,Asthma (public school children),Public school children (age 5-14) with asthma,Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms.,
-11,Asthma,2149,Public School Children (5-14 Yrs Old) with Persistent Asthma,,Public school children (age 5-14) with persistent asthma,,
-11,Asthma,2339,Youth Asthma in the Past 12 Months,,Youth asthma in the past 12 months,,Youth Asthma in the Past 12 Months
-92,Bed Bugs,2030,Adults Reporting Bed Bugs in their Home,,Adults Reporting Bed Bugs in their Home,,
-16,Birth Defects,26,Anencephaly,,Anencephaly,,
-16,Birth Defects,30,Cleft Lip with or without Cleft Palate,,Cleft Lip with or without Cleft Palate,,Cleft Lip with or without Cleft Palate among Live Births
-16,Birth Defects,31,Cleft Palate without Cleft Lip,,Cleft Palate without Cleft Lip,,Cleft Palate without Cleft Lip among Live Births
-16,Birth Defects,36,Down Syndrome / Trisomy 21 (Maternal Age < 35 Yrs),,Down Syndrome / Trisomy 21 (Maternal Age &lt; 35 Yrs),,
-16,Birth Defects,37,Down Syndrome / Trisomy 21 (Maternal Age 35 Yrs and Over),,Down Syndrome / Trisomy 21 (Maternal Age 35 Yrs and Over),,
-16,Birth Defects,33,Gastroschisis,,Gastroschisis,,Gastroschisis among Live Births
-16,Birth Defects,28,Hypoplastic Left Heart Syndrome,,Hypoplastic Left Heart Syndrome,,Hypoplastic Left Heart Syndrome among Live Births
-16,Birth Defects,32,Hypospadias,,Hypospadias,,Hypospadias among Live Births
-16,Birth Defects,35,Lower Limb Deficiencies,,Lower Limb Deficiencies,,Lower Limb Deficiencies among Live Births
-16,Birth Defects,27,Spina Bifida (without Anencephaly),,Spina Bifida (without Anencephaly),,Spina Bifida (without Anencephaly) among Live Births
-16,Birth Defects,101,Tetralogy of Fallot,,Tetralogy of Fallot,,Tetralogy of Fallot among Live Births 
-16,Birth Defects,29,Transposition of the Great Arteries (Vessels),,Transposition of the Great Arteries (Vessels),,Transposition of the Great Arteries (Vessels) among Live Births
-16,Birth Defects,34,Upper Limb Deficiencies,,Upper Limb Deficiencies,,Upper Limb Deficiencies among Live Births
-12,Birth Outcomes,5,Infant Death,,Infant Death,,Infant (Less than 1 Year Old) Death
-12,Birth Outcomes,4,Low Birthweight at Full Term,,Low Birthweight at Full Term,,"Low Birthweight at Full Term (Birth Weight Less than 5 lbs, 8 oz)"
-12,Birth Outcomes,6,Neonatal Death,,Neonatal Death,,Neonatal (Less than 28 Days Old) Death
-12,Birth Outcomes,7,Perinatal Death,,Perinatal Death,,Perinatal (28 Weeks of Pregnancy to 6 Days Old) Death
-12,Birth Outcomes,8,Postneonatal Death,,Postneonatal Death,,Postneonatal (28 Days to Less than 1 Year Old) Death
-12,Birth Outcomes,1,Preterm Birth,,Preterm Birth,,
-12,Birth Outcomes,10,Sex Ratio,,Sex Ratio,,Sex Ratio at Birth (Restricted to Term Singletons)
-12,Birth Outcomes,9,Total (Lifetime) Fertility,,Total (Lifetime) Fertility,,
-12,Birth Outcomes,3,Very Low Birthweight,,Very Low Birthweight,,"Very Low Birthweight (Less than 3 lbs, 5 oz)  "
-12,Birth Outcomes,2,Very Preterm Birth,,Very Preterm Birth,,
-39,Cancer,74,Acute Myeloid Leukemia,,Acute Myeloid Leukemia,,
-39,Cancer,2096,Bladder Cancer,,Bladder Cancer,,
-39,Cancer,66,Brain and Other Nervous System Cancer,,Brain and Other Nervous System Cancer,,
-39,Cancer,60,Breast Cancer in Females,,Breast Cancer in Females,,
-39,Cancer,770,Chronic Lymphocytic Leukemia,,Chronic Lymphocytic Leukemia,,
-39,Cancer,2077,Esophageal Cancer,,Esophageal Cancer,,
-39,Cancer,2087,Kidney and Renal Pelvis Cancer,,Kidney and Renal Pelvis Cancer,,
-39,Cancer,2088,Larynx Cancer,,Larynx Cancer,,
-39,Cancer,73,Leukemia,,Leukemia,,
-39,Cancer,2089,Liver and Intrahepatic Bile Duct Cancer,,Liver and Intrahepatic Bile Duct Cancer,,
-39,Cancer,63,Lung and Bronchus Cancer,,Lung and Bronchus Cancer,,
-39,Cancer,2090,Melanoma of the Skin,,Melanoma of the Skin,,
-39,Cancer,2095,Mesothelioma,,Mesothelioma,,
-39,Cancer,71,Non-Hodgkin's Lymphomas,,Non-Hodgkin's Lymphomas,,
-39,Cancer,2091,Oral Cavity and Pharynx Cancer,,Oral Cavity and Pharynx Cancer,,
-39,Cancer,64,Pancreatic Cancer,,Pancreatic Cancer,,
-39,Cancer,690,Thyroid Cancer,,Thyroid Cancer,,
-93,Cancers in Children,2037,Acute Lymphocytic Leukemia in Children,,Acute Lymphocytic Leukemia in Children,,
-93,Cancers in Children,2035,Acute Myeloid Leukemia in Children,,Acute Myeloid Leukemia in Children,,
-93,Cancers in Children,2033,Brain and CNS Cancer in Children,,Brain and CNS Cancer in Children,,
-93,Cancers in Children,2031,Leukemia in Children,,Leukemia in Children,,
-93,Cancers in Children,2039,Total Cancer in Children,,Total Cancer in Children,,
-51,Carbon Monoxide Incidents,2405,Carbon Monoxide Emergency Department Visits,,<span>Emergency Department Visits</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>,Carbon Monoxide Emergency Department Visits
-51,Carbon Monoxide Incidents,2406,Carbon Monoxide Hospitalizations,,<span>Hospitalizations</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>,: Carbon Monoxide Hospitalizations
-51,Carbon Monoxide Incidents,38,Carbon Monoxide Incidents,,Carbon Monoxide Incidents,,Carbon Monoxide Incidents (1 ppm or Higher)
-51,Carbon Monoxide Incidents,2168,Carbon Monoxide Incidents without a Detector (3 Year Avg.),Carbon monoxide,Carbon Monoxide Incidents without a Detector (3 Year Avg.),Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put residents at risk for carbon monoxide poisoning and death.,Carbon Monoxide Incidents without a Detector (3 Year Avg.)
-15,Carbon Monoxide Poisoning,2398,Carbon Monoxide Deaths,,Death: All Causes,,Carbon Monoxide Deaths
-15,Carbon Monoxide Poisoning,2405,Carbon Monoxide Emergency Department Visits,,<span>Emergency Department Visits</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>,Carbon Monoxide Emergency Department Visits
-15,Carbon Monoxide Poisoning,2406,Carbon Monoxide Hospitalizations,,<span>Hospitalizations</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>,: Carbon Monoxide Hospitalizations
-14,Childhood Lead Exposure,2189,Children tested for lead by age 3 years,,Children tested for lead by age 3 years,,"Number and percent of children under 3 years of age born in New York City who have been tested for lead poisoning at least once since birth, according to the Office of Vital Statistics and the NYC LPPP. "
-14,Childhood Lead Exposure,2184,Children under 6 years with elevated blood lead levels (BLL),Child lead poisoning,Children under 6 years with elevated blood lead levels (BLL),"There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development.",Elevated Blood Lead Levels
-14,Childhood Lead Exposure,2216,Children under 6 years with elevated blood lead levels by NTA,,Children under 6 years with elevated blood lead levels by NTA (Preliminary Data),"<p>Children under 6 years of age with blood lead levels (BLL) at or above 5 mcg/dL, by neighborhood tabulation area (NTA).&nbsp;<a href=""https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-nynta.page"">Read more</a> about neighborhood tabulation areas.</p>",Children under 6 years with elevated blood lead levels by NTA
-123,Chronic Obstructive Pulmonary Disease,2343,Chronic Obstructive Pulmonary Disease Emergency Department Visits,,Emergency Department Visits,,COPD Emergency Department Visits
-123,Chronic Obstructive Pulmonary Disease,2341,Chronic Obstructive Pulmonary Disease Hospitalization,,Hospitalization,,COPD Hospitalization
-3,Cigarette Smoke,25,Adults Reporting Secondhand Smoke at Home,Secondhand smoke,Adults reporting secondhand smoke at home,"Secondhand smoke, especially indoors, is bad for health - especially for the health of children.",
-3,Cigarette Smoke,2338,Adults Reporting Secondhand Smoke at Home from Outside Sources,,Adults Reporting Secondhand Smoke at Home from Outside Sources,,Adults Reporting Secondhand Smoke at Home from Outside Sources
-3,Cigarette Smoke,2020,Adults Reporting Secondhand Smoke at Work,,Adults Reporting Secondhand Smoke at Work,,
-3,Cigarette Smoke,2017,Adults without a Smoke-Free Home Policy,Smoke-free homes,Adults without a Smoke-Free Home Policy,"A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children.",
-3,Cigarette Smoke,2019,Cigarette Smoking among Adults,,Cigarette Smoking among Adults,,
-3,Cigarette Smoke,2021,Cigarette Smoking among Youths,,Cigarette Smoking among Youths,,
-1,Citywide Air Quality,92,Air Quality Advisory Days,,Air Quality Advisory Days,,Air Quality Advisory Days due to Ozone or PM 2.5 Levels above Regulatory Standard
-1,Citywide Air Quality,57,Fine Particulate Matter (PM 2.5),,Fine Particulate Matter (PM <sub>2.5</sub>),,
-1,Citywide Air Quality,55,Ozone,,Ozone,,Maximum 8-Hour Average Ozone Concentration over the National Ambient Air Quality Standard
-107,Climate,2155,Adults 65+ Reporting Air Conditioning in the Home,Older adults with AC,Adults 65+ Reporting Air Conditioning in the Home,Adults over the age of 65 are more vulnerable to hot weather and heat stress. Air conditioning (AC) can substantially reduce the risk of heat stroke and other heat-related illness.,
-107,Climate,2104,Adults Reporting Air Conditioning in the Home,,Adults Reporting Air Conditioning in the Home,,
-107,Climate,2141,Daytime Summer Surface Temperature,Surface temperature,Daytime Summer Surface Temperature,"Surface temperatures in NYC may vary as a function of vegetative land cover, which promotes cooling, or cover by paved roads, sidewalks, and buildings, which retain heat.",Daytime summer temperature (degrees Fahrenheit)
-107,Climate,2084,Heat Events,,Heat Events,,
-107,Climate,2191,Heat Vulnerability Index,,Heat Vulnerability Index,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.&nbsp;</span></p>",Heat Vulnerability Index
-107,Climate,2411,Heat Vulnerability Index by NTA,,Heat Vulnerability Index by NTA,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.</span></p>",Heat Vulnerability Index by NTA
-,,,,,,<p>&nbsp;</p>,
-107,Climate,2185,Households reporting air conditioning,Households with AC,Households reporting air conditioning,"Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility.",Homes reporting air conditioning
-107,Climate,2377,Households reporting someone who uses electric medical equipment,,Households reporting someone who uses electric medical equipment,,Households reporting someone using electric medical equipment
-107,Climate,2143,Vegetative Cover,Grass and tree cover,Vegetative Cover,"<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=""https://www.epa.gov/heat-islands/using-trees-and-vegetation-reduce-heat-islands"">Vegetative cover tends to reduce temperatures in the immediate area</a>.</p>","Percent of area with vegetative cover, including grass and trees"
-83,Climate Change,776,Greenhouse Gas Emissions,,Greenhouse Gas Emissions,,
-8,Cockroaches,22,Adults Reporting Cockroaches in the Home,,Adults reporting cockroaches in the home,,
-8,Cockroaches,2393,Children living in homes with cockroaches (ages 0-13 years),,Children living in homes with cockroaches (ages 0-13 years),,Children ages 0-13 living in homes with cockroaches
-8,Cockroaches,107,Homes with Cockroaches,Cockroaches,Homes with cockroaches,"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
-112,"Diabetes, High Blood Pressure and High Cholesterol",2169,Adults with Diabetes,,Adults with Diabetes,,Adults with Diabetes
-112,"Diabetes, High Blood Pressure and High Cholesterol",2170,Adults with High Blood Pressure,,Adults with High Blood Pressure,,Adults with Hypertension
-112,"Diabetes, High Blood Pressure and High Cholesterol",2171,Adults with High Cholesterol,,Adults with High Cholesterol,,Adults with High Cholesterol
-40,Disparity,13,Neighborhood Poverty,,Neighborhood Poverty,,
-40,Disparity,2106,Neighborhood Race/Ethnicity - Non Hispanic Black,,Neighborhood Race/Ethnicity - Non Hispanic Black,,
-40,Disparity,2107,Neighborhood Race/Ethnicity - Non Hispanic White,,Neighborhood Race/Ethnicity - Non Hispanic White,,
-52,Drinking Water Quality,2044,Arsenic in Drinking Water,,Arsenic in Drinking Water,,
-52,Drinking Water Quality,2043,Disinfection By-Product in Drinking Water (HAA5),,Disinfection By-Product in Drinking Water - <span>Haloacetic Acids</span> (HAA5),,
-52,Drinking Water Quality,2207,Disinfection By-Product in Drinking Water (TTHM),,&nbsp;Disinfection By-Product in Drinking Water - Total Trihalomethanes (TTHM),,Disinfection By-Product in Drinking Water (TTHM)
-52,Drinking Water Quality,2041,Nitrate in Drinking Water,,Nitrate in Drinking Water,,
-86,Energy,2005,Cleaner Energy,,Cleaner Energy,,
-86,Energy,2007,Energy Efficiency,,Energy Efficiency,,
-86,Energy,2006,Energy Reliability,,Energy Reliability,,
-108,Falls Among Older Adults,2135,Fall-related emergency department visits among older adults,,Fall-related emergency department visits among older adults,,
-108,Falls Among Older Adults,2136,Fall-related hospitalizations among older adults,,Fall-related hospitalizations among older adults,,
-108,Falls Among Older Adults,2408,Home fall-related emergency department visits among older adults,,Home fall-related emergency department visits among older adults,,Home Fall-Related Emergency Department Visits
-108,Falls Among Older Adults,2409,Home fall-related hospitalizations among older adults,,Home fall-related hospitalizations among older adults,,Home fall-related hospitalizations
-108,Falls Among Older Adults,2403,Homes with reported falls among adults 65 and older,,Homes with reported falls among adults 65 and older,,Homes with reported falls among adults 65 and older
-121,Health Care,2151,Adults with a Personal Doctor,,Adults with a Personal Doctor,,
-121,Health Care,2132,Adults with Health Insurance,Health insurance (adults),Adults with Health Insurance,"<p>Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.</p>",
-121,Health Care,2401,Households that postponed health care in the last 12 months,,Households that postponed health care in the last 12 months,,Households that postponed health care in the last 12 months
-121,Health Care,2322,Premature Mortality,Death before 65,Premature Mortality,The rate of people who die before age 65 can indicate the overall health of a population.,Premature Mortality
-121,Health Care,2232,Self-Reported Health,,Self-Reported Health,,
-103,Health Impacts of Air Pollution,2122,O3-Attributable Asthma Emergency Department Visits,Ozone asthma ED visits (children),O<sub>3</sub>-Attributable Asthma Emergency Department Visits,Ozone-attributable asthma ED visits represent part of the health burden of ozone air pollution.,
-103,Health Impacts of Air Pollution,2124,O3-Attributable Asthma Hospitalizations,Ozone asthma hospitalizations (children),O<sub>3</sub>-Attributable Asthma Hospitalizations,<p>Ozone-attributable asthma hospitalizations represent part of the health burden of ozone air pollution.</p>,
-103,Health Impacts of Air Pollution,2121,O3-Attributable Cardiac and Respiratory Deaths,Deaths from ozone,O<sub>3</sub>-Attributable Cardiac and Respiratory Deaths,<p>Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.</p>,
-103,Health Impacts of Air Pollution,2117,PM2.5-Attributable Asthma Emergency Department Visits,PM2.5 asthma ED visits (children),PM<sub>2.5</sub>-Attributable Asthma Emergency Department Visits,<p>PM2.5-attributable asthma ED visits represent part of the health burden imposed by fine particle air pollution.</p>,
-103,Health Impacts of Air Pollution,2120,PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older),PM2.5 health burden (heart),PM<sub>2.5</sub>-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older),<p>PM2.5-attributable cardiovascular hospitalizations represent part of the health burden imposed by fine particle air pollution.</p>,
-103,Health Impacts of Air Pollution,2108,PM2.5-Attributable Deaths,Deaths from PM2.5,PM<sub>2.5</sub>-Attributable Deaths,<p>Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.</p>,
-103,Health Impacts of Air Pollution,2119,PM2.5-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older),PM2.5 health burden (lungs),PM<sub>2.5</sub>-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older),Estimating hospitalizations that can be linked to PM2.5 is a way to understand how air pollution impacts public health.  ,
-127,Healthy Eating,2097,Adult Consumption of 1 or More Sugary Drinks Per Day,,Adult Consumption of 1 or More Sugary Drinks Per Day,,Average sugary drink consumption 
-127,Healthy Eating,2389,Unhealthy Food Access,,Unhealthy Food Access,,Food Access
-127,Healthy Eating,2098,Youth Consumption of 1 or More Sugary Drinks Per Day,,Youth Consumption of 1 or More Sugary Drinks Per Day,,pending
-13,Heart Attacks,90,Heart Attack Hospitalizations,Heart attacks,Heart Attack Hospitalizations,"Heart attacks can stem from genetic, lifestyle, and environmental factors including ambient air pollution and second-hand smoke.",
-36,Housing,2101,Adults Reporting Mold in the Home,Mold,Adults reporting mold in the home,"Mold can worsen respiratory conditions like asthma, and indicate maintenance deficiencies in a building.",TBA
-36,Housing,25,Adults Reporting Secondhand Smoke at Home,Secondhand smoke,Adults reporting secondhand smoke at home,"Secondhand smoke, especially indoors, is bad for health - especially for the health of children.",
-36,Housing,2396,Children living in homes using supplemental heat (ages 0-13 years),,Children living in homes using supplemental heat (ages 0-13 years),,Children ages 0-13 living in homes using supplemental heat
-36,Housing,2393,Children living in homes with cockroaches (ages 0-13 years),,Children living in homes with cockroaches (ages 0-13 years),,Children ages 0-13 living in homes with cockroaches
-36,Housing,2395,Children living in homes with cracks or holes (ages 0-13 years),,Children living in homes with cracks or holes (ages 0-13 years),,Children ages 0-13 living in homes with cracks or holes
-36,Housing,2394,Children living in homes with mice (ages 0-13  years),,Children living in homes with mice (ages 0-13&nbsp; years),,Children ages 0-13 living in homes with mice
-36,Housing,2365,Court Ordered Evictions,,Court-Ordered Evictions,"<p><span>People who are</span><span>&nbsp;</span><a href=""https://www.ncbi.nlm.nih.gov/pubmed/28107704"" rel=""noopener"" target=""_blank""><span>threatened with eviction</span></a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with</span><span>&nbsp;</span><a href=""http://www.mapc.org/wp-content/uploads/2017/11/HIA_Just_Cause_final.pdf"" rel=""noopener"" target=""_blank""><span>negative health</span></a><span>&nbsp;among</span><span>&nbsp;</span><a href=""https://scholar.harvard.edu/files/mdesmond/files/desmondkimbro.evictions.fallout.sf2015_2.pdf"" rel=""noopener"" target=""_blank""><span>adults</span></a><span>&nbsp;and</span><span>&nbsp;</span><a href=""http://childrenshealthwatch.org/wp-content/uploads/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf"" rel=""noopener"" target=""_blank""><span>children</span></a><span>.</span></p>",Evictions
-,,,,,,"<p>(From ""<a href=""https://www.bu.edu/sph/2018/10/05/the-hidden-health-crisis-of-eviction/"" target=""_blank"">The Hidden Health Crisis of Eviction</a>"" by <span>Allison Bovell-Ammo and Megan Sandel</span>)</p>",
-,,,,,,<p>&nbsp;</p>,
-36,Housing,15,Crowding (> 1 person/room),Crowding,Crowding (&gt; 1 person/room), Occupied housing units with more than one person per room are considered crowded.,Neighborhood Crowding (More than 1 Person per Room)
-36,Housing,46,Homes near Structures Rated Good or Excellent,Building quality,Homes near structures rated good or excellent,Building quality is a strong predictor of the number of housing maintenance deficiencies in a residence that may contribute to increased risk of acute or chronic health problems.,
-36,Housing,47,Homes Using Supplemental Heat,Supplemental heat,Homes using supplemental heat,The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies,
-36,Housing,45,Homes with 3 or More Maintenance Deficiencies,,Homes with 3 or more maintenance deficiencies,,
-36,Housing,107,Homes with Cockroaches,Cockroaches,Homes with cockroaches,"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma.",
-36,Housing,40,Homes with Cracks or Holes,Cracks,Homes with cracks or holes,"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health.",
-36,Housing,2188,Homes with Grab Bars in Bathroom (among older adult households),,Homes with grab bars in bathroom (among older adult households),,Grab bars in homes with older adults
-36,Housing,42,Homes with Leaks,Leaks,Homes with leaks,"Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma.",
-36,Housing,48,Homes with Mice or Rats in the Building,Mice or rats (inside),Homes with mice or rats in the building,The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and contribute to the development and exacerbation of asthma and its symptoms.,
-36,Housing,2185,Households reporting air conditioning,Households with AC,Households reporting air conditioning,"Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility.",Homes reporting air conditioning
-36,Housing,2377,Households reporting someone who uses electric medical equipment,,Households reporting someone who uses electric medical equipment,,Households reporting someone using electric medical equipment
-36,Housing,17,Owner-Occupied Homes,,Owner-occupied homes,,
-36,Housing,41,Pre-1960 Homes with Peeling Paint,Peeling paint,Pre-1960 Homes with Peeling Paint,"Older housing and peeling paint can put residents at risk of lead poisoning, due to lead paint - which was banned from household paints in the USA in 1978.",
-36,Housing,2399,Renter-occupied homes with any health-related maintenance problems,Maintenance problems,Renter-occupied homes with any health-related maintenance problems,Housing without health-threatening maintenance deficiencies is an important environmental component of health.,Renter-occupied homes with any health-related maintenance problems
-36,Housing,2179,Renter-occupied homes with no maintenance deficiencies (TCNY2020),,Renter-occupied homes with no maintenance deficiencies (TCNY2020),,Renter-occupied homes with no maintenance deficiencies
-87,Housing and Neighborhoods,2003,Housing Affordability,,Housing Affordability,,
-87,Housing and Neighborhoods,2002,Housing Supply,,Housing Supply,,
-87,Housing and Neighborhoods,2004,Housing Sustainability,,Housing Sustainability,,
-4,Lead Hazards,2176,Children under 5 years old in Poverty,Child poverty,Children under 5 years old in Poverty,"Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",Children in Poverty
-4,Lead Hazards,16,Pre-1950 Homes,,Pre-1950 Homes,,
-4,Lead Hazards,41,Pre-1960 Homes with Peeling Paint,Peeling paint,Pre-1960 Homes with Peeling Paint,"Older housing and peeling paint can put residents at risk of lead poisoning, due to lead paint - which was banned from household paints in the USA in 1978.",
-7,Mice and Rats,2105,Adults Reporting Mice in the Home,Mice or rats (inside),Adults reporting mice in the home,Mice or rats in the home are a source of household allergens connected to the developement of asthma and exacerbation of asthma symptoms. They may also indicate other health-threatening maintenance deficiencies.,
-7,Mice and Rats,24,Adults Reporting Rats or Mice outside Their Building,Mice or rats (outside),Adults reporting rats or mice outside their building,Mice and rats outside a building can indicate the presence of mice and rats in people's homes - which can trigger asthma and indicate other health-threatening maintenance deficiencies.,
-7,Mice and Rats,2394,Children living in homes with mice (ages 0-13  years),,Children living in homes with mice (ages 0-13&nbsp; years),,Children ages 0-13 living in homes with mice
-7,Mice and Rats,48,Homes with Mice or Rats in the Building,Mice or rats (inside),Homes with mice or rats in the building,The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and contribute to the development and exacerbation of asthma and its symptoms.,
-126,Mortality,5,Infant Death,,Infant Death,,Infant (Less than 1 Year Old) Death
-126,Mortality,6,Neonatal Death,,Neonatal Death,,Neonatal (Less than 28 Days Old) Death
-126,Mortality,8,Postneonatal Death,,Postneonatal Death,,Postneonatal (28 Days to Less than 1 Year Old) Death
-126,Mortality,2322,Premature Mortality,Death before 65,Premature Mortality,The rate of people who die before age 65 can indicate the overall health of a population.,Premature Mortality
-91,Neighborhood Air Quality,2024,Black Carbon,Black carbon,Black Carbon,"Black carbon is a major component of fine particulate matter (PM) in the air. Particulate matter is easily inhaled into the lungs and can contribute to both short-term acute health effects, as well as long-term chronic illness.",
-91,Neighborhood Air Quality,2023,Fine Particulate Matter (PM2.5),PM2.5 (Fine particles),Fine Particulate Matter (PM<sub>2.5</sub>),"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health.",
-91,Neighborhood Air Quality,2028,Nitric Oxide (NO),Nitric oxide,Nitric Oxide (NO),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
-91,Neighborhood Air Quality,2025,Nitrogen Dioxide (NO2),Nitrogen dioxide,Nitrogen Dioxide (NO2),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain.",
-91,Neighborhood Air Quality,2027,Ozone (O3),Ozone,Ozone (O3),Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.,
-91,Neighborhood Air Quality,2026,Sulfur Dioxide (SO2),Sulfur dioxide,Sulfur Dioxide (SO2),"Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases.",
-105,Noise,2134,Disruptive Noise Exposure,,Disruptive Noise Exposure,,
-124,NYC Agency Pesticide Use,2345,"All Agency Use of ""Best Practice"" Products",,All NYC Agencies,,"All Agency Use of ""Best Practice"" Products"
-124,NYC Agency Pesticide Use,2348,All Agency Use of Fungicides,,All NYC Agencies,,All Agency Use of Fungicides
-124,NYC Agency Pesticide Use,2351,All Agency Use of Herbicides,,All NYC Agencies,,All Agency Use of Herbicides
-124,NYC Agency Pesticide Use,2354,All Agency Use of Insecticides,,All NYC Agencies,,All Agency Use of Insecticides
-124,NYC Agency Pesticide Use,2357,All Agency Use of Rodenticides,,All NYC Agencies,,All Agency Use of Rodenticides
-17,Other NYC data,2235,Adults Reporting Personal Use of Pesticides,,Adults Reporting Personal Pesticide Use,,
-17,Other NYC data,2145,Adults with Independent Living Difficulty,Independence difficulty,Adults with Independent Living Difficulty,"<p>People with disabilities or access or functional needs may need additional support during extreme weather to avoid injury, illness or even death. For example, planning needs to be made for safe travel out of evacuation zones during a hurricane, or to ensure back-up electricity is available to to support medical equipment during power outages caused by heat waves.</p>",
-,,,,,,<p>&nbsp;</p>,
-,,,,,,"<p>Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies. For more information, please visit:</p>",
-,,,,,,"<p><a href=""https://www1.nyc.gov/site/em/ready/disabilities-access-functional-needs.page"">NYC Emergency Management: Disabilities, Access &amp; Functional Needs</a></p>",
-17,Other NYC data,2115,Air Toxics Concentrations- Average Benzene Concentrations,Benzene,Air Toxics Concentrations- Average Benzene Concentrations,Benzene is an air pollutant resulting from motor vehicle and industrial emissions and tobacco smoke. Benzene is a known carcinogen that can also harm bone marrow and red blood cell function.,Air Toxics Concentrations- Average Benzene Concentrations
-17,Other NYC data,2116,Air Toxics Concentrations- Average Formaldehyde Concentrations,Formaldehyde,Air Toxics Concentrations- Average Formaldehyde Concentrations,Formaldehyde is an air pollutant resulting from car exhaust and the manufacture of industrial products. Formaldehyde is a known carcinogen that can also cause irritation to eyes and lungs and increase risk of asthma and trigger asthma symptoms.,Air Toxics Concentrations- Average Formaldehyde Concentrations
-17,Other NYC data,2140,Area Located within Hurricane Evacuation Zones 1-6,Flood risk,Area Located within Hurricane Evacuation Zones 1-6,NYC Hurricane Evacuation Zones 1-6 are areas at increased risk of flooding. They may be ordered to evacuate in the event of a hurricane or coastal flooding.,
-17,Other NYC data,2044,Arsenic in Drinking Water,,Arsenic in Drinking Water,,
-17,Other NYC data,2378,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA,,Children ages 0 to 4 - small area neighborhood (NTA),,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA
-17,Other NYC data,2111,Boiler Emissions- Total NOx Emissions,Boiler emissions (NOx),Boiler Emissions- Total NOx Emissions,"Boilers are a common source of NOx emissions, which can harm health.",Boiler Emissions- Total NOx Emissions
-17,Other NYC data,2110,Boiler Emissions- Total PM2.5 Emissions,Boiler emissions (PM2.5),Boiler Emissions- Total PM2.5 Emissions,"Boilers are a common source of PM2.5, which can harm health.",Boiler Emissions- Total PM2.5 Emissions
-17,Other NYC data,2109,Boiler Emissions- Total SO2 Emissions,Boiler emissions (SO2),Boiler Emissions- Total SO2 Emissions,"Boilers are a common source of SO2, which can worsen lung disease.",Boiler Emissions- Total SO2 Emissions per km2
-17,Other NYC data,38,Carbon Monoxide Incidents,,Carbon Monoxide Incidents,,Carbon Monoxide Incidents (1 ppm or Higher)
-17,Other NYC data,2365,Court Ordered Evictions,,Court-Ordered Evictions,"<p><span>People who are</span><span>&nbsp;</span><a href=""https://www.ncbi.nlm.nih.gov/pubmed/28107704"" rel=""noopener"" target=""_blank""><span>threatened with eviction</span></a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with</span><span>&nbsp;</span><a href=""http://www.mapc.org/wp-content/uploads/2017/11/HIA_Just_Cause_final.pdf"" rel=""noopener"" target=""_blank""><span>negative health</span></a><span>&nbsp;among</span><span>&nbsp;</span><a href=""https://scholar.harvard.edu/files/mdesmond/files/desmondkimbro.evictions.fallout.sf2015_2.pdf"" rel=""noopener"" target=""_blank""><span>adults</span></a><span>&nbsp;and</span><span>&nbsp;</span><a href=""http://childrenshealthwatch.org/wp-content/uploads/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf"" rel=""noopener"" target=""_blank""><span>children</span></a><span>.</span></p>",Evictions
-,,,,,,"<p>(From ""<a href=""https://www.bu.edu/sph/2018/10/05/the-hidden-health-crisis-of-eviction/"" target=""_blank"">The Hidden Health Crisis of Eviction</a>"" by <span>Allison Bovell-Ammo and Megan Sandel</span>)</p>",
-,,,,,,<p>&nbsp;</p>,
-17,Other NYC data,15,Crowding (> 1 person/room),Crowding,Crowding (&gt; 1 person/room), Occupied housing units with more than one person per room are considered crowded.,Neighborhood Crowding (More than 1 Person per Room)
-17,Other NYC data,2043,Disinfection By-Product in Drinking Water (HAA5),,Disinfection By-Product in Drinking Water - <span>Haloacetic Acids</span> (HAA5),,
-17,Other NYC data,81,Homes in 1 or 2 Family Buildings,,Homes in 1 or 2 Family Buildings,,
-17,Other NYC data,13,Neighborhood Poverty,,Neighborhood Poverty,,
-17,Other NYC data,2142,Neighborhood Poverty (ACS),Poverty,Neighborhood Poverty (ACS),"Neighborhood poverty measures residents' access to economic stability, education, adequate health care, safe housing and freedom from stress. Neighborhoods with higher poverty tend to have less access to these factors and experience worse health outcomes.","Neighborhood poverty based on UHF defined as percent of residents with incomes below 100% of the Federal Poverty Level, per American Community Survey."
-17,Other NYC data,2041,Nitrate in Drinking Water,,Nitrate in Drinking Water,,
-17,Other NYC data,2146,Older Adults Living Alone,Older adults living alone,Older Adults Living Alone,Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.,
-17,Other NYC data,103,Poverty,Poverty,Poverty,"Neighborhood poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
-17,Other NYC data,2147,Public School Children (5-14 Yrs Old) with Asthma,Asthma (public school children),Public school children (age 5-14) with asthma,Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms.,
-17,Other NYC data,2149,Public School Children (5-14 Yrs Old) with Persistent Asthma,,Public school children (age 5-14) with persistent asthma,,
-17,Other NYC data,2325,Race and Ethnicity,,Race and Ethnicity,,Race and Ethnicity (RDI)
-17,Other NYC data,2144,Serious psychological distress,Psychological distress,Serious psychological distress,,"Serious psychological distress is a composite measure of 6 questions regarding symptoms of anxiety, depression and other emotional problems."
-17,Other NYC data,2026,Sulfur Dioxide (SO2),Sulfur dioxide,Sulfur Dioxide (SO2),"Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases.",
-17,Other NYC data,2112,Traffic Density- Annual Vehicle Miles Traveled,Traffic,Traffic Density- Annual Vehicle Miles Traveled,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ,Traffic Density- Annual Vehicle Miles Traveled (VMT)
-17,Other NYC data,2113,Traffic Density- Annual Vehicle Miles Traveled for Cars,Car traffic,Traffic Density- Annual Vehicle Miles Traveled for Cars,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ,Traffic Density- Annual Vehicle Miles Traveled (VMT) for Cars
-17,Other NYC data,2114,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Truck traffic,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ,Traffic Density- Annual Vehicle Miles Traveled (VMT) for Trucks
-17,Other NYC data,2157,Tree Canopy Cover,Tree shade,Tree Canopy Cover,"<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.</p>",
-,,,,,,,"The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. Tree canopy cover measures the percent of a neighborhood that is covered (or shaded) by trees."
-,,,,,,,
-,,,,,,,"Tree canopy cover represents a 'top down' mapping perspective in which tree canopy over-hanging city features (such as sidewalks) is measured. The percent is calculated by dividing the area of tree canopy in km2 within the UHF neighborhood by the total land area (excluding inland water bodies). Higher percentages indicate greater tree canopy cover, with zero representing no tree canopy cover."
-,,,,,,,
-,,,,,,,"For more information, visit  http://beh.columbia.edu/."
-17,Other NYC data,2143,Vegetative Cover,Grass and tree cover,Vegetative Cover,"<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=""https://www.epa.gov/heat-islands/using-trees-and-vegetation-reduce-heat-islands"">Vegetative cover tends to reduce temperatures in the immediate area</a>.</p>","Percent of area with vegetative cover, including grass and trees"
-113,Overweight,2063,Obese Adults,Obesity,Obese Adults,People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.,
-113,Overweight,2064,Obese Youth,,Obese Youth,,
-113,Overweight,2061,Overweight or Obese Adults,Overweight,Overweight or Obese Adults,People who are overweight or obese are at increased risk for heart disease and diabetes.,
-113,Overweight,2062,Overweight or Obese Youth,,Overweight or Obese Youth,,
-78,Parks and Public Space,775,Park Distance,,Park Distance,,
-9,Pesticides,2235,Adults Reporting Personal Use of Pesticides,,Adults Reporting Personal Pesticide Use,,
-9,Pesticides,2312,Commercial Insecticide Use,,Combined Insecticides,,
-9,Pesticides,100,"Commercial Use of ""Best Practice"" Products",,"""Best Practice"" Products",,
-9,Pesticides,96,Commercial Use of Fungicides,,Fungicides,,
-9,Pesticides,94,Commercial Use of Herbicides,,Herbicides,,
-9,Pesticides,93,Commercial Use of Insecticides,,Insecticides,,
-9,Pesticides,97,Commercial Use of Insecticides (Organophosphate),,Insecticides (Organophosphate),,
-9,Pesticides,98,Commercial Use of Insecticides (Pyrethroid/Pyrethrin),,Insecticides (Pyrethroid/Pyrethrin),,
-9,Pesticides,102,Commercial Use of Rodenticides,,Rodenticides,,Commercial Application of Solid Rodenticides
-9,Pesticides,99,Insecticides (Carbamate),,Insecticides (Carbamate),,
-9,Pesticides,2366,"NYC Agency Use of ""Best Practice"" Products",,"""Best Practice"" Products","<p><span>NYC enacted a local law in 2005 that requires city agencies to reduce use of toxic products to control pests, and to adopt &ldquo;Best Practices&rdquo; instead. Best practice products use active ingredients with very low toxicity or involve formulation or application methods that minimize potential exposure and environmental spread.</span></p>","NYC Agency Use of ""Best Practice"" Products"
-9,Pesticides,2364,NYC Agency Use of Fungicides,,Fungicides,,NYC Agency Use of Fungicides
-9,Pesticides,2367,NYC Agency Use of Glyphosate,,Glyphosate,,NYC Agency Use of Glyphosate
-9,Pesticides,2368,NYC Agency Use of Herbicides,,Herbicides,,NYC Agency Use of Herbicides
-9,Pesticides,2369,NYC Agency Use of Insecticides,,Insecticides,,NYC Agency Use of Insecticides
-9,Pesticides,2374,NYC Agency Use of Mosquito Control,,Mosquito Control,,NYC Agency Use of Mosquito Control
-9,Pesticides,2370,NYC Agency Use of Rodenticides,,Rodenticides,,NYC Agency Use of Rodenticides
-9,Pesticides,91,Regular Exterminator Service,,Regular Exterminator Service,,Households with Regular Exterminator Service
-96,Physical Activity,2060,Adults Reporting Exercise in the Past 30 Days,Exercise,Adults Reporting Exercise in the Past 30 Days,Regular exercise is a key way to stay healthy.,
-96,Physical Activity,2058,Adults Who Walk or Bike for Transportation,,Adults Who Walk or Bike for Transportation,,
-96,Physical Activity,2173,Bike for Transportation in the Past 7 Days,,Bike for Transportation in the Past 7 Days,,Bike for Transportation in Past 7 Days
-96,Physical Activity,2059,Monthly Bicycle Use,Bicycling,Monthly Bicycle Use,Monthly bicycle use is an indicator of physical activity and regular cycling.,
-96,Physical Activity,2172,Walk for Transportation in the Past 7 Days,,Walk for Transportation in the Past 7 Days,,Walk for Transportation in Past 7 Days
-106,Population Characteristics,38,Carbon Monoxide Incidents,,Carbon Monoxide Incidents,,Carbon Monoxide Incidents (1 ppm or Higher)
-98,Restaurant Food Safety,2065,Restaurants with A Grades,,Restaurants with A Grades,,
-109,Social and Economic Conditions,2151,Adults with a Personal Doctor,,Adults with a Personal Doctor,,
-109,Social and Economic Conditions,2132,Adults with Health Insurance,Health insurance (adults),Adults with Health Insurance,"<p>Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.</p>",
-109,Social and Economic Conditions,2145,Adults with Independent Living Difficulty,Independence difficulty,Adults with Independent Living Difficulty,"<p>People with disabilities or access or functional needs may need additional support during extreme weather to avoid injury, illness or even death. For example, planning needs to be made for safe travel out of evacuation zones during a hurricane, or to ensure back-up electricity is available to to support medical equipment during power outages caused by heat waves.</p>",
-,,,,,,<p>&nbsp;</p>,
-,,,,,,"<p>Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies. For more information, please visit:</p>",
-,,,,,,"<p><a href=""https://www1.nyc.gov/site/em/ready/disabilities-access-functional-needs.page"">NYC Emergency Management: Disabilities, Access &amp; Functional Needs</a></p>",
-109,Social and Economic Conditions,2176,Children under 5 years old in Poverty,Child poverty,Children under 5 years old in Poverty,"Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",Children in Poverty
-109,Social and Economic Conditions,2365,Court Ordered Evictions,,Court-Ordered Evictions,"<p><span>People who are</span><span>&nbsp;</span><a href=""https://www.ncbi.nlm.nih.gov/pubmed/28107704"" rel=""noopener"" target=""_blank""><span>threatened with eviction</span></a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with</span><span>&nbsp;</span><a href=""http://www.mapc.org/wp-content/uploads/2017/11/HIA_Just_Cause_final.pdf"" rel=""noopener"" target=""_blank""><span>negative health</span></a><span>&nbsp;among</span><span>&nbsp;</span><a href=""https://scholar.harvard.edu/files/mdesmond/files/desmondkimbro.evictions.fallout.sf2015_2.pdf"" rel=""noopener"" target=""_blank""><span>adults</span></a><span>&nbsp;and</span><span>&nbsp;</span><a href=""http://childrenshealthwatch.org/wp-content/uploads/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf"" rel=""noopener"" target=""_blank""><span>children</span></a><span>.</span></p>",Evictions
-,,,,,,"<p>(From ""<a href=""https://www.bu.edu/sph/2018/10/05/the-hidden-health-crisis-of-eviction/"" target=""_blank"">The Hidden Health Crisis of Eviction</a>"" by <span>Allison Bovell-Ammo and Megan Sandel</span>)</p>",
-,,,,,,<p>&nbsp;</p>,
-109,Social and Economic Conditions,15,Crowding (> 1 person/room),Crowding,Crowding (&gt; 1 person/room), Occupied housing units with more than one person per room are considered crowded.,Neighborhood Crowding (More than 1 Person per Room)
-109,Social and Economic Conditions,14,Foreign-Born,,Foreign-Born,,
-109,Social and Economic Conditions,2334,High School Graduation,,High School Graduation,,HS Graduation
-109,Social and Economic Conditions,2335,Limited English,,Limited English,,Limited English
-109,Social and Economic Conditions,2106,Neighborhood Race/Ethnicity - Non Hispanic Black,,Neighborhood Race/Ethnicity - Non Hispanic Black,,
-109,Social and Economic Conditions,2146,Older Adults Living Alone,Older adults living alone,Older Adults Living Alone,Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.,
-109,Social and Economic Conditions,17,Owner-Occupied Homes,,Owner-occupied homes,,
-109,Social and Economic Conditions,2073,Perception of Neighborhood Safety,Neighborhood safety,Perception of Neighborhood Safety,"Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being.",
-109,Social and Economic Conditions,103,Poverty,Poverty,Poverty,"Neighborhood poverty is a major determinant of health, since poverty deprives people of access to health and safety resources.",
-109,Social and Economic Conditions,2325,Race and Ethnicity,,Race and Ethnicity,,Race and Ethnicity (RDI)
-109,Social and Economic Conditions,2336,Rent Burdened Households,,Rent Burdened Households,,Rent Burdened Households
-109,Social and Economic Conditions,2323,School Absenteeism,,School Absenteeism,,School Absenteeism
-109,Social and Economic Conditions,2232,Self-Reported Health,,Self-Reported Health,,
-109,Social and Economic Conditions,2337,Unemployment,,Unemployment,,Unemployment
-109,Social and Economic Conditions,2389,Unhealthy Food Access,,Unhealthy Food Access,,Food Access
-102,Sugary Drink Consumption,2097,Adult Consumption of 1 or More Sugary Drinks Per Day,,Adult Consumption of 1 or More Sugary Drinks Per Day,,Average sugary drink consumption 
-102,Sugary Drink Consumption,2098,Youth Consumption of 1 or More Sugary Drinks Per Day,,Youth Consumption of 1 or More Sugary Drinks Per Day,,pending
-114,Traffic,2236,Adults Reporting Driving in the Last 30 Days,,Adults Reporting Driving in the Last 30 Days,,
-114,Traffic,2237,Adults Reporting Messaging While Driving in the Last 30 Days,,Adults Reporting Messaging While Driving in the Last 30 Days,,
-114,Traffic,2238,Adults Reporting Speeding in the Last 30 Days,,Adults Reporting Speeding in the Past 30 Days,,
-114,Traffic,2112,Traffic Density- Annual Vehicle Miles Traveled,Traffic,Traffic Density- Annual Vehicle Miles Traveled,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ,Traffic Density- Annual Vehicle Miles Traveled (VMT)
-114,Traffic,2113,Traffic Density- Annual Vehicle Miles Traveled for Cars,Car traffic,Traffic Density- Annual Vehicle Miles Traveled for Cars,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ,Traffic Density- Annual Vehicle Miles Traveled (VMT) for Cars
-114,Traffic,2114,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Truck traffic,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. ,Traffic Density- Annual Vehicle Miles Traveled (VMT) for Trucks
-90,Transportation,2390,Bicycle Network Coverage,Bike lanes,Bicycle Network Coverage,"The percent of streets with bike lanes can affect cyclist and pedestrian safety, physical activity, and sustainable transportation use. ",Bicycle Network Coverage
-90,Transportation,2011,Modal Shift - All Travel,,Modal Shift - All Travel,,
-90,Transportation,2012,Modal Shift - Travel to the Central Business District,,Modal Shift - Travel to the Central Business District,,
-90,Transportation,774,State of Good Repair,,State of Good Repair,,
-90,Transportation,2014,Transit Capacity,,Transit Capacity,,
-101,Transportation-related Injuries,2092,Bicycle Injury Emergency Department Visits,Bicycle injuries,Bicycle Injury Emergency Department Visits,Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transporation or other purposes.,
-101,Transportation-related Injuries,2086,Bicycle Injury Hospitalizations,,Bicycle Injury Hospitalizations,,
-101,Transportation-related Injuries,2094,Pedestrian Injury Emergency Department Visits,Pedestrian injuries,Pedestrian Injury Emergency Department Visits,Pedestrian injury ED visits can indicate the safety of walking for transporation. ,
-101,Transportation-related Injuries,2093,Pedestrian Injury Hospitalizations,,Pedestrian Injury Hospitalizations,,
-116,Vector-borne Disease,2218,Babesiosis,,Babesiosis,"<p><a title=""Babesiosis"" href=""http://www1.nyc.gov/site/doh/health/health-topics/babesiosis.page"" target=""_blank"">Babesiosis</a>&nbsp;is a rare, sometimes severe or fatal tick-borne disease caused by Babesia microti, a protozoan parasite that infects red blood cells. Babesiosis is transmitted by the bite of an infected blacklegged tick, Ixodes scapularis, the same tick that transmits Lyme disease and anaplasmosis.&nbsp; Most patients acquire this disease while traveling to endemic areas outside NYC. However, there has been an increase in the number of cases with no history of travel to endemic areas, primarily in Staten Island, as well as isolated cases in the Bronx and Queens. Babesiosis can also be transmitted through transfused blood products.</p>",Babesiosis
-,,,,,,<p>&nbsp;</p>,
-,,,,,,"<p><span style=""font-size: small;"">For more information&nbsp;&nbsp;&nbsp;</span></p>",
-,,,,,,"<p><span><a title=""NYC DOHMH Babesiosis "" href=""https://www1.nyc.gov/site/doh/health/health-topics/babesiosis.page"" target=""_blank"">NYC DOHMH Babesiosis Page</a></span></p>",
-,,,,,,"<p><a title=""NYC DOHMH Zoonotic and Vectorborne Diseases"" href=""http://www1.nyc.gov/site/doh/health/health-topics/zoonotic-and-vectorborne-diseases.page"" target=""_blank"">NYC DOHMH Zoonotic and Vector-borne Diseases</a>&nbsp;</p>",
-,,,,,,"<p><a title=""CDC Babesiosis"" href=""https://www.cdc.gov/parasites/babesiosis/index.html"" target=""_blank"">CDC Babesiosis&nbsp;</a></p>",
-,,,,,,"<p><a href=""https://wwwn.cdc.gov/nndss/conditions/babesiosis/case-definition/2011/""><span>National Surveillance Babesiosis Case Definition</span>&nbsp;</a></p>",
-116,Vector-borne Disease,2340,West Nile virus,,West Nile virus,"<p>West Nile virus (WNV) is an arbovirus which is transmitted through the bite of infected mosquitoes; in NYC, the mosquitoes that transmit WNV are primarily Culex pipiens as well as Culex restuans and Culex salinarius. While most people who are infected will not go on to develop symptoms, about 20% can experience mild or moderate illness and more rarely, neuroinvasive disease which can present as encephalitis or meningitis.&nbsp; Most of the West Nile disease cases detected by the New York City Department of Health and Mental Hygiene represent neuroinvasive disease as these patients are more likely to seek care.&nbsp; &nbsp;More specific West Nile viral disease data is available on the Health Department <a href=""http://www1.nyc.gov/site/doh/health/health-topics/west-nile-virus-reports.page"">website</a>.</p>",West Nile virus
-125,Violence,2400,Non-fatal Assault Emergency Department Visits,,Non-fatal Assault Emergency Department Visits,"<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.</p>",Non-fatal Assault Emergency Department Visits
-125,Violence,2375,Non-fatal Assault Hospitalizations,,Non-fatal Assault Hospitalizations,"<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in hospitalizations are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.</p>",Non-fatal Assault Hospitalizations
-117,Vulnerability,2232,Self-Reported Health,,Self-Reported Health,,
-119,"Walking, Driving, and Cycling",2236,Adults Reporting Driving in the Last 30 Days,,Adults Reporting Driving in the Last 30 Days,,
-119,"Walking, Driving, and Cycling",2237,Adults Reporting Messaging While Driving in the Last 30 Days,,Adults Reporting Messaging While Driving in the Last 30 Days,,
-119,"Walking, Driving, and Cycling",2238,Adults Reporting Speeding in the Last 30 Days,,Adults Reporting Speeding in the Past 30 Days,,
-119,"Walking, Driving, and Cycling",2058,Adults Who Walk or Bike for Transportation,,Adults Who Walk or Bike for Transportation,,
-119,"Walking, Driving, and Cycling",2173,Bike for Transportation in the Past 7 Days,,Bike for Transportation in the Past 7 Days,,Bike for Transportation in Past 7 Days
-119,"Walking, Driving, and Cycling",2059,Monthly Bicycle Use,Bicycling,Monthly Bicycle Use,Monthly bicycle use is an indicator of physical activity and regular cycling.,
-119,"Walking, Driving, and Cycling",2172,Walk for Transportation in the Past 7 Days,,Walk for Transportation in the Past 7 Days,,Walk for Transportation in Past 7 Days
-85,Water Supply,2001,Drinking Water Demand,,Drinking Water Demand,,
-85,Water Supply,2009,Drinking Water Quality,,Drinking Water Quality,,
-89,Waterways,2008,New York Harbor Water Quality,,New York Harbor Water Quality,,
-100,Weather-Related Illness,2410,5-Year Heat Stress Hospitalizations,,5-Year Heat Stress Hospitalizations,<p>5-Year Heat Stress Hospitalizations</p>,5-Year Heat Stress Hospitalizations
-100,Weather-Related Illness,2376,Cold Stress Deaths,,Cold Stress Deaths,,Cold Stress Deaths
-100,Weather-Related Illness,2175,Cold Stress Emergency Department Visits,,Cold Stress Emergency Department Visits,,Cold Stress Emergency Department Visits
-100,Weather-Related Illness,2174,Cold Stress Hospitalizations,,Cold Stress Hospitalizations,,Cold Stress Hospitalizations
-100,Weather-Related Illness,2084,Heat Events,,Heat Events,,
-100,Weather-Related Illness,2074,Heat Stress Deaths,,Heat Stress Deaths,,
-100,Weather-Related Illness,2075,Heat Stress Emergency Department Visits,Heat ED visits,Heat Stress Emergency Department Visits,ED visits due to heat stress represent part of the public health burden of extreme heat.,
-100,Weather-Related Illness,2076,Heat Stress Hospitalizations,Heat hospitalizations,Heat Stress Hospitalizations,Hospitalizations due to heat stress represent part of the public health burden of extreme heat.,
-100,Weather-Related Illness,2191,Heat Vulnerability Index,,Heat Vulnerability Index,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.&nbsp;</span></p>",Heat Vulnerability Index
-100,Weather-Related Illness,2411,Heat Vulnerability Index by NTA,,Heat Vulnerability Index by NTA,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.</span></p>",Heat Vulnerability Index by NTA
-,,,,,,<p>&nbsp;</p>,
-115,Worker Health,2209,Elevated Blood Lead Levels among Persons Aged 16 or Older,,Elevated&nbsp;Blood Lead Levels among&nbsp;&nbsp;Persons Aged 16 or Older,"<p>In New York City, the most common cause of <a href=""http://www1.nyc.gov/site/doh/health/health-topics/lead-poisoning-prevention.page"" target=""_blank"">lead poisoning</a> in non-pregnant adults is from occupational exposure in the construction industry. Workers are exposed by breathing in or ingesting lead dust or fumes during renovations, repairs and demolitions that disturb old, lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through the use of <a href=""http://www1.nyc.gov/site/doh/health/health-topics/lead-poisoning-hazardous-consumer-products.page"" target=""_blank"">lead-contaminated products</a>, such as certain imported health remedies or medicines, spices, foods, pottery and cosmetics.</p>",Employed adults with elevated blood lead levels
-,,,,,,<p>&nbsp;</p>,
-115,Worker Health,2211,Hospitalizations Billed to Workers Compensation,,Hospitalizations Billed to Workers&rsquo; Compensation,"<p><a href=""http://www.wcb.ny.gov/content/main/Workers/Workers.jsp"" target=""_blank"">Workers&rsquo; compensation</a> is a type of insurance that provides medical care for workers who are injured or become ill as a direct result of their job. Hospitalizations billed to <a href=""https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5929a1.htm"" target=""_blank"">workers' compensation</a> represent only a portion of work-related injuries that require hospital care. It is important to realize that workers&rsquo; compensation policies vary from state-to-state with respect to the types of workers covered and the types of injuries and illnesses eligible for compensation.</p>",Work Related Hospitalizations
-115,Worker Health,2208,Hospitalizations for Asbestosis,,Hospitalizations for Asbestosis,"<p><a href=""http://www1.nyc.gov/site/doh/health/health-topics/asbestos.page"" target=""_blank"">Asbestos </a>is a naturally-occurring mineral which was commonly used as an insulation material until the 1970s. Inhaling high concentrations of asbestos fibers over a long time can produce lung inflammation and scarring resulting in the chronic lung disease called asbestosis, a type of pneumoconiosis. New York City construction, insulation, and shipyard workers who installed, disturbed, or removed asbestos without respiratory protection are at risk. Additionally, smokers who are exposed to asbestos have a greater risk of developing asbestos-related diseases than non-smokers. &nbsp;</p>",Asbestosis Hospitalizations
-,,,,,,<p>&nbsp;</p>,
-,,,,,,"<p>Typically it takes more than ten years from the time of exposure before symptoms develop. The use of proper protective masks is key to preventing the disease, since there is no treatment for this condition.</p>",
-115,Worker Health,2210,Hospitalizations for Pneumoconiosis,,Hospitalizations for Pneumoconiosis,"<p><a href=""http://www.lung.org/lung-health-and-diseases/lung-disease-lookup/pneumoconiosis/"" target=""_blank"">Pneumoconiosis</a> is a general term given to any lung disease caused by breathing in certain particles or fibers over a prolonged period. Pneumoconiosis usually results from a workplace exposure&nbsp; The most common causes of pneumoconiosis include asbestos fibers (<a href=""http://www1.nyc.gov/site/doh/health/health-topics/asbestos.page"" target=""_blank"">asbestosis</a>), silica dust (<a href=""http://www.lung.org/lung-health-and-diseases/lung-disease-lookup/silicosis/?referrer=https://www.google.com/"" target=""_blank"">silicosis</a>), and coal dust (<a href=""https://www.cdc.gov/niosh/topics/cwhsp/coalminingrelatedrespiratorydiseases.html"" target=""_blank"">coal workers&rsquo; pneumoconiosis</a> or &ldquo;Black Lung Disease&rdquo;). There is no cure, but it can be prevented with appropriate respiratory protection.</p>",Pneumoconiosis Hospitalizations
-115,Worker Health,2073,Perception of Neighborhood Safety,Neighborhood safety,Perception of Neighborhood Safety,"Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being.",
-115,Worker Health,2214,Work-Related Deaths across All Industries,,Work-Related Deaths across All Industries,"<p>Fatal work-related injuries include deaths resulting from unintentional injuries such as falls, acute poisonings, and motor vehicle crashes that occur during travel for work, and intentional injuries (i.e., homicides and suicides) that occur at work.&nbsp;Fatal injuries that occur during a person&rsquo;s commute to or from work are not included.</p>",
-,,,,,,<p>&nbsp;</p>,
-,,,,,,"<p>Data on work-related deaths are compiled by the&nbsp;Bureau of Labor Statistics (BLS) <a href=""https://www.bls.gov/iif/oshfat1.htm"" target=""_blank"">Census of Fatal Occupational Injuries</a> (CFOI). CFOI produces statistics on fatal work-related injuries&nbsp;by cross-referencing multiple sources, such as death certificates, workers' compensation reports, and Occupational Safety and Health Administration (OSHA) investigation reports.</p>",
-115,Worker Health,2239,Work-Related Deaths in the Construction Industry by Borough,,Work-Related Deaths in the Construction Industry by Borough of Injury.,"<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.</p>",
-115,Worker Health,2215,Work-Related Deaths in the Construction Industry Citywide,,Work-Related Deaths in the Construction Industry Citywide,"<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.&nbsp;Falls from scaffolds,&nbsp;ladders&nbsp;and roofs&nbsp;are the most common cause of&nbsp;<a href=""http://www1.nyc.gov/assets/doh/downloads/pdf/survey/construction-fatalities.pdf"" target=""_blank"">fatal injuries among&nbsp;construction workers</a>.</p>",Construction Fatalities (BLS)
+﻿subtopic_id,Subtopic,internal_id,Indicator,short_name,label,description
+104,Active Design,2390,Bicycle Network Coverage,Bike lanes,Bicycle Network Coverage,"The percent of streets with bike lanes can affect cyclist and pedestrian safety, physical activity, and sustainable transportation use. "
+104,Active Design,2181,Sidewalk Area,Sidewalk area,Sidewalk Area,"<p>Sidewalks are a critical component of New York City residents&rsquo; commute. Ample sidewalks in neighborhoods are important for commuting, businesses, and physical activity. Greater sidewalk area facilitates safer pedestrian traffic that, in turn, attracts businesses and fosters community. &ldquo;Sidewalk area&rdquo; measures the percent of a neighborhood that is covered by sidewalk area.</p>"
+104,Active Design,2158,Subway Station Density,,Subway Station Density,"<p>Many New Yorkers rely on the subway as their primary mode of transportation. Neighborhoods with greater subway access tend to have more foot traffic, making surrounding real estate highly desirable for residents and business. Subway use encourages active transportation (walking, biking), which improves the health of residents.</p>"
+104,Active Design,2157,Tree Canopy Cover,Tree shade,Tree Canopy Cover,"<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.</p>"
+104,Active Design,2389,Unhealthy Food Access,,Unhealthy Food Access,
+104,Active Design,2143,Vegetative Cover,Grass and tree cover,Vegetative Cover,"<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=""https://www.epa.gov/heat-islands/using-trees-and-vegetation-reduce-heat-islands"">Vegetative cover tends to reduce temperatures in the immediate area</a>.</p>"
+104,Active Design,2133,Walkability Index (Infrastructure),Walkability,Walkability Index (Infrastructure),"<p>Walkability indices summarize built environment features believed to promote walking, focusing on neighborhood infrastructure. Some potentially important characteristics are usually not included, such as neighborhood safety or attractiveness, like number of street trees.</p>"
+,,,,,,"<p>For this index, higher scores indicate greater walkability. NYC neighborhoods range in walkability index (infrastructure) score from -4.0 to 9.4, with zero representing an approximate average for the City as a whole.</p>"
+104,Active Design,2388,Walking Distance to a Park,Park access,Walking Distance to a Park,"<p>Walking distance to a park is defined as 1/4-mile or less to entrances of smaller sites, such as sitting areas and playgrounds, and 1/2-mile or less to entrances of larger parks. Parks and open space that are not under the NYC Parks Department jurisdiction are also included.</p>"
+104,Active Design,2391,Walking Distance to a Subway Station,Subway access,Walking Distance to a Subway Station,<p>Percentage of population within a quarter-mile of a subway station entrance.</p>
+122,Air Quality,92,Air Quality Advisory Days,,Air Quality Advisory Days,
+122,Air Quality,2024,Black Carbon,Black carbon,Black Carbon,"Black carbon is a major component of fine particulate matter (PM) in the air. Particulate matter is easily inhaled into the lungs and can contribute to both short-term acute health effects, as well as long-term chronic illness."
+122,Air Quality,57,Fine Particulate Matter (PM 2.5),,Fine Particulate Matter (PM <sub>2.5</sub>),
+122,Air Quality,2023,Fine Particulate Matter (PM2.5),PM2.5 (Fine particles),Fine Particulate Matter (PM<sub>2.5</sub>),"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health."
+122,Air Quality,2028,Nitric Oxide (NO),Nitric oxide,Nitric Oxide (NO),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain."
+122,Air Quality,2025,Nitrogen Dioxide (NO2),Nitrogen dioxide,Nitrogen Dioxide (NO2),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain."
+122,Air Quality,55,Ozone,,Ozone,
+122,Air Quality,2027,Ozone (O3),Ozone,Ozone (O3),Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.
+122,Air Quality,2026,Sulfur Dioxide (SO2),Sulfur dioxide,Sulfur Dioxide (SO2),"Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases."
+95,Alcohol Access,2049,Access to Alcohol,,Access to Alcohol,
+95,Alcohol Access,2057,Youth Access to Alcohol,,Youth Access to Alcohol,
+97,Alcohol Use,2050,Adults Reporting Heavy Drinking,,Adults Reporting Heavy Drinking,
+97,Alcohol Use,2051,Adults Who Binge Drink,,Adults Who Binge Drink,
+97,Alcohol Use,2056,Underage Drinking,,Underage Drinking,
+97,Alcohol Use,2055,Youth Who Binge Drink,,Youth Who Binge Drink,
+11,Asthma,2414,Adults with Asthma,Adults with Asthma,Adults with Asthma,<p>Adults with Asthma</p>
+11,Asthma,18,Adults with Asthma in the Past 12 Months,Asthma (adults),Adults with asthma in the past 12 months,"<p>Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms. <strong style=""color: red;""> Beginning in 2017, indicator includes data imputed for missing responses.</strong></p>"
+11,Asthma,2380,Asthma Emergency Department Visits (Adults),Asthma ED visits (adults),Adults,"Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others."
+11,Asthma,2384,Asthma Emergency Department Visits (Adults) by NTA,,Adults - small area neighborhood (NTA),
+11,Asthma,2048,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old),,Children ages 0 to 4,
+11,Asthma,2378,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA,,Children ages 0 to 4 - small area neighborhood (NTA),
+11,Asthma,2379,Asthma Emergency Department Visits (Children 5 to 17 Yrs Old),Asthma ED visits (children),Children ages 5 to 17,"Severe asthma attacks can result in a visit to the ED. Certain exposures can trigger asthma symptoms, including smoke, air pollution, dust mites, cockroaches, mold, pollen and pet dander, among others."
+11,Asthma,2383,Asthma Emergency Department Visits (Children 5 to 17 Yrs Old) by NTA,,Children ages 5 to 17 - small area neighborhood (NTA),
+11,Asthma,2382,Asthma Hospitalizations (Adults),Asthma hospitalizations (adults),Adults,"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+11,Asthma,2387,Asthma Hospitalizations (Adults) by NTA,,Adults - small area neighborhood (NTA),
+11,Asthma,84,Asthma Hospitalizations (Children 0 to 4 Yrs Old),Asthma hospitalizations (0 to 4),Children ages 0 to 4,"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+11,Asthma,2381,Asthma Hospitalizations (Children 5 to 17 Yrs Old),Asthma hospitalizations (children),Children ages 5 to 17,"Asthma hospitalizations are more severe asthma outcomes. They're often clustered in high-poverty neighborhoods, where disinvestment and poor housing conditions expose residents to triggers."
+11,Asthma,2386,Asthma Hospitalizations (Children 5 to 17 Yrs Old) by NTA,,Children ages 5 to 17 - small area neighborhood (NTA),
+11,Asthma,2392,Children ever diagnosed with asthma (ages 0-13 years),,Children ever diagnosed with asthma (ages 0-13 years),
+11,Asthma,2317,Jail Incarceration,,Jail Incarceration,"<p>Each component of the criminal justice continuum - from arrest to re-entry - carries various health consequences, and a growing body of literature has documented severe adverse health outcomes associated with incarceration on the individual, their families, and neighbourhoods.&nbsp;</p>"
+,,,,,,"<p>(<a class=""exitlink"" href=""http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)30569-X/abstract"">""Structural Racism and Health Inequities in the USA: Evidence and Interventions&rdquo;</a><span>, by Zinzi D Bailey, ScD; Professor Nancy Krieger, PhD; Madina Ag&eacute;nor, ScD; Jasmine Graves, MPH; Natalia Linos, ScD; and Dr. Mary T. Bassett, MD)</span>&nbsp;</p>"
+11,Asthma,2147,Public School Children (5-14 Yrs Old) with Asthma,Asthma (public school children),Public school children (age 5-14) with asthma,Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms.
+11,Asthma,2149,Public School Children (5-14 Yrs Old) with Persistent Asthma,,Public school children (age 5-14) with persistent asthma,
+11,Asthma,2339,Youth Asthma in the Past 12 Months,,Youth asthma in the past 12 months,
+92,Bed Bugs,2030,Adults Reporting Bed Bugs in their Home,,Adults Reporting Bed Bugs in their Home,
+16,Birth Defects,26,Anencephaly,,Anencephaly,
+16,Birth Defects,30,Cleft Lip with or without Cleft Palate,,Cleft Lip with or without Cleft Palate,
+16,Birth Defects,31,Cleft Palate without Cleft Lip,,Cleft Palate without Cleft Lip,
+16,Birth Defects,36,Down Syndrome / Trisomy 21 (Maternal Age < 35 Yrs),,Down Syndrome / Trisomy 21 (Maternal Age &lt; 35 Yrs),
+16,Birth Defects,37,Down Syndrome / Trisomy 21 (Maternal Age 35 Yrs and Over),,Down Syndrome / Trisomy 21 (Maternal Age 35 Yrs and Over),
+16,Birth Defects,33,Gastroschisis,,Gastroschisis,
+16,Birth Defects,28,Hypoplastic Left Heart Syndrome,,Hypoplastic Left Heart Syndrome,
+16,Birth Defects,32,Hypospadias,,Hypospadias,
+16,Birth Defects,35,Lower Limb Deficiencies,,Lower Limb Deficiencies,
+16,Birth Defects,27,Spina Bifida (without Anencephaly),,Spina Bifida (without Anencephaly),
+16,Birth Defects,101,Tetralogy of Fallot,,Tetralogy of Fallot,
+16,Birth Defects,29,Transposition of the Great Arteries (Vessels),,Transposition of the Great Arteries (Vessels),
+16,Birth Defects,34,Upper Limb Deficiencies,,Upper Limb Deficiencies,
+12,Birth Outcomes,5,Infant Death,,Infant Death,
+12,Birth Outcomes,4,Low Birthweight at Full Term,,Low Birthweight at Full Term,
+12,Birth Outcomes,6,Neonatal Death,,Neonatal Death,
+12,Birth Outcomes,7,Perinatal Death,,Perinatal Death,
+12,Birth Outcomes,8,Postneonatal Death,,Postneonatal Death,
+12,Birth Outcomes,1,Preterm Birth,,Preterm Birth,
+12,Birth Outcomes,10,Sex Ratio,,Sex Ratio,
+12,Birth Outcomes,9,Total (Lifetime) Fertility,,Total (Lifetime) Fertility,
+12,Birth Outcomes,3,Very Low Birthweight,,Very Low Birthweight,
+12,Birth Outcomes,2,Very Preterm Birth,,Very Preterm Birth,
+39,Cancer,74,Acute Myeloid Leukemia,,Acute Myeloid Leukemia,
+39,Cancer,2096,Bladder Cancer,,Bladder Cancer,
+39,Cancer,66,Brain and Other Nervous System Cancer,,Brain and Other Nervous System Cancer,
+39,Cancer,60,Breast Cancer in Females,,Breast Cancer in Females,
+39,Cancer,770,Chronic Lymphocytic Leukemia,,Chronic Lymphocytic Leukemia,
+39,Cancer,2077,Esophageal Cancer,,Esophageal Cancer,
+39,Cancer,2087,Kidney and Renal Pelvis Cancer,,Kidney and Renal Pelvis Cancer,
+39,Cancer,2088,Larynx Cancer,,Larynx Cancer,
+39,Cancer,73,Leukemia,,Leukemia,
+39,Cancer,2089,Liver and Intrahepatic Bile Duct Cancer,,Liver and Intrahepatic Bile Duct Cancer,
+39,Cancer,63,Lung and Bronchus Cancer,,Lung and Bronchus Cancer,
+39,Cancer,2090,Melanoma of the Skin,,Melanoma of the Skin,
+39,Cancer,2095,Mesothelioma,,Mesothelioma,
+39,Cancer,71,Non-Hodgkin's Lymphomas,,Non-Hodgkin's Lymphomas,
+39,Cancer,2091,Oral Cavity and Pharynx Cancer,,Oral Cavity and Pharynx Cancer,
+39,Cancer,64,Pancreatic Cancer,,Pancreatic Cancer,
+39,Cancer,690,Thyroid Cancer,,Thyroid Cancer,
+93,Cancers in Children,2037,Acute Lymphocytic Leukemia in Children,,Acute Lymphocytic Leukemia in Children,
+93,Cancers in Children,2035,Acute Myeloid Leukemia in Children,,Acute Myeloid Leukemia in Children,
+93,Cancers in Children,2033,Brain and CNS Cancer in Children,,Brain and CNS Cancer in Children,
+93,Cancers in Children,2031,Leukemia in Children,,Leukemia in Children,
+93,Cancers in Children,2039,Total Cancer in Children,,Total Cancer in Children,
+51,Carbon Monoxide Incidents,2405,Carbon Monoxide Emergency Department Visits,,<span>Emergency Department Visits</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>
+51,Carbon Monoxide Incidents,2406,Carbon Monoxide Hospitalizations,,<span>Hospitalizations</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>
+51,Carbon Monoxide Incidents,38,Carbon Monoxide Incidents,,Carbon Monoxide Incidents,
+51,Carbon Monoxide Incidents,2168,Carbon Monoxide Incidents without a Detector (3 Year Avg.),Carbon monoxide,Carbon Monoxide Incidents without a Detector (3 Year Avg.),Carbon monoxide detectors are required in NYC homes by law. Failure to provide or maintain a detector can put residents at risk for carbon monoxide poisoning and death.
+15,Carbon Monoxide Poisoning,2398,Carbon Monoxide Deaths,,Death: All Causes,
+15,Carbon Monoxide Poisoning,2405,Carbon Monoxide Emergency Department Visits,,<span>Emergency Department Visits</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>
+15,Carbon Monoxide Poisoning,2406,Carbon Monoxide Hospitalizations,,<span>Hospitalizations</span>,<p>Carbon monoxide exposure can be life-threatening or fatal. Maintaining surveillance of ED visits and hospitalizations allows us to understand the burden of CO-related health impacts in NYC and identify trends over time.</p>
+14,Childhood Lead Exposure,2189,Children tested for lead by age 3 years,,Children tested for lead by age 3 years,
+14,Childhood Lead Exposure,2184,Children under 6 years with elevated blood lead levels (BLL),Child lead poisoning,Children under 6 years with elevated blood lead levels (BLL),"There is no safe level of lead in the blood. Lead poisoning can cause learning and behavior problems, and delay growth and mental development."
+14,Childhood Lead Exposure,2216,Children under 6 years with elevated blood lead levels by NTA,,Children under 6 years with elevated blood lead levels by NTA (Preliminary Data),"<p>Children under 6 years of age with blood lead levels (BLL) at or above 5 mcg/dL, by neighborhood tabulation area (NTA).&nbsp;<a href=""https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-nynta.page"">Read more</a> about neighborhood tabulation areas.</p>"
+123,Chronic Obstructive Pulmonary Disease,2343,Chronic Obstructive Pulmonary Disease Emergency Department Visits,,Emergency Department Visits,
+123,Chronic Obstructive Pulmonary Disease,2341,Chronic Obstructive Pulmonary Disease Hospitalization,,Hospitalization,
+3,Cigarette Smoke,25,Adults Reporting Secondhand Smoke at Home,Secondhand smoke,Adults reporting secondhand smoke at home,"Secondhand smoke, especially indoors, is bad for health - especially for the health of children."
+3,Cigarette Smoke,2338,Adults Reporting Secondhand Smoke at Home from Outside Sources,,Adults Reporting Secondhand Smoke at Home from Outside Sources,
+3,Cigarette Smoke,2020,Adults Reporting Secondhand Smoke at Work,,Adults Reporting Secondhand Smoke at Work,
+3,Cigarette Smoke,2017,Adults without a Smoke-Free Home Policy,Smoke-free homes,Adults without a Smoke-Free Home Policy,"A smoke-free home policy can limit people's exposure to secondhand smoke, which is especially dangerous to children."
+3,Cigarette Smoke,2019,Cigarette Smoking among Adults,,Cigarette Smoking among Adults,
+3,Cigarette Smoke,2021,Cigarette Smoking among Youths,,Cigarette Smoking among Youths,
+1,Citywide Air Quality,92,Air Quality Advisory Days,,Air Quality Advisory Days,
+1,Citywide Air Quality,57,Fine Particulate Matter (PM 2.5),,Fine Particulate Matter (PM <sub>2.5</sub>),
+1,Citywide Air Quality,55,Ozone,,Ozone,
+107,Climate,2155,Adults 65+ Reporting Air Conditioning in the Home,Older adults with AC,Adults 65+ Reporting Air Conditioning in the Home,Adults over the age of 65 are more vulnerable to hot weather and heat stress. Air conditioning (AC) can substantially reduce the risk of heat stroke and other heat-related illness.
+107,Climate,2104,Adults Reporting Air Conditioning in the Home,,Adults Reporting Air Conditioning in the Home,
+107,Climate,2141,Daytime Summer Surface Temperature,Surface temperature,Daytime Summer Surface Temperature,"Surface temperatures in NYC may vary as a function of vegetative land cover, which promotes cooling, or cover by paved roads, sidewalks, and buildings, which retain heat."
+107,Climate,2084,Heat Events,,Heat Events,
+107,Climate,2191,Heat Vulnerability Index,,Heat Vulnerability Index,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.&nbsp;</span></p>"
+107,Climate,2411,Heat Vulnerability Index by NTA,,Heat Vulnerability Index by NTA,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.</span></p>"
+,,,,,,<p>&nbsp;</p>
+107,Climate,2185,Households reporting air conditioning,Households with AC,Households reporting air conditioning,"Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility."
+107,Climate,2377,Households reporting someone who uses electric medical equipment,,Households reporting someone who uses electric medical equipment,
+107,Climate,2143,Vegetative Cover,Grass and tree cover,Vegetative Cover,"<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=""https://www.epa.gov/heat-islands/using-trees-and-vegetation-reduce-heat-islands"">Vegetative cover tends to reduce temperatures in the immediate area</a>.</p>"
+83,Climate Change,776,Greenhouse Gas Emissions,,Greenhouse Gas Emissions,
+8,Cockroaches,22,Adults Reporting Cockroaches in the Home,,Adults reporting cockroaches in the home,
+8,Cockroaches,2393,Children living in homes with cockroaches (ages 0-13 years),,Children living in homes with cockroaches (ages 0-13 years),
+8,Cockroaches,107,Homes with Cockroaches,Cockroaches,Homes with cockroaches,"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma."
+112,"Diabetes, High Blood Pressure and High Cholesterol",2169,Adults with Diabetes,,Adults with Diabetes,
+112,"Diabetes, High Blood Pressure and High Cholesterol",2170,Adults with High Blood Pressure,,Adults with High Blood Pressure,
+112,"Diabetes, High Blood Pressure and High Cholesterol",2171,Adults with High Cholesterol,,Adults with High Cholesterol,
+40,Disparity,13,Neighborhood Poverty,,Neighborhood Poverty,
+40,Disparity,2106,Neighborhood Race/Ethnicity - Non Hispanic Black,,Neighborhood Race/Ethnicity - Non Hispanic Black,
+40,Disparity,2107,Neighborhood Race/Ethnicity - Non Hispanic White,,Neighborhood Race/Ethnicity - Non Hispanic White,
+52,Drinking Water Quality,2044,Arsenic in Drinking Water,,Arsenic in Drinking Water,
+52,Drinking Water Quality,2043,Disinfection By-Product in Drinking Water (HAA5),,Disinfection By-Product in Drinking Water - <span>Haloacetic Acids</span> (HAA5),
+52,Drinking Water Quality,2207,Disinfection By-Product in Drinking Water (TTHM),,&nbsp;Disinfection By-Product in Drinking Water - Total Trihalomethanes (TTHM),
+52,Drinking Water Quality,2041,Nitrate in Drinking Water,,Nitrate in Drinking Water,
+86,Energy,2005,Cleaner Energy,,Cleaner Energy,
+86,Energy,2007,Energy Efficiency,,Energy Efficiency,
+86,Energy,2006,Energy Reliability,,Energy Reliability,
+108,Falls Among Older Adults,2135,Fall-related emergency department visits among older adults,,Fall-related emergency department visits among older adults,
+108,Falls Among Older Adults,2136,Fall-related hospitalizations among older adults,,Fall-related hospitalizations among older adults,
+108,Falls Among Older Adults,2408,Home fall-related emergency department visits among older adults,,Home fall-related emergency department visits among older adults,
+108,Falls Among Older Adults,2409,Home fall-related hospitalizations among older adults,,Home fall-related hospitalizations among older adults,
+108,Falls Among Older Adults,2403,Homes with reported falls among adults 65 and older,,Homes with reported falls among adults 65 and older,
+121,Health Care,2151,Adults with a Personal Doctor,,Adults with a Personal Doctor,
+121,Health Care,2132,Adults with Health Insurance,Health insurance (adults),Adults with Health Insurance,"<p>Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.</p>"
+121,Health Care,2401,Households that postponed health care in the last 12 months,,Households that postponed health care in the last 12 months,
+121,Health Care,2322,Premature Mortality,Death before 65,Premature Mortality,The rate of people who die before age 65 can indicate the overall health of a population.
+121,Health Care,2232,Self-Reported Health,,Self-Reported Health,
+103,Health Impacts of Air Pollution,2122,O3-Attributable Asthma Emergency Department Visits,Ozone asthma ED visits (children),O<sub>3</sub>-Attributable Asthma Emergency Department Visits,Ozone-attributable asthma ED visits represent part of the health burden of ozone air pollution.
+103,Health Impacts of Air Pollution,2124,O3-Attributable Asthma Hospitalizations,Ozone asthma hospitalizations (children),O<sub>3</sub>-Attributable Asthma Hospitalizations,<p>Ozone-attributable asthma hospitalizations represent part of the health burden of ozone air pollution.</p>
+103,Health Impacts of Air Pollution,2121,O3-Attributable Cardiac and Respiratory Deaths,Deaths from ozone,O<sub>3</sub>-Attributable Cardiac and Respiratory Deaths,<p>Estimating heart and respiratory deaths that can be linked to ozone is a way to understand how air pollution increases mortality.</p>
+103,Health Impacts of Air Pollution,2117,PM2.5-Attributable Asthma Emergency Department Visits,PM2.5 asthma ED visits (children),PM<sub>2.5</sub>-Attributable Asthma Emergency Department Visits,<p>PM2.5-attributable asthma ED visits represent part of the health burden imposed by fine particle air pollution.</p>
+103,Health Impacts of Air Pollution,2120,PM2.5-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older),PM2.5 health burden (heart),PM<sub>2.5</sub>-Attributable Cardiovascular Hospitalizations (Adults 40 Yrs and Older),<p>PM2.5-attributable cardiovascular hospitalizations represent part of the health burden imposed by fine particle air pollution.</p>
+103,Health Impacts of Air Pollution,2108,PM2.5-Attributable Deaths,Deaths from PM2.5,PM<sub>2.5</sub>-Attributable Deaths,<p>Estimating deaths that can be linked to PM2.5 is a way to understand how air pollution increases mortality.</p>
+103,Health Impacts of Air Pollution,2119,PM2.5-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older),PM2.5 health burden (lungs),PM<sub>2.5</sub>-Attributable Respiratory Hospitalizations (Adults 20 Yrs and Older),Estimating hospitalizations that can be linked to PM2.5 is a way to understand how air pollution impacts public health.  
+127,Healthy Eating,2097,Adult Consumption of 1 or More Sugary Drinks Per Day,,Adult Consumption of 1 or More Sugary Drinks Per Day,
+127,Healthy Eating,2389,Unhealthy Food Access,,Unhealthy Food Access,
+127,Healthy Eating,2098,Youth Consumption of 1 or More Sugary Drinks Per Day,,Youth Consumption of 1 or More Sugary Drinks Per Day,
+13,Heart Attacks,90,Heart Attack Hospitalizations,Heart attacks,Heart Attack Hospitalizations,"Heart attacks can stem from genetic, lifestyle, and environmental factors including ambient air pollution and second-hand smoke."
+36,Housing,2101,Adults Reporting Mold in the Home,Mold,Adults reporting mold in the home,"Mold can worsen respiratory conditions like asthma, and indicate maintenance deficiencies in a building."
+36,Housing,25,Adults Reporting Secondhand Smoke at Home,Secondhand smoke,Adults reporting secondhand smoke at home,"Secondhand smoke, especially indoors, is bad for health - especially for the health of children."
+36,Housing,2396,Children living in homes using supplemental heat (ages 0-13 years),,Children living in homes using supplemental heat (ages 0-13 years),
+36,Housing,2393,Children living in homes with cockroaches (ages 0-13 years),,Children living in homes with cockroaches (ages 0-13 years),
+36,Housing,2395,Children living in homes with cracks or holes (ages 0-13 years),,Children living in homes with cracks or holes (ages 0-13 years),
+36,Housing,2394,Children living in homes with mice (ages 0-13  years),,Children living in homes with mice (ages 0-13&nbsp; years),
+36,Housing,2365,Court Ordered Evictions,,Court-Ordered Evictions,"<p><span>People who are</span><span>&nbsp;</span><a href=""https://www.ncbi.nlm.nih.gov/pubmed/28107704"" rel=""noopener"" target=""_blank""><span>threatened with eviction</span></a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with</span><span>&nbsp;</span><a href=""http://www.mapc.org/wp-content/uploads/2017/11/HIA_Just_Cause_final.pdf"" rel=""noopener"" target=""_blank""><span>negative health</span></a><span>&nbsp;among</span><span>&nbsp;</span><a href=""https://scholar.harvard.edu/files/mdesmond/files/desmondkimbro.evictions.fallout.sf2015_2.pdf"" rel=""noopener"" target=""_blank""><span>adults</span></a><span>&nbsp;and</span><span>&nbsp;</span><a href=""http://childrenshealthwatch.org/wp-content/uploads/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf"" rel=""noopener"" target=""_blank""><span>children</span></a><span>.</span></p>"
+,,,,,,"<p>(From ""<a href=""https://www.bu.edu/sph/2018/10/05/the-hidden-health-crisis-of-eviction/"" target=""_blank"">The Hidden Health Crisis of Eviction</a>"" by <span>Allison Bovell-Ammo and Megan Sandel</span>)</p>"
+,,,,,,<p>&nbsp;</p>
+36,Housing,15,Crowding (> 1 person/room),Crowding,Crowding (&gt; 1 person/room), Occupied housing units with more than one person per room are considered crowded.
+36,Housing,46,Homes near Structures Rated Good or Excellent,Building quality,Homes near structures rated good or excellent,Building quality is a strong predictor of the number of housing maintenance deficiencies in a residence that may contribute to increased risk of acute or chronic health problems.
+36,Housing,47,Homes Using Supplemental Heat,Supplemental heat,Homes using supplemental heat,The need for supplemental heat may mean a building's main heat source doesn't work - and can indicate the presence of other health-threatening maintenance deficiencies
+36,Housing,45,Homes with 3 or More Maintenance Deficiencies,,Homes with 3 or more maintenance deficiencies,
+36,Housing,107,Homes with Cockroaches,Cockroaches,Homes with cockroaches,"The saliva, feces, and shedding body parts of cockroaches are an allergen and can trigger asthma."
+36,Housing,40,Homes with Cracks or Holes,Cracks,Homes with cracks or holes,"Cracks or holes are a maintenance deficiency linked to the presence of mice, rats, and cockroaches - which can harm residents' health."
+36,Housing,2188,Homes with Grab Bars in Bathroom (among older adult households),,Homes with grab bars in bathroom (among older adult households),
+36,Housing,42,Homes with Leaks,Leaks,Homes with leaks,"Leaks are a maintenance deficiency that can harm health by introducing mold, which can worsen respiratory conditions like asthma."
+36,Housing,48,Homes with Mice or Rats in the Building,Mice or rats (inside),Homes with mice or rats in the building,The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and contribute to the development and exacerbation of asthma and its symptoms.
+36,Housing,2185,Households reporting air conditioning,Households with AC,Households reporting air conditioning,"Air conditioning is an important way to avoid heat stress, especially for persons with limited mobility."
+36,Housing,2377,Households reporting someone who uses electric medical equipment,,Households reporting someone who uses electric medical equipment,
+36,Housing,17,Owner-Occupied Homes,,Owner-occupied homes,
+36,Housing,41,Pre-1960 Homes with Peeling Paint,Peeling paint,Pre-1960 Homes with Peeling Paint,"Older housing and peeling paint can put residents at risk of lead poisoning, due to lead paint - which was banned from household paints in the USA in 1978."
+36,Housing,2399,Renter-occupied homes with any health-related maintenance problems,Maintenance problems,Renter-occupied homes with any health-related maintenance problems,Housing without health-threatening maintenance deficiencies is an important environmental component of health.
+36,Housing,2179,Renter-occupied homes with no maintenance deficiencies (TCNY2020),,Renter-occupied homes with no maintenance deficiencies (TCNY2020),
+87,Housing and Neighborhoods,2003,Housing Affordability,,Housing Affordability,
+87,Housing and Neighborhoods,2002,Housing Supply,,Housing Supply,
+87,Housing and Neighborhoods,2004,Housing Sustainability,,Housing Sustainability,
+4,Lead Hazards,2176,Children under 5 years old in Poverty,Child poverty,Children under 5 years old in Poverty,"Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources."
+4,Lead Hazards,16,Pre-1950 Homes,,Pre-1950 Homes,
+4,Lead Hazards,41,Pre-1960 Homes with Peeling Paint,Peeling paint,Pre-1960 Homes with Peeling Paint,"Older housing and peeling paint can put residents at risk of lead poisoning, due to lead paint - which was banned from household paints in the USA in 1978."
+7,Mice and Rats,2105,Adults Reporting Mice in the Home,Mice or rats (inside),Adults reporting mice in the home,Mice or rats in the home are a source of household allergens connected to the developement of asthma and exacerbation of asthma symptoms. They may also indicate other health-threatening maintenance deficiencies.
+7,Mice and Rats,24,Adults Reporting Rats or Mice outside Their Building,Mice or rats (outside),Adults reporting rats or mice outside their building,Mice and rats outside a building can indicate the presence of mice and rats in people's homes - which can trigger asthma and indicate other health-threatening maintenance deficiencies.
+7,Mice and Rats,2394,Children living in homes with mice (ages 0-13  years),,Children living in homes with mice (ages 0-13&nbsp; years),
+7,Mice and Rats,48,Homes with Mice or Rats in the Building,Mice or rats (inside),Homes with mice or rats in the building,The presence of mice or rats in the home is often associated with poor housing maintenance. These pests can contaminate food and contribute to the development and exacerbation of asthma and its symptoms.
+126,Mortality,5,Infant Death,,Infant Death,
+126,Mortality,6,Neonatal Death,,Neonatal Death,
+126,Mortality,8,Postneonatal Death,,Postneonatal Death,
+126,Mortality,2322,Premature Mortality,Death before 65,Premature Mortality,The rate of people who die before age 65 can indicate the overall health of a population.
+91,Neighborhood Air Quality,2024,Black Carbon,Black carbon,Black Carbon,"Black carbon is a major component of fine particulate matter (PM) in the air. Particulate matter is easily inhaled into the lungs and can contribute to both short-term acute health effects, as well as long-term chronic illness."
+91,Neighborhood Air Quality,2023,Fine Particulate Matter (PM2.5),PM2.5 (Fine particles),Fine Particulate Matter (PM<sub>2.5</sub>),"Fine particles are emitted by vehicles, building boilers, and other combustion - and are a major form of air pollution that harms health."
+91,Neighborhood Air Quality,2028,Nitric Oxide (NO),Nitric oxide,Nitric Oxide (NO),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain."
+91,Neighborhood Air Quality,2025,Nitrogen Dioxide (NO2),Nitrogen dioxide,Nitrogen Dioxide (NO2),"Nitrogen oxides (NOx), which include nitric oxide (NO) and nitrogen dioxide (NO2), are a group of pollutants formed by combusion that can cause damage to lung tissue, breathing and respiratory problems, as well as contribute to smog and acid rain."
+91,Neighborhood Air Quality,2027,Ozone (O3),Ozone,Ozone (O3),Ozone is a common air pollutant that can harm breathing and worsen asthma and other respiratory conditions.
+91,Neighborhood Air Quality,2026,Sulfur Dioxide (SO2),Sulfur dioxide,Sulfur Dioxide (SO2),"Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases."
+105,Noise,2134,Disruptive Noise Exposure,,Disruptive Noise Exposure,
+124,NYC Agency Pesticide Use,2345,"All Agency Use of ""Best Practice"" Products",,All NYC Agencies,
+124,NYC Agency Pesticide Use,2348,All Agency Use of Fungicides,,All NYC Agencies,
+124,NYC Agency Pesticide Use,2351,All Agency Use of Herbicides,,All NYC Agencies,
+124,NYC Agency Pesticide Use,2354,All Agency Use of Insecticides,,All NYC Agencies,
+124,NYC Agency Pesticide Use,2357,All Agency Use of Rodenticides,,All NYC Agencies,
+17,Other NYC data,2235,Adults Reporting Personal Use of Pesticides,,Adults Reporting Personal Pesticide Use,
+17,Other NYC data,2145,Adults with Independent Living Difficulty,Independence difficulty,Adults with Independent Living Difficulty,"<p>People with disabilities or access or functional needs may need additional support during extreme weather to avoid injury, illness or even death. For example, planning needs to be made for safe travel out of evacuation zones during a hurricane, or to ensure back-up electricity is available to to support medical equipment during power outages caused by heat waves.</p>"
+,,,,,,<p>&nbsp;</p>
+,,,,,,"<p>Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies. For more information, please visit:</p>"
+,,,,,,"<p><a href=""https://www1.nyc.gov/site/em/ready/disabilities-access-functional-needs.page"">NYC Emergency Management: Disabilities, Access &amp; Functional Needs</a></p>"
+17,Other NYC data,2115,Air Toxics Concentrations- Average Benzene Concentrations,Benzene,Air Toxics Concentrations- Average Benzene Concentrations,Benzene is an air pollutant resulting from motor vehicle and industrial emissions and tobacco smoke. Benzene is a known carcinogen that can also harm bone marrow and red blood cell function.
+17,Other NYC data,2116,Air Toxics Concentrations- Average Formaldehyde Concentrations,Formaldehyde,Air Toxics Concentrations- Average Formaldehyde Concentrations,Formaldehyde is an air pollutant resulting from car exhaust and the manufacture of industrial products. Formaldehyde is a known carcinogen that can also cause irritation to eyes and lungs and increase risk of asthma and trigger asthma symptoms.
+17,Other NYC data,2140,Area Located within Hurricane Evacuation Zones 1-6,Flood risk,Area Located within Hurricane Evacuation Zones 1-6,NYC Hurricane Evacuation Zones 1-6 are areas at increased risk of flooding. They may be ordered to evacuate in the event of a hurricane or coastal flooding.
+17,Other NYC data,2044,Arsenic in Drinking Water,,Arsenic in Drinking Water,
+17,Other NYC data,2378,Asthma Emergency Department Visits (Children 0 to 4 Yrs Old) by NTA,,Children ages 0 to 4 - small area neighborhood (NTA),
+17,Other NYC data,2111,Boiler Emissions- Total NOx Emissions,Boiler emissions (NOx),Boiler Emissions- Total NOx Emissions,"Boilers are a common source of NOx emissions, which can harm health."
+17,Other NYC data,2110,Boiler Emissions- Total PM2.5 Emissions,Boiler emissions (PM2.5),Boiler Emissions- Total PM2.5 Emissions,"Boilers are a common source of PM2.5, which can harm health."
+17,Other NYC data,2109,Boiler Emissions- Total SO2 Emissions,Boiler emissions (SO2),Boiler Emissions- Total SO2 Emissions,"Boilers are a common source of SO2, which can worsen lung disease."
+17,Other NYC data,38,Carbon Monoxide Incidents,,Carbon Monoxide Incidents,
+17,Other NYC data,2365,Court Ordered Evictions,,Court-Ordered Evictions,"<p><span>People who are</span><span>&nbsp;</span><a href=""https://www.ncbi.nlm.nih.gov/pubmed/28107704"" rel=""noopener"" target=""_blank""><span>threatened with eviction</span></a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with</span><span>&nbsp;</span><a href=""http://www.mapc.org/wp-content/uploads/2017/11/HIA_Just_Cause_final.pdf"" rel=""noopener"" target=""_blank""><span>negative health</span></a><span>&nbsp;among</span><span>&nbsp;</span><a href=""https://scholar.harvard.edu/files/mdesmond/files/desmondkimbro.evictions.fallout.sf2015_2.pdf"" rel=""noopener"" target=""_blank""><span>adults</span></a><span>&nbsp;and</span><span>&nbsp;</span><a href=""http://childrenshealthwatch.org/wp-content/uploads/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf"" rel=""noopener"" target=""_blank""><span>children</span></a><span>.</span></p>"
+,,,,,,"<p>(From ""<a href=""https://www.bu.edu/sph/2018/10/05/the-hidden-health-crisis-of-eviction/"" target=""_blank"">The Hidden Health Crisis of Eviction</a>"" by <span>Allison Bovell-Ammo and Megan Sandel</span>)</p>"
+,,,,,,<p>&nbsp;</p>
+17,Other NYC data,15,Crowding (> 1 person/room),Crowding,Crowding (&gt; 1 person/room), Occupied housing units with more than one person per room are considered crowded.
+17,Other NYC data,2043,Disinfection By-Product in Drinking Water (HAA5),,Disinfection By-Product in Drinking Water - <span>Haloacetic Acids</span> (HAA5),
+17,Other NYC data,81,Homes in 1 or 2 Family Buildings,,Homes in 1 or 2 Family Buildings,
+17,Other NYC data,13,Neighborhood Poverty,,Neighborhood Poverty,
+17,Other NYC data,2142,Neighborhood Poverty (ACS),Poverty,Neighborhood Poverty (ACS),"Neighborhood poverty measures residents' access to economic stability, education, adequate health care, safe housing and freedom from stress. Neighborhoods with higher poverty tend to have less access to these factors and experience worse health outcomes."
+17,Other NYC data,2041,Nitrate in Drinking Water,,Nitrate in Drinking Water,
+17,Other NYC data,2146,Older Adults Living Alone,Older adults living alone,Older Adults Living Alone,Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.
+17,Other NYC data,103,Poverty,Poverty,Poverty,"Neighborhood poverty is a major determinant of health, since poverty deprives people of access to health and safety resources."
+17,Other NYC data,2147,Public School Children (5-14 Yrs Old) with Asthma,Asthma (public school children),Public school children (age 5-14) with asthma,Asthma is a common disease characterized by breathing difficulty. Environmental exposures resulting from poor air quality and housing maintenance are known to increase risk of asthma development and trigger asthma symptoms.
+17,Other NYC data,2149,Public School Children (5-14 Yrs Old) with Persistent Asthma,,Public school children (age 5-14) with persistent asthma,
+17,Other NYC data,2325,Race and Ethnicity,,Race and Ethnicity,
+17,Other NYC data,2144,Serious psychological distress,Psychological distress,Serious psychological distress,
+17,Other NYC data,2026,Sulfur Dioxide (SO2),Sulfur dioxide,Sulfur Dioxide (SO2),"Sulfur dioxide comes from burning certain types of fuel oil. As an air pollutant, it can can worsen lung diseases."
+17,Other NYC data,2112,Traffic Density- Annual Vehicle Miles Traveled,Traffic,Traffic Density- Annual Vehicle Miles Traveled,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. 
+17,Other NYC data,2113,Traffic Density- Annual Vehicle Miles Traveled for Cars,Car traffic,Traffic Density- Annual Vehicle Miles Traveled for Cars,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. 
+17,Other NYC data,2114,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Truck traffic,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. 
+17,Other NYC data,2157,Tree Canopy Cover,Tree shade,Tree Canopy Cover,"<p>The number of trees and the area shaded by them influences many neighborhood factors, such as attractiveness and lower summer temperatures that, in turn, encourage residents and visitors to walk and do other physical activity. &ldquo;Tree canopy cover&rdquo; measures the percent of a neighborhood that is covered (or shaded) by trees.</p>"
+17,Other NYC data,2143,Vegetative Cover,Grass and tree cover,Vegetative Cover,"<p>Vegetative cover is the land covered by trees, grass, or other plants. This area is not covered by a hard surface such as paved roads, sidewalks, or buildings. <a href=""https://www.epa.gov/heat-islands/using-trees-and-vegetation-reduce-heat-islands"">Vegetative cover tends to reduce temperatures in the immediate area</a>.</p>"
+113,Overweight,2063,Obese Adults,Obesity,Obese Adults,People who are obese are at increased risk for heart disease and diabetes. Neighborhood factors such as walkability and the types of food retail outlets available can impact residents' risk of being overweight or obese.
+113,Overweight,2064,Obese Youth,,Obese Youth,
+113,Overweight,2061,Overweight or Obese Adults,Overweight,Overweight or Obese Adults,People who are overweight or obese are at increased risk for heart disease and diabetes.
+113,Overweight,2062,Overweight or Obese Youth,,Overweight or Obese Youth,
+78,Parks and Public Space,775,Park Distance,,Park Distance,
+9,Pesticides,2235,Adults Reporting Personal Use of Pesticides,,Adults Reporting Personal Pesticide Use,
+9,Pesticides,2312,Commercial Insecticide Use,,Combined Insecticides,
+9,Pesticides,100,"Commercial Use of ""Best Practice"" Products",,"""Best Practice"" Products",
+9,Pesticides,96,Commercial Use of Fungicides,,Fungicides,
+9,Pesticides,94,Commercial Use of Herbicides,,Herbicides,
+9,Pesticides,93,Commercial Use of Insecticides,,Insecticides,
+9,Pesticides,97,Commercial Use of Insecticides (Organophosphate),,Insecticides (Organophosphate),
+9,Pesticides,98,Commercial Use of Insecticides (Pyrethroid/Pyrethrin),,Insecticides (Pyrethroid/Pyrethrin),
+9,Pesticides,102,Commercial Use of Rodenticides,,Rodenticides,
+9,Pesticides,99,Insecticides (Carbamate),,Insecticides (Carbamate),
+9,Pesticides,2366,"NYC Agency Use of ""Best Practice"" Products",,"""Best Practice"" Products","<p><span>NYC enacted a local law in 2005 that requires city agencies to reduce use of toxic products to control pests, and to adopt &ldquo;Best Practices&rdquo; instead. Best practice products use active ingredients with very low toxicity or involve formulation or application methods that minimize potential exposure and environmental spread.</span></p>"
+9,Pesticides,2364,NYC Agency Use of Fungicides,,Fungicides,
+9,Pesticides,2367,NYC Agency Use of Glyphosate,,Glyphosate,
+9,Pesticides,2368,NYC Agency Use of Herbicides,,Herbicides,
+9,Pesticides,2369,NYC Agency Use of Insecticides,,Insecticides,
+9,Pesticides,2374,NYC Agency Use of Mosquito Control,,Mosquito Control,
+9,Pesticides,2370,NYC Agency Use of Rodenticides,,Rodenticides,
+9,Pesticides,91,Regular Exterminator Service,,Regular Exterminator Service,
+96,Physical Activity,2060,Adults Reporting Exercise in the Past 30 Days,Exercise,Adults Reporting Exercise in the Past 30 Days,Regular exercise is a key way to stay healthy.
+96,Physical Activity,2058,Adults Who Walk or Bike for Transportation,,Adults Who Walk or Bike for Transportation,
+96,Physical Activity,2173,Bike for Transportation in the Past 7 Days,,Bike for Transportation in the Past 7 Days,
+96,Physical Activity,2059,Monthly Bicycle Use,Bicycling,Monthly Bicycle Use,Monthly bicycle use is an indicator of physical activity and regular cycling.
+96,Physical Activity,2172,Walk for Transportation in the Past 7 Days,,Walk for Transportation in the Past 7 Days,
+106,Population Characteristics,38,Carbon Monoxide Incidents,,Carbon Monoxide Incidents,
+98,Restaurant Food Safety,2065,Restaurants with A Grades,,Restaurants with A Grades,
+109,Social and Economic Conditions,2151,Adults with a Personal Doctor,,Adults with a Personal Doctor,
+109,Social and Economic Conditions,2132,Adults with Health Insurance,Health insurance (adults),Adults with Health Insurance,"<p>Health insurance coverage is associated with numerous beneficial health effects. Those with health insurance are more likely to have a regular doctor, receive preventive care services, better manage chronic health conditions, have longer life expectancy, and more.</p>"
+109,Social and Economic Conditions,2145,Adults with Independent Living Difficulty,Independence difficulty,Adults with Independent Living Difficulty,"<p>People with disabilities or access or functional needs may need additional support during extreme weather to avoid injury, illness or even death. For example, planning needs to be made for safe travel out of evacuation zones during a hurricane, or to ensure back-up electricity is available to to support medical equipment during power outages caused by heat waves.</p>"
+,,,,,,<p>&nbsp;</p>
+,,,,,,"<p>Information provided here about adults with independent living difficulties can help emergency management professionals better prepare our residents for emergencies. For more information, please visit:</p>"
+,,,,,,"<p><a href=""https://www1.nyc.gov/site/em/ready/disabilities-access-functional-needs.page"">NYC Emergency Management: Disabilities, Access &amp; Functional Needs</a></p>"
+109,Social and Economic Conditions,2176,Children under 5 years old in Poverty,Child poverty,Children under 5 years old in Poverty,"Poverty is a major determinant of health, since poverty deprives people of access to health and safety resources."
+109,Social and Economic Conditions,2365,Court Ordered Evictions,,Court-Ordered Evictions,"<p><span>People who are</span><span>&nbsp;</span><a href=""https://www.ncbi.nlm.nih.gov/pubmed/28107704"" rel=""noopener"" target=""_blank""><span>threatened with eviction</span></a><span>, even before they lose their home, are more likely to report poor health, high blood pressure, depression, anxiety, and psychological distress. Eviction often leads to residential instability, moving into poor quality housing, overcrowding, and homelessness, all of which is associated with</span><span>&nbsp;</span><a href=""http://www.mapc.org/wp-content/uploads/2017/11/HIA_Just_Cause_final.pdf"" rel=""noopener"" target=""_blank""><span>negative health</span></a><span>&nbsp;among</span><span>&nbsp;</span><a href=""https://scholar.harvard.edu/files/mdesmond/files/desmondkimbro.evictions.fallout.sf2015_2.pdf"" rel=""noopener"" target=""_blank""><span>adults</span></a><span>&nbsp;and</span><span>&nbsp;</span><a href=""http://childrenshealthwatch.org/wp-content/uploads/Unstable-Housing-and-Caregiver-and-Child-Health-in-Renter-Families.pdf"" rel=""noopener"" target=""_blank""><span>children</span></a><span>.</span></p>"
+,,,,,,"<p>(From ""<a href=""https://www.bu.edu/sph/2018/10/05/the-hidden-health-crisis-of-eviction/"" target=""_blank"">The Hidden Health Crisis of Eviction</a>"" by <span>Allison Bovell-Ammo and Megan Sandel</span>)</p>"
+,,,,,,<p>&nbsp;</p>
+109,Social and Economic Conditions,15,Crowding (> 1 person/room),Crowding,Crowding (&gt; 1 person/room), Occupied housing units with more than one person per room are considered crowded.
+109,Social and Economic Conditions,14,Foreign-Born,,Foreign-Born,
+109,Social and Economic Conditions,2334,High School Graduation,,High School Graduation,
+109,Social and Economic Conditions,2335,Limited English,,Limited English,
+109,Social and Economic Conditions,2106,Neighborhood Race/Ethnicity - Non Hispanic Black,,Neighborhood Race/Ethnicity - Non Hispanic Black,
+109,Social and Economic Conditions,2146,Older Adults Living Alone,Older adults living alone,Older Adults Living Alone,Adults over the age of 65 are more vulnerable to extreme hot and cold weather. Those that live alone may have more difficulty getting the resources they need in extreme weather events and are at higher risk of weather-related illnesses like heat stroke and hypothermia.
+109,Social and Economic Conditions,17,Owner-Occupied Homes,,Owner-occupied homes,
+109,Social and Economic Conditions,2073,Perception of Neighborhood Safety,Neighborhood safety,Perception of Neighborhood Safety,"Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being."
+109,Social and Economic Conditions,103,Poverty,Poverty,Poverty,"Neighborhood poverty is a major determinant of health, since poverty deprives people of access to health and safety resources."
+109,Social and Economic Conditions,2325,Race and Ethnicity,,Race and Ethnicity,
+109,Social and Economic Conditions,2336,Rent Burdened Households,,Rent Burdened Households,
+109,Social and Economic Conditions,2323,School Absenteeism,,School Absenteeism,
+109,Social and Economic Conditions,2232,Self-Reported Health,,Self-Reported Health,
+109,Social and Economic Conditions,2337,Unemployment,,Unemployment,
+109,Social and Economic Conditions,2389,Unhealthy Food Access,,Unhealthy Food Access,
+102,Sugary Drink Consumption,2097,Adult Consumption of 1 or More Sugary Drinks Per Day,,Adult Consumption of 1 or More Sugary Drinks Per Day,
+102,Sugary Drink Consumption,2098,Youth Consumption of 1 or More Sugary Drinks Per Day,,Youth Consumption of 1 or More Sugary Drinks Per Day,
+114,Traffic,2236,Adults Reporting Driving in the Last 30 Days,,Adults Reporting Driving in the Last 30 Days,
+114,Traffic,2237,Adults Reporting Messaging While Driving in the Last 30 Days,,Adults Reporting Messaging While Driving in the Last 30 Days,
+114,Traffic,2238,Adults Reporting Speeding in the Last 30 Days,,Adults Reporting Speeding in the Past 30 Days,
+114,Traffic,2112,Traffic Density- Annual Vehicle Miles Traveled,Traffic,Traffic Density- Annual Vehicle Miles Traveled,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. 
+114,Traffic,2113,Traffic Density- Annual Vehicle Miles Traveled for Cars,Car traffic,Traffic Density- Annual Vehicle Miles Traveled for Cars,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. 
+114,Traffic,2114,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Truck traffic,Traffic Density- Annual Vehicle Miles Traveled for Trucks,Traffic density is a measure of  the average number of vehicles that occupy specified area. Traffic density can influence health as a source of air pollution and traffic-related injuries. 
+90,Transportation,2390,Bicycle Network Coverage,Bike lanes,Bicycle Network Coverage,"The percent of streets with bike lanes can affect cyclist and pedestrian safety, physical activity, and sustainable transportation use. "
+90,Transportation,2011,Modal Shift - All Travel,,Modal Shift - All Travel,
+90,Transportation,2012,Modal Shift - Travel to the Central Business District,,Modal Shift - Travel to the Central Business District,
+90,Transportation,774,State of Good Repair,,State of Good Repair,
+90,Transportation,2014,Transit Capacity,,Transit Capacity,
+101,Transportation-related Injuries,2092,Bicycle Injury Emergency Department Visits,Bicycle injuries,Bicycle Injury Emergency Department Visits,Bicycle injury ED visits can indicate the overall safety of cycling in the city - for transporation or other purposes.
+101,Transportation-related Injuries,2086,Bicycle Injury Hospitalizations,,Bicycle Injury Hospitalizations,
+101,Transportation-related Injuries,2094,Pedestrian Injury Emergency Department Visits,Pedestrian injuries,Pedestrian Injury Emergency Department Visits,Pedestrian injury ED visits can indicate the safety of walking for transporation. 
+101,Transportation-related Injuries,2093,Pedestrian Injury Hospitalizations,,Pedestrian Injury Hospitalizations,
+116,Vector-borne Disease,2218,Babesiosis,,Babesiosis,"<p><a title=""Babesiosis"" href=""http://www1.nyc.gov/site/doh/health/health-topics/babesiosis.page"" target=""_blank"">Babesiosis</a>&nbsp;is a rare, sometimes severe or fatal tick-borne disease caused by Babesia microti, a protozoan parasite that infects red blood cells. Babesiosis is transmitted by the bite of an infected blacklegged tick, Ixodes scapularis, the same tick that transmits Lyme disease and anaplasmosis.&nbsp; Most patients acquire this disease while traveling to endemic areas outside NYC. However, there has been an increase in the number of cases with no history of travel to endemic areas, primarily in Staten Island, as well as isolated cases in the Bronx and Queens. Babesiosis can also be transmitted through transfused blood products.</p>"
+,,,,,,<p>&nbsp;</p>
+,,,,,,"<p><span style=""font-size: small;"">For more information&nbsp;&nbsp;&nbsp;</span></p>"
+,,,,,,"<p><span><a title=""NYC DOHMH Babesiosis "" href=""https://www1.nyc.gov/site/doh/health/health-topics/babesiosis.page"" target=""_blank"">NYC DOHMH Babesiosis Page</a></span></p>"
+,,,,,,"<p><a title=""NYC DOHMH Zoonotic and Vectorborne Diseases"" href=""http://www1.nyc.gov/site/doh/health/health-topics/zoonotic-and-vectorborne-diseases.page"" target=""_blank"">NYC DOHMH Zoonotic and Vector-borne Diseases</a>&nbsp;</p>"
+,,,,,,"<p><a title=""CDC Babesiosis"" href=""https://www.cdc.gov/parasites/babesiosis/index.html"" target=""_blank"">CDC Babesiosis&nbsp;</a></p>"
+,,,,,,"<p><a href=""https://wwwn.cdc.gov/nndss/conditions/babesiosis/case-definition/2011/""><span>National Surveillance Babesiosis Case Definition</span>&nbsp;</a></p>"
+116,Vector-borne Disease,2340,West Nile virus,,West Nile virus,"<p>West Nile virus (WNV) is an arbovirus which is transmitted through the bite of infected mosquitoes; in NYC, the mosquitoes that transmit WNV are primarily Culex pipiens as well as Culex restuans and Culex salinarius. While most people who are infected will not go on to develop symptoms, about 20% can experience mild or moderate illness and more rarely, neuroinvasive disease which can present as encephalitis or meningitis.&nbsp; Most of the West Nile disease cases detected by the New York City Department of Health and Mental Hygiene represent neuroinvasive disease as these patients are more likely to seek care.&nbsp; &nbsp;More specific West Nile viral disease data is available on the Health Department <a href=""http://www1.nyc.gov/site/doh/health/health-topics/west-nile-virus-reports.page"">website</a>.</p>"
+125,Violence,2400,Non-fatal Assault Emergency Department Visits,,Non-fatal Assault Emergency Department Visits,"<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in emergency department visits are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.</p>"
+125,Violence,2375,Non-fatal Assault Hospitalizations,,Non-fatal Assault Hospitalizations,"<p>Violence is frequently described through homicide statistics.&nbsp;While it is a leading cause of death and captures the most severe form of violence, non-fatal violence-related injuries resulting in hospitalizations are much more common and help paint the larger picture on the burden of violence and its impact on the health and future of individuals, families, and communities.</p>"
+117,Vulnerability,2232,Self-Reported Health,,Self-Reported Health,
+119,"Walking, Driving, and Cycling",2236,Adults Reporting Driving in the Last 30 Days,,Adults Reporting Driving in the Last 30 Days,
+119,"Walking, Driving, and Cycling",2237,Adults Reporting Messaging While Driving in the Last 30 Days,,Adults Reporting Messaging While Driving in the Last 30 Days,
+119,"Walking, Driving, and Cycling",2238,Adults Reporting Speeding in the Last 30 Days,,Adults Reporting Speeding in the Past 30 Days,
+119,"Walking, Driving, and Cycling",2058,Adults Who Walk or Bike for Transportation,,Adults Who Walk or Bike for Transportation,
+119,"Walking, Driving, and Cycling",2173,Bike for Transportation in the Past 7 Days,,Bike for Transportation in the Past 7 Days,
+119,"Walking, Driving, and Cycling",2059,Monthly Bicycle Use,Bicycling,Monthly Bicycle Use,Monthly bicycle use is an indicator of physical activity and regular cycling.
+119,"Walking, Driving, and Cycling",2172,Walk for Transportation in the Past 7 Days,,Walk for Transportation in the Past 7 Days,
+85,Water Supply,2001,Drinking Water Demand,,Drinking Water Demand,
+85,Water Supply,2009,Drinking Water Quality,,Drinking Water Quality,
+89,Waterways,2008,New York Harbor Water Quality,,New York Harbor Water Quality,
+100,Weather-Related Illness,2410,5-Year Heat Stress Hospitalizations,,5-Year Heat Stress Hospitalizations,<p>5-Year Heat Stress Hospitalizations</p>
+100,Weather-Related Illness,2376,Cold Stress Deaths,,Cold Stress Deaths,
+100,Weather-Related Illness,2175,Cold Stress Emergency Department Visits,,Cold Stress Emergency Department Visits,
+100,Weather-Related Illness,2174,Cold Stress Hospitalizations,,Cold Stress Hospitalizations,
+100,Weather-Related Illness,2084,Heat Events,,Heat Events,
+100,Weather-Related Illness,2074,Heat Stress Deaths,,Heat Stress Deaths,
+100,Weather-Related Illness,2075,Heat Stress Emergency Department Visits,Heat ED visits,Heat Stress Emergency Department Visits,ED visits due to heat stress represent part of the public health burden of extreme heat.
+100,Weather-Related Illness,2076,Heat Stress Hospitalizations,Heat hospitalizations,Heat Stress Hospitalizations,Hospitalizations due to heat stress represent part of the public health burden of extreme heat.
+100,Weather-Related Illness,2191,Heat Vulnerability Index,,Heat Vulnerability Index,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.&nbsp;</span></p>"
+100,Weather-Related Illness,2411,Heat Vulnerability Index by NTA,,Heat Vulnerability Index by NTA,"<p><span>The New York City (NYC) Heat Vulnerability Index (HVI) is a measure of how the risk of heat-related illness or death differs across neighborhoods. Neighborhood risk factors that increase heat- vulnerability in NYC are: less home air conditioning, less green space, hotter surface temperatures, and more residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.</span></p>"
+,,,,,,<p>&nbsp;</p>
+115,Worker Health,2209,Elevated Blood Lead Levels among Persons Aged 16 or Older,,Elevated&nbsp;Blood Lead Levels among&nbsp;&nbsp;Persons Aged 16 or Older,"<p>In New York City, the most common cause of <a href=""http://www1.nyc.gov/site/doh/health/health-topics/lead-poisoning-prevention.page"" target=""_blank"">lead poisoning</a> in non-pregnant adults is from occupational exposure in the construction industry. Workers are exposed by breathing in or ingesting lead dust or fumes during renovations, repairs and demolitions that disturb old, lead based paint. Workers in other industries, as well as hobbyists, may be at risk if they work with lead-containing metal, paint, pigments, ceramic glazes or bullets. Adults can also be exposed to lead through the use of <a href=""http://www1.nyc.gov/site/doh/health/health-topics/lead-poisoning-hazardous-consumer-products.page"" target=""_blank"">lead-contaminated products</a>, such as certain imported health remedies or medicines, spices, foods, pottery and cosmetics.</p>"
+,,,,,,<p>&nbsp;</p>
+115,Worker Health,2211,Hospitalizations Billed to Workers Compensation,,Hospitalizations Billed to Workers&rsquo; Compensation,"<p><a href=""http://www.wcb.ny.gov/content/main/Workers/Workers.jsp"" target=""_blank"">Workers&rsquo; compensation</a> is a type of insurance that provides medical care for workers who are injured or become ill as a direct result of their job. Hospitalizations billed to <a href=""https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5929a1.htm"" target=""_blank"">workers' compensation</a> represent only a portion of work-related injuries that require hospital care. It is important to realize that workers&rsquo; compensation policies vary from state-to-state with respect to the types of workers covered and the types of injuries and illnesses eligible for compensation.</p>"
+115,Worker Health,2208,Hospitalizations for Asbestosis,,Hospitalizations for Asbestosis,"<p><a href=""http://www1.nyc.gov/site/doh/health/health-topics/asbestos.page"" target=""_blank"">Asbestos </a>is a naturally-occurring mineral which was commonly used as an insulation material until the 1970s. Inhaling high concentrations of asbestos fibers over a long time can produce lung inflammation and scarring resulting in the chronic lung disease called asbestosis, a type of pneumoconiosis. New York City construction, insulation, and shipyard workers who installed, disturbed, or removed asbestos without respiratory protection are at risk. Additionally, smokers who are exposed to asbestos have a greater risk of developing asbestos-related diseases than non-smokers. &nbsp;</p>"
+,,,,,,<p>&nbsp;</p>
+,,,,,,"<p>Typically it takes more than ten years from the time of exposure before symptoms develop. The use of proper protective masks is key to preventing the disease, since there is no treatment for this condition.</p>"
+115,Worker Health,2210,Hospitalizations for Pneumoconiosis,,Hospitalizations for Pneumoconiosis,"<p><a href=""http://www.lung.org/lung-health-and-diseases/lung-disease-lookup/pneumoconiosis/"" target=""_blank"">Pneumoconiosis</a> is a general term given to any lung disease caused by breathing in certain particles or fibers over a prolonged period. Pneumoconiosis usually results from a workplace exposure&nbsp; The most common causes of pneumoconiosis include asbestos fibers (<a href=""http://www1.nyc.gov/site/doh/health/health-topics/asbestos.page"" target=""_blank"">asbestosis</a>), silica dust (<a href=""http://www.lung.org/lung-health-and-diseases/lung-disease-lookup/silicosis/?referrer=https://www.google.com/"" target=""_blank"">silicosis</a>), and coal dust (<a href=""https://www.cdc.gov/niosh/topics/cwhsp/coalminingrelatedrespiratorydiseases.html"" target=""_blank"">coal workers&rsquo; pneumoconiosis</a> or &ldquo;Black Lung Disease&rdquo;). There is no cure, but it can be prevented with appropriate respiratory protection.</p>"
+115,Worker Health,2073,Perception of Neighborhood Safety,Neighborhood safety,Perception of Neighborhood Safety,"Whether people perceive their neighborhood as safe can affect whether they will spend time outside, use parks, and use active and sustainable forms of transportation. It can also affect mental well-being."
+115,Worker Health,2214,Work-Related Deaths across All Industries,,Work-Related Deaths across All Industries,"<p>Fatal work-related injuries include deaths resulting from unintentional injuries such as falls, acute poisonings, and motor vehicle crashes that occur during travel for work, and intentional injuries (i.e., homicides and suicides) that occur at work.&nbsp;Fatal injuries that occur during a person&rsquo;s commute to or from work are not included.</p>"
+,,,,,,<p>&nbsp;</p>
+,,,,,,"<p>Data on work-related deaths are compiled by the&nbsp;Bureau of Labor Statistics (BLS) <a href=""https://www.bls.gov/iif/oshfat1.htm"" target=""_blank"">Census of Fatal Occupational Injuries</a> (CFOI). CFOI produces statistics on fatal work-related injuries&nbsp;by cross-referencing multiple sources, such as death certificates, workers' compensation reports, and Occupational Safety and Health Administration (OSHA) investigation reports.</p>"
+115,Worker Health,2239,Work-Related Deaths in the Construction Industry by Borough,,Work-Related Deaths in the Construction Industry by Borough of Injury.,"<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.</p>"
+115,Worker Health,2215,Work-Related Deaths in the Construction Industry Citywide,,Work-Related Deaths in the Construction Industry Citywide,"<p>The New York City workforce is a diverse one and workplace risks are not distributed equally.&nbsp;Construction is the most dangerous industry in NYC, accounting for nearly a third of work-related injury&nbsp;deaths each year.&nbsp;Falls from scaffolds,&nbsp;ladders&nbsp;and roofs&nbsp;are the most common cause of&nbsp;<a href=""http://www1.nyc.gov/assets/doh/downloads/pdf/survey/construction-fatalities.pdf"" target=""_blank"">fatal injuries among&nbsp;construction workers</a>.</p>"

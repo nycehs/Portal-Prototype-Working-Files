@@ -105,6 +105,9 @@
     <h1 id="top">Reviewing indicator and measure copy</h1>
     <p>This short page lets us review topics, indicators, and measure copy. Choose a topic, select an indicator, and review the indicator and measure copy below.</p>
 
+    <p>When you select a topic under <strong>Review Metadata</strong>, this page will show you the indicators, descriptions, and measures that are currently in the portal database.</p>
+    <p>When you select an indicator, it will show you that indicator and measure - the current copy, and proposed (edited/revised) copy.</p>
+
     <h2 style="margin-top:50px;">Review metadata</h2>
     <label for="topicList">Select Topic:</label>
     <select name="topicList" id="topicList">
@@ -308,13 +311,13 @@ d3.csv('topics.csv').then(function (data) {
 topicDDL.addEventListener('change', function handleChange(event) {
   selectedTopicID = event.target.value
 
-  topicSelection()
+  topicSelection(selectedTopicID)
 
 });
 
-function topicSelection() {
+function topicSelection(x) {
   document.getElementById('showAll').style.display = "none"
-  selectedTopic = topics.filter(topic => topic.subtopic_id == selectedTopicID)
+  selectedTopic = topics.filter(topic => topic.subtopic_id == x)
   document.getElementById('topic').innerHTML = selectedTopic[0].Topic
 
   // get this topic's indicators

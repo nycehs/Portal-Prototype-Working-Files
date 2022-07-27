@@ -104,14 +104,11 @@
   <div class="column">
     <h1 id="top">Reviewing indicator and measure copy</h1>
 
-    <p><a href="standards.html">Field definitions and copy standards</a> | <a href="updated-copy.html">Revised copy</a></p>
+    <p><a href="index.html">Back to main page</a> | <a href="standards.html">Field definitions and copy standards</a>.</p>
 
-    <p>This short page lets us review topics, indicators, and measure copy. Choose a topic, select an indicator, and review the indicator and measure copy below.</p>
+    <p>When you select a topic under <strong>Review revised metadata</strong>, this page will show you the revised copy for indicators, descriptions, and measures. Click on an indicator to see old copy versus new copy.</p>
 
-    <p>When you select a topic under <strong>Review Metadata</strong>, this page will show you the indicators, descriptions, and measures that are currently in the portal database.</p>
-    <p>When you select an indicator, it will show you that indicator and measure - the current copy, and proposed (edited/revised) copy.</p>
-
-    <h2 style="margin-top:50px;">Review metadata</h2>
+    <h2 style="margin-top:50px;">Review revised metadata</h2>
     <label for="topicList">Select Topic:</label>
     <select name="topicList" id="topicList">
       <option value="">Choose a topic</option>
@@ -269,7 +266,7 @@ function topicSelection() {
 // get Indicators function gets topic DDL value
 function getIndicators() {
   document.getElementById('indContainer').style.display = "block"
-  d3.csv('indicators.csv').then(function (data) {
+  d3.csv('rev-indicators.csv').then(function (data) {
     indicators = data;
     // console.table(indicators)
 
@@ -308,7 +305,7 @@ function makeIndTable(x) {
 
     // get measures for indicator - match to x[i].internal_id
       var thisIndicatorsMeasures = []
-      thisIndicatorsMeasures = measures.filter(m => m.internal_id == x[i].internal_id)
+      thisIndicatorsMeasures = revMeasures.filter(m => m.internal_id == x[i].internal_id)
       // console.log("thisIndicatorsMeasures: ")
       // console.table(thisIndicatorsMeasures)
 
